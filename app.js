@@ -366,7 +366,7 @@
   window.addEventListener("online", flushWishes);
   function wish() {
     app.innerHTML = bar(["#/", "首頁"], "下一個地方") + `<main class="wrap">
-      <section class="hero"><h2>想去哪裡賞鳥？還是發現了什麼？</h2><p class="hello">想去的地方，我們會把它做成新的賞鳥手冊；看到什麼、發現 App 哪裡寫錯，也都歡迎告訴我。</p></section>
+      <section class="hero"><h2>想去哪裡賞鳥？<br>還是發現了什麼？</h2><p class="hello">想去的地方，我們會把它做成新的賞鳥手冊；看到什麼、發現 App 哪裡寫錯，也都歡迎告訴我。</p></section>
       <form class="glass double hi" id="wish">
         <label for="w-name"><b>你的暱稱</b></label>
         <input id="w-name" type="text" maxlength="12" required value="${esc(S.name || "")}" placeholder="例如：小翠">
