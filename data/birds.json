@@ -25,7 +25,9 @@
      "label": "",
      "by": "Bengt Nyman",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/photos/205293169"
+     "url": "https://www.inaturalist.org/photos/205293169",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -54,14 +56,18 @@
      "label": "成鳥",
      "by": "MIMI",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/399171793"
+     "url": "https://www.inaturalist.org/observations/399171793",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/night_heron-1.jpg",
      "label": "幼鳥",
      "by": "大俠",
      "license": "CC BY-NC-SA",
-     "url": "https://www.inaturalist.org/observations/398419111"
+     "url": "https://www.inaturalist.org/observations/398419111",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -90,7 +96,9 @@
      "label": "",
      "by": "Alexis Lours",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/photos/171773229"
+     "url": "https://www.inaturalist.org/photos/171773229",
+     "w": 500,
+     "h": 352
     }
    ]
   },
@@ -118,7 +126,9 @@
      "label": "",
      "by": "Burak Doğansoysal",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/197696513"
+     "url": "https://www.inaturalist.org/observations/197696513",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -146,7 +156,9 @@
      "label": "",
      "by": "jjulio2000",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/194462197"
+     "url": "https://www.inaturalist.org/photos/194462197",
+     "w": 500,
+     "h": 360
     }
    ]
   },
@@ -174,14 +186,18 @@
      "label": "公",
      "by": "Alexis Lours",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/98375354"
+     "url": "https://www.inaturalist.org/observations/98375354",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/kingfisher-1.jpg",
      "label": "母",
      "by": "Mousam Ray",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/1669314"
+     "url": "https://www.inaturalist.org/observations/1669314",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -210,7 +226,9 @@
      "label": "",
      "by": "Sam Hambly",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/335903437"
+     "url": "https://www.inaturalist.org/photos/335903437",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -239,7 +257,9 @@
      "label": "",
      "by": "Sam Hambly",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/293220944"
+     "url": "https://www.inaturalist.org/photos/293220944",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -267,7 +287,9 @@
      "label": "",
      "by": "Daniel Raposo",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/161725682"
+     "url": "https://www.inaturalist.org/photos/161725682",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -296,7 +318,9 @@
      "label": "",
      "by": "Дмитрий Осипов",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/165351252"
+     "url": "https://www.inaturalist.org/photos/165351252",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -324,7 +348,9 @@
      "label": "",
      "by": "no rights reserved, uploaded by 葉子",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/photos/59227685"
+     "url": "https://www.inaturalist.org/photos/59227685",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -352,7 +378,9 @@
      "label": "",
      "by": "Bronze Cheung Kwok Yee",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/20010236"
+     "url": "https://www.inaturalist.org/photos/20010236",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -381,7 +409,9 @@
      "label": "",
      "by": "John D Reynolds",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/530098134"
+     "url": "https://www.inaturalist.org/photos/530098134",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -410,7 +440,9 @@
      "label": "",
      "by": "Daniel Liepack",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/183749378"
+     "url": "https://www.inaturalist.org/photos/183749378",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -438,14 +470,18 @@
      "label": "公",
      "by": "m_sato",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/256468416"
+     "url": "https://www.inaturalist.org/observations/256468416",
+     "w": 500,
+     "h": 334
     },
     {
      "src": "img/teal-1.jpg",
      "label": "母",
      "by": "David Martin",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/72055579"
+     "url": "https://www.inaturalist.org/observations/72055579",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -473,14 +509,18 @@
      "label": "公",
      "by": "Chen Shu",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/111905503"
+     "url": "https://www.inaturalist.org/observations/111905503",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/pintail-1.jpg",
      "label": "母",
      "by": "Ардатов Иван",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/344638290"
+     "url": "https://www.inaturalist.org/observations/344638290",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -508,14 +548,18 @@
      "label": "公",
      "by": "silvertop41",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/192011575"
+     "url": "https://www.inaturalist.org/observations/192011575",
+     "w": 500,
+     "h": 379
     },
     {
      "src": "img/shoveler-1.jpg",
      "label": "母",
      "by": "Connor O’Brien",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/199799314"
+     "url": "https://www.inaturalist.org/observations/199799314",
+     "w": 500,
+     "h": 371
     }
    ]
   },
@@ -543,7 +587,9 @@
      "label": "",
      "by": "Frank Sengpiel",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/photos/73516715"
+     "url": "https://www.inaturalist.org/photos/73516715",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -571,7 +617,9 @@
      "label": "",
      "by": "daverowe",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/56653891"
+     "url": "https://www.inaturalist.org/photos/56653891",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -600,7 +648,9 @@
      "label": "",
      "by": "garlice99",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/361991409"
+     "url": "https://www.inaturalist.org/observations/361991409",
+     "w": 500,
+     "h": 351
     }
    ]
   },
@@ -629,7 +679,9 @@
      "label": "",
      "by": "no rights reserved",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/188963083"
+     "url": "https://www.inaturalist.org/observations/188963083",
+     "w": 493,
+     "h": 500
     }
    ]
   },
@@ -658,7 +710,9 @@
      "label": "",
      "by": "Erik Eckstein",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/323621890"
+     "url": "https://www.inaturalist.org/photos/323621890",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -687,7 +741,9 @@
      "label": "",
      "by": "Sergey Pisarevskiy",
      "license": "CC BY-NC-SA",
-     "url": "https://www.inaturalist.org/photos/405355875"
+     "url": "https://www.inaturalist.org/photos/405355875",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -716,7 +772,9 @@
      "label": "",
      "by": "Геннадий",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/28895106"
+     "url": "https://www.inaturalist.org/photos/28895106",
+     "w": 500,
+     "h": 366
     }
    ]
   },
@@ -745,14 +803,18 @@
      "label": "公",
      "by": "Xochitl Zambrano",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/111171002"
+     "url": "https://www.inaturalist.org/observations/111171002",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/kentish-1.jpg",
      "label": "母",
      "by": "Daniel Gaona Carrilero",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/204374243"
+     "url": "https://www.inaturalist.org/observations/204374243",
+     "w": 500,
+     "h": 407
     }
    ]
   },
@@ -781,7 +843,9 @@
      "label": "",
      "by": "Paul Donahue",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/262432635"
+     "url": "https://www.inaturalist.org/photos/262432635",
+     "w": 500,
+     "h": 340
     }
    ]
   },
@@ -809,14 +873,18 @@
      "label": "公",
      "by": "Amico Cosimo / Gond",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/110953391"
+     "url": "https://www.inaturalist.org/observations/110953391",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/stilt-1.jpg",
      "label": "母",
      "by": "Wich’yanan (Jay) Limparungpatthanakij",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/121075984"
+     "url": "https://www.inaturalist.org/observations/121075984",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -844,14 +912,18 @@
      "label": "公",
      "by": "Константин Самодуров",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/141989075"
+     "url": "https://www.inaturalist.org/observations/141989075",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/shrike-1.jpg",
      "label": "母",
      "by": "Liu JimFood",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/33186969"
+     "url": "https://www.inaturalist.org/observations/33186969",
+     "w": 500,
+     "h": 337
     }
    ]
   },
@@ -880,14 +952,18 @@
      "label": "公",
      "by": "Dr Caesar Sengupta",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/2910741"
+     "url": "https://www.inaturalist.org/observations/2910741",
+     "w": 500,
+     "h": 359
     },
     {
      "src": "img/white_wagtail-1.jpg",
      "label": "母",
      "by": "Taras Rodych / Тарас Родич",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/336066165"
+     "url": "https://www.inaturalist.org/observations/336066165",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -915,7 +991,9 @@
      "label": "",
      "by": "rober025",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/65603355"
+     "url": "https://www.inaturalist.org/observations/65603355",
+     "w": 382,
+     "h": 500
     }
    ]
   },
@@ -944,7 +1022,9 @@
      "label": "",
      "by": "Cynthia G. Robertson",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/124693247"
+     "url": "https://www.inaturalist.org/observations/124693247",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -972,7 +1052,9 @@
      "label": "",
      "by": "Hong",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/106459100"
+     "url": "https://www.inaturalist.org/observations/106459100",
+     "w": 500,
+     "h": 382
     }
    ]
   },
@@ -1001,7 +1083,9 @@
      "label": "",
      "by": "abujudy",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/149406004"
+     "url": "https://www.inaturalist.org/observations/149406004",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1029,7 +1113,9 @@
      "label": "母",
      "by": "Ian Dugdale",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/303423003"
+     "url": "https://www.inaturalist.org/observations/303423003",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1058,14 +1144,18 @@
      "label": "公",
      "by": "雲一百香果",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/258941090"
+     "url": "https://www.inaturalist.org/observations/258941090",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/painted_snipe-1.jpg",
      "label": "母",
      "by": "Steven Easley",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/6143789"
+     "url": "https://www.inaturalist.org/observations/6143789",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1093,14 +1183,18 @@
      "label": "公",
      "by": "Sam Hambly",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/389963515"
+     "url": "https://www.inaturalist.org/observations/389963515",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/yellow_bittern-1.jpg",
      "label": "母",
      "by": "張智偉(Chang, Jack, Chih-Wei)",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/16584327"
+     "url": "https://www.inaturalist.org/observations/16584327",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1129,7 +1223,9 @@
      "label": "公",
      "by": "Samuel Lee",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/78449415"
+     "url": "https://www.inaturalist.org/observations/78449415",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1157,7 +1253,9 @@
      "label": "",
      "by": "nautiboy",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/photos/212499566"
+     "url": "https://www.inaturalist.org/photos/212499566",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1186,7 +1284,9 @@
      "label": "",
      "by": "Анна Голубева",
      "license": "CC BY-NC-ND",
-     "url": "https://www.inaturalist.org/photos/285316496"
+     "url": "https://www.inaturalist.org/photos/285316496",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -1215,7 +1315,9 @@
      "label": "",
      "by": "no rights reserved",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/348281616"
+     "url": "https://www.inaturalist.org/observations/348281616",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1244,7 +1346,9 @@
      "label": "",
      "by": "alderchang",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/327476663"
+     "url": "https://www.inaturalist.org/observations/327476663",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1273,7 +1377,9 @@
      "label": "",
      "by": "呂一起(Lyu yi-chi)",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/40627182"
+     "url": "https://www.inaturalist.org/observations/40627182",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1302,7 +1408,9 @@
      "label": "",
      "by": "no rights reserved",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/364487516"
+     "url": "https://www.inaturalist.org/observations/364487516",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1330,7 +1438,9 @@
      "label": "",
      "by": "祐",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/271434322"
+     "url": "https://www.inaturalist.org/observations/271434322",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1358,7 +1468,9 @@
      "label": "",
      "by": "usaviah",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/378261090"
+     "url": "https://www.inaturalist.org/observations/378261090",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1386,7 +1498,9 @@
      "label": "",
      "by": "Benoît Segerer",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/92928557"
+     "url": "https://www.inaturalist.org/observations/92928557",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -1414,7 +1528,9 @@
      "label": "",
      "by": "usaviah",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/255761273"
+     "url": "https://www.inaturalist.org/observations/255761273",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1443,7 +1559,9 @@
      "label": "",
      "by": "Игорь Щербаков",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/72810702"
+     "url": "https://www.inaturalist.org/observations/72810702",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1471,14 +1589,18 @@
      "label": "公",
      "by": "alderchang",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/325424743"
+     "url": "https://www.inaturalist.org/observations/325424743",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/flowerpecker-1.jpg",
      "label": "母",
      "by": "abujudy",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/148605832"
+     "url": "https://www.inaturalist.org/observations/148605832",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1506,7 +1628,9 @@
      "label": "",
      "by": "Sam Hambly",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/263267545"
+     "url": "https://www.inaturalist.org/observations/263267545",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1535,14 +1659,18 @@
      "label": "公",
      "by": "abujudy",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/258350000"
+     "url": "https://www.inaturalist.org/observations/258350000",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/bush_robin-1.jpg",
      "label": "母",
      "by": "Licheng Shih",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/94299867"
+     "url": "https://www.inaturalist.org/observations/94299867",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1571,14 +1699,18 @@
      "label": "公",
      "by": "Kinmatsu Lin",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/28302654"
+     "url": "https://www.inaturalist.org/observations/28302654",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/rosefinch-1.jpg",
      "label": "母",
      "by": "hsiang-ying",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/58317733"
+     "url": "https://www.inaturalist.org/observations/58317733",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1606,7 +1738,9 @@
      "label": "",
      "by": "usaviah",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/254510981"
+     "url": "https://www.inaturalist.org/observations/254510981",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1634,14 +1768,18 @@
      "label": "公",
      "by": "林棋欽",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/278695190"
+     "url": "https://www.inaturalist.org/observations/278695190",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/niltava-1.jpg",
      "label": "母",
      "by": "Liu JimFood",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/336192187"
+     "url": "https://www.inaturalist.org/observations/336192187",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1669,14 +1807,18 @@
      "label": "公",
      "by": "曾郁哲",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/267629311"
+     "url": "https://www.inaturalist.org/observations/267629311",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/wt_robin-1.jpg",
      "label": "母",
      "by": "lava_chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/102171131"
+     "url": "https://www.inaturalist.org/observations/102171131",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1704,7 +1846,9 @@
      "label": "",
      "by": "oliver_wu",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/267496944"
+     "url": "https://www.inaturalist.org/observations/267496944",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1732,14 +1876,18 @@
      "label": "公",
      "by": "Павел Кунгуров",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/397779583"
+     "url": "https://www.inaturalist.org/observations/397779583",
+     "w": 500,
+     "h": 500
     },
     {
      "src": "img/wb_woodpecker-1.jpg",
      "label": "母",
      "by": "Ahvenainen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/139217250"
+     "url": "https://www.inaturalist.org/observations/139217250",
+     "w": 500,
+     "h": 415
     }
    ]
   },
@@ -1767,14 +1915,18 @@
      "label": "公",
      "by": "alderchang",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/326322389"
+     "url": "https://www.inaturalist.org/observations/326322389",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/mikado-1.jpg",
      "label": "母",
      "by": "David Tan",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/220406101"
+     "url": "https://www.inaturalist.org/observations/220406101",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1803,14 +1955,18 @@
      "label": "公",
      "by": "Gaozi Chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/34236926"
+     "url": "https://www.inaturalist.org/observations/34236926",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/swinhoe-1.jpg",
      "label": "母",
      "by": "Attila Steiner",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/64967476"
+     "url": "https://www.inaturalist.org/observations/64967476",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -1838,7 +1994,9 @@
      "label": "",
      "by": "no rights reserved",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/30542122"
+     "url": "https://www.inaturalist.org/observations/30542122",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1866,7 +2024,9 @@
      "label": "",
      "by": "atain",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/154551816"
+     "url": "https://www.inaturalist.org/observations/154551816",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1894,7 +2054,9 @@
      "label": "",
      "by": "usaviah",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/255831303"
+     "url": "https://www.inaturalist.org/observations/255831303",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1922,7 +2084,9 @@
      "label": "",
      "by": "尹若宇",
      "license": "CC BY-SA",
-     "url": "https://www.inaturalist.org/observations/66079841"
+     "url": "https://www.inaturalist.org/observations/66079841",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -1951,7 +2115,9 @@
      "label": "",
      "by": "Daval Davis",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/256814502"
+     "url": "https://www.inaturalist.org/observations/256814502",
+     "w": 500,
+     "h": 376
     }
    ]
   },
@@ -1980,14 +2146,18 @@
      "label": "公",
      "by": "Liu JimFood",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/10505911"
+     "url": "https://www.inaturalist.org/observations/10505911",
+     "w": 500,
+     "h": 332
     },
     {
      "src": "img/red_dove-1.jpg",
      "label": "母",
      "by": "Ping-Yi Chao",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/99185875"
+     "url": "https://www.inaturalist.org/observations/99185875",
+     "w": 500,
+     "h": 353
     }
    ]
   },
@@ -2016,7 +2186,9 @@
      "label": "",
      "by": "no rights reserved",
      "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/144855386"
+     "url": "https://www.inaturalist.org/observations/144855386",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2045,7 +2217,9 @@
      "label": "",
      "by": "garlice99",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/336791684"
+     "url": "https://www.inaturalist.org/observations/336791684",
+     "w": 500,
+     "h": 339
     }
    ]
   },
@@ -2073,7 +2247,9 @@
      "label": "",
      "by": "hsiehcl",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/15992608"
+     "url": "https://www.inaturalist.org/observations/15992608",
+     "w": 500,
+     "h": 281
     }
    ]
   },
@@ -2101,14 +2277,18 @@
      "label": "成鳥",
      "by": "Philipp",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/291060354"
+     "url": "https://www.inaturalist.org/observations/291060354",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/tiger_bittern-1.jpg",
      "label": "幼鳥",
      "by": "水月山中",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/217206413"
+     "url": "https://www.inaturalist.org/observations/217206413",
+     "w": 375,
+     "h": 500
     }
    ]
   },
@@ -2136,7 +2316,9 @@
      "label": "",
      "by": "Liu JimFood",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/201658317"
+     "url": "https://www.inaturalist.org/observations/201658317",
+     "w": 500,
+     "h": 385
     }
    ]
   },
@@ -2164,7 +2346,9 @@
      "label": "",
      "by": "Frank Lin",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/65111934"
+     "url": "https://www.inaturalist.org/observations/65111934",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -2193,14 +2377,18 @@
      "label": "成鳥",
      "by": "金翼白眉",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/36250976"
+     "url": "https://www.inaturalist.org/observations/36250976",
+     "w": 375,
+     "h": 500
     },
     {
      "src": "img/goshawk-1.jpg",
      "label": "幼鳥",
      "by": "Hong",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/13377265"
+     "url": "https://www.inaturalist.org/observations/13377265",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -2228,7 +2416,9 @@
      "label": "",
      "by": "金翼白眉",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/15717662"
+     "url": "https://www.inaturalist.org/observations/15717662",
+     "w": 375,
+     "h": 500
     }
    ]
   },
@@ -2256,7 +2446,9 @@
      "label": "",
      "by": "金翼白眉",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/182803678"
+     "url": "https://www.inaturalist.org/observations/182803678",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2285,14 +2477,18 @@
      "label": "公",
      "by": "曾郁哲",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/183809923"
+     "url": "https://www.inaturalist.org/observations/183809923",
+     "w": 500,
+     "h": 333
     },
     {
      "src": "img/magpie_robin-1.jpg",
      "label": "母",
      "by": "lava_chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/264675953"
+     "url": "https://www.inaturalist.org/observations/264675953",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2321,7 +2517,9 @@
      "label": "",
      "by": "Ben Tsai蔡維哲",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/124357585"
+     "url": "https://www.inaturalist.org/observations/124357585",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2350,14 +2548,18 @@
      "label": "公",
      "by": "chiuluan",
      "license": "CC BY",
-     "url": "https://www.inaturalist.org/observations/64220842"
+     "url": "https://www.inaturalist.org/observations/64220842",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/daurian-1.jpg",
      "label": "母",
      "by": "Shang-Kwei Wang",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/268018084"
+     "url": "https://www.inaturalist.org/observations/268018084",
+     "w": 500,
+     "h": 500
     }
    ]
   },
@@ -2385,14 +2587,18 @@
      "label": "公",
      "by": "lava_chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/98211136"
+     "url": "https://www.inaturalist.org/observations/98211136",
+     "w": 500,
+     "h": 375
     },
     {
      "src": "img/brown_thrush-1.jpg",
      "label": "母",
      "by": "lava_chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/98211137"
+     "url": "https://www.inaturalist.org/observations/98211137",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2420,7 +2626,9 @@
      "label": "",
      "by": "Shainy",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/154086050"
+     "url": "https://www.inaturalist.org/observations/154086050",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -2449,7 +2657,9 @@
      "label": "",
      "by": "trestailer",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/381083173"
+     "url": "https://www.inaturalist.org/observations/381083173",
+     "w": 500,
+     "h": 281
     }
    ]
   },
@@ -2478,7 +2688,9 @@
      "label": "",
      "by": "Ben Tsai蔡維哲",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/48901918"
+     "url": "https://www.inaturalist.org/observations/48901918",
+     "w": 500,
+     "h": 333
     }
    ]
   },
@@ -2507,7 +2719,9 @@
      "label": "",
      "by": "Jainder Ju",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/23094353"
+     "url": "https://www.inaturalist.org/observations/23094353",
+     "w": 500,
+     "h": 375
     }
    ]
   }

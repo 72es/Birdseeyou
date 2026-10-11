@@ -175,7 +175,7 @@
     const tone = REGIONS[ctx] ? TONE[REGIONS[ctx].tone] : "";
     const photos = b.photos.map((p, k) => { const got = has(id, p.label);
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${p.label ? `<span class="lab ${labClass(p.label)}">${esc(labSym(p.label))}</span>` : ""}
-        <div class="inner" data-zoom="${p.src}"><img src="${p.src}" alt="${esc(b.zh + p.label)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div>
+        <div class="inner" data-zoom="${p.src}"><img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}" style="aspect-ratio:${p.w}/${p.h}"` : ""} alt="${esc(b.zh + p.label)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div>
         <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(p.label)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="蓋章：${esc(b.zh + p.label)}">${STAMP_SVG}</button>
         <span class="hint" ${got ? "hidden" : ""}>看到了就按</span></figure>`; }).join("");
     const nSp = Math.max(1, Math.round(b.cm / 14));
