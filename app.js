@@ -144,16 +144,28 @@
       return `<section class="sec" id="sec-${s.type}"><div class="sech"><h2>${esc(s.title)}</h2><span class="sub">${esc(s.sub || "")}</span><span class="n" data-ids="${g.join(",")}">${nGot(g)} / ${g.length}</span></div>${extra}
         ${g.length ? `<div class="grid">${g.map(id => tile(id, rid)).join("")}</div>` : `<p class="empty">${ss}天這裡比較少季節限定的鳥，點其他季節看看。</p>`}</section>`;
     }).join("");
-    const mis = (r.missions || []).filter(id => BIRDS[id]).map(id => `<button class="mchip ${has(id) ? "got" : ""}" type="button" data-open="${id}" data-ctx="${rid}"><img src="${BIRDS[id].photos[0].src}" alt="">${esc(BIRDS[id].zh)}${has(id) ? " ✓" : ""}</button>`).join("");
+    const mis = missionsFor(r).map(id => `<button class="mchip ${has(id) ? "got" : ""}" type="button" data-open="${id}" data-ctx="${rid}"><img src="${BIRDS[id].photos[0].src}" alt="">${esc(BIRDS[id].zh)}${has(id) ? " ✓" : ""}</button>`).join("");
     app.innerHTML = bar(["#/", "首頁"], r.full, `${nGot(ids)} / ${ids.length}`, ids.join(",")) + `<main class="wrap ${TONE[r.tone] || ""}">
       <section class="rhead"><div class="pane">${glassSVG(rid, PALETTES[r.tone] || PALETTES.mist, 300, 400)}</div><div><p class="eyebrow">賞鳥區</p><h2>${esc(r.name)}</h2><p class="full">${esc(r.full)}</p><p class="tg">${esc(r.tagline)}</p></div></section>
-      <dl class="glass double info">${r.info.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
+      <dl class="glass double info">${r.info.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${k === "交通" && r.map ? `<a class="maplink" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.map)}" target="_blank" rel="noopener">在 Google 地圖打開 ↗</a>` : ""}</dd></div>`).join("")}</dl>
       ${r.tips && r.tips.length ? `<ul class="glass tips">${r.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
-      ${mis ? `<section class="missions"><h3>今天的任務鳥</h3><div class="mrow">${mis}</div></section>` : ""}
+      <section class="missions"><h3>今天的任務鳥 <span class="muted" style="font-size:13px">${nowSeason()}天・先找容易遇到的</span></h3>${mis ? `<div class="mrow">${mis}</div>` : `<p class="empty">這一季的鳥都收集到了，太厲害了！</p>`}</section>
       ${secs}
     </main>`;
   }
 
+  // 3 missions: in season, not collected yet, easiest first (common → seasonal → lucky), data-listed missions first within a tier
+  function missionsFor(r) {
+    const ss = nowSeason(), tier = { common: 0, seasonal: 1, lucky: 2 }, pref = r.missions || [], seen = new Set(), pool = [];
+    r.sections.forEach(s => s.birds.forEach((b, i) => {
+      if (seen.has(b.id) || !BIRDS[b.id]) return;
+      if (b.seasons && !b.seasons.includes(ss)) return;
+      seen.add(b.id); if (has(b.id)) return;
+      const p = pref.indexOf(b.id);
+      pool.push({ id: b.id, k: (tier[s.type] ?? 1) * 1000 + (p >= 0 ? p : 100 + i) });
+    }));
+    return pool.sort((a, b) => a.k - b.k).slice(0, 3).map(x => x.id);
+  }
   function regionList(rid) { const r = REGIONS[rid]; if (!r) return ORDER; return regionBirdIds(r); }
   function bird(id, ctx) {
     const b = BIRDS[id]; if (!b) return home();
