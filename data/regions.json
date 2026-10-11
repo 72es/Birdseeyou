@@ -7,7 +7,11 @@
  "coming": [
   {
    "name": "下一個地方",
-   "note": "想去哪裡賞鳥？告訴爸爸"
+   "note": "想去哪裡賞鳥？點這裡告訴我們"
   }
- ]
+ ],
+ "feedback": {
+  "endpoint": "https://formsubmit.co/ajax/72eastsea@gmail.com",
+  "subject": "birds SEE you：新地點建議"
+ }
 }
