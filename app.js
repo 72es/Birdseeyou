@@ -111,6 +111,7 @@
     app.innerHTML = `<main class="wrap">
       <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1><p class="hello">KB，今天要去哪裡找鳥？</p></section>
       <div class="glass progress"><span class="big">${got}</span><span class="lbl">隻鳥<br>已收集</span><span class="meter" aria-label="收集進度"><i style="width:${all ? Math.max(3, got / all * 100) : 0}%"></i></span><span class="lbl">共 ${all} 種</span></div>
+      ${needsBackup() ? `<button class="nudge" type="button" data-go="#/me" data-anchor="backup">有 ${stampCount() - (S.backupCount || 0)} 個新章還沒備份，點這裡存一份 ›</button>` : ""}
       <section class="windows">${wins}</section>
       <section class="bigbtns">
         <button class="bigbtn tone-lav" type="button" data-go="#/all"><b>ALL BIRDS</b><span>全部 ${all} 種鳥的照片牆</span></button>
@@ -235,11 +236,73 @@
         <div class="badges">${B.map(([t, d, on, c1, c2, g]) => `<div class="badge ${on ? "" : "off"}">${MEDAL(c1, c2, g)}<b>${esc(t)}</b><span class="muted">${esc(d)}</span></div>`).join("")}</div></section>
       <section class="sec"><div class="sech"><h2>賞鳥日記</h2><span class="sub">每一次蓋章都記在這裡</span></div>
         ${days ? `<div class="log">${days}</div>` : `<p class="empty">還沒有紀錄。看到鳥時，按照片右上角的章！</p>`}</section>
+      <section class="sec" id="backup"><div class="sech"><h2>備份</h2><span class="sub">刪掉 App 或換手機時，用備份找回紀錄</span></div>
+        <div class="glass box">
+          <p style="margin:0">${backupStatus()}</p>
+          <div class="bkbtns"><button class="bk" type="button" id="bk-save">存一份備份到 iCloud / 檔案</button>
+            <button class="bk ghost" type="button" id="bk-copy">複製備份碼（可以貼到 LINE 或備忘錄）</button></div>
+          <details class="restore"><summary>從備份還原</summary>
+            <label class="bk ghost filebtn">選擇備份檔<input type="file" id="bk-file" accept=".json,application/json,text/plain"></label>
+            <textarea id="bk-code" rows="3" placeholder="或把備份碼貼在這裡"></textarea>
+            <button class="bk" type="button" id="bk-restore">還原</button>
+            <p class="muted" style="margin:0;font-size:13px">還原會和現在的紀錄合併，不會把已經蓋的章蓋掉。</p>
+          </details>
+        </div></section>
       <p class="foot"><button class="linkbtn" type="button" id="reset">清除全部紀錄</button> <span id="confirm" hidden>再按一次確認清除</span></p>
     </main>`;
+    wireBackup();
     let armed = false; const rb = $("#reset");
     rb.onclick = () => { if (!armed) { armed = true; $("#confirm").hidden = false; rb.textContent = "確認清除"; return; }
-      S = { birds: {}, log: [] }; save(); me(); toast("已清除"); };
+      S = { birds: {}, log: [], lastBackup: S.lastBackup, backupCount: 0 }; save(); me(); toast("已清除"); };
+  }
+
+
+  /* ---------- backup / restore (no server: the file stays with the family) ---------- */
+  const stampCount = () => S.log.length;
+  function backupStatus() {
+    const last = S.lastBackup ? new Date(S.lastBackup) : null, since = stampCount() - (S.backupCount || 0);
+    if (!last) return stampCount() ? `還沒有備份過，目前有 ${stampCount()} 個章。` : "還沒有任何章，蓋了章之後記得備份。";
+    return `上次備份：${last.getFullYear()}/${last.getMonth() + 1}/${last.getDate()}${since > 0 ? `，之後又蓋了 ${since} 個章。` : "，紀錄都已經備份好了。"}`;
+  }
+  const needsBackup = () => stampCount() - (S.backupCount || 0) >= 10;
+  function packBackup() { return JSON.stringify({ app: "birdseeyou", v: 1, at: new Date().toISOString(), birds: S.birds, log: S.log }); }
+  function markBackedUp() { S.lastBackup = new Date().toISOString(); S.backupCount = stampCount(); save(); }
+  const toCode = txt => "BSY1." + btoa(unescape(encodeURIComponent(txt)));
+  function fromAny(txt) {
+    txt = (txt || "").trim(); if (!txt) throw new Error("沒有內容");
+    if (txt.startsWith("BSY1.")) txt = decodeURIComponent(escape(atob(txt.slice(5).replace(/\s+/g, ""))));
+    let d; try { d = JSON.parse(txt); } catch (e) { throw new Error("看不懂這段內容，請確認是完整的備份碼或備份檔"); }
+    if (d.app !== "birdseeyou" || !d.birds) throw new Error("這不是 birds SEE you 的備份");
+    return d;
+  }
+  function mergeBackup(d) {
+    let added = 0;
+    Object.entries(d.birds || {}).forEach(([id, v]) => { if (!BIRDS[id] || !v || !v.stamps) return;
+      S.birds[id] = S.birds[id] || { stamps: {} };
+      Object.entries(v.stamps).forEach(([k, t]) => { const cur = S.birds[id].stamps[k]; if (!cur) added++; if (!cur || t < cur) S.birds[id].stamps[k] = t; }); });
+    const key = l => `${l.t}|${l.id}|${l.lab || ""}`, seen = new Set(S.log.map(key));
+    (d.log || []).forEach(l => { if (l && l.id && l.t && !seen.has(key(l))) { S.log.push(l); seen.add(key(l)); } });
+    S.log.sort((a, b) => a.t.localeCompare(b.t)); save(); return added;
+  }
+  function wireBackup() {
+    const day = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+    $("#bk-save").onclick = async () => {
+      const txt = packBackup(), name = `birdseeyou-備份-${day}.json`;
+      try {
+        const file = new File([txt], name, { type: "application/json" });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: "birds SEE you 備份" }); markBackedUp(); me(); toast("備份完成"); return; }
+      } catch (e) { if (e && e.name === "AbortError") return; }
+      const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([txt], { type: "application/json" })); a.download = name;
+      document.body.appendChild(a); a.click(); a.remove(); markBackedUp(); me(); toast("備份檔已下載");
+    };
+    $("#bk-copy").onclick = async () => {
+      const code = toCode(packBackup());
+      try { await navigator.clipboard.writeText(code); markBackedUp(); me(); toast("備份碼已複製，貼到 LINE 或備忘錄存起來"); }
+      catch (e) { const t = $("#bk-code"); t.closest("details").open = true; t.value = code; t.select(); toast("請長按選取後複製"); }
+    };
+    $("#bk-file").onchange = e => { const f = e.target.files[0]; if (!f) return; const r = new FileReader(); r.onload = () => { $("#bk-code").value = r.result; doRestore(); }; r.readAsText(f); };
+    $("#bk-restore").onclick = doRestore;
+    function doRestore() { try { const n = mergeBackup(fromAny($("#bk-code").value)); me(); toast(n ? `還原成功，找回 ${n} 個章` : "還原完成，沒有新的章"); } catch (e) { toast("還原失敗：" + e.message); } }
   }
 
   /* ---------- router ---------- */
@@ -281,7 +344,7 @@
       return; }
     const z = e.target.closest("[data-zoom]"); if (z) { lightbox(z.dataset.zoom); return; }
     const o = e.target.closest("[data-open]"); if (o) { go(`#/b/${o.dataset.open}/${o.dataset.ctx || "all"}`); return; }
-    const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); return; }
+    const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); if (g.dataset.anchor) setTimeout(() => { const t = document.getElementById(g.dataset.anchor); if (t) t.scrollIntoView({ block: "start" }); }, 60); return; }
     const f = e.target.closest("[data-filter]"); if (f) { allFilter = f.dataset.filter; rerenderKeepScroll(); return; }
     const s = e.target.closest("[data-season]"); if (s) { seasonPick[s.dataset.rid] = s.dataset.season; rerenderKeepScroll(); return; }
   });
@@ -330,6 +393,7 @@
   let tt; function toast(msg) { let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
     t.textContent = msg; t.hidden = false; clearTimeout(tt); tt = setTimeout(() => { t.hidden = true; }, 1600); }
 
+  try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
   load().then(() => { migrateOld(); render(); }).catch(err => {
     app.innerHTML = `<main class="wrap"><h2>載入失敗</h2><p>第一次打開需要網路。請連上網路後重新整理。</p><p class="muted">${esc(err.message)}</p></main>`;
   });
