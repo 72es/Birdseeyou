@@ -492,7 +492,7 @@
       const dx = t[0].clientX - st.x, dy = t[0].clientY - st.y;
       if (sc > 1) { tx = st.tx + dx; ty = st.ty + dy; apply(false); return; }
       if (!st.axis && Math.hypot(dx, dy) > 8) st.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
-      if (st.axis === "x") { tx = dx; apply(false); } else if (st.axis === "y") { ty = Math.max(0, dy); lb.style.background = `rgba(14,12,18,${Math.max(.4, .96 - dy / 400)})`; apply(false); } }, { passive: true });
+      if (st.axis === "x") { tx = dx; apply(false); } else if (st.axis === "y") { ty = Math.max(0, dy); lb.style.background = `rgba(14,12,18,${Math.max(.4, 1 - dy / 400)})`; apply(false); } }, { passive: true });
     lb.addEventListener("touchend", e => { if (!st || e.touches.length) return; const s0 = st; st = null; if (anim) return;
       if (sc > 1 || !s0.one) { if (sc < 1.02) reset(true); return; }
       const dx = e.changedTouches[0].clientX - s0.x, dy = e.changedTouches[0].clientY - s0.y;
