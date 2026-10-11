@@ -108,7 +108,7 @@
     const got = has(id);
     const flags = (b.endemic ? '<span class="flag">特有種</span>' : "") + (b.alien ? '<span class="flag alien">外來種</span>' : "");
     return `<div class="tile ${got ? "got-frame" : ""}">
-      <a class="inner" href="#/b/${id}/${ctx}" aria-label="${esc(b.zh)}"><img src="${b.photos[0].src}" alt="${esc(b.zh)}" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span><span class="glassframe" aria-hidden="true"></span></a>
+      <a class="inner" href="#/b/${id}/${ctx}" aria-label="${esc(b.zh)}"><img src="${b.photos[0].src}" alt="${esc(b.zh)}" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span><span class="glassframe" aria-hidden="true"><i class="light"></i><i class="lead"></i></span></a>
       <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(b.photos[0].label)}" data-region="${ctx === "all" ? "" : ctx}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh)}">${STAMP_SVG}</button></div>`;
   }
   const licLink = l => { const k = (l || "").toLowerCase().replace(/^cc\s*/, "").replace(/\s+/g, "-"); if (!k) return "";
@@ -207,7 +207,7 @@
     const photos = labs.map(lab => { const got = has(id, lab), ps = b.photos.filter(p => p.label === lab);
       const slides = ps.map(p => `<div class="slide"><div class="inner" data-zoom="${p.src}">${p.note ? `<span class="pnote${lab ? " low" : ""}">${esc(p.note)}</span>` : ""}<img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}"` : ""} loading="lazy" alt="${esc(b.zh + lab)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div></div>`).join("");
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${lab ? `<span class="lab ${labClass(lab)}">${esc(labSym(lab))}</span>` : ""}
-        <div class="car">${slides}</div><span class="glassframe" aria-hidden="true"></span>
+        <div class="car">${slides}</div><span class="glassframe" aria-hidden="true"><i class="light"></i><i class="lead"></i></span>
         ${ps.length > 1 ? `<div class="dots" aria-hidden="true">${ps.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div><span class="more">左右滑看 ${ps.length} 張</span>` : ""}
         <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(lab)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh + lab)}">${STAMP_SVG}</button>
         <span class="hint" ${got ? "hidden" : ""}>我看到了</span></figure>`; }).join("");
