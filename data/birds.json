@@ -73,7 +73,14 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "黑嘴、黃腳趾，三兄弟裡最小",
+   "like": [
+    "great_egret",
+    "int_egret",
+    "chinese_egret",
+    "cattle_egret"
+   ]
   },
   {
    "id": "night_heron",
@@ -167,7 +174,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "key": "小孩褐色、滿身白點，眼睛橘紅",
+   "like": [
+    "tiger_bittern"
+   ]
   },
   {
    "id": "moorhen",
@@ -599,7 +610,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "全身褐色，肚子米黃",
+   "like": [
+    "prinia_yb"
+   ]
   },
   {
    "id": "prinia_yb",
@@ -673,7 +688,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "灰頭、白喉嚨、黃肚子",
+   "like": [
+    "prinia_plain"
+   ]
   },
   {
    "id": "munia",
@@ -1060,7 +1079,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "紅喉嚨，尾巴分叉短",
+   "like": [
+    "barn_swallow",
+    "swift"
+   ]
   },
   {
    "id": "kite",
@@ -1277,7 +1301,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・季節換羽"
+   "tag": "公母異型・季節換羽",
+   "key": "最小的鴨，嘴巴小小的",
+   "like": [
+    "shoveler"
+   ]
   },
   {
    "id": "pintail",
@@ -1503,7 +1531,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・季節換羽"
+   "tag": "公母異型・季節換羽",
+   "key": "嘴巴又扁又寬，像飯匙",
+   "like": [
+    "teal"
+   ]
   },
   {
    "id": "grey_heron",
@@ -1649,7 +1681,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "最大隻，嘴角線超過眼睛",
+   "like": [
+    "int_egret",
+    "egret_little"
+   ]
   },
   {
    "id": "int_egret",
@@ -1723,7 +1760,13 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "中等大小，嘴角線停在眼睛下面",
+   "like": [
+    "great_egret",
+    "egret_little",
+    "cattle_egret"
+   ]
   },
   {
    "id": "greenshank",
@@ -1787,7 +1830,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "灰綠長腳，嘴巴微微上翹",
+   "like": [
+    "wood_sandpiper",
+    "common_sandpiper"
+   ]
   },
   {
    "id": "wood_sandpiper",
@@ -1861,7 +1909,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "背上白點點，白眉毛",
+   "like": [
+    "greenshank",
+    "common_sandpiper"
+   ]
   },
   {
    "id": "common_sandpiper",
@@ -1935,7 +1988,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "一直擺屁股，肩膀前有白勾勾",
+   "like": [
+    "wood_sandpiper",
+    "greenshank"
+   ]
   },
   {
    "id": "lrp",
@@ -2009,7 +2067,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "金黃色眼圈，領圈繞一整圈",
+   "like": [
+    "kentish"
+   ]
   },
   {
    "id": "kentish",
@@ -2133,7 +2195,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "領圈在胸前斷開，沒有金眼圈",
+   "like": [
+    "lrp"
+   ]
   },
   {
    "id": "golden_plover",
@@ -2632,7 +2698,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・成幼不同"
+   "tag": "公母異型・成幼不同",
+   "key": "黑白配色，尾巴一直上下搖",
+   "like": [
+    "grey_wagtail",
+    "magpie_robin"
+   ]
   },
   {
    "id": "grey_wagtail",
@@ -2705,7 +2776,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "灰背、黃屁股",
+   "like": [
+    "white_wagtail"
+   ]
   },
   {
    "id": "osprey",
@@ -3211,7 +3286,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "黃褐色，顏色比較淡",
+   "like": [
+    "cinnamon_bittern"
+   ]
   },
   {
    "id": "cinnamon_bittern",
@@ -3285,7 +3364,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "全身栗紅色",
+   "like": [
+    "yellow_bittern"
+   ]
   },
   {
    "id": "peregrine",
@@ -3452,7 +3535,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "春夏黃嘴、黑腳，多在海邊",
+   "like": [
+    "egret_little"
+   ]
   },
   {
    "id": "yuhina",
@@ -5646,7 +5733,13 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "key": "脖子後面有珍珠項鍊",
+   "like": [
+    "red_dove",
+    "turtle_dove",
+    "rock_dove"
+   ]
   },
   {
    "id": "red_dove",
@@ -5760,7 +5853,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "最小，脖子後面一條黑細線",
+   "like": [
+    "spotted_dove",
+    "turtle_dove"
+   ]
   },
   {
    "id": "rock_dove",
@@ -5804,7 +5902,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "脖子閃綠紫光，常成群在廣場",
+   "like": [
+    "spotted_dove"
+   ]
   },
   {
    "id": "myna",
@@ -5878,7 +5980,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "黃嘴巴，尾巴下面是白色",
+   "like": [
+    "crested_myna",
+    "common_myna"
+   ]
   },
   {
    "id": "treepie",
@@ -6074,7 +6181,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "key": "小孩灰色、細細的白點，常在公園草地",
+   "like": [
+    "night_heron"
+   ]
   },
   {
    "id": "barbet",
@@ -6397,7 +6508,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "key": "全身黑，尾巴分叉往外捲",
+   "like": [
+    "black_bulbul"
+   ]
   },
   {
    "id": "black_bulbul",
@@ -6470,7 +6585,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "紅嘴巴、紅腳",
+   "like": [
+    "drongo"
+   ]
   },
   {
    "id": "magpie_robin",
@@ -6604,7 +6723,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・成幼不同"
+   "tag": "公母異型・成幼不同",
+   "key": "黑白配色，尾巴常翹得高高的",
+   "like": [
+    "white_wagtail"
+   ]
   },
   {
    "id": "swift",
@@ -6668,7 +6791,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "屁股一塊白，幾乎不停在電線上",
+   "like": [
+    "swallow",
+    "barn_swallow"
+   ]
   },
   {
    "id": "daurian",
@@ -6885,7 +7013,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "肚子兩側橘色",
+   "like": [
+    "pale_thrush"
+   ]
   },
   {
    "id": "pale_thrush",
@@ -6968,7 +7100,11 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "key": "肚子沒有橘色，尾巴尖端白色",
+   "like": [
+    "brown_thrush"
+   ]
   },
   {
    "id": "scops",
@@ -7121,7 +7257,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "key": "脖子短短粗粗，春夏頭變橘黃",
+   "like": [
+    "egret_little",
+    "int_egret"
+   ]
   },
   {
    "id": "barn_swallow",
@@ -7195,7 +7336,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "胸前黑領帶，尾巴分叉長長的",
+   "like": [
+    "swallow",
+    "swift"
+   ]
   },
   {
    "id": "crested_myna",
@@ -7259,7 +7405,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "象牙白嘴巴，全身黑",
+   "like": [
+    "myna",
+    "common_myna"
+   ]
   },
   {
    "id": "common_myna",
@@ -7323,7 +7474,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "咖啡色身體，眼睛旁有黃色皮膚",
+   "like": [
+    "myna",
+    "crested_myna"
+   ]
   },
   {
    "id": "magpie",
@@ -7451,7 +7607,12 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "key": "背上金色鱗片紋",
+   "like": [
+    "spotted_dove",
+    "red_dove"
+   ]
   },
   {
    "id": "pygmy_wp",

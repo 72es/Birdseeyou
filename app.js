@@ -222,6 +222,8 @@
       <p class="intro">${esc(b.intro)}</p>
       ${b.story ? `<p class="story">${esc(b.story)}</p>` : ""}
       <div class="glass box"><h3>怎麼認</h3><ul>${b.cues.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>
+      ${b.like && b.like.length ? `<div class="glass box"><h3>可能認錯誰？</h3>${b.key ? `<p class="muted" style="margin:0;font-size:14px">${esc(b.zh)}：${esc(b.key)}</p>` : ""}<div class="likes">${b.like.filter(x => BIRDS[x]).map(x => { const o = BIRDS[x], c2 = REGIONS[ctx] && regionList(ctx).includes(x) ? ctx : "all";
+        return `<a class="like" href="#/b/${x}/${c2}"><img src="${o.photos[0].src}" alt="${esc(o.zh)}" loading="lazy"><span><b>${esc(o.zh)}</b>${esc(o.key || "")}</span></a>`; }).join("")}</div></div>` : ""}
       <div class="facts"><div class="glass box"><h3>去哪找</h3><div class="pills">${b.habitat.map(h => `<span class="pill">${esc(h)}</span>`).join("")}</div></div>
         <div class="glass box"><h3>多大隻</h3><span class="cm">${b.cm}<small> 公分</small></span><span class="spar">${SPARROW.repeat(Math.min(nSp, 9))}${nSp > 9 ? "…" : ""}</span><span class="ratio">≈ ${nSp} 隻麻雀長</span></div></div>
       ${where ? `<div class="glass box"><h3>在哪些地方看得到</h3><div class="where">${where}</div></div>` : ""}
