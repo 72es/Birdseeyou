@@ -85,7 +85,7 @@
     }
     const r = w / 2, arch = `M0 ${h} V${r} A${r} ${r} 0 0 1 ${w} ${r} V${h} Z`, id = "g" + seed.replace(/\W/g, "");
     const panes = polys.map((p, i) => `<polygon points="${p.map(q => q.map(v => v.toFixed(1)).join(",")).join(" ")}" fill="${colors[Math.floor(rand() * colors.length)]}"/>`).join("");
-    const bird = `<g transform="translate(${w / 2 - 70} ${h * 0.46}) scale(1.4)" stroke="#1C1A21" stroke-width="5" stroke-linejoin="round"><path d="M8 62c0-26 20-46 52-46 12 0 22 5 28 12l26-2-18 15c2 5 3 10 3 17 0 18-15 30-37 30H34l-30 12 12-24c-5-5-8-9-8-14z" fill="${colors[0]}"/><path d="M40 54c10 8 26 10 40 4" fill="none"/><circle cx="88" cy="40" r="4" fill="#1C1A21"/></g>`;
+    const bird = `<g transform="translate(${w / 2 - 66} ${h * 0.44}) scale(1.15)" stroke="#1C1A21" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"><path d="M30 78 L2 98 L10 70 Z" fill="${colors[0]}"/><path d="M18 70 C18 44 44 30 74 34 C96 38 106 58 98 76 C90 94 62 100 40 94 C28 90 18 82 18 70 Z" fill="${colors[0]}"/><circle cx="90" cy="34" r="20" fill="${colors[0]}"/><path d="M106 28 L126 36 L106 42 Z" fill="#F0D49A"/><path d="M40 58 C56 50 76 54 86 68 C70 78 52 76 40 58 Z" fill="${colors[1]}"/><path d="M56 96 L52 114 M72 96 L74 114" fill="none"/><circle cx="96" cy="30" r="3.5" fill="#1C1A21" stroke="none"/></g>`;
     return `<svg viewBox="-6 -6 ${w + 12} ${h + 12}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><clipPath id="${id}"><path d="${arch}"/></clipPath><linearGradient id="${id}s" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".2"/></linearGradient></defs><g clip-path="url(#${id})" stroke="#1C1A21" stroke-width="5" stroke-linejoin="round">${panes}${bird}<rect width="${w}" height="${h}" fill="url(#${id}s)" stroke="none"/></g><path d="${arch}" fill="none" stroke="#1C1A21" stroke-width="9"/></svg>`;
   }
   const PALETTES = { mist: ["#7FA9B8", "#C6DAE0", "#E9E4E7", "#BDB9E2", "#A9C8D1", "#DDE9EC"], sage: ["#6F9D7B", "#BCD7B3", "#E3EDD9", "#C6DAE0", "#A3C79A", "#EDB8C6"], rose: ["#C9667F", "#EDB8C6", "#F5DCE3", "#BDB9E2", "#E9E4E7", "#BCD7B3"] };
@@ -99,7 +99,7 @@
       <div class="inner"><img src="${b.photos[0].src}" alt="" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span></div>
       <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(b.photos[0].label)}" data-region="${ctx === "all" ? "" : ctx}" aria-pressed="${got}" aria-label="蓋章：${esc(b.zh)}">${STAMP_SVG}</button></div>`;
   }
-  const bar = (back, title, right = "") => `<header class="bar"><div class="bar-in">${back ? `<button class="back" type="button" data-go="${back[0]}">‹ ${esc(back[1])}</button>` : ""}<div class="ttl">${esc(title)}</div><div class="count">${right}</div></div></header>`;
+  const bar = (back, title, right = "", ids = "") => `<header class="bar"><div class="bar-in">${back ? `<button class="back" type="button" data-go="${back[0]}">‹ ${esc(back[1])}</button>` : ""}<div class="ttl">${esc(title)}</div><div class="count"${ids ? ` data-ids="${ids}"` : ""}>${right}</div></div></header>`;
 
   /* ---------- routes ---------- */
   function home() {
@@ -123,7 +123,7 @@
   let allFilter = "all";
   function allBirds() {
     const ids = ORDER.filter(id => allFilter === "all" || (allFilter === "got" ? has(id) : !has(id)));
-    app.innerHTML = bar(["#/", "首頁"], "ALL BIRDS", `${nGot(ORDER)} / ${ORDER.length}`) + `<main class="wrap">
+    app.innerHTML = bar(["#/", "首頁"], "ALL BIRDS", `${nGot(ORDER)} / ${ORDER.length}`, ORDER.join(",")) + `<main class="wrap">
       <div class="filters" role="group" aria-label="篩選">${[["all", "全部"], ["got", "已收集"], ["todo", "還沒找到"]].map(([k, t]) => `<button type="button" data-filter="${k}" aria-pressed="${allFilter === k}">${t}</button>`).join("")}</div>
       ${ids.length ? `<div class="grid">${ids.map(id => tile(id, "all")).join("")}</div>` : `<p class="empty">${allFilter === "got" ? "還沒有收集到鳥，去找第一隻吧！" : "全部都收集到了，太厲害了！"}</p>`}
     </main>`;
@@ -141,11 +141,11 @@
         extra = `<div class="seasons" role="group" aria-label="季節">${SEASONS.map(x => `<button type="button" data-season="${x}" data-rid="${rid}" aria-pressed="${x === ss}">${x}${x === nowSeason() ? '<span class="now">現在</span>' : ""}</button>`).join("")}</div>`;
       }
       const g = list.map(b => b.id);
-      return `<section class="sec" id="sec-${s.type}"><div class="sech"><h2>${esc(s.title)}</h2><span class="sub">${esc(s.sub || "")}</span><span class="n">${nGot(g)} / ${g.length}</span></div>${extra}
+      return `<section class="sec" id="sec-${s.type}"><div class="sech"><h2>${esc(s.title)}</h2><span class="sub">${esc(s.sub || "")}</span><span class="n" data-ids="${g.join(",")}">${nGot(g)} / ${g.length}</span></div>${extra}
         ${g.length ? `<div class="grid">${g.map(id => tile(id, rid)).join("")}</div>` : `<p class="empty">${ss}天這裡比較少季節限定的鳥，點其他季節看看。</p>`}</section>`;
     }).join("");
     const mis = (r.missions || []).filter(id => BIRDS[id]).map(id => `<button class="mchip ${has(id) ? "got" : ""}" type="button" data-open="${id}" data-ctx="${rid}"><img src="${BIRDS[id].photos[0].src}" alt="">${esc(BIRDS[id].zh)}${has(id) ? " ✓" : ""}</button>`).join("");
-    app.innerHTML = bar(["#/", "首頁"], r.full, `${nGot(ids)} / ${ids.length}`) + `<main class="wrap ${TONE[r.tone] || ""}">
+    app.innerHTML = bar(["#/", "首頁"], r.full, `${nGot(ids)} / ${ids.length}`, ids.join(",")) + `<main class="wrap ${TONE[r.tone] || ""}">
       <section class="rhead"><div class="pane">${glassSVG(rid, PALETTES[r.tone] || PALETTES.mist, 300, 400)}</div><div><p class="eyebrow">賞鳥區</p><h2>${esc(r.name)}</h2><p class="full">${esc(r.full)}</p><p class="tg">${esc(r.tagline)}</p></div></section>
       <dl class="glass double info">${r.info.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>
       ${r.tips && r.tips.length ? `<ul class="glass tips">${r.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
@@ -165,7 +165,7 @@
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${p.label ? `<span class="lab ${labClass(p.label)}">${esc(labSym(p.label))}</span>` : ""}
         <div class="inner" data-zoom="${p.src}"><img src="${p.src}" alt="${esc(b.zh + p.label)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div>
         <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(p.label)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="蓋章：${esc(b.zh + p.label)}">${STAMP_SVG}</button>
-        ${got ? "" : `<span class="hint">看到了就按</span>`}</figure>`; }).join("");
+        <span class="hint" ${got ? "hidden" : ""}>看到了就按</span></figure>`; }).join("");
     const nSp = Math.max(1, Math.round(b.cm / 14));
     const where = RORDER.map(rid => { const r = REGIONS[rid]; for (const s of r.sections) { const e = s.birds.find(x => x.id === id);
         if (e) return `<div class="wr"><button class="pill ${TONE[r.tone]}" type="button" data-go="#/r/${rid}">${esc(r.name)}</button><span>${esc(s.title)}${e.seasons ? "・" + e.seasons.join("") : "・全年"}</span></div>`; } return ""; }).join("");
@@ -247,14 +247,25 @@
   window.addEventListener("scroll", () => { scrollMem[location.hash || "#/"] = window.scrollY; }, { passive: true });
 
   /* ---------- events ---------- */
+  function refreshStamps(id) {
+    app.querySelectorAll(`[data-stamp="${id}"]`).forEach(btn => {
+      const inTile = btn.closest(".tile"), ph = btn.closest(".ph");
+      const on = inTile ? has(id) : has(id, btn.dataset.lab || "");
+      btn.setAttribute("aria-pressed", on);
+      (inTile || ph)?.classList.toggle("got-frame", on);
+      const hint = ph && ph.querySelector(".hint"); if (hint) hint.hidden = on;
+    });
+    app.querySelectorAll("[data-ids]").forEach(el => { const ids = el.dataset.ids.split(",").filter(Boolean); el.textContent = `${nGot(ids)} / ${ids.length}`; });
+    app.querySelectorAll(`.mchip[data-open="${id}"]`).forEach(m => m.classList.toggle("got", has(id)));
+  }
   function rerenderKeepScroll() { const y = window.scrollY; render(); window.scrollTo(0, y); }
   app.addEventListener("click", e => {
     const st = e.target.closest("[data-stamp]");
     if (st) { e.stopPropagation(); const id = st.dataset.stamp, lab = st.dataset.lab || "", on = !has(id, lab);
       stampSet(id, lab, on, st.dataset.region || null);
       if (on) toast(`蓋章！${BIRDS[id].zh}${lab ? "・" + lab : ""}`);
-      rerenderKeepScroll();
-      const again = app.querySelector(`[data-stamp="${CSS.escape(id)}"][data-lab="${CSS.escape(lab)}"]`); if (again && on) again.classList.add("pop");
+      refreshStamps(id);
+      if (on) { st.classList.remove("pop"); void st.offsetWidth; st.classList.add("pop"); }
       return; }
     const z = e.target.closest("[data-zoom]"); if (z) { lightbox(z.dataset.zoom); return; }
     const o = e.target.closest("[data-open]"); if (o) { go(`#/b/${o.dataset.open}/${o.dataset.ctx || "all"}`); return; }
