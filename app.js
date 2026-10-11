@@ -109,7 +109,10 @@
         <div><div class="nm">${esc(r.name)}</div><div class="tg">${esc(r.tagline)}</div><div class="st">${nGot(ids)} / ${ids.length} 隻</div></div></button>`; }).join("")
       + COMING.map(c => `<div class="window soon"><div class="pane">${esc(c.name)}<br><small>${esc(c.note || "")}</small></div></div>`).join("");
     app.innerHTML = `<main class="wrap">
-      <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1><p class="hello">KB，今天要去哪裡找鳥？</p></section>
+      <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1>${S.name ? `<p class="hello"><b>${esc(S.name)}</b>，今天要去哪裡找鳥？</p>` : ""}</section>
+      ${S.name ? "" : `<form class="glass double hi" id="hi"><h2>嗨！你是誰？</h2><p class="muted" style="margin:0">寫下你的名字或暱稱，這本賞鳥手冊就是你的了。</p>
+        <input id="hi-name" type="text" maxlength="12" autocomplete="nickname" placeholder="例如：小翠、KB、鳥博士" required>
+        <button class="bk" type="submit">開始收集鳥</button></form>`}
       <div class="glass progress"><span class="big">${got}</span><span class="lbl">隻鳥<br>已收集</span><span class="meter" aria-label="收集進度"><i style="width:${all ? Math.max(3, got / all * 100) : 0}%"></i></span><span class="lbl">共 ${all} 種</span></div>
       ${needsBackup() ? `<button class="nudge" type="button" data-go="#/me" data-anchor="backup">有 ${stampCount() - (S.backupCount || 0)} 個新章還沒備份，點這裡存一份 ›</button>` : ""}
       <section class="windows">${wins}</section>
@@ -119,8 +122,13 @@
       </section>
       <p class="foot">照片來自 iNaturalist 的觀察紀錄，依各自的創用 CC 授權使用。<br>資料版本 ${esc(window.BSY_VERSION || "")}</p>
     </main>`;
+    wireHi();
   }
 
+  function wireHi() {
+    const f = $("#hi"); if (!f) return;
+    f.onsubmit = e => { e.preventDefault(); const v = $("#hi-name").value.trim().slice(0, 12); if (!v) return; S.name = v; save(); home(); toast(`歡迎，${v}！`); };
+  }
   let allFilter = "all";
   function allBirds() {
     const ids = ORDER.filter(id => allFilter === "all" || (allFilter === "got" ? has(id) : !has(id)));
@@ -231,7 +239,7 @@
     const days = Object.keys(byDay).map(d => `<div class="day"><span>${fmt(d)}</span><span class="muted">${byDay[d].length} 個章</span></div>` + byDay[d].map(l => { const b = BIRDS[l.id]; if (!b) return "";
       const p = b.photos.find(x => x.label === l.lab) || b.photos[0];
       return `<button class="entry" type="button" data-open="${l.id}" data-ctx="${l.r || "all"}"><img src="${p.src}" alt=""><span class="t"><b>${esc(b.zh)}${l.lab ? "・" + esc(l.lab) : ""}</b><span>${l.r && REGIONS[l.r] ? esc(REGIONS[l.r].name) : "ALL BIRDS"}</span></span></button>`; }).join("")).join("");
-    app.innerHTML = bar(["#/", "首頁"], "MY BIRDS", `${got.length} / ${ORDER.length}`) + `<main class="wrap">
+    app.innerHTML = bar(["#/", "首頁"], S.name ? `${S.name} 的鳥` : "MY BIRDS", `${got.length} / ${ORDER.length}`) + `<main class="wrap">
       <section class="sec"><div class="sech"><h2>徽章</h2><span class="n">${B.filter(x => x[2]).length} / ${B.length}</span></div>
         <div class="badges">${B.map(([t, d, on, c1, c2, g]) => `<div class="badge ${on ? "" : "off"}">${MEDAL(c1, c2, g)}<b>${esc(t)}</b><span class="muted">${esc(d)}</span></div>`).join("")}</div></section>
       <section class="sec"><div class="sech"><h2>賞鳥日記</h2><span class="sub">每一次蓋章都記在這裡</span></div>
@@ -248,12 +256,13 @@
             <p class="muted" style="margin:0;font-size:13px">還原會和現在的紀錄合併，不會把已經蓋的章蓋掉。</p>
           </details>
         </div></section>
-      <p class="foot"><button class="linkbtn" type="button" id="reset">清除全部紀錄</button> <span id="confirm" hidden>再按一次確認清除</span></p>
+      <p class="foot"><button class="linkbtn" type="button" id="rename">改名字</button>　<button class="linkbtn" type="button" id="reset">清除全部紀錄</button> <span id="confirm" hidden>再按一次確認清除</span></p>
     </main>`;
     wireBackup();
+    $("#rename").onclick = () => { delete S.name; save(); go("#/"); };
     let armed = false; const rb = $("#reset");
     rb.onclick = () => { if (!armed) { armed = true; $("#confirm").hidden = false; rb.textContent = "確認清除"; return; }
-      S = { birds: {}, log: [], lastBackup: S.lastBackup, backupCount: 0 }; save(); me(); toast("已清除"); };
+      S = { birds: {}, log: [], name: S.name, lastBackup: S.lastBackup, backupCount: 0 }; save(); me(); toast("已清除"); };
   }
 
 
@@ -265,7 +274,7 @@
     return `上次備份：${last.getFullYear()}/${last.getMonth() + 1}/${last.getDate()}${since > 0 ? `，之後又蓋了 ${since} 個章。` : "，紀錄都已經備份好了。"}`;
   }
   const needsBackup = () => stampCount() - (S.backupCount || 0) >= 10;
-  function packBackup() { return JSON.stringify({ app: "birdseeyou", v: 1, at: new Date().toISOString(), birds: S.birds, log: S.log }); }
+  function packBackup() { return JSON.stringify({ app: "birdseeyou", v: 1, at: new Date().toISOString(), name: S.name || "", birds: S.birds, log: S.log }); }
   function markBackedUp() { S.lastBackup = new Date().toISOString(); S.backupCount = stampCount(); save(); }
   const toCode = txt => "BSY1." + btoa(unescape(encodeURIComponent(txt)));
   function fromAny(txt) {
@@ -277,6 +286,7 @@
   }
   function mergeBackup(d) {
     let added = 0;
+    if (!S.name && d.name) S.name = String(d.name).slice(0, 12);
     Object.entries(d.birds || {}).forEach(([id, v]) => { if (!BIRDS[id] || !v || !v.stamps) return;
       S.birds[id] = S.birds[id] || { stamps: {} };
       Object.entries(v.stamps).forEach(([k, t]) => { const cur = S.birds[id].stamps[k]; if (!cur) added++; if (!cur || t < cur) S.birds[id].stamps[k] = t; }); });
