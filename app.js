@@ -184,10 +184,14 @@
     const i = list.indexOf(id), prev = list[i - 1], next = list[i + 1];
     const backT = ctx === "all" || !REGIONS[ctx] ? ["#/all", "ALL BIRDS"] : [`#/r/${ctx}`, REGIONS[ctx].name];
     const tone = REGIONS[ctx] ? TONE[REGIONS[ctx].tone] : "";
-    const photos = b.photos.map((p, k) => { const got = has(id, p.label);
-      return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${p.label ? `<span class="lab ${labClass(p.label)}">${esc(labSym(p.label))}</span>` : ""}
-        <div class="inner" data-zoom="${p.src}"><img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}" style="aspect-ratio:${p.w}/${p.h}"` : ""} alt="${esc(b.zh + p.label)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div>
-        <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(p.label)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh + p.label)}">${STAMP_SVG}</button>
+    // one swipeable album per group (公/母, 成鳥/幼鳥, or one group); one stamp per group
+    const labs = [...new Set(b.photos.map(p => p.label))];
+    const photos = labs.map(lab => { const got = has(id, lab), ps = b.photos.filter(p => p.label === lab);
+      const slides = ps.map(p => `<div class="slide"><div class="inner" data-zoom="${p.src}"><img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}"` : ""} loading="lazy" alt="${esc(b.zh + lab)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div></div>`).join("");
+      return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${lab ? `<span class="lab ${labClass(lab)}">${esc(labSym(lab))}</span>` : ""}
+        <div class="car">${slides}</div>
+        ${ps.length > 1 ? `<div class="dots" aria-hidden="true">${ps.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div><span class="more">左右滑看 ${ps.length} 張</span>` : ""}
+        <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(lab)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh + lab)}">${STAMP_SVG}</button>
         <span class="hint" ${got ? "hidden" : ""}>我看到了</span></figure>`; }).join("");
     const nSp = Math.max(1, Math.round(b.cm / 14));
     const where = RORDER.map(rid => { const r = REGIONS[rid]; for (const s of r.sections) { const e = s.birds.find(x => x.id === id);
@@ -205,6 +209,8 @@
       <nav class="pager"><button type="button" ${prev ? `data-open="${prev}" data-ctx="${ctx}"` : "disabled"}>‹ ${prev ? esc(BIRDS[prev].zh) : ""}</button><button type="button" ${next ? `data-open="${next}" data-ctx="${ctx}"` : "disabled"}>${next ? esc(BIRDS[next].zh) : ""} ›</button></nav>
       <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${esc(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist</a></li>`).join("")}</ul>
     </main>`;
+    app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"), more = car.parentElement.querySelector(".more"); if (!dots.length) return;
+      car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); if (more) more.hidden = true; }, { passive: true }); });
     swipe($("#birdpage"), () => next && go(`#/b/${next}/${ctx}`, true), () => prev && go(`#/b/${prev}/${ctx}`, true));
   }
 
@@ -437,7 +443,7 @@
   /* ---------- swipe between birds ---------- */
   function swipe(el, onLeft, onRight) {
     if (!el) return; let x0 = null, y0 = null, t0 = 0;
-    el.addEventListener("touchstart", e => { if (e.touches.length !== 1) { x0 = null; return; } x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now(); }, { passive: true });
+    el.addEventListener("touchstart", e => { if (e.touches.length !== 1 || e.target.closest(".car")) { x0 = null; return; } x0 = e.touches[0].clientX; y0 = e.touches[0].clientY; t0 = Date.now(); }, { passive: true });
     el.addEventListener("touchend", e => { if (x0 == null) return; const t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
       if (Math.abs(dx) > 70 && Math.abs(dx) > Math.abs(dy) * 1.6 && Date.now() - t0 < 700) { dx < 0 ? onLeft() : onRight(); } x0 = null; }, { passive: true });
   }

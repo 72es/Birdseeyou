@@ -149,12 +149,20 @@ h3{font-family:var(--display);font-size:17px}
 .photos{display:flex;flex-direction:column;gap:12px}
 .ph{position:relative;border-radius:16px;padding:4px;background:var(--lead)}
 .ph .inner{position:relative;border-radius:12px;overflow:hidden;background:var(--pearl);box-shadow:inset 0 0 0 3px var(--tone);cursor:zoom-in}
-.ph img{width:100%;height:auto;max-height:56vh;object-fit:contain;margin:0 auto}
+.car{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;border-radius:12px;scrollbar-width:none;overscroll-behavior-x:contain}
+.car::-webkit-scrollbar{display:none}
+.slide{flex:0 0 100%;scroll-snap-align:start;min-width:0}
+.ph .inner{height:min(56vh,420px);display:flex;align-items:center;justify-content:center}
+.ph img{width:100%;height:100%;object-fit:contain;margin:0 auto}
+.dots{position:absolute;left:0;right:0;bottom:28px;display:flex;justify-content:center;gap:6px;pointer-events:none;z-index:2}
+.dots i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.55);border:1.5px solid var(--lead)}
+.dots i.on{background:#fff;transform:scale(1.25)}
+.ph .more{position:absolute;left:10px;bottom:6px;z-index:2;font-size:12px;color:#fff;background:rgba(20,18,26,.6);border-radius:6px;padding:1px 7px;pointer-events:none}
 .ph .lab{position:absolute;left:10px;top:10px;z-index:2;font-family:var(--display);font-size:19px;color:#fff;padding:2px 14px;border-radius:999px;border:2px solid rgba(255,255,255,.75);
   background:rgba(28,26,33,.4);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);text-shadow:0 1px 3px rgba(0,0,0,.55)}
 .ph .lab.m{background:rgba(0,168,150,.4)}
 .ph .lab.f{background:rgba(110,70,40,.4)}
-.ph .cr{position:absolute;right:8px;bottom:6px;font-size:10px;color:#fff;background:rgba(20,18,26,.55);padding:1px 6px;border-radius:6px;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ph .cr{position:absolute;right:8px;bottom:6px;font-size:10px;color:#fff;background:rgba(20,18,26,.55);padding:1px 6px;border-radius:6px;max-width:60%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .ph .stamp{width:52px;height:52px;right:10px;top:10px}
 .ph .stamp svg{width:38px;height:38px}
 .ph .hint{position:absolute;right:68px;top:22px;z-index:2;font-size:12px;color:#fff;background:rgba(20,18,26,.6);border-radius:6px;padding:1px 6px;pointer-events:none}
