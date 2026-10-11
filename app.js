@@ -354,7 +354,7 @@
   async function sendWish(w) {
     if (!FEEDBACK || !FEEDBACK.endpoint) throw new Error("no endpoint");
     const res = await fetch(FEEDBACK.endpoint, { method: "POST", headers: { "Content-Type": "application/json", Accept: "application/json" },
-      body: JSON.stringify({ 暱稱: w.name, 想去的地方: w.place, 想說的話: w.msg || "（沒有）", 已收集: w.count + " 種鳥", 時間: w.at, _subject: FEEDBACK.subject || "birds SEE you 回饋", _template: "box", _captcha: "false" }) });
+      body: JSON.stringify({ 暱稱: w.name, 想去的地方: w.place || "（沒有）", 想說的話: w.msg || "（沒有）", 已收集: w.count + " 種鳥", 時間: w.at, _subject: FEEDBACK.subject || "birds SEE you 回饋", _template: "box", _captcha: "false" }) });
     if (!res.ok) throw new Error("HTTP " + res.status);
   }
   async function flushWishes() {
@@ -366,14 +366,15 @@
   window.addEventListener("online", flushWishes);
   function wish() {
     app.innerHTML = bar(["#/", "首頁"], "下一個地方") + `<main class="wrap">
-      <section class="hero"><h2>想去哪裡賞鳥？</h2><p class="hello">告訴我們你想去的地方，我們會把它做成新的賞鳥手冊。</p></section>
+      <section class="hero"><h2>想去哪裡賞鳥？還是發現了什麼？</h2><p class="hello">想去的地方，我們會把它做成新的賞鳥手冊；看到什麼、發現 App 哪裡寫錯，也都歡迎告訴我。</p></section>
       <form class="glass double hi" id="wish">
         <label for="w-name"><b>你的暱稱</b></label>
         <input id="w-name" type="text" maxlength="12" required value="${esc(S.name || "")}" placeholder="例如：小翠">
-        <label for="w-place"><b>想去哪裡？</b></label>
-        <input id="w-place" type="text" maxlength="40" required placeholder="例如：陽明山、華江雁鴨公園、墾丁">
-        <label for="w-msg"><b>想說的話</b> <span class="muted">（可以不寫）</span></label>
-        <textarea id="w-msg" rows="3" maxlength="300" placeholder="例如：我想看貓頭鷹！"></textarea>
+        <label for="w-place"><b>想去哪裡？</b> <span class="muted">（可以不寫）</span></label>
+        <input id="w-place" type="text" maxlength="40" placeholder="例如：陽明山、華江雁鴨公園、墾丁">
+        <label for="w-msg"><b>發現了什麼？想說的話</b></label>
+        <textarea id="w-msg" rows="3" maxlength="300" placeholder="例如：我想看貓頭鷹！／今天在公園看到五色鳥！"></textarea>
+        <p class="muted" id="w-need" style="margin:0;font-size:13px;display:none">地點或想說的話，至少寫一個喔</p>
         <input type="text" name="_honey" id="w-honey" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
         <button class="bk" type="submit" id="w-send">送出</button>
         <p class="muted" style="margin:0;font-size:13px">只要寫暱稱就好，不用寫真實姓名、電話或地址。</p>
@@ -383,7 +384,7 @@
     $("#wish").onsubmit = async e => {
       e.preventDefault(); if ($("#w-honey").value) return;
       const w = { name: $("#w-name").value.trim(), place: $("#w-place").value.trim(), msg: $("#w-msg").value.trim(), count: nGot(ORDER), at: new Date().toLocaleString("zh-TW") };
-      if (!w.name || !w.place) return;
+      if (!w.name) return; if (!w.place && !w.msg) { $("#w-need").style.display = "block"; $("#w-msg").focus(); return; }
       const btn = $("#w-send"); btn.disabled = true; btn.textContent = "送出中…";
       try { await sendWish(w); thanks(w, true); }
       catch (err) { const q = readQ(); q.push(w); writeQ(q); thanks(w, false); }
@@ -392,7 +393,7 @@
   function thanks(w, sent) {
     app.innerHTML = bar(["#/", "首頁"], "下一個地方") + `<main class="wrap"><section class="glass double hi" style="text-align:center">
       <h2>${sent ? "收到了，謝謝你！" : "先幫你存起來了"}</h2>
-      <p style="margin:0">${sent ? `我們會研究「${esc(w.place)}」有哪些鳥。` : "現在好像沒有網路。連上網路後，打開 App 就會自動送出。"}</p>
+      <p style="margin:0">${sent ? (w.place ? `我們會研究「${esc(w.place)}」有哪些鳥。` : "我們會仔細看你寫的內容。") : "現在好像沒有網路。連上網路後，打開 App 就會自動送出。"}</p>
       <button class="bk" type="button" data-go="#/">回首頁</button></section></main>`;
   }
 
