@@ -131,7 +131,7 @@ h3{font-family:var(--display);font-size:17px}
 .stamp svg{width:26px;height:26px}
 .stamp .ok{display:none}
 .stamp{background:rgba(251,248,249,.92)}
-.stamp[aria-pressed="true"]{background:var(--lead);color:#fff}
+.stamp[aria-pressed="true"]{background:var(--amber);box-shadow:0 0 0 2px #fff inset}
 .stamp[aria-pressed="true"] .ok{display:block}
 .stamp[aria-pressed="true"] .no{display:none}
 .stamp.pop{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
@@ -241,3 +241,6 @@ button.pill{cursor:pointer}
 .ptr.spin .ptr-dot{animation:ptrspin .7s linear infinite}
 @keyframes ptrspin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.ptr.spin .ptr-dot{animation:none}}
+.mchip .mini{display:inline-flex;width:20px;height:20px}
+.mchip .mini svg{width:20px;height:20px}
+.mchip .mini .no{display:none}
