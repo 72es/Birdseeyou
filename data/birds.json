@@ -1,0 +1,2515 @@
+{
+ "version": 1,
+ "birds": [
+  {
+   "id": "egret_little",
+   "zh": "小白鷺",
+   "en": "Little Egret",
+   "sci": "Egretta garzetta",
+   "cm": 60,
+   "habitat": [
+    "淺水邊"
+   ],
+   "intro": "全身白白的鷺鷥，嘴巴和腳都是黑色，只有腳趾是黃色，好像穿了一雙黃襪子。",
+   "cues": [
+    "先看腳趾：黃色的就是小白鷺",
+    "會在淺水裡一邊走、一邊用腳攪水，把小魚嚇出來再抓",
+    "春夏頭上會長出兩根長長的辮子"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/egret_little-0.jpg",
+     "label": "",
+     "by": "Bengt Nyman",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/205293169"
+    }
+   ]
+  },
+  {
+   "id": "night_heron",
+   "zh": "夜鷺",
+   "en": "Black-crowned Night Heron",
+   "sci": "Nycticorax nycticorax",
+   "cm": 58,
+   "habitat": [
+    "水邊",
+    "樹上"
+   ],
+   "intro": "晚上才出門抓魚的夜貓子。白天常常縮著脖子站著發呆、睡覺。",
+   "cues": [
+    "成鳥：黑帽子、灰翅膀、紅眼睛",
+    "幼鳥：全身褐色，身上有很多白點點",
+    "大人和小孩長得完全不一樣，可以玩找不同"
+   ],
+   "sex": "公母一樣，但大人和小孩長得很不一樣。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/night_heron-0.jpg",
+     "label": "成鳥",
+     "by": "MIMI",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/399171793"
+    },
+    {
+     "src": "img/night_heron-1.jpg",
+     "label": "幼鳥",
+     "by": "大俠",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/observations/398419111"
+    }
+   ]
+  },
+  {
+   "id": "moorhen",
+   "zh": "紅冠水雞",
+   "en": "Common Moorhen",
+   "sci": "Gallinula chloropus",
+   "cm": 33,
+   "habitat": [
+    "水面",
+    "草叢邊"
+   ],
+   "intro": "額頭紅紅的、嘴尖黃黃的，游泳的時候頭會一直往前點。",
+   "cues": [
+    "找紅色額頭和黃色嘴尖",
+    "尾巴下面有白毛，走路時會一翹一翹",
+    "腳趾很長，可以走在浮葉上"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/moorhen-0.jpg",
+     "label": "",
+     "by": "Alexis Lours",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/171773229"
+    }
+   ]
+  },
+  {
+   "id": "waterhen",
+   "zh": "白腹秧雞",
+   "en": "White-breasted Waterhen",
+   "sci": "Amaurornis phoenicurus",
+   "cm": 32,
+   "habitat": [
+    "草叢邊"
+   ],
+   "intro": "白臉、白肚子、黑背，屁股是紅棕色。叫聲又大又吵，所以有個綽號叫「苦惡鳥」。",
+   "cues": [
+    "找白臉白肚子配黑背",
+    "常常在草叢邊快步走，一緊張就鑽進去",
+    "尾巴會一直上下翹"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/waterhen-0.jpg",
+     "label": "",
+     "by": "Burak Doğansoysal",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/197696513"
+    }
+   ]
+  },
+  {
+   "id": "grebe",
+   "zh": "小鸊鷉",
+   "en": "Little Grebe",
+   "sci": "Tachybaptus ruficollis",
+   "cm": 26,
+   "habitat": [
+    "水面"
+   ],
+   "intro": "潛水高手！一下子就潛進水裡不見了，過一會兒又從別的地方冒出來。",
+   "cues": [
+    "看到圓滾滾的小鳥突然消失，就是牠",
+    "可以跟牠玩猜猜看：等一下會從哪裡冒出來？",
+    "照片是夏天的樣子，秋冬顏色會變成淡淡的褐色"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/grebe-0.jpg",
+     "label": "",
+     "by": "jjulio2000",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/194462197"
+    }
+   ]
+  },
+  {
+   "id": "kingfisher",
+   "zh": "翠鳥",
+   "en": "Common Kingfisher",
+   "sci": "Alcedo atthis",
+   "cm": 16,
+   "habitat": [
+    "水邊樹枝"
+   ],
+   "intro": "藍色背、橘色肚子，常停在水邊的枯枝上，看準了就一頭衝進水裡抓魚。",
+   "cues": [
+    "飛過去時像一道藍色閃光",
+    "會一邊飛一邊尖叫「嗶——」",
+    "牠常常回到同一根樹枝，等一下就好"
+   ],
+   "sex": "看嘴巴！公鳥嘴巴全黑；母鳥下面那片嘴是橘紅色，好像擦了口紅。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/kingfisher-0.jpg",
+     "label": "公",
+     "by": "Alexis Lours",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/98375354"
+    },
+    {
+     "src": "img/kingfisher-1.jpg",
+     "label": "母",
+     "by": "Mousam Ray",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/1669314"
+    }
+   ]
+  },
+  {
+   "id": "prinia_plain",
+   "zh": "褐頭鷦鶯",
+   "en": "Plain Prinia",
+   "sci": "Prinia inornata",
+   "cm": 15,
+   "habitat": [
+    "草叢",
+    "蘆葦"
+   ],
+   "intro": "褐色的小鳥，尾巴又長又會翹，常站在蘆葦尖上大聲叫。",
+   "cues": [
+    "找尾巴特別長的小褐鳥",
+    "喜歡停在草的最高點",
+    "肚子是淡淡的米黃色"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/prinia_plain-0.jpg",
+     "label": "",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/335903437"
+    }
+   ]
+  },
+  {
+   "id": "prinia_yb",
+   "zh": "灰頭鷦鶯",
+   "en": "Yellow-bellied Prinia",
+   "sci": "Prinia flaviventris",
+   "cm": 13,
+   "habitat": [
+    "草叢",
+    "蘆葦"
+   ],
+   "intro": "灰色的頭、白色的喉嚨、黃色的肚子。叫聲很像小貓在「喵～」。",
+   "cues": [
+    "聽到草叢裡有貓叫，先找找看是不是牠",
+    "跟褐頭鷦鶯比：牠有黃肚子",
+    "也是長尾巴、愛站在草尖上"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/prinia_yb-0.jpg",
+     "label": "",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/293220944"
+    }
+   ]
+  },
+  {
+   "id": "munia",
+   "zh": "斑文鳥",
+   "en": "Scaly-breasted Munia",
+   "sci": "Lonchura punctulata",
+   "cm": 11,
+   "habitat": [
+    "草叢"
+   ],
+   "intro": "胸口的花紋像魚鱗一樣。常常一群一起在草上吃草籽。",
+   "cues": [
+    "看胸口有沒有魚鱗花紋",
+    "嘴巴粗粗短短，專門咬種子",
+    "幼鳥全身土褐色，還沒有魚鱗紋"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/munia-0.jpg",
+     "label": "",
+     "by": "Daniel Raposo",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/161725682"
+    }
+   ]
+  },
+  {
+   "id": "sparrow",
+   "zh": "麻雀",
+   "en": "Eurasian Tree Sparrow",
+   "sci": "Passer montanus",
+   "cm": 14,
+   "habitat": [
+    "地上",
+    "樹上"
+   ],
+   "intro": "大家最熟的小鳥。臉頰上有一塊黑點，這本手冊用牠當比大小的尺。",
+   "cues": [
+    "找臉頰上的黑點",
+    "常常一群在地上跳來跳去",
+    "記住牠有多大，看別的鳥就可以比"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/sparrow-0.jpg",
+     "label": "",
+     "by": "Дмитрий Осипов",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/165351252"
+    }
+   ]
+  },
+  {
+   "id": "bulbul",
+   "zh": "白頭翁",
+   "en": "Light-vented Bulbul",
+   "sci": "Pycnonotus sinensis",
+   "cm": 19,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "頭的後面是白色的，好像白頭髮的老爺爺。叫聲很多變、很好聽。",
+   "cues": [
+    "找後腦勺的一塊白",
+    "喜歡停在樹枝和電線上",
+    "常常好幾隻一起吵吵鬧鬧"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/bulbul-0.jpg",
+     "label": "",
+     "by": "no rights reserved, uploaded by 葉子",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/photos/59227685"
+    }
+   ]
+  },
+  {
+   "id": "white_eye",
+   "zh": "綠繡眼",
+   "en": "Swinhoe's White-eye",
+   "sci": "Zosterops simplex",
+   "cm": 11,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "黃綠色的小鳥，眼睛外面有一圈白色，好像戴了白色眼鏡。",
+   "cues": [
+    "找白色眼鏡",
+    "喜歡吃花蜜和水果",
+    "常常成群在樹上鑽來鑽去"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/white_eye-0.jpg",
+     "label": "",
+     "by": "Bronze Cheung Kwok Yee",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/20010236"
+    }
+   ]
+  },
+  {
+   "id": "swallow",
+   "zh": "洋燕",
+   "en": "Pacific Swallow",
+   "sci": "Hirundo tahitica",
+   "cm": 13,
+   "habitat": [
+    "天空",
+    "水面上"
+   ],
+   "intro": "飛行高手。喉嚨是紅色的，會貼著水面低低地飛，邊飛邊抓蟲。",
+   "cues": [
+    "看水面上飛很快的小黑鳥",
+    "停下來時找紅色喉嚨",
+    "尾巴分叉比較短"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/swallow-0.jpg",
+     "label": "",
+     "by": "John D Reynolds",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/530098134"
+    }
+   ]
+  },
+  {
+   "id": "kite",
+   "zh": "黑翅鳶",
+   "en": "Black-winged Kite",
+   "sci": "Elanus caeruleus",
+   "cm": 33,
+   "habitat": [
+    "天空",
+    "枝頭"
+   ],
+   "intro": "白灰色的小老鷹，紅眼睛、黑肩膀。會在空中停住不動拍翅膀，好像直升機。",
+   "cues": [
+    "看天空有沒有一隻鳥停在半空中",
+    "找肩膀上的黑色",
+    "牠在找草地上的老鼠"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/kite-0.jpg",
+     "label": "",
+     "by": "Daniel Liepack",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/183749378"
+    }
+   ]
+  },
+  {
+   "id": "teal",
+   "zh": "小水鴨",
+   "en": "Eurasian Teal",
+   "sci": "Anas crecca",
+   "cm": 36,
+   "habitat": [
+    "水面"
+   ],
+   "intro": "冬天關渡數量最多的鴨子，也是很小的一種鴨。秋天剛從北方飛來。",
+   "cues": [
+    "公鴨：栗紅色的頭，眼睛旁邊一大片綠色，像戴了綠眼罩",
+    "飛起來時翅膀上有一塊亮綠色",
+    "10月公鴨還在換衣服，可能長得像母鴨"
+   ],
+   "sex": "公鴨有栗紅頭加綠眼罩；母鴨全身褐色斑點，比較樸素。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/teal-0.jpg",
+     "label": "公",
+     "by": "m_sato",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/256468416"
+    },
+    {
+     "src": "img/teal-1.jpg",
+     "label": "母",
+     "by": "David Martin",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/72055579"
+    }
+   ]
+  },
+  {
+   "id": "pintail",
+   "zh": "尖尾鴨",
+   "en": "Northern Pintail",
+   "sci": "Anas acuta",
+   "cm": 60,
+   "habitat": [
+    "水面"
+   ],
+   "intro": "脖子長長、身材很優雅的鴨子。公鴨的尾巴又細又尖，像一根針。",
+   "cues": [
+    "找很長的尖尾巴",
+    "公鴨脖子有一條白線往上延伸",
+    "比小水鴨大很多"
+   ],
+   "sex": "公鴨有咖啡色頭、白脖子和尖尖長尾巴；母鴨全身褐色，尾巴短一點。10 月公鴨可能還在換毛，看起來偏褐色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/pintail-0.jpg",
+     "label": "公",
+     "by": "Chen Shu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/111905503"
+    },
+    {
+     "src": "img/pintail-1.jpg",
+     "label": "母",
+     "by": "Ардатов Иван",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/344638290"
+    }
+   ]
+  },
+  {
+   "id": "shoveler",
+   "zh": "琵嘴鴨",
+   "en": "Northern Shoveler",
+   "sci": "Spatula clypeata",
+   "cm": 48,
+   "habitat": [
+    "水面"
+   ],
+   "intro": "嘴巴又扁又寬，好像一支飯匙。會把嘴貼在水面上轉圈圈，濾出小東西吃。",
+   "cues": [
+    "先看嘴巴：像鏟子就是牠",
+    "常常好幾隻一起在水面轉圈",
+    "可以跟小水鴨比嘴巴的形狀"
+   ],
+   "sex": "公鴨是綠頭、白胸、咖啡色肚子；母鴨全身褐色，但一樣有大大的鏟子嘴。10 月公鴨可能還在換毛，綠頭不一定看得到。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/shoveler-0.jpg",
+     "label": "公",
+     "by": "silvertop41",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/192011575"
+    },
+    {
+     "src": "img/shoveler-1.jpg",
+     "label": "母",
+     "by": "Connor O’Brien",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/199799314"
+    }
+   ]
+  },
+  {
+   "id": "grey_heron",
+   "zh": "蒼鷺",
+   "en": "Grey Heron",
+   "sci": "Ardea cinerea",
+   "cm": 95,
+   "habitat": [
+    "水邊"
+   ],
+   "intro": "關渡最大的鷺鷥，站起來差不多到你的肩膀。灰色的身體，黑色的眉毛一直畫到後腦。",
+   "cues": [
+    "找很大的灰色鷺鷥",
+    "常常站著一動也不動，在等魚游過來",
+    "飛的時候脖子會縮起來"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/grey_heron-0.jpg",
+     "label": "",
+     "by": "Frank Sengpiel",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/73516715"
+    }
+   ]
+  },
+  {
+   "id": "great_egret",
+   "zh": "大白鷺",
+   "en": "Great Egret",
+   "sci": "Ardea alba",
+   "cm": 90,
+   "habitat": [
+    "水邊"
+   ],
+   "intro": "白鷺家族的老大，脖子很長、彎成S形。秋冬嘴巴是黃色的。",
+   "cues": [
+    "跟小白鷺比：大白鷺大很多、腳趾不是黃色",
+    "嘴角的線一直畫到眼睛後面",
+    "走路慢慢的，很有氣質"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/great_egret-0.jpg",
+     "label": "",
+     "by": "daverowe",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/56653891"
+    }
+   ]
+  },
+  {
+   "id": "int_egret",
+   "zh": "中白鷺",
+   "en": "Intermediate Egret",
+   "sci": "Ardea intermedia",
+   "cm": 68,
+   "habitat": [
+    "水邊",
+    "草地"
+   ],
+   "intro": "大小剛好在大白鷺和小白鷺中間。嘴巴也是黃色的。",
+   "cues": [
+    "嘴角的線只到眼睛下面就停了",
+    "脖子比大白鷺短一點",
+    "來玩大、中、小白鷺比大小"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/int_egret-0.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/361991409"
+    }
+   ]
+  },
+  {
+   "id": "greenshank",
+   "zh": "青足鷸",
+   "en": "Common Greenshank",
+   "sci": "Tringa nebularia",
+   "cm": 32,
+   "habitat": [
+    "泥灘",
+    "淺水"
+   ],
+   "intro": "灰綠色長腳的水鳥，嘴巴長長的、尖端有一點點往上翹。",
+   "cues": [
+    "看腳：灰綠色",
+    "嘴巴微微上翹",
+    "飛起來會叫「丟、丟、丟」三聲"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/greenshank-0.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/188963083"
+    }
+   ]
+  },
+  {
+   "id": "wood_sandpiper",
+   "zh": "鷹斑鷸",
+   "en": "Wood Sandpiper",
+   "sci": "Tringa glareola",
+   "cm": 21,
+   "habitat": [
+    "淺水",
+    "泥灘"
+   ],
+   "intro": "背上有很多白色小點點，好像撒了星星。眼睛上面有一條白眉毛。",
+   "cues": [
+    "找背上的白點點",
+    "腳是黃綠色",
+    "常在淺水裡快快地走、到處啄"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/wood_sandpiper-0.jpg",
+     "label": "",
+     "by": "Erik Eckstein",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/323621890"
+    }
+   ]
+  },
+  {
+   "id": "common_sandpiper",
+   "zh": "磯鷸",
+   "en": "Common Sandpiper",
+   "sci": "Actitis hypoleucos",
+   "cm": 20,
+   "habitat": [
+    "水邊石頭",
+    "泥灘"
+   ],
+   "intro": "走路時屁股會一直上下擺，好像在跳舞。",
+   "cues": [
+    "找一直擺屁股的小水鳥",
+    "肩膀前面有一個白色的「勾勾」",
+    "飛的時候貼著水面，翅膀抖抖的"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/common_sandpiper-0.jpg",
+     "label": "",
+     "by": "Sergey Pisarevskiy",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/photos/405355875"
+    }
+   ]
+  },
+  {
+   "id": "lrp",
+   "zh": "小環頸鴴",
+   "en": "Little Ringed Plover",
+   "sci": "Charadrius dubius",
+   "cm": 16,
+   "habitat": [
+    "泥灘",
+    "沙地"
+   ],
+   "intro": "圓滾滾的小水鳥，眼睛外面有一圈金黃色，脖子上像繫了黑領帶。",
+   "cues": [
+    "找金黃色眼圈",
+    "跑幾步、停一下、再跑幾步",
+    "常常跟同伴分散在泥灘上"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/lrp-0.jpg",
+     "label": "",
+     "by": "Геннадий",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/28895106"
+    }
+   ]
+  },
+  {
+   "id": "kentish",
+   "zh": "東方環頸鴴",
+   "en": "Kentish Plover",
+   "sci": "Charadrius alexandrinus",
+   "cm": 16,
+   "habitat": [
+    "泥灘",
+    "沙地"
+   ],
+   "intro": "跟小環頸鴴很像，但脖子上的領圈沒有圍滿，像一條斷掉的項鍊。",
+   "cues": [
+    "看領圈有沒有在胸前斷開",
+    "沒有金黃色眼圈",
+    "也是跑跑停停"
+   ],
+   "sex": "公鳥頭頂有咖啡色、臉上黑斑比較明顯；母鳥的黑斑變成淡褐色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/kentish-0.jpg",
+     "label": "公",
+     "by": "Xochitl Zambrano",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/111171002"
+    },
+    {
+     "src": "img/kentish-1.jpg",
+     "label": "母",
+     "by": "Daniel Gaona Carrilero",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/204374243"
+    }
+   ]
+  },
+  {
+   "id": "golden_plover",
+   "zh": "太平洋金斑鴴",
+   "en": "Pacific Golden Plover",
+   "sci": "Pluvialis fulva",
+   "cm": 25,
+   "habitat": [
+    "泥灘",
+    "草地"
+   ],
+   "intro": "背上有很多金色的斑點，從很遠很遠的北方飛來過冬。",
+   "cues": [
+    "找背上的金色斑點",
+    "照片是夏天穿的衣服，秋天黑肚子會慢慢不見",
+    "常常一群站在泥灘或草地上"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/golden_plover-0.jpg",
+     "label": "",
+     "by": "Paul Donahue",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/262432635"
+    }
+   ]
+  },
+  {
+   "id": "stilt",
+   "zh": "高蹺鴴",
+   "en": "Black-winged Stilt",
+   "sci": "Himantopus himantopus",
+   "cm": 37,
+   "habitat": [
+    "淺水"
+   ],
+   "intro": "粉紅色的超長腳，好像在踩高蹺！是腳跟身體比起來最長的鳥之一。",
+   "cues": [
+    "一眼就看得到的粉紅長腳",
+    "黑翅膀、白身體",
+    "飛的時候長腳會拖在後面"
+   ],
+   "sex": "看背：公鳥的背是黑色亮亮的；母鳥的背是深咖啡色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/stilt-0.jpg",
+     "label": "公",
+     "by": "Amico Cosimo / Gond",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/110953391"
+    },
+    {
+     "src": "img/stilt-1.jpg",
+     "label": "母",
+     "by": "Wich’yanan (Jay) Limparungpatthanakij",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/121075984"
+    }
+   ]
+  },
+  {
+   "id": "shrike",
+   "zh": "紅尾伯勞",
+   "en": "Brown Shrike",
+   "sci": "Lanius cristatus",
+   "cm": 19,
+   "habitat": [
+    "枝頭"
+   ],
+   "intro": "戴著黑色眼罩的小俠盜，嘴巴尖端有鉤子，像一隻小老鷹。10月大量從北方飛來。",
+   "cues": [
+    "最容易找的候鳥：常常停在很顯眼的樹枝頂端",
+    "找黑色眼罩",
+    "會把抓到的蟲插在樹刺上，當成自己的冰箱"
+   ],
+   "sex": "公鳥眼罩比較黑、胸口乾乾淨淨；母鳥眼罩淡一點，胸口兩邊有細細的魚鱗紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/shrike-0.jpg",
+     "label": "公",
+     "by": "Константин Самодуров",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/141989075"
+    },
+    {
+     "src": "img/shrike-1.jpg",
+     "label": "母",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/33186969"
+    }
+   ]
+  },
+  {
+   "id": "white_wagtail",
+   "zh": "白鶺鴒",
+   "en": "White Wagtail",
+   "sci": "Motacilla alba",
+   "cm": 19,
+   "habitat": [
+    "地上",
+    "水邊"
+   ],
+   "intro": "黑白配色的小鳥，尾巴一直上下搖，停不下來。",
+   "cues": [
+    "找一直搖尾巴的黑白小鳥",
+    "飛的時候一高一低，像在畫波浪",
+    "喜歡在地上快快地走"
+   ],
+   "sex": "公鳥身上的黑色比較多、比較濃；母鳥的背比較灰。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/white_wagtail-0.jpg",
+     "label": "公",
+     "by": "Dr Caesar Sengupta",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/2910741"
+    },
+    {
+     "src": "img/white_wagtail-1.jpg",
+     "label": "母",
+     "by": "Taras Rodych / Тарас Родич",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/336066165"
+    }
+   ]
+  },
+  {
+   "id": "grey_wagtail",
+   "zh": "灰鶺鴒",
+   "en": "Grey Wagtail",
+   "sci": "Motacilla cinerea",
+   "cm": 19,
+   "habitat": [
+    "水邊"
+   ],
+   "intro": "灰色的背、黃色的屁股，尾巴比白鶺鴒還長，也搖得更厲害。",
+   "cues": [
+    "找黃屁股",
+    "喜歡在溪流和水溝邊",
+    "尾巴一直搖一直搖"
+   ],
+   "sex": "秋冬公母很像；春夏公鳥的喉嚨會變黑色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/grey_wagtail-0.jpg",
+     "label": "",
+     "by": "rober025",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/65603355"
+    }
+   ]
+  },
+  {
+   "id": "osprey",
+   "zh": "魚鷹",
+   "en": "Osprey",
+   "sci": "Pandion haliaetus",
+   "cm": 56,
+   "habitat": [
+    "天空",
+    "河面"
+   ],
+   "intro": "專門抓魚的老鷹。會從高空俯衝進水裡，用爪子把魚抓起來。",
+   "cues": [
+    "找白肚子、臉上有黑色眼線的大鳥",
+    "10月底以後在淡水河上空比較容易看到",
+    "抓到魚會讓魚頭朝前，減少風的阻力"
+   ],
+   "sex": "公母很像；母鳥胸口的咖啡色項鍊通常比較明顯，身體也比較大。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/osprey-0.jpg",
+     "label": "",
+     "by": "Cynthia G. Robertson",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/124693247"
+    }
+   ]
+  },
+  {
+   "id": "spoonbill",
+   "zh": "黑面琵鷺",
+   "en": "Black-faced Spoonbill",
+   "sci": "Platalea minor",
+   "cm": 75,
+   "habitat": [
+    "淺水"
+   ],
+   "intro": "黑色的臉、飯匙一樣的嘴，在水裡左右掃來掃去找魚。2026 年全世界只數到大約 7,700 隻，超過六成在台灣過冬。",
+   "cues": [
+    "找黑臉和飯匙嘴",
+    "大部分在台南過冬，偶爾會有幾隻路過關渡",
+    "秋冬全身白色；春天頭上和胸口會長出黃色羽毛"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/spoonbill-0.jpg",
+     "label": "",
+     "by": "Hong",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/106459100"
+    }
+   ]
+  },
+  {
+   "id": "stork",
+   "zh": "東方白鸛",
+   "en": "Oriental Stork",
+   "sci": "Ciconia boyciana",
+   "cm": 115,
+   "habitat": [
+    "淺水",
+    "草地"
+   ],
+   "intro": "非常大的白色大鳥，站起來跟你差不多高！全世界只剩幾千隻。",
+   "cues": [
+    "找紅色眼圈和又粗又長的黑嘴",
+    "翅膀尾端是黑色",
+    "看到牠就像中樂透"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/stork-0.jpg",
+     "label": "",
+     "by": "abujudy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/149406004"
+    }
+   ]
+  },
+  {
+   "id": "harrier",
+   "zh": "澤鵟",
+   "en": "Eastern Marsh Harrier",
+   "sci": "Circus spilonotus",
+   "cm": 50,
+   "habitat": [
+    "蘆葦上空"
+   ],
+   "intro": "貼著蘆葦低低、慢慢地飛，翅膀會抬成一個V字。冬天在關渡巡邏抓獵物。",
+   "cues": [
+    "找低空慢飛、翅膀成V字的大鳥",
+    "10月底以後比較有機會",
+    "常常在同一片濕地來回巡邏"
+   ],
+   "sex": "這張是母鳥：全身深咖啡色，頭比較淡。公鳥是黑、白、灰三色，頭和背是黑的。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/harrier-0.jpg",
+     "label": "母",
+     "by": "Ian Dugdale",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/303423003"
+    }
+   ]
+  },
+  {
+   "id": "painted_snipe",
+   "zh": "彩鷸",
+   "en": "Greater Painted-snipe",
+   "sci": "Rostratula benghalensis",
+   "cm": 25,
+   "habitat": [
+    "草叢邊",
+    "淺水"
+   ],
+   "intro": "角色互換的鳥！媽媽比較漂亮，生完蛋就交給爸爸孵蛋、帶寶寶。",
+   "cues": [
+    "眼睛周圍有白圈，像戴了眼鏡",
+    "很會躲，常在草叢邊不動",
+    "要很有耐心慢慢找"
+   ],
+   "sex": "跟大部分鳥相反：母鳥比較鮮豔，脖子是紅褐色；公鳥灰褐色、背上有金黃色斑點。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/painted_snipe-0.jpg",
+     "label": "公",
+     "by": "雲一百香果",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/258941090"
+    },
+    {
+     "src": "img/painted_snipe-1.jpg",
+     "label": "母",
+     "by": "Steven Easley",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/6143789"
+    }
+   ]
+  },
+  {
+   "id": "yellow_bittern",
+   "zh": "黃小鷺",
+   "en": "Yellow Bittern",
+   "sci": "Ixobrychus sinensis",
+   "cm": 36,
+   "habitat": [
+    "蘆葦"
+   ],
+   "intro": "偽裝大師。遇到危險時會把嘴巴朝天、伸直身體，假裝自己是一根蘆葦。",
+   "cues": [
+    "仔細看蘆葦裡有沒有一根怪怪的蘆葦",
+    "身體是黃褐色",
+    "有時候還會跟著風一起搖"
+   ],
+   "sex": "公鳥頭頂是黑色，身上比較乾淨；母鳥頭頂褐色，身上有很多條紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/yellow_bittern-0.jpg",
+     "label": "公",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/389963515"
+    },
+    {
+     "src": "img/yellow_bittern-1.jpg",
+     "label": "母",
+     "by": "張智偉(Chang, Jack, Chih-Wei)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/16584327"
+    }
+   ]
+  },
+  {
+   "id": "cinnamon_bittern",
+   "zh": "栗小鷺",
+   "en": "Cinnamon Bittern",
+   "sci": "Ixobrychus cinnamomeus",
+   "cm": 40,
+   "habitat": [
+    "蘆葦",
+    "草叢"
+   ],
+   "intro": "全身栗紅色的小鷺鷥，也很會躲在草叢裡。",
+   "cues": [
+    "找一整隻紅褐色的鳥",
+    "常在草叢上方短短地飛一下就落下",
+    "比黃小鷺顏色深"
+   ],
+   "sex": "這張是公鳥：背是均勻的栗紅色。母鳥的背是深褐色有白點，胸口有直條紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/cinnamon_bittern-0.jpg",
+     "label": "公",
+     "by": "Samuel Lee",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/78449415"
+    }
+   ]
+  },
+  {
+   "id": "peregrine",
+   "zh": "遊隼",
+   "en": "Peregrine Falcon",
+   "sci": "Falco peregrinus",
+   "cm": 45,
+   "habitat": [
+    "天空"
+   ],
+   "intro": "世界上最快的動物！從高空往下衝的時候，時速可以超過300公里。",
+   "cues": [
+    "臉上有黑色的「鬍子」",
+    "有時在河口追鴨子",
+    "看到一群鴨子突然全部飛起來，抬頭找找牠"
+   ],
+   "sex": "公母長得很像，但母鳥明顯比公鳥大一號。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/peregrine-0.jpg",
+     "label": "",
+     "by": "nautiboy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/212499566"
+    }
+   ]
+  },
+  {
+   "id": "chinese_egret",
+   "zh": "唐白鷺",
+   "en": "Chinese Egret",
+   "sci": "Egretta eulophotes",
+   "cm": 68,
+   "habitat": [
+    "泥灘",
+    "淺水"
+   ],
+   "intro": "全世界很少的白鷺，長得跟小白鷺很像，連大人都很難分。",
+   "cues": [
+    "照片是春夏的樣子：嘴巴黃橘色、腳黑色、腳趾黃色",
+    "秋天嘴巴會變暗、腳變黃綠色，更難認",
+    "這是鳥友等級的挑戰，看到要記下來"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/chinese_egret-0.jpg",
+     "label": "",
+     "by": "Анна Голубева",
+     "license": "CC BY-NC-ND",
+     "url": "https://www.inaturalist.org/photos/285316496"
+    }
+   ]
+  },
+  {
+   "id": "yuhina",
+   "zh": "冠羽畫眉",
+   "en": "Taiwan Yuhina",
+   "sci": "Yuhina brunneiceps",
+   "cm": 13,
+   "habitat": [
+    "樹上",
+    "花樹"
+   ],
+   "intro": "頭上頂著一撮尖尖的龐克頭，常常一大群在花樹上吵吵鬧鬧。",
+   "cues": [
+    "先找頭上的尖冠羽",
+    "臉上有黑色的八字鬍線",
+    "叫聲聽起來像在說「吐米酒」"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/yuhina-0.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/348281616"
+    }
+   ]
+  },
+  {
+   "id": "sibia",
+   "zh": "白耳畫眉",
+   "en": "White-eared Sibia",
+   "sci": "Heterophasia auricularis",
+   "cm": 23,
+   "habitat": [
+    "樹上",
+    "花樹"
+   ],
+   "intro": "眼睛後面拖著一條白色長眉，好像長了白耳朵，屁股是橘色的。",
+   "cues": [
+    "找眼睛後面的白色長線",
+    "飛走時看屁股的一點橘色",
+    "很愛吃山桐子果實和櫻花蜜"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/sibia-0.jpg",
+     "label": "",
+     "by": "alderchang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/327476663"
+    }
+   ]
+  },
+  {
+   "id": "barwing",
+   "zh": "紋翼畫眉",
+   "en": "Taiwan Barwing",
+   "sci": "Actinodura morrisoniana",
+   "cm": 18,
+   "habitat": [
+    "樹上",
+    "藤蔓"
+   ],
+   "intro": "咖啡色的鳥，翅膀和尾巴上有一條一條細細的黑白橫紋。",
+   "cues": [
+    "看翅膀上的橫紋",
+    "頭頂是栗色，有一點點蓬起來",
+    "常在樹幹和藤蔓之間鑽來鑽去"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/barwing-0.jpg",
+     "label": "",
+     "by": "呂一起(Lyu yi-chi)",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/40627182"
+    }
+   ]
+  },
+  {
+   "id": "laughingthrush",
+   "zh": "台灣噪眉",
+   "en": "White-whiskered Laughingthrush",
+   "sci": "Trochalopteron morrisonianum",
+   "cm": 25,
+   "habitat": [
+    "步道",
+    "地上"
+   ],
+   "intro": "以前叫「金翼白眉」。翅膀是金黃色的，臉上有白眉毛和白鬍子，一點都不怕人。",
+   "cues": [
+    "找金色翅膀",
+    "臉上有白色的眉毛和鬍子",
+    "常在步道、停車場邊撿東西吃，記得不要餵牠"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/laughingthrush-0.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/364487516"
+    }
+   ]
+  },
+  {
+   "id": "green_tit",
+   "zh": "青背山雀",
+   "en": "Green-backed Tit",
+   "sci": "Parus monticolus",
+   "cm": 12,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "綠色的背、黃色的肚子，胸前繫著一條黑色領帶。",
+   "cues": [
+    "找胸前的黑領帶",
+    "臉頰是白色的",
+    "翅膀上有白色小斑點"
+   ],
+   "sex": "公鳥的領帶比較寬、比較長；母鳥的領帶比較細。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/green_tit-0.jpg",
+     "label": "",
+     "by": "祐",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/271434322"
+    }
+   ]
+  },
+  {
+   "id": "coal_tit",
+   "zh": "煤山雀",
+   "en": "Coal Tit",
+   "sci": "Periparus ater",
+   "cm": 11,
+   "habitat": [
+    "針葉樹"
+   ],
+   "intro": "黑頭白臉頰，頭上有一小撮短冠羽，像一隻煤炭小精靈。",
+   "cues": [
+    "後腦勺有一塊白色",
+    "身體很小，在松針之間跳得很快",
+    "常跟其他山雀混在一起"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/coal_tit-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/378261090"
+    }
+   ]
+  },
+  {
+   "id": "bushtit",
+   "zh": "紅頭山雀",
+   "en": "Black-throated Bushtit",
+   "sci": "Aegithalos concinnus",
+   "cm": 10,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "栗紅色的頭頂、黑色眼罩，像一顆戴著面具的長尾巴小毛球。",
+   "cues": [
+    "圓圓的身體配長尾巴",
+    "喉嚨中間有一塊黑色",
+    "常常一整群一起飛過去，一直嘰嘰叫"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/bushtit-0.jpg",
+     "label": "",
+     "by": "Benoît Segerer",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/92928557"
+    }
+   ]
+  },
+  {
+   "id": "nuthatch",
+   "zh": "茶腹鳾",
+   "en": "Eurasian Nuthatch",
+   "sci": "Sitta europaea",
+   "cm": 13,
+   "habitat": [
+    "樹幹"
+   ],
+   "intro": "會頭朝下、沿著樹幹往下走的鳥！",
+   "cues": [
+    "找在樹幹上倒著走的小鳥",
+    "藍灰色背、茶色肚子、黑色過眼線",
+    "嘴巴尖尖的，像一把小鑿子"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/nuthatch-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255761273"
+    }
+   ]
+  },
+  {
+   "id": "nutcracker",
+   "zh": "星鴉",
+   "en": "Spotted Nutcracker",
+   "sci": "Nucifraga caryocatactes",
+   "cm": 33,
+   "habitat": [
+    "樹頂",
+    "針葉樹"
+   ],
+   "intro": "全身咖啡色，佈滿白色斑點，好像滿天星星。愛吃松子，還會把種子藏起來過冬。",
+   "cues": [
+    "找身上都是白點的大鳥",
+    "常停在松樹最頂端",
+    "叫聲沙沙的「嘎——嘎——」"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/nutcracker-0.jpg",
+     "label": "",
+     "by": "Игорь Щербаков",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/72810702"
+    }
+   ]
+  },
+  {
+   "id": "flowerpecker",
+   "zh": "紅胸啄花",
+   "en": "Fire-breasted Flowerpecker",
+   "sci": "Dicaeum ignipectus",
+   "cm": 8,
+   "habitat": [
+    "樹頂"
+   ],
+   "intro": "台灣最小的鳥之一，比綠繡眼還小。",
+   "cues": [
+    "公鳥胸口有一點紅",
+    "喜歡吃寄生植物的小果實",
+    "常停在高高的樹梢，要抬頭找"
+   ],
+   "sex": "公鳥是藍黑色的背、胸口有一點紅；母鳥全身灰綠色，很樸素。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/flowerpecker-0.jpg",
+     "label": "公",
+     "by": "alderchang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/325424743"
+    },
+    {
+     "src": "img/flowerpecker-1.jpg",
+     "label": "母",
+     "by": "abujudy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/148605832"
+    }
+   ]
+  },
+  {
+   "id": "yellow_tit",
+   "zh": "黃山雀",
+   "en": "Taiwan Yellow Tit",
+   "sci": "Machlolophus holsti",
+   "cm": 13,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "黃色的身體配上藍黑色的翅膀，頭上有一撮黑色冠羽。",
+   "cues": [
+    "黃臉配黑冠羽",
+    "翅膀上有白色斑點",
+    "常在大樹的上層找蟲吃"
+   ],
+   "sex": "公鳥肚子下方有一塊黑色；母鳥沒有，顏色也比較淡。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/yellow_tit-0.jpg",
+     "label": "",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/263267545"
+    }
+   ]
+  },
+  {
+   "id": "bush_robin",
+   "zh": "栗背林鴝",
+   "en": "Collared Bush Robin",
+   "sci": "Tarsiger johnstoniae",
+   "cm": 12,
+   "habitat": [
+    "步道",
+    "地上"
+   ],
+   "intro": "公鳥黑臉白眉，肩膀到胸口有一圈栗紅色，好像披了一件披肩。",
+   "cues": [
+    "常在步道邊的地上跳",
+    "尾巴會一直抖",
+    "不太怕人，慢慢等牠就會出現"
+   ],
+   "sex": "公鳥有黑臉和栗紅色披肩；母鳥是橄欖褐色，比較樸素。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/bush_robin-0.jpg",
+     "label": "公",
+     "by": "abujudy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/258350000"
+    },
+    {
+     "src": "img/bush_robin-1.jpg",
+     "label": "母",
+     "by": "Licheng Shih",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/94299867"
+    }
+   ]
+  },
+  {
+   "id": "rosefinch",
+   "zh": "台灣朱雀",
+   "en": "Taiwan Rosefinch",
+   "sci": "Carpodacus formosanus",
+   "cm": 16,
+   "habitat": [
+    "步道",
+    "地上"
+   ],
+   "intro": "公鳥是一整隻的酒紅色，眉毛閃著粉紅色的光。冬天常下到停車場和步道邊吃草籽。",
+   "cues": [
+    "找酒紅色的小鳥",
+    "嘴巴短短厚厚，專門咬種子",
+    "常一小群在地上吃東西"
+   ],
+   "sex": "公鳥全身酒紅色；母鳥是咖啡色，身上有很多深色條紋。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/rosefinch-0.jpg",
+     "label": "公",
+     "by": "Kinmatsu Lin",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/28302654"
+    },
+    {
+     "src": "img/rosefinch-1.jpg",
+     "label": "母",
+     "by": "hsiang-ying",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/58317733"
+    }
+   ]
+  },
+  {
+   "id": "flamecrest",
+   "zh": "火冠戴菊鳥",
+   "en": "Flamecrest",
+   "sci": "Regulus goodfellowi",
+   "cm": 9,
+   "habitat": [
+    "針葉樹"
+   ],
+   "intro": "台灣最小的鳥！頭頂有一道橘黃色的火焰。",
+   "cues": [
+    "臉上黑白相間",
+    "身體是黃綠色",
+    "在杉木、鐵杉的針葉間忙著抓蟲，動作很快"
+   ],
+   "sex": "公鳥頭頂中間是橘紅色；母鳥頭頂是黃色。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/flamecrest-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/254510981"
+    }
+   ]
+  },
+  {
+   "id": "niltava",
+   "zh": "黃腹琉璃",
+   "en": "Vivid Niltava",
+   "sci": "Niltava vivida",
+   "cm": 18,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "公鳥是寶藍色的背加上橘色的肚子，非常鮮豔。",
+   "cues": [
+    "常停在一根樹枝上很久不動",
+    "叫聲像在吹口哨",
+    "喜歡中海拔的森林"
+   ],
+   "sex": "公鳥是寶藍色背、橘色肚子；母鳥全身灰褐色，很低調。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/niltava-0.jpg",
+     "label": "公",
+     "by": "林棋欽",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/278695190"
+    },
+    {
+     "src": "img/niltava-1.jpg",
+     "label": "母",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/336192187"
+    }
+   ]
+  },
+  {
+   "id": "wt_robin",
+   "zh": "白尾鴝",
+   "en": "White-tailed Robin",
+   "sci": "Myiomela leucura",
+   "cm": 18,
+   "habitat": [
+    "森林底層"
+   ],
+   "intro": "公鳥全身深藍色，打開尾巴時會露出白色的條紋。",
+   "cues": [
+    "常在森林底下陰暗的地方",
+    "等牠張開尾巴，找白色的邊",
+    "叫聲很好聽"
+   ],
+   "sex": "公鳥是深藍色；母鳥是咖啡色，尾巴同樣有白色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/wt_robin-0.jpg",
+     "label": "公",
+     "by": "曾郁哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/267629311"
+    },
+    {
+     "src": "img/wt_robin-1.jpg",
+     "label": "母",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/102171131"
+    }
+   ]
+  },
+  {
+   "id": "bullfinch",
+   "zh": "灰鷽",
+   "en": "Taiwan Bullfinch",
+   "sci": "Pyrrhula owstoni",
+   "cm": 15,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "胖胖的灰色小鳥，嘴巴又短又厚，像一顆小饅頭。",
+   "cues": [
+    "臉的前面是黑色",
+    "常一小群一起吃種子和花苞",
+    "叫聲輕輕的，像在吹笛子"
+   ],
+   "sex": "公母很像，差別很細微。先認出牠就很棒了。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/bullfinch-0.jpg",
+     "label": "",
+     "by": "oliver_wu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/267496944"
+    }
+   ]
+  },
+  {
+   "id": "wb_woodpecker",
+   "zh": "大赤啄木",
+   "en": "White-backed Woodpecker",
+   "sci": "Dendrocopos leucotos",
+   "cm": 26,
+   "habitat": [
+    "樹幹"
+   ],
+   "intro": "黑白花紋的大啄木鳥，屁股是紅色的。",
+   "cues": [
+    "聽「叩叩叩」的敲樹聲",
+    "找抓在樹幹上的鳥",
+    "飛的時候一高一低"
+   ],
+   "sex": "看頭頂：公鳥是紅色；母鳥是黑色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/wb_woodpecker-0.jpg",
+     "label": "公",
+     "by": "Павел Кунгуров",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/397779583"
+    },
+    {
+     "src": "img/wb_woodpecker-1.jpg",
+     "label": "母",
+     "by": "Ahvenainen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/139217250"
+    }
+   ]
+  },
+  {
+   "id": "mikado",
+   "zh": "帝雉",
+   "en": "Mikado Pheasant",
+   "sci": "Syrmaticus mikado",
+   "cm": 87,
+   "habitat": [
+    "林道邊"
+   ],
+   "intro": "台灣的國寶鳥，千元鈔票上就有牠！",
+   "cues": [
+    "清晨或起霧時，常在林道邊散步",
+    "公鳥紅臉、深藍黑色，長尾巴有白色橫紋",
+    "開車要很慢，牠常走到路上"
+   ],
+   "sex": "公鳥深藍黑色帶金屬光澤、有紅臉；母鳥咖啡色有斑點，尾巴比較短。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/mikado-0.jpg",
+     "label": "公",
+     "by": "alderchang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/326322389"
+    },
+    {
+     "src": "img/mikado-1.jpg",
+     "label": "母",
+     "by": "David Tan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/220406101"
+    }
+   ]
+  },
+  {
+   "id": "swinhoe",
+   "zh": "藍腹鷴",
+   "en": "Swinhoe's Pheasant",
+   "sci": "Lophura swinhoii",
+   "cm": 72,
+   "habitat": [
+    "林道邊",
+    "森林底層"
+   ],
+   "intro": "公鳥藍紫色的身體、白背、白尾巴、紅臉，像一位穿禮服的紳士。",
+   "cues": [
+    "清晨在林道邊比較有機會",
+    "安靜、慢慢地走或開車",
+    "看到了不要追，讓牠自己走開"
+   ],
+   "sex": "公鳥是藍紫色配白背白尾；母鳥咖啡色，身上有很多V字斑。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/swinhoe-0.jpg",
+     "label": "公",
+     "by": "Gaozi Chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/34236926"
+    },
+    {
+     "src": "img/swinhoe-1.jpg",
+     "label": "母",
+     "by": "Attila Steiner",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/64967476"
+    }
+   ]
+  },
+  {
+   "id": "hill_partridge",
+   "zh": "深山竹雞",
+   "en": "Taiwan Partridge",
+   "sci": "Arborophila crudigularis",
+   "cm": 25,
+   "habitat": [
+    "森林底層"
+   ],
+   "intro": "很會躲的山雞，常常聽到聲音卻看不到牠。",
+   "cues": [
+    "紅色的腳",
+    "喉嚨黑白相間",
+    "叫聲會越來越大聲、越來越快"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/hill_partridge-0.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/30542122"
+    }
+   ]
+  },
+  {
+   "id": "owlet",
+   "zh": "鵂鶹",
+   "en": "Collared Owlet",
+   "sci": "Taenioptynx brodiei",
+   "cm": 16,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "台灣最小的貓頭鷹，白天也會出來。後腦勺有一對假眼睛，用來嚇唬敵人！",
+   "cues": [
+    "很多小鳥圍著一棵樹吵，可能就是在罵牠",
+    "白天也會停在樹枝上",
+    "叫聲是「嘟——嘟嘟——嘟」四聲"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/owlet-0.jpg",
+     "label": "",
+     "by": "atain",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/154551816"
+    }
+   ]
+  },
+  {
+   "id": "hawk_eagle",
+   "zh": "熊鷹",
+   "en": "Mountain Hawk-Eagle",
+   "sci": "Nisaetus nipalensis",
+   "cm": 75,
+   "habitat": [
+    "天空"
+   ],
+   "intro": "台灣最大的老鷹之一，翅膀又寬又大，像一塊門板。",
+   "cues": [
+    "抬頭找翅膀下有很多橫紋的大鷹",
+    "頭後面有短短的冠羽",
+    "魯凱族和排灣族把牠的羽毛當成榮耀的象徵"
+   ],
+   "sex": "公母很像，母鳥比較大。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/hawk_eagle-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255831303"
+    }
+   ]
+  },
+  {
+   "id": "black_eagle",
+   "zh": "林鵰",
+   "en": "Black Eagle",
+   "sci": "Ictinaetus malaiensis",
+   "cm": 70,
+   "habitat": [
+    "天空"
+   ],
+   "intro": "全身黑色的大老鷹，常在森林上空低低地、慢慢地飛。",
+   "cues": [
+    "全身黑色，翅膀尖的羽毛像張開的手指",
+    "嘴巴根部和腳是黃色",
+    "會貼著樹冠找鳥巢"
+   ],
+   "sex": "公母很像，母鳥比較大。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/black_eagle-0.jpg",
+     "label": "",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/observations/66079841"
+    }
+   ]
+  },
+  {
+   "id": "spotted_dove",
+   "zh": "珠頸斑鳩",
+   "en": "Spotted Dove",
+   "sci": "Spilopelia chinensis",
+   "cm": 30,
+   "habitat": [
+    "地上",
+    "草地"
+   ],
+   "intro": "脖子後面圍著一圈黑底白點的「珍珠項鍊」。",
+   "cues": [
+    "找脖子上的珍珠項鍊",
+    "常在地上一邊走一邊點頭",
+    "飛起來時，尾巴邊緣是白色的"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/spotted_dove-0.jpg",
+     "label": "",
+     "by": "Daval Davis",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/256814502"
+    }
+   ]
+  },
+  {
+   "id": "red_dove",
+   "zh": "紅鳩",
+   "en": "Red Turtle Dove",
+   "sci": "Streptopelia tranquebarica",
+   "cm": 23,
+   "habitat": [
+    "電線",
+    "地上"
+   ],
+   "intro": "比珠頸斑鳩小一號，脖子後面有一條細細的黑線。",
+   "cues": [
+    "常停在電線上",
+    "找脖子後面的黑色細線",
+    "身體比其他鴿子小"
+   ],
+   "sex": "公鳥是磚紅色、頭是灰色；母鳥全身灰褐色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/red_dove-0.jpg",
+     "label": "公",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/10505911"
+    },
+    {
+     "src": "img/red_dove-1.jpg",
+     "label": "母",
+     "by": "Ping-Yi Chao",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/99185875"
+    }
+   ]
+  },
+  {
+   "id": "rock_dove",
+   "zh": "野鴿",
+   "en": "Rock Dove",
+   "sci": "Columba livia",
+   "cm": 32,
+   "habitat": [
+    "廣場",
+    "屋頂"
+   ],
+   "intro": "城市裡最常見的鴿子，脖子會閃著綠色和紫色的光。",
+   "cues": [
+    "常一大群在廣場上走",
+    "顏色有很多種",
+    "牠們的祖先是人類養的鴿子"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/rock_dove-0.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/144855386"
+    }
+   ]
+  },
+  {
+   "id": "myna",
+   "zh": "白尾八哥",
+   "en": "Javan Myna",
+   "sci": "Acridotheres javanicus",
+   "cm": 25,
+   "habitat": [
+    "草地",
+    "電線"
+   ],
+   "intro": "全身黑色、黃嘴黃腳，尾巴下面是白色。牠原本不是台灣的鳥，是從外國被帶來的。",
+   "cues": [
+    "額頭有一小撮豎起來的毛",
+    "飛起來時翅膀有大塊白斑",
+    "台灣原本的八哥現在反而變少了"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": true,
+   "photos": [
+    {
+     "src": "img/myna-0.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/336791684"
+    }
+   ]
+  },
+  {
+   "id": "treepie",
+   "zh": "樹鵲",
+   "en": "Grey Treepie",
+   "sci": "Dendrocitta formosae",
+   "cm": 36,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "灰色的頭、褐色的身體，配上長長的黑尾巴。",
+   "cues": [
+    "找長尾巴、灰頭的鳥",
+    "飛起來翅膀上有白色斑塊",
+    "叫聲很多變，有時候很吵"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/treepie-0.jpg",
+     "label": "",
+     "by": "hsiehcl",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/15992608"
+    }
+   ]
+  },
+  {
+   "id": "tiger_bittern",
+   "zh": "黑冠麻鷺",
+   "en": "Malayan Night Heron",
+   "sci": "Gorsachius melanolophus",
+   "cm": 49,
+   "habitat": [
+    "公園草地"
+   ],
+   "intro": "公園草地上最容易看到的大鳥。常常站著一動也不動，假裝自己是一根木頭。",
+   "cues": [
+    "在草地上走走停停，找蚯蚓吃",
+    "遇到危險會把脖子伸直不動",
+    "以前是稀有鳥，現在台北的公園到處都有"
+   ],
+   "sex": "公母一樣，但大人和小孩長得很不一樣：成鳥是栗褐色、頭頂黑；幼鳥是灰色、滿身白點。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/tiger_bittern-0.jpg",
+     "label": "成鳥",
+     "by": "Philipp",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/291060354"
+    },
+    {
+     "src": "img/tiger_bittern-1.jpg",
+     "label": "幼鳥",
+     "by": "水月山中",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/217206413"
+    }
+   ]
+  },
+  {
+   "id": "barbet",
+   "zh": "五色鳥",
+   "en": "Taiwan Barbet",
+   "sci": "Psilopogon nuchalis",
+   "cm": 20,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "頭上有紅、黃、藍、黑、綠五種顏色。叫聲像在敲木魚「郭、郭、郭」，所以也叫「花和尚」。",
+   "cues": [
+    "綠色身體很難找，先聽聲音",
+    "會在枯樹幹上挖洞做窩",
+    "嘴巴又粗又大"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/barbet-0.jpg",
+     "label": "",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/201658317"
+    }
+   ]
+  },
+  {
+   "id": "blue_magpie",
+   "zh": "台灣藍鵲",
+   "en": "Taiwan Blue Magpie",
+   "sci": "Urocissa caerulea",
+   "cm": 64,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "藍色的長尾巴、紅嘴紅腳，是台灣最有名的特有種鳥。",
+   "cues": [
+    "常一家人排成一列飛過去，叫做「長尾陣」",
+    "夏天很護巢，不要靠近牠的巢",
+    "叫聲又大又沙啞"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/blue_magpie-0.jpg",
+     "label": "",
+     "by": "Frank Lin",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/65111934"
+    }
+   ]
+  },
+  {
+   "id": "goshawk",
+   "zh": "鳳頭蒼鷹",
+   "en": "Crested Goshawk",
+   "sci": "Lophospiza trivirgata",
+   "cm": 45,
+   "habitat": [
+    "樹上",
+    "天空"
+   ],
+   "intro": "住在城市公園裡的老鷹，會在大樹上築巢。",
+   "cues": [
+    "喉嚨中間有一條黑線",
+    "飛的時候，屁股兩邊的白毛像穿了白色短褲",
+    "母鳥比公鳥大很多"
+   ],
+   "sex": "成鳥的胸口是褐色橫紋；幼鳥的胸口是直直的縱紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/goshawk-0.jpg",
+     "label": "成鳥",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/36250976"
+    },
+    {
+     "src": "img/goshawk-1.jpg",
+     "label": "幼鳥",
+     "by": "Hong",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/13377265"
+    }
+   ]
+  },
+  {
+   "id": "drongo",
+   "zh": "大卷尾",
+   "en": "Black Drongo",
+   "sci": "Dicrurus macrocercus",
+   "cm": 29,
+   "habitat": [
+    "電線"
+   ],
+   "intro": "全身黑亮，尾巴分叉往外捲，台語叫「烏秋」。",
+   "cues": [
+    "常停在電線和路燈上",
+    "尾巴像魚尾一樣分叉",
+    "很勇敢，會趕走靠近鳥巢的老鷹和烏鴉"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/drongo-0.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/15717662"
+    }
+   ]
+  },
+  {
+   "id": "black_bulbul",
+   "zh": "紅嘴黑鵯",
+   "en": "Black Bulbul",
+   "sci": "Hypsipetes leucocephalus",
+   "cm": 24,
+   "habitat": [
+    "樹頂"
+   ],
+   "intro": "黑色的身體、紅嘴紅腳，叫聲很像小貓「咪～」。",
+   "cues": [
+    "常一群停在高高的樹上",
+    "頭上的毛有點亂亂的",
+    "聽到貓叫聲，先往樹上找"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/black_bulbul-0.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/182803678"
+    }
+   ]
+  },
+  {
+   "id": "magpie_robin",
+   "zh": "鵲鴒",
+   "en": "Oriental Magpie-Robin",
+   "sci": "Copsychus saularis",
+   "cm": 21,
+   "habitat": [
+    "矮牆",
+    "屋頂"
+   ],
+   "intro": "黑白配色，尾巴常常翹得高高的，唱歌很好聽。",
+   "cues": [
+    "喜歡停在矮牆和屋頂上",
+    "尾巴一下翹起來、一下放下",
+    "早上常站在高處唱歌"
+   ],
+   "sex": "公鳥黑白分明；母鳥的黑色部分換成灰色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/magpie_robin-0.jpg",
+     "label": "公",
+     "by": "曾郁哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/183809923"
+    },
+    {
+     "src": "img/magpie_robin-1.jpg",
+     "label": "母",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/264675953"
+    }
+   ]
+  },
+  {
+   "id": "swift",
+   "zh": "小雨燕",
+   "en": "House Swift",
+   "sci": "Apus nipalensis",
+   "cm": 15,
+   "habitat": [
+    "天空",
+    "橋下"
+   ],
+   "intro": "常在橋下和大樓屋簷下做窩，一大群在天空繞圈圈。",
+   "cues": [
+    "屁股上有一塊白色",
+    "尾巴分叉很淺",
+    "腳很短，幾乎不會停在地上"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/swift-0.jpg",
+     "label": "",
+     "by": "Ben Tsai蔡維哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/124357585"
+    }
+   ]
+  },
+  {
+   "id": "daurian",
+   "zh": "黃尾鴝",
+   "en": "Daurian Redstart",
+   "sci": "Phoenicurus auroreus",
+   "cm": 15,
+   "habitat": [
+    "矮樹",
+    "欄杆"
+   ],
+   "intro": "冬天才來的嬌客，翅膀上有一塊白斑，好像別了一個白色名牌。",
+   "cues": [
+    "停在低矮的枝頭，尾巴一直抖",
+    "常一隻固定守住一塊地盤",
+    "找翅膀上的白色名牌"
+   ],
+   "sex": "公鳥灰頭、黑臉、橘紅肚子；母鳥淡咖啡色，一樣有白色翼斑和橘色尾巴。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/daurian-0.jpg",
+     "label": "公",
+     "by": "chiuluan",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/64220842"
+    },
+    {
+     "src": "img/daurian-1.jpg",
+     "label": "母",
+     "by": "Shang-Kwei Wang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/268018084"
+    }
+   ]
+  },
+  {
+   "id": "brown_thrush",
+   "zh": "赤腹鶇",
+   "en": "Brown-headed Thrush",
+   "sci": "Turdus chrysolaus",
+   "cm": 22,
+   "habitat": [
+    "公園草地"
+   ],
+   "intro": "冬天在公園草地上跳一跳、停一下，突然拉出一條蚯蚓。肚子兩邊是橘色的。",
+   "cues": [
+    "找肚子兩側的橘色",
+    "在草地上跳幾步就停下來聽",
+    "常躲在樹下陰影裡"
+   ],
+   "sex": "公鳥的頭是深灰褐色；母鳥的頭比較淡、喉嚨偏白。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/brown_thrush-0.jpg",
+     "label": "公",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/98211136"
+    },
+    {
+     "src": "img/brown_thrush-1.jpg",
+     "label": "母",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/98211137"
+    }
+   ]
+  },
+  {
+   "id": "pale_thrush",
+   "zh": "白腹鶇",
+   "en": "Pale Thrush",
+   "sci": "Turdus pallidus",
+   "cm": 23,
+   "habitat": [
+    "公園草地"
+   ],
+   "intro": "冬天公園的常客，全身灰褐色，飛起來時尾巴兩邊的尖端是白色的。",
+   "cues": [
+    "跟赤腹鶇比：牠的肚子沒有橘色",
+    "飛走時看尾巴的白色尖端",
+    "常在落葉堆裡翻東西吃"
+   ],
+   "sex": "公鳥的頭偏灰；母鳥的頭偏咖啡色、喉嚨有細紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/pale_thrush-0.jpg",
+     "label": "",
+     "by": "Shainy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/154086050"
+    }
+   ]
+  },
+  {
+   "id": "scops",
+   "zh": "領角鴞",
+   "en": "Collared Scops Owl",
+   "sci": "Otus lettia",
+   "cm": 24,
+   "habitat": [
+    "樹洞",
+    "樹上"
+   ],
+   "intro": "住在城市公園裡的貓頭鷹，頭上有兩支小耳朵，其實是羽毛。",
+   "cues": [
+    "晚上聽低低的「嗚——嗚——」",
+    "白天躲在樹洞或濃密的樹叢裡睡覺",
+    "看到牠要安靜，不要用閃光燈"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/scops-0.jpg",
+     "label": "",
+     "by": "trestailer",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/381083173"
+    }
+   ]
+  },
+  {
+   "id": "cattle_egret",
+   "zh": "黃頭鷺",
+   "en": "Eastern Cattle Egret",
+   "sci": "Ardea coromanda",
+   "cm": 50,
+   "habitat": [
+    "草地",
+    "田地"
+   ],
+   "intro": "春夏時頭和脖子會變成橘黃色，喜歡跟在牛或割草機後面抓蟲。",
+   "cues": [
+    "嘴巴比較短、脖子比較粗",
+    "冬天會變成全身白色",
+    "常在草地上，不一定在水邊"
+   ],
+   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/cattle_egret-0.jpg",
+     "label": "",
+     "by": "Ben Tsai蔡維哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/48901918"
+    }
+   ]
+  },
+  {
+   "id": "barn_swallow",
+   "zh": "家燕",
+   "en": "Barn Swallow",
+   "sci": "Hirundo rustica",
+   "cm": 17,
+   "habitat": [
+    "屋簷",
+    "天空"
+   ],
+   "intro": "會在騎樓和屋簷下用泥巴做一個碗形的窩，尾巴分叉很深，像一把剪刀。",
+   "cues": [
+    "跟洋燕比：家燕胸前有一條黑領帶",
+    "尾巴的長叉比洋燕長很多",
+    "春夏常在騎樓下看到牠的窩"
+   ],
+   "sex": "公母很像，公鳥尾巴的長叉通常比較長。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/barn_swallow-0.jpg",
+     "label": "",
+     "by": "Jainder Ju",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/23094353"
+    }
+   ]
+  }
+ ]
+}

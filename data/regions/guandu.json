@@ -1,0 +1,307 @@
+{
+ "id": "guandu",
+ "name": "關渡",
+ "full": "關渡自然公園",
+ "tagline": "河口濕地・水鳥與候鳥的大站",
+ "tone": "mist",
+ "info": [
+  [
+   "地點",
+   "台北市北投區關渡路 55 號"
+  ],
+  [
+   "開放",
+   "週二到週日 09:00–17:00（10–3 月假日到 17:30），週一休園"
+  ],
+  [
+   "交通",
+   "捷運淡水信義線關渡站 1 號出口，步行 10 多分鐘，或轉搭紅 35、小 23"
+  ],
+  [
+   "最佳季節",
+   "秋冬到初春，9 月到隔年 4 月候鳥最多"
+  ]
+ ],
+ "tips": [
+  "上午鳥況最好，人也比較少",
+  "出發前查淡水河潮汐，漲潮時水鳥會被推近岸邊",
+  "先上自然中心 2–3 樓用固定望遠鏡看遠方的鴨子"
+ ],
+ "missions": [
+  "kingfisher",
+  "shrike",
+  "shoveler"
+ ],
+ "sections": [
+  {
+   "type": "common",
+   "title": "常見",
+   "sub": "一年四季都看得到",
+   "birds": [
+    {
+     "id": "egret_little"
+    },
+    {
+     "id": "night_heron"
+    },
+    {
+     "id": "moorhen"
+    },
+    {
+     "id": "waterhen"
+    },
+    {
+     "id": "grebe"
+    },
+    {
+     "id": "kingfisher"
+    },
+    {
+     "id": "prinia_plain"
+    },
+    {
+     "id": "prinia_yb"
+    },
+    {
+     "id": "munia"
+    },
+    {
+     "id": "sparrow"
+    },
+    {
+     "id": "bulbul"
+    },
+    {
+     "id": "white_eye"
+    },
+    {
+     "id": "swallow"
+    },
+    {
+     "id": "kite"
+    }
+   ]
+  },
+  {
+   "type": "seasonal",
+   "title": "季節限定",
+   "sub": "點季節看當季會出現的鳥",
+   "birds": [
+    {
+     "id": "teal",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "pintail",
+     "seasons": [
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "shoveler",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "grey_heron",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "great_egret",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "int_egret",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "greenshank",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "wood_sandpiper",
+     "seasons": [
+      "春",
+      "秋"
+     ]
+    },
+    {
+     "id": "common_sandpiper",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "lrp",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "kentish",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "golden_plover",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "stilt",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "shrike",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "white_wagtail",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "grey_wagtail",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "osprey",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "cattle_egret",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    },
+    {
+     "id": "barn_swallow",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lucky",
+   "title": "幸運星",
+   "sub": "少見，看到很幸運",
+   "birds": [
+    {
+     "id": "spoonbill",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "stork",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "harrier",
+     "seasons": [
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "painted_snipe",
+     "seasons": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "yellow_bittern",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    },
+    {
+     "id": "cinnamon_bittern",
+     "seasons": [
+      "春",
+      "夏",
+      "秋"
+     ]
+    },
+    {
+     "id": "peregrine",
+     "seasons": [
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "chinese_egret",
+     "seasons": [
+      "春",
+      "秋"
+     ]
+    }
+   ]
+  }
+ ]
+}

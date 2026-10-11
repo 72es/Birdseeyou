@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".18"/>
+    </linearGradient>
+    <clipPath id="arch"><path d="M56 512 V196 A200 200 0 0 1 456 196 V512 Z"/></clipPath>
+  </defs>
+  <!-- outer frame -->
+  <rect width="512" height="512" fill="#1C1A21"/>
+  <rect x="18" y="18" width="476" height="476" fill="#E9E4E7"/>
+  <!-- frame segments -->
+  <g stroke="#1C1A21" stroke-width="7" stroke-linejoin="round">
+    <rect x="18" y="18" width="38" height="120" fill="#BDB9E2"/>
+    <rect x="18" y="138" width="38" height="150" fill="#EDB8C6"/>
+    <rect x="18" y="288" width="38" height="206" fill="#BCD7B3"/>
+    <rect x="456" y="18" width="38" height="120" fill="#BCD7B3"/>
+    <rect x="456" y="138" width="38" height="150" fill="#EDB8C6"/>
+    <rect x="456" y="288" width="38" height="206" fill="#BDB9E2"/>
+    <path d="M56 18 H456 V196 A200 200 0 0 0 56 196 Z" fill="#C6DAE0"/>
+  </g>
+  <!-- background shards inside arch -->
+  <g clip-path="url(#arch)" stroke="#1C1A21" stroke-width="7" stroke-linejoin="round">
+    <polygon points="56,0 300,0 150,230 56,260" fill="#EDB8C6"/>
+    <polygon points="300,0 456,0 456,150 360,220" fill="#BDB9E2"/>
+    <polygon points="150,230 300,0 360,220 250,260" fill="#E7D7E6"/>
+    <polygon points="56,260 150,230 120,512 56,512" fill="#BCD7B3"/>
+    <polygon points="360,220 456,150 456,512 400,512" fill="#C6DAE0"/>
+    <polygon points="150,230 250,260 360,220 400,512 120,512" fill="#F2E3EA"/>
+  </g>
+  <path d="M56 512 V196 A200 200 0 0 1 456 196 V512" fill="none" stroke="#1C1A21" stroke-width="10"/>
+
+  <!-- body -->
+  <g stroke="#1C1A21" stroke-width="8" stroke-linejoin="round">
+    <path d="M76 520 C70 420 120 330 180 318 L332 318 C392 330 442 420 436 520 Z" fill="#4E86D6"/>
+    <path d="M76 520 C80 470 100 430 130 400 L150 520 Z M436 520 C432 470 412 430 382 400 L362 520 Z" fill="#3D6FBE"/>
+    <path d="M178 420 L228 520 M334 420 L284 520 M256 440 L256 520" fill="none"/>
+    <path d="M178 420 C200 404 230 398 256 398 C282 398 312 404 334 420 L256 440 Z" fill="#6FA2E6"/>
+  </g>
+
+  <!-- head -->
+  <g stroke="#1C1A21" stroke-width="8" stroke-linejoin="round">
+    <circle cx="256" cy="246" r="148" fill="#EEF0F5"/>
+    <!-- crown barring (budgie stripes) -->
+    <g fill="none" stroke-width="6" stroke-linecap="round"><path d="M194 116 Q206 104 218 116"/><path d="M219 116 Q231 104 243 116"/><path d="M244 116 Q256 104 268 116"/><path d="M269 116 Q281 104 293 116"/><path d="M172 140 Q184 128 196 140"/><path d="M201 140 Q213 128 225 140"/><path d="M230 140 Q242 128 254 140"/><path d="M258 140 Q270 128 282 140"/><path d="M287 140 Q299 128 311 140"/><path d="M316 140 Q328 128 340 140"/><path d="M134 166 Q146 154 158 166"/><path d="M162 166 Q174 154 186 166"/><path d="M189 166 Q201 154 213 166"/><path d="M216 166 Q228 154 240 166"/><path d="M244 166 Q256 154 268 166"/><path d="M272 166 Q284 154 296 166"/><path d="M299 166 Q311 154 323 166"/><path d="M326 166 Q338 154 350 166"/><path d="M134 194 Q146 182 158 194"/><path d="M161 194 Q173 182 185 194"/><path d="M189 194 Q201 182 213 194"/><path d="M216 194 Q228 182 240 194"/><path d="M244 194 Q256 182 268 194"/><path d="M272 194 Q284 182 296 194"/><path d="M299 194 Q311 182 323 194"/><path d="M327 194 Q339 182 351 194"/><path d="M354 194 Q366 182 378 194"/></g>
+    <!-- mask (white face) -->
+    <path d="M150 300 C150 240 196 214 256 214 C316 214 362 240 362 300 C362 350 318 392 256 392 C194 392 150 350 150 300 Z" fill="#FFFFFF"/>
+    <!-- cheek patches -->
+    <ellipse cx="166" cy="316" rx="22" ry="32" fill="#7D5FD0"/>
+    <ellipse cx="346" cy="316" rx="22" ry="32" fill="#7D5FD0"/>
+    <!-- throat spots -->
+    <g fill="#1C1A21" stroke="none">
+      <circle cx="204" cy="364" r="11"/><circle cx="234" cy="374" r="11"/>
+      <circle cx="278" cy="374" r="11"/><circle cx="308" cy="364" r="11"/>
+    </g>
+    <!-- eyes -->
+    <circle cx="192" cy="238" r="30" fill="#FFFFFF"/>
+    <circle cx="320" cy="238" r="30" fill="#FFFFFF"/>
+    <circle cx="192" cy="238" r="20" fill="#1C1A21"/>
+    <circle cx="320" cy="238" r="20" fill="#1C1A21"/>
+    <!-- cere -->
+    <path d="M222 262 C222 248 236 242 256 242 C276 242 290 248 290 262 C290 274 276 280 256 280 C236 280 222 274 222 262 Z" fill="#5A8FE0"/>
+    <circle cx="240" cy="261" r="3" fill="#1C1A21" stroke="none"/>
+    <circle cx="272" cy="261" r="3" fill="#1C1A21" stroke="none"/>
+    <!-- beak -->
+    <path d="M226 282 C238 278 274 278 286 282 C290 304 276 330 256 342 C236 330 222 304 226 282 Z" fill="#EBD9A2"/>
+    <path d="M256 300 L256 340" fill="none" stroke-width="5"/>
+  </g>
+  <!-- eye highlights -->
+  <circle cx="200" cy="230" r="6" fill="#fff"/><circle cx="328" cy="230" r="6" fill="#fff"/>
+  <!-- glass sheen -->
+  <rect x="18" y="18" width="476" height="476" fill="url(#sheen)" pointer-events="none"/>
+  <rect x="9" y="9" width="494" height="494" fill="none" stroke="#1C1A21" stroke-width="18"/>
+</svg>

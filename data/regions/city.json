@@ -1,0 +1,170 @@
+{
+ "id": "city",
+ "name": "城市",
+ "full": "城市的公園與校園",
+ "tagline": "家門口就能開始・台北公園常見鳥",
+ "tone": "rose",
+ "info": [
+  [
+   "範圍",
+   "台北的公園、校園、河濱，例如大安森林公園、植物園、大學校園"
+  ],
+  [
+   "最佳時段",
+   "早上 7–9 點最熱鬧"
+  ],
+  [
+   "最佳季節",
+   "一年四季；冬天多了從北方來的鶇科和鴝科"
+  ]
+ ],
+ "tips": [
+  "先聽再看：叫聲是找鳥最快的線索",
+  "冬天看草地：赤腹鶇、白腹鶇會在草地上找蚯蚓",
+  "不要餵鳥，也不要靠近鳥巢"
+ ],
+ "missions": [
+  "tiger_bittern",
+  "barbet",
+  "blue_magpie"
+ ],
+ "sections": [
+  {
+   "type": "common",
+   "title": "常見",
+   "sub": "一年四季都看得到",
+   "birds": [
+    {
+     "id": "sparrow"
+    },
+    {
+     "id": "bulbul"
+    },
+    {
+     "id": "white_eye"
+    },
+    {
+     "id": "spotted_dove"
+    },
+    {
+     "id": "red_dove"
+    },
+    {
+     "id": "rock_dove"
+    },
+    {
+     "id": "myna"
+    },
+    {
+     "id": "munia"
+    },
+    {
+     "id": "treepie"
+    },
+    {
+     "id": "tiger_bittern"
+    },
+    {
+     "id": "barbet"
+    },
+    {
+     "id": "blue_magpie"
+    },
+    {
+     "id": "black_bulbul"
+    },
+    {
+     "id": "drongo"
+    },
+    {
+     "id": "magpie_robin"
+    },
+    {
+     "id": "goshawk"
+    },
+    {
+     "id": "swallow"
+    },
+    {
+     "id": "swift"
+    },
+    {
+     "id": "night_heron"
+    },
+    {
+     "id": "egret_little"
+    },
+    {
+     "id": "moorhen"
+    }
+   ]
+  },
+  {
+   "type": "seasonal",
+   "title": "季節限定",
+   "sub": "點季節看當季會出現的鳥",
+   "birds": [
+    {
+     "id": "daurian",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "brown_thrush",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "pale_thrush",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "white_wagtail",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "shrike",
+     "seasons": [
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "barn_swallow",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    },
+    {
+     "id": "cattle_egret",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lucky",
+   "title": "幸運星",
+   "sub": "要仔細找",
+   "birds": [
+    {
+     "id": "scops"
+    },
+    {
+     "id": "kingfisher"
+    }
+   ]
+  }
+ ]
+}

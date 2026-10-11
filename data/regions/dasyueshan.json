@@ -1,0 +1,153 @@
+{
+ "id": "dasyueshan",
+ "name": "大雪山",
+ "full": "大雪山國家森林遊樂區",
+ "tagline": "中高海拔森林・台灣特有種的寶庫",
+ "tone": "sage",
+ "info": [
+  [
+   "地點",
+   "台中市和平區，大雪山林道上"
+  ],
+  [
+   "開放",
+   "06:30–17:00"
+  ],
+  [
+   "門票",
+   "全票 NT$200，平日優待 NT$150；兒童票以現場公告為準"
+  ],
+  [
+   "海拔",
+   "約 1,800–2,996 公尺，比平地低 8–12°C"
+  ],
+  [
+   "交通",
+   "以自行開車為主；公車只在假日行駛"
+  ]
+ ],
+ "tips": [
+  "園區記錄過 200 多種鳥，其中 29 種是台灣特有種",
+  "清晨最熱鬧：帝雉常在小雪山、天池一帶的林道邊，藍腹鷴在 23K 附近",
+  "林道開車要慢，鳥常走到路上",
+  "天氣變化快，一定帶保暖外套；颱風、豪雨時可能封路"
+ ],
+ "missions": [
+  "yuhina",
+  "bush_robin",
+  "mikado"
+ ],
+ "sections": [
+  {
+   "type": "common",
+   "title": "常見",
+   "sub": "一年四季都看得到",
+   "birds": [
+    {
+     "id": "yuhina"
+    },
+    {
+     "id": "sibia"
+    },
+    {
+     "id": "laughingthrush"
+    },
+    {
+     "id": "barwing"
+    },
+    {
+     "id": "bush_robin"
+    },
+    {
+     "id": "rosefinch"
+    },
+    {
+     "id": "yellow_tit"
+    },
+    {
+     "id": "green_tit"
+    },
+    {
+     "id": "coal_tit"
+    },
+    {
+     "id": "bushtit"
+    },
+    {
+     "id": "flamecrest"
+    },
+    {
+     "id": "nuthatch"
+    },
+    {
+     "id": "nutcracker"
+    },
+    {
+     "id": "flowerpecker"
+    },
+    {
+     "id": "niltava"
+    },
+    {
+     "id": "wt_robin"
+    },
+    {
+     "id": "bullfinch"
+    },
+    {
+     "id": "wb_woodpecker"
+    }
+   ]
+  },
+  {
+   "type": "seasonal",
+   "title": "季節限定",
+   "sub": "點季節看當季會出現的鳥",
+   "birds": [
+    {
+     "id": "daurian",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "brown_thrush",
+     "seasons": [
+      "冬"
+     ]
+    },
+    {
+     "id": "pale_thrush",
+     "seasons": [
+      "冬"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "lucky",
+   "title": "幸運星",
+   "sub": "少見，看到很幸運",
+   "birds": [
+    {
+     "id": "mikado"
+    },
+    {
+     "id": "swinhoe"
+    },
+    {
+     "id": "hill_partridge"
+    },
+    {
+     "id": "owlet"
+    },
+    {
+     "id": "hawk_eagle"
+    },
+    {
+     "id": "black_eagle"
+    }
+   ]
+  }
+ ]
+}
