@@ -100,6 +100,18 @@
     },
     {
      "id": "moorhen"
+    },
+    {
+     "id": "magpie"
+    },
+    {
+     "id": "turtle_dove"
+    },
+    {
+     "id": "pygmy_wp"
+    },
+    {
+     "id": "common_myna"
     }
    ]
   },
@@ -145,11 +157,19 @@
      "id": "barn_swallow",
      "seasons": [
       "春",
-      "夏"
+      "夏",
+      "秋"
      ]
     },
     {
      "id": "cattle_egret",
+     "seasons": [
+      "春",
+      "夏"
+     ]
+    },
+    {
+     "id": "koel",
      "seasons": [
       "春",
       "夏"
@@ -163,10 +183,16 @@
    "sub": "要仔細找",
    "birds": [
     {
+     "id": "serpent_eagle"
+    },
+    {
      "id": "scops"
     },
     {
      "id": "kingfisher"
+    },
+    {
+     "id": "crested_myna"
     }
    ]
   }

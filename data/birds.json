@@ -17,7 +17,7 @@
     "會在淺水裡一邊走、一邊用腳攪水，把小魚嚇出來再抓",
     "春夏頭上會長出兩根長長的辮子"
    ],
-   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "sex": "公鳥母鳥長得幾乎一樣。春夏繁殖期，頭後面會長出兩根長辮子，背上也有像婚紗的蓑羽。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -46,7 +46,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/53256177",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "note": "春夏羽"
     },
     {
      "src": "img/egret_little-3.jpg",
@@ -66,7 +67,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "night_heron",
@@ -85,7 +87,7 @@
     "幼鳥：全身褐色，身上有很多白點點",
     "大人和小孩長得完全不一樣，可以玩找不同"
    ],
-   "sex": "公母一樣，但大人和小孩長得很不一樣。",
+   "sex": "公母長得一樣，但大人和小孩差很多：大人黑帽子、灰翅膀、紅眼睛；小孩全身褐色、滿身白點。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -152,7 +154,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "moorhen",
@@ -238,7 +241,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "waterhen",
@@ -296,7 +300,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "grebe",
@@ -314,7 +319,7 @@
     "可以跟牠玩猜猜看：等一下會從哪裡冒出來？",
     "照片是夏天的樣子，秋冬顏色會變成淡淡的褐色"
    ],
-   "sex": "公母長得一樣。大人夏天臉頰是紅褐色、冬天變淡；小孩臉上有黑白條紋。",
+   "sex": "公母長得一樣。大人春夏臉頰是紅褐色，秋冬變成淡淡的灰褐色；小孩臉上有黑白條紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -325,7 +330,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/194462197",
      "w": 500,
-     "h": 360
+     "h": 360,
+     "note": "春夏羽"
     },
     {
      "src": "img/grebe-1.jpg",
@@ -334,7 +340,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/299124690",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "note": "秋冬羽"
     },
     {
      "src": "img/grebe-2.jpg",
@@ -343,7 +350,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/342009416",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "note": "春夏羽"
     },
     {
      "src": "img/grebe-3.jpg",
@@ -352,7 +360,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/62196571",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "note": "春夏羽"
     },
     {
      "src": "img/grebe-4.jpg",
@@ -361,7 +370,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/73800632",
      "w": 500,
-     "h": 374
+     "h": 374,
+     "note": "春夏羽"
     },
     {
      "src": "img/grebe-5.jpg",
@@ -390,7 +400,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同・季節換羽"
   },
   {
    "id": "kingfisher",
@@ -484,7 +495,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "prinia_plain",
@@ -543,7 +555,8 @@
      "w": 500,
      "h": 364
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "prinia_yb",
@@ -611,7 +624,8 @@
      "w": 500,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "munia",
@@ -705,7 +719,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "sparrow",
@@ -773,7 +788,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "bulbul",
@@ -840,7 +856,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "white_eye",
@@ -907,7 +924,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "swallow",
@@ -966,7 +984,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "kite",
@@ -1061,7 +1080,8 @@
      "w": 500,
      "h": 377
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "teal",
@@ -1164,7 +1184,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型・季節換羽"
   },
   {
    "id": "pintail",
@@ -1258,7 +1279,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型・季節換羽"
   },
   {
    "id": "shoveler",
@@ -1370,7 +1392,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型・季節換羽"
   },
   {
    "id": "grey_heron",
@@ -1437,7 +1460,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "great_egret",
@@ -1455,7 +1479,7 @@
     "嘴角的線一直畫到眼睛後面",
     "走路慢慢的，很有氣質"
    ],
-   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "sex": "公鳥母鳥長得幾乎一樣。秋冬嘴巴是黃色；春夏繁殖期嘴巴變黑、眼睛前面變綠色，背上長出長長的蓑羽。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1504,7 +1528,8 @@
      "w": 500,
      "h": 349
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "int_egret",
@@ -1572,7 +1597,8 @@
      "w": 281,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "greenshank",
@@ -1631,7 +1657,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "wood_sandpiper",
@@ -1699,7 +1726,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "common_sandpiper",
@@ -1767,7 +1795,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "lrp",
@@ -1835,7 +1864,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "kentish",
@@ -1948,7 +1978,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "golden_plover",
@@ -1967,7 +1998,7 @@
     "照片是夏天穿的衣服，秋天黑肚子會慢慢不見",
     "常常一群站在泥灘或草地上"
    ],
-   "sex": "秋冬公母很像；春夏公鳥的臉和肚子會變成黑色，母鳥的黑色比較少、比較雜。",
+   "sex": "秋冬公母很像，全身金褐色斑點；春夏公鳥的臉和肚子會變成黑色，母鳥的黑色比較少、比較雜。10 月剛來時常常是兩種羽色混在一起。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1978,7 +2009,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/262432635",
      "w": 500,
-     "h": 340
+     "h": 340,
+     "note": "春夏羽"
     },
     {
      "src": "img/golden_plover-1.jpg",
@@ -1987,7 +2019,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/198053929",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "note": "秋冬羽"
     },
     {
      "src": "img/golden_plover-2.jpg",
@@ -1996,7 +2029,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/267012518",
      "w": 332,
-     "h": 500
+     "h": 500,
+     "note": "秋冬羽"
     },
     {
      "src": "img/golden_plover-3.jpg",
@@ -2005,7 +2039,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/380317720",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "note": "秋冬羽"
     },
     {
      "src": "img/golden_plover-4.jpg",
@@ -2014,9 +2049,11 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/360131425",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "note": "春夏羽"
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "stilt",
@@ -2119,7 +2156,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "shrike",
@@ -2137,7 +2175,7 @@
     "找黑色眼罩",
     "會把抓到的蟲插在樹刺上，當成自己的冰箱"
    ],
-   "sex": "公鳥眼罩比較黑、胸口乾乾淨淨；母鳥眼罩淡一點，胸口兩邊有細細的魚鱗紋。",
+   "sex": "公鳥眼罩比較黑、胸口乾乾淨淨；母鳥眼罩淡一點，胸口兩邊有細細的魚鱗紋。小孩全身都是波浪般的鱗片紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2230,8 +2268,36 @@
      "url": "https://www.inaturalist.org/observations/103822422",
      "w": 500,
      "h": 375
+    },
+    {
+     "src": "img/shrike-10.jpg",
+     "label": "幼鳥",
+     "by": "Shang-Kwei Wang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/139069042",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "src": "img/shrike-11.jpg",
+     "label": "幼鳥",
+     "by": "Jay Paroline",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/254079681",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/shrike-12.jpg",
+     "label": "幼鳥",
+     "by": "戴勝",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/37872321",
+     "w": 500,
+     "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型・成幼不同"
   },
   {
    "id": "white_wagtail",
@@ -2250,7 +2316,7 @@
     "飛的時候一高一低，像在畫波浪",
     "喜歡在地上快快地走"
    ],
-   "sex": "公鳥身上的黑色比較多、比較濃；母鳥的背比較灰。",
+   "sex": "公鳥身上的黑色比較多、比較濃；母鳥的背比較灰。小孩是淡淡的灰色，臉上還沒有清楚的黑白花紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2343,8 +2409,36 @@
      "url": "https://www.inaturalist.org/observations/70548212",
      "w": 500,
      "h": 500
+    },
+    {
+     "src": "img/white_wagtail-10.jpg",
+     "label": "幼鳥",
+     "by": "Shang-Kwei Wang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/166507084",
+     "w": 500,
+     "h": 334
+    },
+    {
+     "src": "img/white_wagtail-11.jpg",
+     "label": "幼鳥",
+     "by": "zoeyyang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/256860438",
+     "w": 500,
+     "h": 281
+    },
+    {
+     "src": "img/white_wagtail-12.jpg",
+     "label": "幼鳥",
+     "by": "vrxz",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/observations/285234723",
+     "w": 500,
+     "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型・成幼不同"
   },
   {
    "id": "grey_wagtail",
@@ -2411,7 +2505,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "osprey",
@@ -2479,7 +2574,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "spoonbill",
@@ -2497,7 +2593,7 @@
     "大部分在台南過冬，偶爾會有幾隻路過關渡",
     "秋冬全身白色；春天頭上和胸口會長出黃色羽毛"
    ],
-   "sex": "公母長得一樣，公鳥體型稍大。春天頭上和胸口會長出黃色羽毛。",
+   "sex": "公母長得一樣，公鳥體型稍大。秋冬全身白色；春天頭上會長出黃色飾羽，胸口也染上黃色。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2508,7 +2604,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/106459100",
      "w": 500,
-     "h": 382
+     "h": 382,
+     "note": "秋冬羽"
     },
     {
      "src": "img/spoonbill-1.jpg",
@@ -2517,7 +2614,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/18503382",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "note": "秋冬羽"
     },
     {
      "src": "img/spoonbill-2.jpg",
@@ -2526,7 +2624,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/206916893",
      "w": 500,
-     "h": 379
+     "h": 379,
+     "note": "春夏羽"
     },
     {
      "src": "img/spoonbill-3.jpg",
@@ -2535,7 +2634,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/266900372",
      "w": 500,
-     "h": 365
+     "h": 365,
+     "note": "春夏羽"
     },
     {
      "src": "img/spoonbill-4.jpg",
@@ -2544,9 +2644,11 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/193667606",
      "w": 500,
-     "h": 355
+     "h": 355,
+     "note": "秋冬羽"
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "stork",
@@ -2614,7 +2716,8 @@
      "w": 500,
      "h": 346
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "harrier",
@@ -2636,6 +2739,33 @@
    "endemic": false,
    "alien": false,
    "photos": [
+    {
+     "src": "img/harrier-2.jpg",
+     "label": "公",
+     "by": "roarlan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/320828460",
+     "w": 500,
+     "h": 357
+    },
+    {
+     "src": "img/harrier-6.jpg",
+     "label": "公",
+     "by": "Андрей Семенов",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/281029691",
+     "w": 500,
+     "h": 318
+    },
+    {
+     "src": "img/harrier-7.jpg",
+     "label": "公",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/323582870",
+     "w": 500,
+     "h": 333
+    },
     {
      "src": "img/harrier-0.jpg",
      "label": "母",
@@ -2680,35 +2810,9 @@
      "url": "https://www.inaturalist.org/observations/74629314",
      "w": 500,
      "h": 351
-    },
-    {
-     "src": "img/harrier-2.jpg",
-     "label": "公",
-     "by": "roarlan",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/320828460",
-     "w": 500,
-     "h": 357
-    },
-    {
-     "src": "img/harrier-6.jpg",
-     "label": "公",
-     "by": "Андрей Семенов",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/281029691",
-     "w": 500,
-     "h": 318
-    },
-    {
-     "src": "img/harrier-7.jpg",
-     "label": "公",
-     "by": "陳中興",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/323582870",
-     "w": 500,
-     "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "painted_snipe",
@@ -2767,7 +2871,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "yellow_bittern",
@@ -2870,7 +2975,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "cinnamon_bittern",
@@ -2938,7 +3044,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "peregrine",
@@ -3032,7 +3139,8 @@
      "w": 500,
      "h": 334
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "chinese_egret",
@@ -3091,7 +3199,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "yuhina",
@@ -3150,7 +3259,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "sibia",
@@ -3218,7 +3328,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "barwing",
@@ -3286,7 +3397,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "laughingthrush",
@@ -3354,7 +3466,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "green_tit",
@@ -3421,7 +3534,8 @@
      "w": 500,
      "h": 325
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "coal_tit",
@@ -3488,7 +3602,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "bushtit",
@@ -3555,7 +3670,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "nuthatch",
@@ -3613,7 +3729,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "nutcracker",
@@ -3681,7 +3798,8 @@
      "w": 500,
      "h": 424
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "flowerpecker",
@@ -3784,7 +3902,8 @@
      "w": 500,
      "h": 297
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "yellow_tit",
@@ -3851,7 +3970,8 @@
      "w": 500,
      "h": 331
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "bush_robin",
@@ -3870,7 +3990,7 @@
     "尾巴會一直抖",
     "不太怕人，慢慢等牠就會出現"
    ],
-   "sex": "公鳥有黑臉和栗紅色披肩；母鳥是橄欖褐色，比較樸素。",
+   "sex": "公鳥有黑臉和栗紅色披肩；母鳥是橄欖褐色，比較樸素。小孩全身都是淡色斑點。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3945,8 +4065,27 @@
      "url": "https://www.inaturalist.org/observations/18169377",
      "w": 500,
      "h": 375
+    },
+    {
+     "src": "img/bush_robin-8.jpg",
+     "label": "幼鳥",
+     "by": "dd1003960136",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/300670070",
+     "w": 500,
+     "h": 334
+    },
+    {
+     "src": "img/bush_robin-9.jpg",
+     "label": "幼鳥",
+     "by": "Jing-Yi Lu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/315312405",
+     "w": 500,
+     "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型・成幼不同"
   },
   {
    "id": "rosefinch",
@@ -4059,7 +4198,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "flamecrest",
@@ -4126,7 +4266,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "niltava",
@@ -4220,7 +4361,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "wt_robin",
@@ -4314,7 +4456,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "bullfinch",
@@ -4381,7 +4524,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "wb_woodpecker",
@@ -4493,7 +4637,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "mikado",
@@ -4605,7 +4750,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "swinhoe",
@@ -4718,7 +4864,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "hill_partridge",
@@ -4776,7 +4923,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "owlet",
@@ -4843,7 +4991,8 @@
      "w": 500,
      "h": 466
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "hawk_eagle",
@@ -4928,7 +5077,8 @@
      "w": 500,
      "h": 371
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "black_eagle",
@@ -4995,7 +5145,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "spotted_dove",
@@ -5081,7 +5232,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "red_dove",
@@ -5185,7 +5337,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "rock_dove",
@@ -5226,7 +5379,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "myna",
@@ -5294,7 +5448,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "treepie",
@@ -5361,7 +5516,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "tiger_bittern",
@@ -5379,7 +5535,7 @@
     "遇到危險會把脖子伸直不動",
     "以前是稀有鳥，現在台北的公園到處都有"
    ],
-   "sex": "公母一樣，但大人和小孩長得很不一樣：成鳥是栗褐色、頭頂黑；幼鳥是灰色、滿身白點。",
+   "sex": "公母長得一樣，但大人和小孩差很多：大人是栗褐色、頭頂黑；小孩是灰色、滿身白點。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5473,7 +5629,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "barbet",
@@ -5540,7 +5697,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "blue_magpie",
@@ -5607,7 +5765,8 @@
      "w": 333,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "goshawk",
@@ -5626,7 +5785,7 @@
     "飛的時候，屁股兩邊的白毛像穿了白色短褲",
     "母鳥比公鳥大很多"
    ],
-   "sex": "成鳥的胸口是褐色橫紋；幼鳥的胸口是直直的縱紋。",
+   "sex": "公母長得很像，母鳥比較大。大人的胸口是褐色橫紋；小孩的胸口是直直的縱紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5702,7 +5861,8 @@
      "w": 375,
      "h": 500
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "drongo",
@@ -5769,7 +5929,8 @@
      "w": 500,
      "h": 408
     }
-   ]
+   ],
+   "tag": "公母同型・成幼不同"
   },
   {
    "id": "black_bulbul",
@@ -5836,7 +5997,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "magpie_robin",
@@ -5855,7 +6017,7 @@
     "尾巴一下翹起來、一下放下",
     "早上常站在高處唱歌"
    ],
-   "sex": "公鳥黑白分明；母鳥的黑色部分換成灰色。",
+   "sex": "公鳥黑白分明；母鳥的黑色部分換成灰色。小孩身上是灰褐色的斑駁花紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5939,8 +6101,27 @@
      "url": "https://www.inaturalist.org/observations/263991858",
      "w": 500,
      "h": 333
+    },
+    {
+     "src": "img/magpie_robin-9.jpg",
+     "label": "幼鳥",
+     "by": "CHUN -YU KUO",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/45464950",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/magpie_robin-10.jpg",
+     "label": "幼鳥",
+     "by": "jameslin",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/374248466",
+     "w": 375,
+     "h": 500
     }
-   ]
+   ],
+   "tag": "公母異型・成幼不同"
   },
   {
    "id": "swift",
@@ -5999,7 +6180,8 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "daurian",
@@ -6103,7 +6285,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "brown_thrush",
@@ -6197,7 +6380,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "pale_thrush",
@@ -6273,7 +6457,8 @@
      "w": 500,
      "h": 375
     }
-   ]
+   ],
+   "tag": "公母異型"
   },
   {
    "id": "scops",
@@ -6341,7 +6526,8 @@
      "w": 500,
      "h": 332
     }
-   ]
+   ],
+   "tag": "公母同型"
   },
   {
    "id": "cattle_egret",
@@ -6360,7 +6546,7 @@
     "冬天會變成全身白色",
     "常在草地上，不一定在水邊"
    ],
-   "sex": "公母長得一樣。春夏頭和脖子變成橘黃色，冬天幾乎全白。",
+   "sex": "公母長得一樣。春夏繁殖期頭、脖子和背會變成橘黃色；秋冬幾乎全白，只剩黃色的嘴巴。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -6371,16 +6557,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/48901918",
      "w": 500,
-     "h": 333
-    },
-    {
-     "src": "img/cattle_egret-1.jpg",
-     "label": "",
-     "by": "大俠",
-     "license": "CC BY-NC-SA",
-     "url": "https://www.inaturalist.org/observations/344378049",
-     "w": 500,
-     "h": 375
+     "h": 333,
+     "note": "春夏羽"
     },
     {
      "src": "img/cattle_egret-2.jpg",
@@ -6389,7 +6567,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/279648363",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "note": "春夏羽"
     },
     {
      "src": "img/cattle_egret-3.jpg",
@@ -6398,7 +6577,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/280489895",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "note": "春夏羽"
     },
     {
      "src": "img/cattle_egret-4.jpg",
@@ -6407,9 +6587,21 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/346886176",
      "w": 498,
-     "h": 500
+     "h": 500,
+     "note": "春夏羽"
+    },
+    {
+     "src": "img/cattle_egret-5.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/254597617",
+     "w": 495,
+     "h": 500,
+     "note": "秋冬羽"
     }
-   ]
+   ],
+   "tag": "公母同型・季節換羽"
   },
   {
    "id": "barn_swallow",
@@ -6477,7 +6669,623 @@
      "w": 500,
      "h": 333
     }
-   ]
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "crested_myna",
+   "zh": "八哥",
+   "en": "Crested Myna",
+   "sci": "Acridotheres cristatellus",
+   "cm": 26,
+   "habitat": [
+    "草地",
+    "電線"
+   ],
+   "intro": "台灣原本就有的八哥，全身黑色，額頭有一撮翹起來的毛，嘴巴是象牙白色。",
+   "story": "以前八哥在台灣到處都是，現在被外來的白尾八哥和家八哥搶走地盤，在都市裡越來越少見。如果看到牠，記得多看幾眼，牠是台灣的老朋友。",
+   "cues": [
+    "跟白尾八哥比：八哥的嘴巴是象牙白色，白尾八哥是黃色",
+    "額頭的冠羽比白尾八哥更蓬",
+    "飛起來翅膀上有白色斑塊"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/crested_myna-0.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/249160491",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/crested_myna-1.jpg",
+     "label": "",
+     "by": "雲一百香果",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/123322166",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/crested_myna-2.jpg",
+     "label": "",
+     "by": "Max Hsieh(雁子)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/39090231",
+     "w": 500,
+     "h": 281
+    },
+    {
+     "src": "img/crested_myna-3.jpg",
+     "label": "",
+     "by": "hhh6164397",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/160044482",
+     "w": 500,
+     "h": 461
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "common_myna",
+   "zh": "家八哥",
+   "en": "Common Myna",
+   "sci": "Acridotheres tristis",
+   "cm": 25,
+   "habitat": [
+    "草地",
+    "廣場"
+   ],
+   "intro": "咖啡色的身體、黑色的頭，眼睛後面有一塊黃色的皮膚，像戴了黃色眼鏡。",
+   "story": "家八哥是從國外被帶來的外來種，很會模仿聲音，也很會搶地盤。台灣原本的八哥，就是被牠和白尾八哥擠到越來越少。",
+   "cues": [
+    "找眼睛後面的黃色皮膚",
+    "身體是咖啡色，不是全黑",
+    "常在地上大步走來走去"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": false,
+   "alien": true,
+   "photos": [
+    {
+     "src": "img/common_myna-0.jpg",
+     "label": "",
+     "by": "Photo Kao",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/266067246",
+     "w": 333,
+     "h": 500
+    },
+    {
+     "src": "img/common_myna-1.jpg",
+     "label": "",
+     "by": "naturalist163827",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/396348730",
+     "w": 276,
+     "h": 500
+    },
+    {
+     "src": "img/common_myna-2.jpg",
+     "label": "",
+     "by": "Photo Kao",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/266183825",
+     "w": 332,
+     "h": 500
+    },
+    {
+     "src": "img/common_myna-3.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/379116367",
+     "w": 500,
+     "h": 374
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "magpie",
+   "zh": "喜鵲",
+   "en": "Oriental Magpie",
+   "sci": "Pica serica",
+   "cm": 45,
+   "habitat": [
+    "樹上",
+    "草地"
+   ],
+   "intro": "黑白分明的大鳥，尾巴又長又亮，在陽光下會閃著藍綠色的光。",
+   "story": "喜鵲在華人文化裡是報喜的鳥，七夕傳說中，喜鵲搭成鵲橋讓牛郎織女相會。牠很聰明，會在高高的樹上用樹枝搭一個像球一樣的大巢。",
+   "cues": [
+    "黑頭、黑胸、白肚子",
+    "長尾巴閃著藍綠光",
+    "叫聲是沙啞的「喳喳喳」"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/magpie-0.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/89899140",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/magpie-1.jpg",
+     "label": "",
+     "by": "hokoonwong",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/200698720",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/magpie-2.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/205466820",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/magpie-3.jpg",
+     "label": "",
+     "by": "o1v1c7",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/66374995",
+     "w": 500,
+     "h": 375
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "turtle_dove",
+   "zh": "金背鳩",
+   "en": "Oriental Turtle Dove",
+   "sci": "Streptopelia orientalis",
+   "cm": 33,
+   "habitat": [
+    "草地",
+    "樹上"
+   ],
+   "intro": "背上的羽毛有橘色和黑色的鱗片花紋，像一片片金色的瓦片。",
+   "story": "金背鳩叫聲低低的「咕咕——咕咕」，常在清晨的公園裡響起。牠跟珠頸斑鳩是親戚，爸媽也會分泌鴿乳餵寶寶。",
+   "cues": [
+    "找背上金色鱗片紋",
+    "脖子兩邊有黑白相間的條紋",
+    "比珠頸斑鳩胖一點"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/turtle_dove-0.jpg",
+     "label": "",
+     "by": "Peter Chen 2.0",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/205418869",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/turtle_dove-1.jpg",
+     "label": "",
+     "by": "SpyingNaturalist",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255490456",
+     "w": 500,
+     "h": 313
+    },
+    {
+     "src": "img/turtle_dove-2.jpg",
+     "label": "",
+     "by": "雲一百香果",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/150809212",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/turtle_dove-3.jpg",
+     "label": "",
+     "by": "Photo Kao",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/267307847",
+     "w": 500,
+     "h": 333
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "pygmy_wp",
+   "zh": "小啄木",
+   "en": "Grey-capped Pygmy Woodpecker",
+   "sci": "Yungipicus canicapillus",
+   "cm": 15,
+   "habitat": [
+    "樹幹",
+    "樹枝"
+   ],
+   "intro": "台灣最小的啄木鳥，跟麻雀差不多大，背上有黑白相間的橫條。",
+   "story": "小啄木常在公園的大樹上「叩叩叩」找蟲吃，牠幫樹木抓掉躲在樹皮裡的害蟲，就像樹的小醫生。",
+   "cues": [
+    "聽細細的敲樹聲",
+    "找在樹枝上跳上跳下的小鳥",
+    "常跟綠繡眼、山雀混在一起"
+   ],
+   "sex": "公母很像，公鳥頭的側邊有一條很小的紅色細紋。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/pygmy_wp-0.jpg",
+     "label": "",
+     "by": "翁育民",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/147182069",
+     "w": 500,
+     "h": 334
+    },
+    {
+     "src": "img/pygmy_wp-1.jpg",
+     "label": "",
+     "by": "Chung Chih-Chun 鍾志俊",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/138093516",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/pygmy_wp-2.jpg",
+     "label": "",
+     "by": "張子見",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/209611168",
+     "w": 500,
+     "h": 375
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "serpent_eagle",
+   "zh": "大冠鷲",
+   "en": "Crested Serpent Eagle",
+   "sci": "Spilornis cheela",
+   "cm": 70,
+   "habitat": [
+    "天空",
+    "樹上"
+   ],
+   "intro": "台灣最常見的大老鷹，常在天空盤旋，一邊飛一邊叫「忽溜——忽溜——」。",
+   "story": "大冠鷲最愛吃蛇，所以也叫「蛇鵰」。牠的腳上有厚厚的鱗片，不怕被蛇咬。牠也會吃青蛙和蜥蜴，是山林食物鏈的頂端。",
+   "cues": [
+    "飛的時候翅膀下有一條白色寬帶",
+    "臉上有黃色的皮膚",
+    "叫聲很好認，聽到就抬頭找"
+   ],
+   "sex": "公母很像，母鳥比較大。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/serpent_eagle-0.jpg",
+     "label": "",
+     "by": "大俠",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/observations/340766261",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/serpent_eagle-1.jpg",
+     "label": "",
+     "by": "Jolen Cheng",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/293293010",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/serpent_eagle-2.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255775316",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/serpent_eagle-3.jpg",
+     "label": "",
+     "by": "wangleeping",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/13699669",
+     "w": 500,
+     "h": 333
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "koel",
+   "zh": "噪鵑",
+   "en": "Asian Koel",
+   "sci": "Eudynamys scolopaceus",
+   "cm": 42,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "春夏的清晨，牠會一直大聲叫「哦——嗚、哦——嗚」，叫得越來越高、越來越快，有人被吵到睡不著。",
+   "story": "噪鵑自己不做窩，會偷偷把蛋下在烏鴉或樹鵲的巢裡，讓別的鳥幫牠養寶寶。這叫做「托卵」。",
+   "cues": [
+    "先聽聲音，再往樹上找",
+    "公鳥全身黑亮、紅眼睛",
+    "喜歡吃榕樹的果實"
+   ],
+   "sex": "公鳥全身黑亮、紅眼睛；母鳥是咖啡色，全身都是白色斑點。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/koel-0.jpg",
+     "label": "公",
+     "by": "Kelvin Joshua Che",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/69851189",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/koel-1.jpg",
+     "label": "公",
+     "by": "nhathamhiem",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/145655608",
+     "w": 375,
+     "h": 500
+    },
+    {
+     "src": "img/koel-2.jpg",
+     "label": "公",
+     "by": "mian-waqas",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/279672407",
+     "w": 500,
+     "h": 281
+    },
+    {
+     "src": "img/koel-3.jpg",
+     "label": "母",
+     "by": "FOREST-NGO",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/69725786",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/koel-4.jpg",
+     "label": "母",
+     "by": "Dee Hulton-Smith",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/295366568",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/koel-5.jpg",
+     "label": "母",
+     "by": "Rohit Electronics",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/384774067",
+     "w": 500,
+     "h": 376
+    }
+   ],
+   "tag": "公母異型"
+  },
+  {
+   "id": "liocichla",
+   "zh": "黃胸藪眉",
+   "en": "Steere's Liocichla",
+   "sci": "Liocichla steerii",
+   "cm": 18,
+   "habitat": [
+    "步道",
+    "森林底層"
+   ],
+   "intro": "黃色的胸口、灰色的頭，眼睛前面有一點黃色，叫聲很響亮。",
+   "story": "黃胸藪眉是台灣特有種，在大雪山很常見，常在步道邊大聲唱歌。牠不怕人，常是遊客認識的第一種山上的鳥。",
+   "cues": [
+    "找黃色胸口加灰頭",
+    "尾巴尖端是白色",
+    "常在步道邊的地上或矮樹叢"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": true,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/liocichla-0.jpg",
+     "label": "",
+     "by": "莊燿鴻",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/69041424",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/liocichla-1.jpg",
+     "label": "",
+     "by": "大俠",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/observations/314575163",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/liocichla-2.jpg",
+     "label": "",
+     "by": "Monina Gilbey",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/254585385",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/liocichla-3.jpg",
+     "label": "",
+     "by": "zicky",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/164194807",
+     "w": 500,
+     "h": 358
+    }
+   ],
+   "tag": "公母同型"
+  },
+  {
+   "id": "minivet",
+   "zh": "灰喉山椒鳥",
+   "en": "Grey-chinned Minivet",
+   "sci": "Pericrocotus solaris",
+   "cm": 18,
+   "habitat": [
+    "樹頂"
+   ],
+   "intro": "常常一小群在樹頂上飛來飛去，公鳥是火紅色、母鳥是鮮黃色，像一串會飛的燈籠。",
+   "story": "灰喉山椒鳥喜歡在樹冠上抓毛毛蟲和小蟲，一群紅紅黃黃飛過山谷時，是山上最美的畫面之一。",
+   "cues": [
+    "抬頭找樹頂的紅色和黃色小鳥",
+    "常一群一起飛",
+    "喉嚨是灰色的"
+   ],
+   "sex": "公鳥是火紅色加黑色；母鳥是鮮黃色加灰色。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/minivet-0.jpg",
+     "label": "公",
+     "by": "許慶棠Ray",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/258739018",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/minivet-1.jpg",
+     "label": "公",
+     "by": "Chen Shu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/108578998",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/minivet-2.jpg",
+     "label": "公",
+     "by": "halcyon_fan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/110139934",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/minivet-3.jpg",
+     "label": "母",
+     "by": "John D Reynolds",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/19401837",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/minivet-4.jpg",
+     "label": "母",
+     "by": "luc-125",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/337936230",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/minivet-5.jpg",
+     "label": "母",
+     "by": "方伊琳(阿鈣)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/18977221",
+     "w": 500,
+     "h": 333
+    }
+   ],
+   "tag": "公母異型"
+  },
+  {
+   "id": "fulvetta",
+   "zh": "繡眼畫眉",
+   "en": "Morrison's Fulvetta",
+   "sci": "Alcippe morrisonia",
+   "cm": 14,
+   "habitat": [
+    "樹叢"
+   ],
+   "intro": "灰色的頭、白色的眼圈，很像戴了眼鏡的小畫眉。",
+   "story": "繡眼畫眉常常一大群在樹叢裡移動，邊走邊叫，其他小鳥也會跟著牠們一起找食物，形成「混群」。",
+   "cues": [
+    "找白色眼圈和灰頭",
+    "常一群在樹叢裡鑽",
+    "叫聲細細的，一直叫"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/fulvetta-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255779363",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/fulvetta-1.jpg",
+     "label": "",
+     "by": "方伊琳(阿鈣)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/332541203",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/fulvetta-2.jpg",
+     "label": "",
+     "by": "no rights reserved",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/observations/348281604",
+     "w": 500,
+     "h": 333
+    }
+   ],
+   "tag": "公母同型"
   }
  ]
 }

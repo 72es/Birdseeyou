@@ -126,7 +126,7 @@
         <input id="hi-name" type="text" maxlength="12" autocomplete="nickname" placeholder="例如：小翠、KB、鳥博士" required>
         <button class="bk" type="submit">開始收集鳥</button></form>`}
       <div class="glass progress"><span class="big">${got}</span><span class="lbl">隻鳥<br>已收集</span><span class="meter" aria-label="收集進度"><i style="width:${all ? Math.max(3, got / all * 100) : 0}%"></i></span><span class="lbl">共 ${all} 種</span></div>
-      ${needsBackup() ? `<button class="nudge" type="button" data-go="#/me" data-anchor="backup">有 ${stampCount() - (S.backupCount || 0)} 個新章還沒備份，點這裡存一份 ›</button>` : ""}
+      ${showNudge() ? `<div class="nudge"><button class="nudge-go" type="button" data-go="#/me" data-anchor="backup">已經看見 ${nGot(ORDER)} 隻鳥了，想備份一下嗎？</button><button class="nudge-x" type="button" id="nudge-x" aria-label="關閉提醒">×</button></div>` : ""}
       <section class="windows">${wins}</section>
       <section class="bigbtns">
         <button class="bigbtn tone-lav" type="button" data-go="#/all"><b>ALL BIRDS</b><span>全部 ${all} 種鳥的照片牆</span></button>
@@ -134,9 +134,11 @@
       </section>
       <p class="foot">照片來自 iNaturalist 的觀察紀錄，依各自的創用 CC 授權使用。<br>資料版本 ${esc(window.BSY_VERSION || "")}</p>
     </main>`;
+    wireNudge();
     wireHi();
   }
 
+  function wireNudge() { const x = $("#nudge-x"); if (x) x.onclick = () => { S.nudgeOff = stampCount(); save(); x.closest(".nudge").remove(); }; }
   function wireHi() {
     const f = $("#hi"); if (!f) return;
     f.onsubmit = e => { e.preventDefault(); const v = $("#hi-name").value.trim().slice(0, 12); if (!v) return; S.name = v; save(); home(); toast(`歡迎，${v}！`); };
@@ -197,7 +199,7 @@
     // one swipeable album per group (公/母, 成鳥/幼鳥, or one group); one stamp per group
     const labs = [...new Set(b.photos.map(p => p.label))];
     const photos = labs.map(lab => { const got = has(id, lab), ps = b.photos.filter(p => p.label === lab);
-      const slides = ps.map(p => `<div class="slide"><div class="inner" data-zoom="${p.src}"><img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}"` : ""} loading="lazy" alt="${esc(b.zh + lab)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div></div>`).join("");
+      const slides = ps.map(p => `<div class="slide"><div class="inner" data-zoom="${p.src}">${p.note ? `<span class="pnote${lab ? " low" : ""}">${esc(p.note)}</span>` : ""}<img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}"` : ""} loading="lazy" alt="${esc(b.zh + lab)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div></div>`).join("");
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${lab ? `<span class="lab ${labClass(lab)}">${esc(labSym(lab))}</span>` : ""}
         <div class="car">${slides}</div>
         ${ps.length > 1 ? `<div class="dots" aria-hidden="true">${ps.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div><span class="more">左右滑看 ${ps.length} 張</span>` : ""}
@@ -210,7 +212,7 @@
       <header class="bhead"><h2>${esc(b.zh)}</h2><p class="en">${esc(b.en)} · <span class="sci">${esc(b.sci)}</span></p>
         <div class="bflags">${b.endemic ? '<span class="flag">台灣特有種</span>' : ""}${b.alien ? '<span class="flag alien">外來種</span>' : ""}</div></header>
       <div class="photos">${photos}</div>
-      <p class="sexnote"><b>公母怎麼分？</b>${esc(b.sex)}</p>
+      <p class="sexnote"><b>${esc(b.tag || "公母怎麼分？")}</b><span class="bar-sep">｜</span>${esc(b.sex)}</p>
       <p class="intro">${esc(b.intro)}</p>
       ${b.story ? `<p class="story">${esc(b.story)}</p>` : ""}
       <div class="glass box"><h3>怎麼認</h3><ul>${b.cues.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>
@@ -292,7 +294,9 @@
     if (!last) return stampCount() ? `還沒有備份過，目前有 ${stampCount()} 個章。` : "還沒有任何章，蓋了章之後記得備份。";
     return `上次備份：${last.getFullYear()}/${last.getMonth() + 1}/${last.getDate()}${since > 0 ? `，之後又蓋了 ${since} 個章。` : "，紀錄都已經備份好了。"}`;
   }
-  const needsBackup = () => stampCount() - (S.backupCount || 0) >= 10;
+  const needsBackup = () => stampCount() - (S.backupCount || 0) >= 5;
+  // closing the reminder hides it until the collection changes again
+  const showNudge = () => needsBackup() && S.nudgeOff !== stampCount();
   function packBackup() { return JSON.stringify({ app: "birdseeyou", v: 1, at: new Date().toISOString(), name: S.name || "", birds: S.birds, log: S.log }); }
   function markBackedUp() { S.lastBackup = new Date().toISOString(); S.backupCount = stampCount(); save(); }
   const toCode = txt => "BSY1." + btoa(unescape(encodeURIComponent(txt)));
