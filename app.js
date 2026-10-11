@@ -432,7 +432,8 @@
       refreshStamps(id);
       if (on) { st.classList.remove("pop"); void st.offsetWidth; st.classList.add("pop"); }
       return; }
-    const z = e.target.closest("[data-zoom]"); if (z) { lightbox(z.dataset.zoom); return; }
+    const z = e.target.closest("[data-zoom]"); if (z) { const id = (location.hash.match(/#\/b\/([^/]+)/) || [])[1], ps = id && BIRDS[id] ? BIRDS[id].photos : [{ src: z.dataset.zoom, label: "", by: "", license: "" }];
+      lightbox(ps, Math.max(0, ps.findIndex(p => p.src === z.dataset.zoom))); return; }
     const o = e.target.closest("[data-open]"); if (o) { go(`#/b/${o.dataset.open}/${o.dataset.ctx || "all"}`); return; }
     const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); if (g.dataset.anchor) setTimeout(() => { const t = document.getElementById(g.dataset.anchor); if (t) t.scrollIntoView({ block: "start" }); }, 60); return; }
     const f = e.target.closest("[data-filter]"); if (f) { allFilter = f.dataset.filter; rerenderKeepScroll(); return; }
@@ -449,35 +450,61 @@
   }
 
   /* ---------- lightbox with pinch zoom ---------- */
-  function lightbox(src) {
+  // full-screen viewer: swipe left/right through every photo of the bird (公 → 母 …), pinch / double-tap to zoom, swipe down to close
+  function lightbox(list, start) {
+    let i = Math.max(0, start || 0);
     const lb = document.createElement("div"); lb.className = "lb";
-    lb.innerHTML = `<img src="${src}" alt=""><button class="x" type="button" aria-label="關閉">×</button><p class="tip">兩指放大・點兩下放大・往下滑關閉</p>`;
+    lb.innerHTML = `<div class="lb-top"><span class="lb-lab"></span><span class="lb-n"></span></div><img alt=""><button class="x" type="button" aria-label="關閉">×</button>
+      <button class="lb-nav prev" type="button" aria-label="上一張">‹</button><button class="lb-nav next" type="button" aria-label="下一張">›</button>
+      <p class="lb-cr"></p><p class="tip">左右滑換照片・兩指或點兩下放大・往下滑關閉</p>`;
     document.body.appendChild(lb); document.body.style.overflow = "hidden";
-    const img = lb.querySelector("img"); let sc = 1, tx = 0, ty = 0, start = null, lastTap = 0;
-    const apply = () => { img.style.transform = `translate(${tx}px,${ty}px) scale(${sc})`; };
-    let base = null;
-    img.onload = () => { if (!base) { const r = img.getBoundingClientRect(); base = [r.left, r.top]; img.style.position = "absolute"; img.style.left = "0"; img.style.top = "0"; }
-      tx = base[0]; ty = base[1]; sc = 1; apply(); };
-    if (img.complete) img.onload();
-    const close = () => { lb.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); };
-    const onKey = e => { if (e.key === "Escape") close(); };
+    const img = lb.querySelector("img"); let sc = 1, tx = 0, ty = 0, st = null, lastTap = 0, anim = false;
+    const W = () => window.innerWidth, H = () => window.innerHeight;
+    const apply = (t) => { img.style.transition = t ? "transform .22s ease" : "none"; img.style.transform = `translate(${tx}px,${ty}px) scale(${sc})`; };
+    const reset = (t) => { sc = 1; tx = 0; ty = 0; apply(t); };
+    function show(k, dir) {
+      i = (k + list.length) % list.length; const p = list[i];
+      const swap = () => { img.src = p.src; lb.querySelector(".lb-lab").textContent = p.label ? labSym(p.label) : ""; lb.querySelector(".lb-lab").hidden = !p.label;
+        lb.querySelector(".lb-n").textContent = list.length > 1 ? `${i + 1} / ${list.length}` : ""; lb.querySelector(".lb-cr").textContent = `© ${p.by} · ${p.license}`;
+        lb.querySelectorAll(".lb-nav").forEach(n => n.hidden = list.length < 2);
+        if (dir) { tx = dir * W() * 0.6; sc = 1; ty = 0; apply(false); requestAnimationFrame(() => { tx = 0; apply(true); setTimeout(() => anim = false, 230); }); } else reset(false); };
+      if (dir) { anim = true; tx = -dir * W(); apply(true); setTimeout(swap, 180); } else swap();
+    }
+    const go = d => { if (list.length > 1 && !anim) show(i + d, d); };
+    show(i);
+    const close = () => { lb.remove(); document.body.style.overflow = ""; document.removeEventListener("keydown", onKey); syncAlbum(list[i]); };
+    const onKey = e => { if (e.key === "Escape") close(); if (e.key === "ArrowRight") go(1); if (e.key === "ArrowLeft") go(-1); };
     document.addEventListener("keydown", onKey);
-    lb.querySelector(".x").onclick = close;
+    lb.querySelector(".x").onclick = close; lb.querySelector(".prev").onclick = () => go(-1); lb.querySelector(".next").onclick = () => go(1);
     const dist = t => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
     const mid = t => [(t[0].clientX + t[1].clientX) / 2, (t[0].clientY + t[1].clientY) / 2];
-    const zoomAt = (px, py, ns) => { ns = Math.min(6, Math.max(1, ns)); tx = px - (px - tx) * (ns / sc); ty = py - (py - ty) * (ns / sc); sc = ns; if (sc === 1) img.onload(); apply(); };
-    lb.addEventListener("touchstart", e => { const t = e.touches;
-      if (t.length === 2) start = { d: dist(t), s: sc, m: mid(t), tx, ty };
-      else if (t.length === 1) { const now = Date.now(); if (now - lastTap < 300) { zoomAt(t[0].clientX, t[0].clientY, sc > 1 ? 1 : 2.5); lastTap = 0; return; } lastTap = now; start = { x: t[0].clientX, y: t[0].clientY, tx, ty, one: true }; } }, { passive: true });
-    lb.addEventListener("touchmove", e => { const t = e.touches; if (!start) return;
-      if (t.length === 2 && start.d) { const ns = Math.min(6, Math.max(1, start.s * dist(t) / start.d)); const m = mid(t);
-        tx = m[0] - (start.m[0] - start.tx) * (ns / start.s); ty = m[1] - (start.m[1] - start.ty) * (ns / start.s); sc = ns; apply(); }
-      else if (t.length === 1 && start.one) { const dx = t[0].clientX - start.x, dy = t[0].clientY - start.y;
-        if (sc > 1) { tx = start.tx + dx; ty = start.ty + dy; apply(); } else { ty = start.ty + Math.max(0, dy); apply(); } } }, { passive: true });
-    lb.addEventListener("touchend", e => { if (start && start.one && sc === 1) { const dy = (e.changedTouches[0].clientY - start.y); if (dy > 110) { close(); return; } img.onload(); }
-      if (e.touches.length === 0) start = null; if (sc < 1.02 && sc !== 1) { sc = 1; img.onload(); } });
+    // keep the point under the finger fixed while zooming (transform-origin is the image centre = screen centre)
+    const zoomTo = (px, py, ns, from) => { ns = Math.min(6, Math.max(1, ns)); const cx = W() / 2, cy = H() / 2, f = ns / from.s;
+      tx = px - cx - f * (px - cx - from.tx); ty = py - cy - f * (py - cy - from.ty); sc = ns; if (sc === 1) { tx = 0; ty = 0; } };
+    lb.addEventListener("touchstart", e => { if (e.target.closest("button")) return; const t = e.touches;
+      if (t.length === 2) st = { d: dist(t), s: sc, m: mid(t), tx, ty };
+      else if (t.length === 1) { const now = Date.now();
+        if (now - lastTap < 280) { zoomTo(t[0].clientX, t[0].clientY, sc > 1 ? 1 : 2.5, { s: sc, tx, ty }); apply(true); lastTap = 0; st = null; return; }
+        lastTap = now; st = { x: t[0].clientX, y: t[0].clientY, tx, ty, one: true, axis: null }; } }, { passive: true });
+    lb.addEventListener("touchmove", e => { const t = e.touches; if (!st || anim) return;
+      if (t.length === 2 && st.d) { const m = mid(t); zoomTo(m[0], m[1], st.s * dist(t) / st.d, { s: st.s, tx: st.tx + (m[0] - st.m[0]), ty: st.ty + (m[1] - st.m[1]) }); apply(false); return; }
+      if (t.length !== 1 || !st.one) return;
+      const dx = t[0].clientX - st.x, dy = t[0].clientY - st.y;
+      if (sc > 1) { tx = st.tx + dx; ty = st.ty + dy; apply(false); return; }
+      if (!st.axis && Math.hypot(dx, dy) > 8) st.axis = Math.abs(dx) > Math.abs(dy) ? "x" : "y";
+      if (st.axis === "x") { tx = dx; apply(false); } else if (st.axis === "y") { ty = Math.max(0, dy); lb.style.background = `rgba(14,12,18,${Math.max(.4, .96 - dy / 400)})`; apply(false); } }, { passive: true });
+    lb.addEventListener("touchend", e => { if (!st || e.touches.length) return; const s0 = st; st = null; if (anim) return;
+      if (sc > 1 || !s0.one) { if (sc < 1.02) reset(true); return; }
+      const dx = e.changedTouches[0].clientX - s0.x, dy = e.changedTouches[0].clientY - s0.y;
+      if (s0.axis === "x" && Math.abs(dx) > 60) { go(dx < 0 ? 1 : -1); return; }
+      if (s0.axis === "y" && dy > 110) { close(); return; }
+      lb.style.background = ""; reset(true); });
     lb.addEventListener("click", e => { if (e.target === lb) close(); });
-    lb.addEventListener("wheel", e => { e.preventDefault(); zoomAt(e.clientX, e.clientY, sc * (e.deltaY < 0 ? 1.15 : 0.87)); }, { passive: false });
+    lb.addEventListener("wheel", e => { e.preventDefault(); zoomTo(e.clientX, e.clientY, sc * (e.deltaY < 0 ? 1.15 : 0.87), { s: sc, tx, ty }); apply(false); }, { passive: false });
+  }
+  function syncAlbum(p) { // after closing, leave the page album on the photo you were looking at
+    const el = p && app.querySelector(`.car [data-zoom="${CSS.escape(p.src)}"]`); if (!el) return;
+    const car = el.closest(".car"), slide = el.closest(".slide"); car.scrollTo({ left: slide.offsetLeft - car.offsetLeft });
   }
 
   let tt; function toast(msg) { let t = $(".toast"); if (!t) { t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
