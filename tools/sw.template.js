@@ -14,7 +14,7 @@ self.addEventListener("fetch", e => {
     return;
   }
   if (same || u.host.includes("fonts.")) { // pages, code, data, fonts: network first, fall back to cache
-    e.respondWith(Promise.race([fetch(r), new Promise((_, no) => setTimeout(no, 3500))])
+    e.respondWith(Promise.race([same ? fetch(u.href, { cache: "no-cache", credentials: "same-origin" }) : fetch(r), new Promise((_, no) => setTimeout(no, 3500))])
       .then(res => { if (res.ok) { const cp = res.clone(); caches.open(CACHE).then(c => c.put(r, cp)); } return res; })
       .catch(() => caches.match(r, { ignoreSearch: true }).then(hit => hit || caches.match("index.html"))));
   }
