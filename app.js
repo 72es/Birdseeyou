@@ -202,6 +202,7 @@
       <div class="photos">${photos}</div>
       <p class="sexnote"><b>公母怎麼分？</b>${esc(b.sex)}</p>
       <p class="intro">${esc(b.intro)}</p>
+      ${b.story ? `<p class="story">${esc(b.story)}</p>` : ""}
       <div class="glass box"><h3>怎麼認</h3><ul>${b.cues.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>
       <div class="facts"><div class="glass box"><h3>去哪找</h3><div class="pills">${b.habitat.map(h => `<span class="pill">${esc(h)}</span>`).join("")}</div></div>
         <div class="glass box"><h3>多大隻</h3><span class="cm">${b.cm}<small> 公分</small></span><span class="spar">${SPARROW.repeat(Math.min(nSp, 9))}${nSp > 9 ? "…" : ""}</span><span class="ratio">≈ ${nSp} 隻麻雀長</span></div></div>
@@ -456,7 +457,7 @@
     const lb = document.createElement("div"); lb.className = "lb";
     lb.innerHTML = `<div class="lb-top"><span class="lb-lab"></span><span class="lb-n"></span></div><img alt=""><button class="x" type="button" aria-label="關閉">×</button>
       <button class="lb-nav prev" type="button" aria-label="上一張">‹</button><button class="lb-nav next" type="button" aria-label="下一張">›</button>
-      <p class="lb-cr"></p><p class="tip">左右滑換照片・兩指或點兩下放大・往下滑關閉</p>`;
+      <p class="lb-cr"></p>`;
     document.body.appendChild(lb); document.body.style.overflow = "hidden";
     const img = lb.querySelector("img"); let sc = 1, tx = 0, ty = 0, st = null, lastTap = 0, anim = false;
     const W = () => window.innerWidth, H = () => window.innerHeight;
