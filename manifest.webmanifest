@@ -1,0 +1,5 @@
+{
+ "name":"KB 的關渡賞鳥手冊","short_name":"KB 賞鳥","start_url":"./","scope":"./",
+ "display":"standalone","background_color":"#F6F8F3","theme_color":"#F6F8F3","lang":"zh-Hant-TW",
+ "icons":[{"src":"icon-180.png","sizes":"180x180","type":"image/png"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"}]
+}
