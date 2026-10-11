@@ -60,7 +60,8 @@
   const labClass = l => l === "公" ? "m" : l === "母" ? "f" : "s";
   const labSym = l => l === "公" ? "♂ 公" : l === "母" ? "♀ 母" : l;
 
-  const STAMP_SVG = `<svg viewBox="0 0 24 24" aria-hidden="true"><g class="no" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9" stroke-dasharray="3 2.4"/><path d="M8 13.5c1.2-3.2 4.6-4.6 7.6-3.4-1 .6-1.6 1.4-1.8 2.6-.4 2-2.4 3.2-4.4 2.6"/><circle cx="14.6" cy="10.4" r=".6" fill="currentColor"/></g><g class="ok" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 12.5l4.2 4.2 8.8-9.4"/></g></svg>`;
+  // chibi eagle eye: wide open = not seen yet; happy closed eye + sparkle = seen
+  const STAMP_SVG = `<svg viewBox="0 0 24 24" aria-hidden="true"><g class="no"><circle cx="12.4" cy="14" r="7.4" fill="#F7C531" stroke="#1C1A21" stroke-width="1.9"/><circle cx="11.6" cy="14.8" r="3.6" fill="#1C1A21"/><circle cx="13.2" cy="13.1" r="1.3" fill="#fff"/><circle cx="10.4" cy="16.4" r=".6" fill="#fff"/><path d="M2.2 6.4 L22.2 9.6 L21.6 12.6 Q13 10.6 4.4 11 Z" fill="#1C1A21" stroke="#1C1A21" stroke-width="1" stroke-linejoin="round"/></g><g class="ok"><path d="M5.6 15.8 Q12.4 9.4 19.2 15.8" fill="none" stroke="#F7C531" stroke-width="3.2" stroke-linecap="round"/><path d="M2.2 6.4 L22.2 9.6 L21.6 12.6 Q13 10.6 4.4 11 Z" fill="#fff" stroke="#fff" stroke-width="1" stroke-linejoin="round"/><path d="M19.8 17 l.7 1.6 1.6.7 -1.6.7 -.7 1.6 -.7-1.6 -1.6-.7 1.6-.7z M4.6 17.8 l.5 1.1 1.1.5 -1.1.5 -.5 1.1 -.5-1.1 -1.1-.5 1.1-.5z" fill="#FFE27A"/></g></svg>`;
   const SPARROW = '<svg viewBox="0 0 24 18" aria-hidden="true"><path d="M3 11c0-4 3-7 8-7 2 0 3.5.8 4.5 2l4.5-.5-3 2.6c.3.8.5 1.7.5 2.9 0 3-2.5 5-6 5H7l-5 2 2-4c-.6-.9-1-1.9-1-3z" fill="currentColor"/></svg>';
 
   /* ---------- stained-glass window generator ---------- */
@@ -97,7 +98,7 @@
     const flags = (b.endemic ? '<span class="flag">特有種</span>' : "") + (b.alien ? '<span class="flag alien">外來種</span>' : "");
     return `<div class="tile ${got ? "got-frame" : ""}" data-open="${id}" data-ctx="${ctx}" role="button" tabindex="0" aria-label="${esc(b.zh)}">
       <div class="inner"><img src="${b.photos[0].src}" alt="" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span></div>
-      <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(b.photos[0].label)}" data-region="${ctx === "all" ? "" : ctx}" aria-pressed="${got}" aria-label="蓋章：${esc(b.zh)}">${STAMP_SVG}</button></div>`;
+      <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(b.photos[0].label)}" data-region="${ctx === "all" ? "" : ctx}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh)}">${STAMP_SVG}</button></div>`;
   }
   const bar = (back, title, right = "", ids = "") => `<header class="bar"><div class="bar-in">${back ? `<button class="back" type="button" data-go="${back[0]}">‹ ${esc(back[1])}</button>` : ""}<div class="ttl">${esc(title)}</div><div class="count"${ids ? ` data-ids="${ids}"` : ""}>${right}</div></div></header>`;
 
@@ -185,8 +186,8 @@
     const photos = b.photos.map((p, k) => { const got = has(id, p.label);
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${p.label ? `<span class="lab ${labClass(p.label)}">${esc(labSym(p.label))}</span>` : ""}
         <div class="inner" data-zoom="${p.src}"><img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}" style="aspect-ratio:${p.w}/${p.h}"` : ""} alt="${esc(b.zh + p.label)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div>
-        <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(p.label)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="蓋章：${esc(b.zh + p.label)}">${STAMP_SVG}</button>
-        <span class="hint" ${got ? "hidden" : ""}>看到了就按</span></figure>`; }).join("");
+        <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(p.label)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh + p.label)}">${STAMP_SVG}</button>
+        <span class="hint" ${got ? "hidden" : ""}>我看到了</span></figure>`; }).join("");
     const nSp = Math.max(1, Math.round(b.cm / 14));
     const where = RORDER.map(rid => { const r = REGIONS[rid]; for (const s of r.sections) { const e = s.birds.find(x => x.id === id);
         if (e) return `<div class="wr"><button class="pill ${TONE[r.tone]}" type="button" data-go="#/r/${rid}">${esc(r.name)}</button><span>${esc(s.title)}${e.seasons ? "・" + e.seasons.join("") : "・全年"}</span></div>`; } return ""; }).join("");
