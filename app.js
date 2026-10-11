@@ -107,10 +107,13 @@
     const b = BIRDS[id]; if (!b) return "";
     const got = has(id);
     const flags = (b.endemic ? '<span class="flag">特有種</span>' : "") + (b.alien ? '<span class="flag alien">外來種</span>' : "");
-    return `<div class="tile ${got ? "got-frame" : ""}" data-open="${id}" data-ctx="${ctx}" role="button" tabindex="0" aria-label="${esc(b.zh)}">
-      <div class="inner"><img src="${b.photos[0].src}" alt="" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span></div>
+    return `<div class="tile ${got ? "got-frame" : ""}">
+      <a class="inner" href="#/b/${id}/${ctx}" aria-label="${esc(b.zh)}"><img src="${b.photos[0].src}" alt="${esc(b.zh)}" loading="lazy"><span class="flags">${flags}</span><span class="nm">${esc(b.zh)}</span></a>
       <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(b.photos[0].label)}" data-region="${ctx === "all" ? "" : ctx}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh)}">${STAMP_SVG}</button></div>`;
   }
+  const licLink = l => { const k = (l || "").toLowerCase().replace(/^cc\s*/, "").replace(/\s+/g, "-"); if (!k) return "";
+    const url = k === "0" || k === "cc0" ? "https://creativecommons.org/publicdomain/zero/1.0/" : `https://creativecommons.org/licenses/${k}/4.0/`;
+    return `<a href="${url}" target="_blank" rel="noopener">${esc(l)} 4.0</a>`; };
   const bar = (back, title, right = "", ids = "") => `<header class="bar"><div class="bar-in">${back ? `<button class="back" type="button" data-go="${back[0]}">‹ ${esc(back[1])}</button>` : ""}<div class="ttl">${esc(title)}</div><div class="count"${ids ? ` data-ids="${ids}"` : ""}>${right}</div></div></header>`;
 
   /* ---------- routes ---------- */
@@ -121,10 +124,12 @@
         <div><div class="nm">${esc(r.name)}</div><div class="tg">${esc(r.tagline)}</div><div class="st">${nGot(ids)} / ${ids.length} 隻</div></div></button>`; }).join("")
       + COMING.map(c => `<button class="window soon" type="button" data-go="#/wish"><div class="pane"><span class="plus">＋</span>${esc(c.name)}<small>${esc(c.note || "")}</small></div></button>`).join("");
     app.innerHTML = `<main class="wrap">
-      <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1>${S.name ? `<p class="hello"><b>${esc(S.name)}</b>，今天要去哪裡找鳥？</p>` : ""}</section>
-      ${S.name ? "" : `<form class="glass double hi" id="hi"><h2>嗨！你是誰？</h2><p class="muted" style="margin:0">寫下你的名字或暱稱，這本賞鳥手冊就是你的了。</p>
+      <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1><p class="hello">${S.name ? `<b>${esc(S.name)}</b>，` : ""}今天要去哪裡找鳥？</p></section>
+      ${S.name || S.skipName ? "" : `<form class="glass double hi" id="hi"><h2>嗨！你是誰？</h2><p class="muted" style="margin:0">寫下你的名字或暱稱，這本賞鳥手冊就是你的了。</p>
         <input id="hi-name" type="text" maxlength="12" autocomplete="nickname" placeholder="例如：小翠、KB、鳥博士" required>
-        <button class="bk" type="submit">開始收集鳥</button></form>`}
+        <button class="bk" type="submit">開始收集鳥</button>
+        <button class="linkbtn skip" type="button" id="hi-skip">先不用，直接開始</button>
+        <p class="muted privacy">名字和收集紀錄只存在這支手機，不會上傳到網路。</p></form>`}
       <div class="glass progress"><span class="big">${got}</span><span class="lbl">隻鳥<br>已收集</span><span class="meter" aria-label="收集進度"><i style="width:${all ? Math.max(3, got / all * 100) : 0}%"></i></span><span class="lbl">共 ${all} 種</span></div>
       ${showNudge() ? `<div class="nudge"><button class="nudge-go" type="button" data-go="#/me" data-anchor="backup">已經看見 ${nGot(ORDER)} 隻鳥了，想備份一下嗎？</button><button class="nudge-x" type="button" id="nudge-x" aria-label="關閉提醒">×</button></div>` : ""}
       <section class="windows">${wins}</section>
@@ -141,6 +146,7 @@
   function wireNudge() { const x = $("#nudge-x"); if (x) x.onclick = () => { S.nudgeOff = stampCount(); save(); x.closest(".nudge").remove(); }; }
   function wireHi() {
     const f = $("#hi"); if (!f) return;
+    const sk = $("#hi-skip"); if (sk) sk.onclick = () => { S.skipName = true; save(); home(); };
     f.onsubmit = e => { e.preventDefault(); const v = $("#hi-name").value.trim().slice(0, 12); if (!v) return; S.name = v; save(); home(); toast(`歡迎，${v}！`); };
   }
   let allFilter = "all";
@@ -170,7 +176,7 @@
     const mis = missionsFor(r).map(id => `<button class="mchip ${has(id) ? "got" : ""}" type="button" data-open="${id}" data-ctx="${rid}"><img src="${BIRDS[id].photos[0].src}" alt="">${esc(BIRDS[id].zh)}${has(id) ? `<span class="mini">${STAMP_SVG}</span>` : ""}</button>`).join("");
     app.innerHTML = bar(["#/", "首頁"], r.full, `${nGot(ids)} / ${ids.length}`, ids.join(",")) + `<main class="wrap ${TONE[r.tone] || ""}">
       <section class="rhead"><div class="pane">${glassSVG(rid, PALETTES[r.tone] || PALETTES.mist, 300, 400)}</div><div><p class="eyebrow">賞鳥區</p><h2>${esc(r.name)}</h2><p class="full">${esc(r.full)}</p><p class="tg">${esc(r.tagline)}</p></div></section>
-      <dl class="glass double info">${r.info.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${k === "交通" && r.map ? `<a class="maplink" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.map)}" target="_blank" rel="noopener">在 Google 地圖打開 ↗</a>` : ""}</dd></div>`).join("")}</dl>
+      <dl class="glass double info">${r.info.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}${k === "交通" && r.map ? `<a class="maplink" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.map)}" target="_blank" rel="noopener">在 Google 地圖打開 ↗</a>` : ""}${k === "開放" && r.site ? `<a class="maplink" href="${esc(r.site)}" target="_blank" rel="noopener">出發前看官方公告 ↗</a>` : ""}</dd></div>`).join("")}</dl>
       ${r.tips && r.tips.length ? `<ul class="glass tips">${r.tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>` : ""}
       <section class="missions"><h3>今天的任務鳥 <span class="muted" style="font-size:13px">${nowSeason()}天・先找容易遇到的</span></h3>${mis ? `<div class="mrow">${mis}</div>` : `<p class="empty">這一季的鳥都收集到了，太厲害了！</p>`}</section>
       ${secs}
@@ -220,7 +226,7 @@
         <div class="glass box"><h3>多大隻</h3><span class="cm">${b.cm}<small> 公分</small></span><span class="spar">${SPARROW.repeat(Math.min(nSp, 9))}${nSp > 9 ? "…" : ""}</span><span class="ratio">≈ ${nSp} 隻麻雀長</span></div></div>
       ${where ? `<div class="glass box"><h3>在哪些地方看得到</h3><div class="where">${where}</div></div>` : ""}
       <nav class="pager"><button type="button" ${prev ? `data-open="${prev}" data-ctx="${ctx}"` : "disabled"}>‹ ${prev ? esc(BIRDS[prev].zh) : ""}</button><button type="button" ${next ? `data-open="${next}" data-ctx="${ctx}"` : "disabled"}>${next ? esc(BIRDS[next].zh) : ""} ›</button></nav>
-      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${esc(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist</a></li>`).join("")}</ul>
+      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}</ul>
     </main>`;
     app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"), more = car.parentElement.querySelector(".more"); if (!dots.length) return;
       car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); if (more) more.hidden = true; }, { passive: true }); });
@@ -267,7 +273,7 @@
         ${days ? `<div class="log">${days}</div>` : `<p class="empty">還沒有紀錄。看到鳥時，按照片右上角的章！</p>`}</section>
       <section class="sec" id="backup"><div class="sech"><h2>備份</h2><span class="sub">刪掉 App 或換手機時，用備份找回紀錄</span></div>
         <div class="glass box">
-          <p style="margin:0">${backupStatus()}</p>
+          <p style="margin:0">${backupStatus()}</p><p class="muted privacy" style="margin:0">所有紀錄只存在這支手機，不會上傳。刪掉 App 或換手機前，記得先備份。</p>
           <div class="bkbtns"><button class="bk" type="button" id="bk-save">存一份備份到 iCloud / 檔案</button>
             <button class="bk ghost" type="button" id="bk-copy">複製備份碼（可以貼到 LINE 或備忘錄）</button></div>
           <details class="restore"><summary>從備份還原</summary>
@@ -280,7 +286,7 @@
       <p class="foot"><button class="linkbtn" type="button" id="rename">改名字</button>　<button class="linkbtn" type="button" id="reset">清除全部紀錄</button> <span id="confirm" hidden>再按一次確認清除</span></p>
     </main>`;
     wireBackup();
-    $("#rename").onclick = () => { delete S.name; save(); go("#/"); };
+    $("#rename").onclick = () => { delete S.name; delete S.skipName; save(); go("#/"); };
     let armed = false; const rb = $("#reset");
     rb.onclick = () => { if (!armed) { armed = true; $("#confirm").hidden = false; rb.textContent = "確認清除"; return; }
       S = { birds: {}, log: [], name: S.name, lastBackup: S.lastBackup, backupCount: 0 }; save(); me(); toast("已清除"); };

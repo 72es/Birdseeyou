@@ -11,7 +11,7 @@
     "淺水邊"
    ],
    "intro": "全身白白的鷺鷥，嘴巴和腳都是黑色，只有腳趾是黃色，好像穿了一雙黃襪子。",
-   "story": "很久以前，人們為了牠頭上漂亮的飾羽大量捕捉牠，差點讓牠消失。後來大家一起立法保護，牠才又回到水邊；看到很多小白鷺，代表這裡的水裡有很多小魚。",
+   "story": "很久以前，人們為了牠頭上漂亮的飾羽大量捕捉牠，差點讓牠消失。後來大家一起立法保護，牠才又回到水邊。看到小白鷺，代表附近可能有牠找得到小魚的淺水。",
    "cues": [
     "先看腳趾：黃色的就是小白鷺",
     "會在淺水裡一邊走、一邊用腳攪水，把小魚嚇出來再抓",
@@ -28,7 +28,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/photos/205293169",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/egret_little-1.jpg",
@@ -37,7 +38,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/254472981",
      "w": 500,
-     "h": 371
+     "h": 371,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/egret_little-2.jpg",
@@ -47,7 +49,8 @@
      "url": "https://www.inaturalist.org/observations/53256177",
      "w": 500,
      "h": 375,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/egret_little-3.jpg",
@@ -56,7 +59,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/255933325",
      "w": 376,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/egret_little-4.jpg",
@@ -65,7 +69,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/182109101",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -98,7 +103,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/399171793",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-2.jpg",
@@ -107,7 +113,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/111095344",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-3.jpg",
@@ -116,7 +123,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/111106370",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-5.jpg",
@@ -125,7 +133,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270438329",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-1.jpg",
@@ -134,7 +143,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/398419111",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-4.jpg",
@@ -143,7 +153,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/67078694",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/night_heron-6.jpg",
@@ -152,7 +163,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/266175954",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -168,7 +180,7 @@
     "草叢邊"
    ],
    "intro": "額頭紅紅的、嘴尖黃黃的，游泳的時候頭會一直往前點。",
-   "story": "紅冠水雞的寶寶是一顆顆黑色小毛球。有時候哥哥姊姊會留下來，幫爸媽一起餵弟弟妹妹。",
+   "story": "紅冠水雞的寶寶是一顆顆黑色小毛球。有時候，上一窩長大的哥哥姊姊會留下來，幫爸媽一起照顧小寶寶。",
    "cues": [
     "找紅色額頭和黃色嘴尖",
     "尾巴下面有白毛，走路時會一翹一翹",
@@ -185,7 +197,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/photos/171773229",
      "w": 500,
-     "h": 352
+     "h": 352,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-1.jpg",
@@ -194,7 +207,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/37911262",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-3.jpg",
@@ -203,7 +217,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/45763154",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-4.jpg",
@@ -212,7 +227,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/150902146",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-5.jpg",
@@ -221,7 +237,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/158439829",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-6.jpg",
@@ -230,7 +247,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/122785000",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/moorhen-7.jpg",
@@ -239,7 +257,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/118897408",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -271,7 +290,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/197696513",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/waterhen-1.jpg",
@@ -280,7 +300,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/347576255",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/waterhen-2.jpg",
@@ -289,7 +310,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/267322399",
      "w": 500,
-     "h": 332
+     "h": 332,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/waterhen-3.jpg",
@@ -298,7 +320,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/191942635",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -331,7 +354,8 @@
      "url": "https://www.inaturalist.org/photos/194462197",
      "w": 500,
      "h": 360,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-1.jpg",
@@ -341,7 +365,8 @@
      "url": "https://www.inaturalist.org/observations/299124690",
      "w": 500,
      "h": 333,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-2.jpg",
@@ -351,7 +376,8 @@
      "url": "https://www.inaturalist.org/observations/342009416",
      "w": 500,
      "h": 333,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-3.jpg",
@@ -361,7 +387,8 @@
      "url": "https://www.inaturalist.org/observations/62196571",
      "w": 500,
      "h": 333,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-4.jpg",
@@ -371,7 +398,8 @@
      "url": "https://www.inaturalist.org/observations/73800632",
      "w": 500,
      "h": 374,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-5.jpg",
@@ -380,7 +408,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/149232015",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-6.jpg",
@@ -389,7 +418,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/323180074",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grebe-7.jpg",
@@ -398,7 +428,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/298695084",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同・季節換羽"
@@ -413,7 +444,7 @@
     "水邊樹枝"
    ],
    "intro": "藍色背、橘色肚子，常停在水邊的枯枝上，看準了就一頭衝進水裡抓魚。",
-   "story": "翠鳥要在清澈的水裡才看得到魚，也需要能挖洞做窩的土坡。所以有翠鳥的地方，通常水很乾淨，岸邊也還保留著自然的樣子。",
+   "story": "翠鳥需要清澈到看得見魚的水，和可以停下來等魚的樹枝，也需要能挖洞做窩的土坡。看到牠，是認識這片水邊的好線索，再多找找其他線索，就更了解這裡的環境。",
    "cues": [
     "飛過去時像一道藍色閃光",
     "會一邊飛一邊尖叫「嗶——」",
@@ -430,7 +461,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/98375354",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-2.jpg",
@@ -439,7 +471,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/253184975",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-3.jpg",
@@ -448,7 +481,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/116942354",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-4.jpg",
@@ -457,7 +491,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326290893",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-1.jpg",
@@ -466,7 +501,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/1669314",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-5.jpg",
@@ -475,7 +511,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/101945093",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-6.jpg",
@@ -484,7 +521,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/334191240",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kingfisher-7.jpg",
@@ -493,7 +531,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/211502151",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -526,7 +565,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/335903437",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_plain-1.jpg",
@@ -535,7 +575,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/9481099",
      "w": 500,
-     "h": 322
+     "h": 322,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_plain-2.jpg",
@@ -544,7 +585,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/289725007",
      "w": 500,
-     "h": 400
+     "h": 400,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_plain-3.jpg",
@@ -553,7 +595,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/361385411",
      "w": 500,
-     "h": 364
+     "h": 364,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -586,7 +629,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/293220944",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_yb-1.jpg",
@@ -595,7 +639,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/352163703",
      "w": 500,
-     "h": 450
+     "h": 450,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_yb-2.jpg",
@@ -604,7 +649,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/23582710",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_yb-3.jpg",
@@ -613,7 +659,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/346471340",
      "w": 345,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/prinia_yb-4.jpg",
@@ -622,7 +669,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/373234996",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -654,7 +702,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/161725682",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-3.jpg",
@@ -663,7 +712,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19636580",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-4.jpg",
@@ -672,7 +722,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/194477589",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-1.jpg",
@@ -681,7 +732,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15992601",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-2.jpg",
@@ -690,7 +742,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/91713236",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-5.jpg",
@@ -699,7 +752,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/12890537",
      "w": 500,
-     "h": 324
+     "h": 324,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-6.jpg",
@@ -708,7 +762,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/37653472",
      "w": 500,
-     "h": 342
+     "h": 342,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/munia-7.jpg",
@@ -717,7 +772,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/383523657",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -750,7 +806,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/165351252",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sparrow-1.jpg",
@@ -759,7 +816,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105662003",
      "w": 500,
-     "h": 350
+     "h": 350,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sparrow-2.jpg",
@@ -768,7 +826,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/1535882",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sparrow-3.jpg",
@@ -777,7 +836,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/128095422",
      "w": 500,
-     "h": 419
+     "h": 419,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sparrow-4.jpg",
@@ -786,7 +846,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/205769429",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -818,7 +879,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/photos/59227685",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bulbul-1.jpg",
@@ -827,7 +889,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/76809497",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bulbul-2.jpg",
@@ -836,7 +899,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/104160366",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bulbul-3.jpg",
@@ -845,7 +909,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/80681122",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bulbul-4.jpg",
@@ -854,7 +919,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/33250707",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -886,7 +952,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/20010236",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_eye-1.jpg",
@@ -895,7 +962,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/194092824",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_eye-2.jpg",
@@ -904,7 +972,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/93401543",
      "w": 500,
-     "h": 277
+     "h": 277,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_eye-3.jpg",
@@ -913,7 +982,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255248534",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_eye-4.jpg",
@@ -922,7 +992,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/324817809",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -955,7 +1026,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/530098134",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swallow-1.jpg",
@@ -964,7 +1036,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/331769215",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swallow-2.jpg",
@@ -973,7 +1046,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/257489703",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swallow-3.jpg",
@@ -982,7 +1056,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/134540895",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1015,7 +1090,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/183749378",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-1.jpg",
@@ -1024,7 +1100,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/363073610",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-2.jpg",
@@ -1033,7 +1110,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/130911641",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-3.jpg",
@@ -1042,7 +1120,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/68148309",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-4.jpg",
@@ -1051,7 +1130,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/253470193",
      "w": 500,
-     "h": 327
+     "h": 327,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-5.jpg",
@@ -1060,7 +1140,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336923726",
      "w": 500,
-     "h": 354
+     "h": 354,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-6.jpg",
@@ -1069,7 +1150,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/282549512",
      "w": 500,
-     "h": 377
+     "h": 377,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kite-7.jpg",
@@ -1078,7 +1160,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/282549513",
      "w": 500,
-     "h": 377
+     "h": 377,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -1110,7 +1193,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256468416",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-2.jpg",
@@ -1119,7 +1203,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105969200",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-3.jpg",
@@ -1128,7 +1213,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/329845779",
      "w": 500,
-     "h": 364
+     "h": 364,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-5.jpg",
@@ -1137,7 +1223,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336977773",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-6.jpg",
@@ -1146,7 +1233,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/330977211",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-1.jpg",
@@ -1155,7 +1243,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/72055579",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-4.jpg",
@@ -1164,7 +1253,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/142273910",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-7.jpg",
@@ -1173,7 +1263,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/150213568",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/teal-8.jpg",
@@ -1182,7 +1273,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/196676608",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・季節換羽"
@@ -1214,7 +1306,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/111905503",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-2.jpg",
@@ -1223,7 +1316,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/331097834",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-4.jpg",
@@ -1232,7 +1326,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/145752253",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-5.jpg",
@@ -1241,7 +1336,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/195380242",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-1.jpg",
@@ -1250,7 +1346,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/344638290",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-3.jpg",
@@ -1259,7 +1356,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/205813435",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-6.jpg",
@@ -1268,7 +1366,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/145489177",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pintail-7.jpg",
@@ -1277,7 +1376,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/46950894",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・季節換羽"
@@ -1309,7 +1409,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/192011575",
      "w": 500,
-     "h": 379
+     "h": 379,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-2.jpg",
@@ -1318,7 +1419,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/388187454",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-3.jpg",
@@ -1327,7 +1429,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/347449899",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-5.jpg",
@@ -1336,7 +1439,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/202795530",
      "w": 500,
-     "h": 349
+     "h": 349,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-6.jpg",
@@ -1345,7 +1449,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/190781985",
      "w": 500,
-     "h": 299
+     "h": 299,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-1.jpg",
@@ -1354,7 +1459,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/199799314",
      "w": 500,
-     "h": 371
+     "h": 371,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-4.jpg",
@@ -1363,7 +1469,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336667253",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-7.jpg",
@@ -1372,7 +1479,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/190782186",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-8.jpg",
@@ -1381,7 +1489,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19609149",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shoveler-9.jpg",
@@ -1390,7 +1499,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/332412599",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・季節換羽"
@@ -1422,7 +1532,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/photos/73516715",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_heron-1.jpg",
@@ -1431,7 +1542,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/123756760",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_heron-2.jpg",
@@ -1440,7 +1552,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/154535862",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_heron-3.jpg",
@@ -1449,7 +1562,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/151816652",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_heron-4.jpg",
@@ -1458,7 +1572,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/106112257",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1490,7 +1605,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/56653891",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/great_egret-1.jpg",
@@ -1499,7 +1615,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/247977705",
      "w": 500,
-     "h": 404
+     "h": 404,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/great_egret-2.jpg",
@@ -1508,7 +1625,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/75646810",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/great_egret-3.jpg",
@@ -1517,7 +1635,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/200816770",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/great_egret-4.jpg",
@@ -1526,7 +1645,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/362051443",
      "w": 500,
-     "h": 349
+     "h": 349,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -1559,7 +1679,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/361991409",
      "w": 500,
-     "h": 351
+     "h": 351,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/int_egret-1.jpg",
@@ -1568,7 +1689,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/110064664",
      "w": 333,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/int_egret-2.jpg",
@@ -1577,7 +1699,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/149536587",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/int_egret-3.jpg",
@@ -1586,7 +1709,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/140517289",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/int_egret-4.jpg",
@@ -1595,7 +1719,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/149983238",
      "w": 281,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -1628,7 +1753,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/188963083",
      "w": 493,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/greenshank-1.jpg",
@@ -1637,7 +1763,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/36091952",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/greenshank-2.jpg",
@@ -1646,7 +1773,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/195832451",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/greenshank-3.jpg",
@@ -1655,7 +1783,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/139606985",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1688,7 +1817,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/323621890",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wood_sandpiper-1.jpg",
@@ -1697,7 +1827,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/315213306",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wood_sandpiper-2.jpg",
@@ -1706,7 +1837,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/380923714",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wood_sandpiper-3.jpg",
@@ -1715,7 +1847,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/150456345",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wood_sandpiper-4.jpg",
@@ -1724,7 +1857,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/139719790",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1757,7 +1891,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/photos/405355875",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_sandpiper-1.jpg",
@@ -1766,7 +1901,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/313760292",
      "w": 500,
-     "h": 355
+     "h": 355,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_sandpiper-2.jpg",
@@ -1775,7 +1911,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/157058160",
      "w": 500,
-     "h": 291
+     "h": 291,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_sandpiper-3.jpg",
@@ -1784,7 +1921,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/174198405",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_sandpiper-4.jpg",
@@ -1793,7 +1931,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/358606501",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1826,7 +1965,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/28895106",
      "w": 500,
-     "h": 366
+     "h": 366,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/lrp-1.jpg",
@@ -1835,7 +1975,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/150381175",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/lrp-2.jpg",
@@ -1844,7 +1985,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270770918",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/lrp-3.jpg",
@@ -1853,7 +1995,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69045734",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/lrp-4.jpg",
@@ -1862,7 +2005,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/56920793",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -1895,7 +2039,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/111171002",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-2.jpg",
@@ -1904,7 +2049,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/144068219",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-3.jpg",
@@ -1913,7 +2059,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256095703",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-5.jpg",
@@ -1922,7 +2069,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/13553873",
      "w": 500,
-     "h": 475
+     "h": 475,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-6.jpg",
@@ -1931,7 +2079,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/333308160",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-1.jpg",
@@ -1940,7 +2089,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/204374243",
      "w": 500,
-     "h": 407
+     "h": 407,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-4.jpg",
@@ -1949,7 +2099,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/240748684",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-7.jpg",
@@ -1958,7 +2109,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/97753710",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-8.jpg",
@@ -1967,7 +2119,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/387130339",
      "w": 500,
-     "h": 313
+     "h": 313,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/kentish-9.jpg",
@@ -1976,7 +2129,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/200166021",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -2010,7 +2164,8 @@
      "url": "https://www.inaturalist.org/photos/262432635",
      "w": 500,
      "h": 340,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/golden_plover-1.jpg",
@@ -2020,7 +2175,8 @@
      "url": "https://www.inaturalist.org/observations/198053929",
      "w": 500,
      "h": 375,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/golden_plover-2.jpg",
@@ -2030,7 +2186,8 @@
      "url": "https://www.inaturalist.org/observations/267012518",
      "w": 332,
      "h": 500,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/golden_plover-3.jpg",
@@ -2040,7 +2197,8 @@
      "url": "https://www.inaturalist.org/observations/380317720",
      "w": 500,
      "h": 333,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/golden_plover-4.jpg",
@@ -2050,7 +2208,8 @@
      "url": "https://www.inaturalist.org/observations/360131425",
      "w": 500,
      "h": 334,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -2082,7 +2241,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/110953391",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-2.jpg",
@@ -2091,7 +2251,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/192254642",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-3.jpg",
@@ -2100,7 +2261,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/22135427",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-5.jpg",
@@ -2109,7 +2271,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/249643498",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-6.jpg",
@@ -2118,7 +2281,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/208543057",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-1.jpg",
@@ -2127,7 +2291,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/121075984",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-4.jpg",
@@ -2136,7 +2301,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/70135879",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-7.jpg",
@@ -2145,7 +2311,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/137624290",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stilt-8.jpg",
@@ -2154,7 +2321,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/58180166",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -2186,7 +2354,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/141989075",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-2.jpg",
@@ -2195,7 +2364,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105421255",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-3.jpg",
@@ -2204,7 +2374,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/135117070",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-5.jpg",
@@ -2213,7 +2384,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/11724822",
      "w": 500,
-     "h": 343
+     "h": 343,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-6.jpg",
@@ -2222,7 +2394,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/332307390",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-1.jpg",
@@ -2231,7 +2404,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/33186969",
      "w": 500,
-     "h": 337
+     "h": 337,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-4.jpg",
@@ -2240,7 +2414,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105604327",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-7.jpg",
@@ -2249,7 +2424,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/32245936",
      "w": 464,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-8.jpg",
@@ -2258,7 +2434,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/21450492",
      "w": 500,
-     "h": 329
+     "h": 329,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-9.jpg",
@@ -2267,7 +2444,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/103822422",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-10.jpg",
@@ -2276,7 +2454,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/139069042",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-11.jpg",
@@ -2285,7 +2464,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/254079681",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/shrike-12.jpg",
@@ -2294,7 +2474,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/37872321",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・成幼不同"
@@ -2316,7 +2497,7 @@
     "飛的時候一高一低，像在畫波浪",
     "喜歡在地上快快地走"
    ],
-   "sex": "公鳥身上的黑色比較多、比較濃；母鳥的背比較灰。小孩是淡淡的灰色，臉上還沒有清楚的黑白花紋。",
+   "sex": "公鳥身上的黑色通常比較多、比較濃，母鳥的背比較灰，但會因季節和年紀不同。小朋友先認黑白花紋和一直搖的尾巴就很厲害了。小孩是淡淡的灰色，臉上還沒有清楚的黑白花紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2327,7 +2508,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/2910741",
      "w": 500,
-     "h": 359
+     "h": 359,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-2.jpg",
@@ -2336,7 +2518,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336072004",
      "w": 500,
-     "h": 366
+     "h": 366,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-3.jpg",
@@ -2345,7 +2528,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/16787097",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-5.jpg",
@@ -2354,7 +2538,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/372547671",
      "w": 500,
-     "h": 355
+     "h": 355,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-6.jpg",
@@ -2363,7 +2548,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/335991803",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-1.jpg",
@@ -2372,7 +2558,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336066165",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-4.jpg",
@@ -2381,7 +2568,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/376530570",
      "w": 348,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-7.jpg",
@@ -2390,7 +2578,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/190029105",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-8.jpg",
@@ -2399,7 +2588,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/350250419",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-9.jpg",
@@ -2408,7 +2598,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/70548212",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-10.jpg",
@@ -2417,7 +2608,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/166507084",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-11.jpg",
@@ -2426,7 +2618,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256860438",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/white_wagtail-12.jpg",
@@ -2435,7 +2628,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/285234723",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・成幼不同"
@@ -2450,7 +2644,7 @@
     "水邊"
    ],
    "intro": "灰色的背、黃色的屁股，尾巴比白鶺鴒還長，也搖得更厲害。",
-   "story": "灰鶺鴒喜歡乾淨的溪流。看到牠在溪邊石頭上搖尾巴，代表這條溪還很健康。",
+   "story": "灰鶺鴒常在溪邊的石頭上找小蟲吃。溪邊有牠很開心，但溪流健不健康，還要看看水裡的小蟲、有沒有垃圾，一起找線索。",
    "cues": [
     "找黃屁股",
     "喜歡在溪流和水溝邊",
@@ -2467,7 +2661,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/65603355",
      "w": 382,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_wagtail-1.jpg",
@@ -2476,7 +2671,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/322367461",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_wagtail-2.jpg",
@@ -2485,7 +2681,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/65200903",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_wagtail-3.jpg",
@@ -2494,7 +2691,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/324312305",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/grey_wagtail-4.jpg",
@@ -2503,7 +2701,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/347461766",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -2536,7 +2735,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/124693247",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/osprey-1.jpg",
@@ -2545,7 +2745,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/194733695",
      "w": 500,
-     "h": 347
+     "h": 347,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/osprey-2.jpg",
@@ -2554,7 +2755,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/35672102",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/osprey-3.jpg",
@@ -2563,7 +2765,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/38599799",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/osprey-4.jpg",
@@ -2572,7 +2775,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/35944938",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -2586,7 +2790,7 @@
    "habitat": [
     "淺水"
    ],
-   "intro": "黑色的臉、飯匙一樣的嘴，在水裡左右掃來掃去找魚。2026 年全世界只數到大約 7,700 隻，超過六成在台灣過冬。",
+   "intro": "黑色的臉、飯匙一樣的嘴，在水裡左右掃來掃去找魚。2026 年全球同步普查記錄到 7,746 隻，其中台灣有 4,719 隻，大約占六成。",
    "story": "三十多年前，全世界的黑面琵鷺只剩幾百隻。大家一起保護濕地之後，現在已經增加到七千多隻，這是台灣人很驕傲的保育成果。",
    "cues": [
     "找黑臉和飯匙嘴",
@@ -2605,7 +2809,8 @@
      "url": "https://www.inaturalist.org/observations/106459100",
      "w": 500,
      "h": 382,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spoonbill-1.jpg",
@@ -2615,7 +2820,8 @@
      "url": "https://www.inaturalist.org/observations/18503382",
      "w": 500,
      "h": 333,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spoonbill-2.jpg",
@@ -2625,7 +2831,8 @@
      "url": "https://www.inaturalist.org/observations/206916893",
      "w": 500,
      "h": 379,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spoonbill-3.jpg",
@@ -2635,7 +2842,8 @@
      "url": "https://www.inaturalist.org/observations/266900372",
      "w": 500,
      "h": 365,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spoonbill-4.jpg",
@@ -2645,7 +2853,8 @@
      "url": "https://www.inaturalist.org/observations/193667606",
      "w": 500,
      "h": 355,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -2660,7 +2869,7 @@
     "淺水",
     "草地"
    ],
-   "intro": "非常大的白色大鳥，站起來跟你差不多高！全世界只剩幾千隻。",
+   "intro": "非常大的白色大鳥，站起來跟你差不多高！牠的數量很少，是很珍貴的冬候鳥。",
    "story": "東方白鸛幾乎不會叫，牠用嘴巴快速開合，發出「喀喀喀」的聲音跟同伴說話。",
    "cues": [
     "找紅色眼圈和又粗又長的黑嘴",
@@ -2678,7 +2887,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/149406004",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stork-1.jpg",
@@ -2687,7 +2897,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/37244637",
      "w": 500,
-     "h": 320
+     "h": 320,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stork-2.jpg",
@@ -2696,7 +2907,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/350769441",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stork-3.jpg",
@@ -2705,7 +2917,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/103051059",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/stork-4.jpg",
@@ -2714,7 +2927,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/346362751",
      "w": 500,
-     "h": 346
+     "h": 346,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -2746,7 +2960,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/320828460",
      "w": 500,
-     "h": 357
+     "h": 357,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-6.jpg",
@@ -2755,7 +2970,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/281029691",
      "w": 500,
-     "h": 318
+     "h": 318,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-7.jpg",
@@ -2764,7 +2980,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/323582870",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-0.jpg",
@@ -2773,7 +2990,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/303423003",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-1.jpg",
@@ -2782,7 +3000,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336453064",
      "w": 500,
-     "h": 384
+     "h": 384,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-3.jpg",
@@ -2791,7 +3010,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/284491685",
      "w": 500,
-     "h": 387
+     "h": 387,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-4.jpg",
@@ -2800,7 +3020,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/257478948",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/harrier-5.jpg",
@@ -2809,7 +3030,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/74629314",
      "w": 500,
-     "h": 351
+     "h": 351,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -2842,7 +3064,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/258941090",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/painted_snipe-2.jpg",
@@ -2851,7 +3074,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/325428961",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/painted_snipe-1.jpg",
@@ -2860,7 +3084,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/6143789",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/painted_snipe-3.jpg",
@@ -2869,7 +3094,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/231360794",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -2901,7 +3127,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/389963515",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-2.jpg",
@@ -2910,7 +3137,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/145026718",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-3.jpg",
@@ -2919,7 +3147,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/136415693",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-5.jpg",
@@ -2928,7 +3157,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/207773704",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-6.jpg",
@@ -2937,7 +3167,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/335832866",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-1.jpg",
@@ -2946,7 +3177,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/16584327",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-4.jpg",
@@ -2955,7 +3187,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/104765401",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-7.jpg",
@@ -2964,7 +3197,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/118619395",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_bittern-8.jpg",
@@ -2973,7 +3207,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/118620839",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -3006,7 +3241,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/78449415",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cinnamon_bittern-1.jpg",
@@ -3015,7 +3251,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/77585360",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cinnamon_bittern-2.jpg",
@@ -3024,7 +3261,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/163326040",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cinnamon_bittern-3.jpg",
@@ -3033,7 +3271,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/148750307",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cinnamon_bittern-4.jpg",
@@ -3042,7 +3281,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/374583341",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -3074,7 +3314,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/212499566",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-1.jpg",
@@ -3083,7 +3324,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326903789",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-2.jpg",
@@ -3092,7 +3334,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201444048",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-3.jpg",
@@ -3101,7 +3344,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256619364",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-4.jpg",
@@ -3110,7 +3354,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201762447",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-5.jpg",
@@ -3119,7 +3364,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/165871490",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-6.jpg",
@@ -3128,7 +3374,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/67647933",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/peregrine-7.jpg",
@@ -3137,7 +3384,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/196828036",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -3152,8 +3400,8 @@
     "泥灘",
     "淺水"
    ],
-   "intro": "全世界很少的白鷺，長得跟小白鷺很像，連大人都很難分。",
-   "story": "唐白鷺全世界只剩幾千隻，牠們在海邊的小島上生寶寶。海岸被開發，就會直接影響牠們的家。",
+   "intro": "這是進階挑戰！唐白鷺遠遠看很像小白鷺，連大人都很難分。沒有清楚的照片或望遠鏡時，不用急著下結論。",
+   "story": "唐白鷺全世界數量很少，牠們在海邊的小島上生寶寶。海岸被開發，就會直接影響牠們的家。",
    "cues": [
     "照片是春夏的樣子：嘴巴黃橘色、腳黑色、腳趾黃色",
     "秋天嘴巴會變暗、腳變黃綠色，更難認",
@@ -3170,7 +3418,8 @@
      "license": "CC BY-NC-ND",
      "url": "https://www.inaturalist.org/photos/285316496",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/chinese_egret-1.jpg",
@@ -3179,7 +3428,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/351340743",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/chinese_egret-2.jpg",
@@ -3188,7 +3438,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/348417206",
      "w": 500,
-     "h": 317
+     "h": 317,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/chinese_egret-3.jpg",
@@ -3197,7 +3448,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/168453928",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -3230,7 +3482,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281616",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yuhina-1.jpg",
@@ -3239,7 +3492,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/44947591",
      "w": 500,
-     "h": 332
+     "h": 332,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yuhina-2.jpg",
@@ -3248,7 +3502,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/192925289",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yuhina-3.jpg",
@@ -3257,7 +3512,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15992605",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3290,7 +3546,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/327476663",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sibia-1.jpg",
@@ -3299,7 +3556,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/242627671",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sibia-2.jpg",
@@ -3308,7 +3566,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/154702798",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sibia-3.jpg",
@@ -3317,7 +3576,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/374280782",
      "w": 281,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/sibia-4.jpg",
@@ -3326,7 +3586,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/18089372",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3359,7 +3620,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/40627182",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barwing-1.jpg",
@@ -3368,7 +3630,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/376745396",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barwing-2.jpg",
@@ -3377,7 +3640,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/114153178",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barwing-3.jpg",
@@ -3386,7 +3650,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/71300906",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barwing-4.jpg",
@@ -3395,7 +3660,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336234256",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3428,7 +3694,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/364487516",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/laughingthrush-1.jpg",
@@ -3437,7 +3704,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/13942668",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/laughingthrush-2.jpg",
@@ -3446,7 +3714,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256613551",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/laughingthrush-3.jpg",
@@ -3455,7 +3724,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/155324079",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/laughingthrush-4.jpg",
@@ -3464,7 +3734,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/56923948",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3496,7 +3767,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/271434322",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/green_tit-1.jpg",
@@ -3505,7 +3777,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69814219",
      "w": 500,
-     "h": 346
+     "h": 346,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/green_tit-2.jpg",
@@ -3514,7 +3787,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/155848003",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/green_tit-3.jpg",
@@ -3523,7 +3797,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/275372227",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/green_tit-4.jpg",
@@ -3532,7 +3807,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/135659337",
      "w": 500,
-     "h": 325
+     "h": 325,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -3564,7 +3840,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/378261090",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/coal_tit-1.jpg",
@@ -3573,7 +3850,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/83108446",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/coal_tit-2.jpg",
@@ -3582,7 +3860,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/55779650",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/coal_tit-3.jpg",
@@ -3591,7 +3870,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/271927844",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/coal_tit-4.jpg",
@@ -3600,7 +3880,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/361132697",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3632,7 +3913,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/92928557",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bushtit-1.jpg",
@@ -3641,7 +3923,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/298665254",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bushtit-2.jpg",
@@ -3650,7 +3933,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/34238228",
      "w": 500,
-     "h": 392
+     "h": 392,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bushtit-3.jpg",
@@ -3659,7 +3943,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281620",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bushtit-4.jpg",
@@ -3668,7 +3953,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/56900951",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3700,7 +3986,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255761273",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nuthatch-1.jpg",
@@ -3709,7 +3996,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/333221020",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nuthatch-2.jpg",
@@ -3718,7 +4006,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/332139601",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nuthatch-3.jpg",
@@ -3727,7 +4016,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/265382192",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3760,7 +4050,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/72810702",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nutcracker-1.jpg",
@@ -3769,7 +4060,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/257492188",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nutcracker-2.jpg",
@@ -3778,7 +4070,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/388200650",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nutcracker-3.jpg",
@@ -3787,7 +4080,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/286500506",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/nutcracker-4.jpg",
@@ -3796,7 +4090,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/329238925",
      "w": 500,
-     "h": 424
+     "h": 424,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -3828,7 +4123,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/325424743",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-2.jpg",
@@ -3837,7 +4133,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/71287714",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-3.jpg",
@@ -3846,7 +4143,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/344427512",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-4.jpg",
@@ -3855,7 +4153,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15681050",
      "w": 500,
-     "h": 326
+     "h": 326,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-5.jpg",
@@ -3864,7 +4163,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/224626526",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-1.jpg",
@@ -3873,7 +4173,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/148605832",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-6.jpg",
@@ -3882,7 +4183,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/260278509",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-7.jpg",
@@ -3891,7 +4193,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105998646",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flowerpecker-8.jpg",
@@ -3900,7 +4203,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/200810010",
      "w": 500,
-     "h": 297
+     "h": 297,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -3932,7 +4236,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/263267545",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_tit-1.jpg",
@@ -3941,7 +4246,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258425637",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_tit-2.jpg",
@@ -3950,7 +4256,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/70025600",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_tit-3.jpg",
@@ -3959,7 +4266,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/37362779",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/yellow_tit-4.jpg",
@@ -3968,7 +4276,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256509153",
      "w": 500,
-     "h": 331
+     "h": 331,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4001,7 +4310,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258350000",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-2.jpg",
@@ -4010,7 +4320,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/92928553",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-3.jpg",
@@ -4019,7 +4330,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/259299772",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-4.jpg",
@@ -4028,7 +4340,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/197215902",
      "w": 500,
-     "h": 339
+     "h": 339,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-1.jpg",
@@ -4037,7 +4350,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/94299867",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-5.jpg",
@@ -4046,7 +4360,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/253291117",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-6.jpg",
@@ -4055,7 +4370,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326322388",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-7.jpg",
@@ -4064,7 +4380,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/18169377",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-8.jpg",
@@ -4073,7 +4390,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/300670070",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bush_robin-9.jpg",
@@ -4082,7 +4400,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/315312405",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・成幼不同"
@@ -4115,7 +4434,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/28302654",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-2.jpg",
@@ -4124,7 +4444,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/80124329",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-3.jpg",
@@ -4133,7 +4454,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/64965317",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-5.jpg",
@@ -4142,7 +4464,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/14569694",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-6.jpg",
@@ -4151,7 +4474,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/85210306",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-1.jpg",
@@ -4160,7 +4484,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/58317733",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-4.jpg",
@@ -4169,7 +4494,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/348063015",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-7.jpg",
@@ -4178,7 +4504,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/291657613",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-8.jpg",
@@ -4187,7 +4514,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/154413588",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rosefinch-9.jpg",
@@ -4196,7 +4524,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/361410645",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4228,7 +4557,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/254510981",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flamecrest-1.jpg",
@@ -4237,7 +4567,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/146470016",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flamecrest-2.jpg",
@@ -4246,7 +4577,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/253818434",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flamecrest-3.jpg",
@@ -4255,7 +4587,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/56710779",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/flamecrest-4.jpg",
@@ -4264,7 +4597,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/193763557",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4296,7 +4630,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/278695190",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-2.jpg",
@@ -4305,7 +4640,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19728404",
      "w": 500,
-     "h": 340
+     "h": 340,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-3.jpg",
@@ -4314,7 +4650,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/334352051",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-4.jpg",
@@ -4323,7 +4660,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/23110999",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-1.jpg",
@@ -4332,7 +4670,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336192187",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-5.jpg",
@@ -4341,7 +4680,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/107161392",
      "w": 500,
-     "h": 359
+     "h": 359,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-6.jpg",
@@ -4350,7 +4690,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/200905169",
      "w": 500,
-     "h": 384
+     "h": 384,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/niltava-7.jpg",
@@ -4359,7 +4700,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/331524476",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4374,7 +4716,7 @@
     "森林底層"
    ],
    "intro": "公鳥全身深藍色，打開尾巴時會露出白色的條紋。",
-   "story": "白尾鴝住在陰暗潮濕、有溪流和厚厚落葉的森林底層。有牠在，代表這片森林還很原始。",
+   "story": "白尾鴝住在陰暗潮濕、有溪流和厚厚落葉的森林底層。想遇見牠，要安安靜靜地走進森林深處。",
    "cues": [
     "常在森林底下陰暗的地方",
     "等牠張開尾巴，找白色的邊",
@@ -4391,7 +4733,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/267629311",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-2.jpg",
@@ -4400,7 +4743,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/406263058",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-3.jpg",
@@ -4409,7 +4753,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/124523416",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-4.jpg",
@@ -4418,7 +4763,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/190775338",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-5.jpg",
@@ -4427,7 +4773,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/64967478",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-1.jpg",
@@ -4436,7 +4783,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/102171131",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-6.jpg",
@@ -4445,7 +4793,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/131421810",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wt_robin-7.jpg",
@@ -4454,7 +4803,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/240295738",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4486,7 +4836,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/267496944",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bullfinch-1.jpg",
@@ -4495,7 +4846,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/174057687",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bullfinch-2.jpg",
@@ -4504,7 +4856,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/175172449",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bullfinch-3.jpg",
@@ -4513,7 +4866,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/231553725",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/bullfinch-4.jpg",
@@ -4522,7 +4876,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/398642964",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -4554,7 +4909,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/397779583",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-2.jpg",
@@ -4563,7 +4919,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/199185183",
      "w": 500,
-     "h": 348
+     "h": 348,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-3.jpg",
@@ -4572,7 +4929,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/190906978",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-5.jpg",
@@ -4581,7 +4939,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/198810080",
      "w": 500,
-     "h": 360
+     "h": 360,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-6.jpg",
@@ -4590,7 +4949,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/327892611",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-1.jpg",
@@ -4599,7 +4959,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/139217250",
      "w": 500,
-     "h": 415
+     "h": 415,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-4.jpg",
@@ -4608,7 +4969,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/343282256",
      "w": 357,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-7.jpg",
@@ -4617,7 +4979,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/75907392",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-8.jpg",
@@ -4626,7 +4989,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/330724453",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/wb_woodpecker-9.jpg",
@@ -4635,7 +4999,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/149326894",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4667,7 +5032,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326322389",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-2.jpg",
@@ -4676,7 +5042,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/38010748",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-3.jpg",
@@ -4685,7 +5052,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/234460031",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-5.jpg",
@@ -4694,7 +5062,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/118195066",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-6.jpg",
@@ -4703,7 +5072,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/348304513",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-1.jpg",
@@ -4712,7 +5082,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/220406101",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-4.jpg",
@@ -4721,7 +5092,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/384783292",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-7.jpg",
@@ -4730,7 +5102,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/325497425",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-8.jpg",
@@ -4739,7 +5112,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/373797959",
      "w": 376,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/mikado-9.jpg",
@@ -4748,7 +5122,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/169907094",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4781,7 +5156,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/34236926",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-2.jpg",
@@ -4790,7 +5166,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/214140696",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-3.jpg",
@@ -4799,7 +5176,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/187592626",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-5.jpg",
@@ -4808,7 +5186,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/104406045",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-6.jpg",
@@ -4817,7 +5196,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/198638900",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-1.jpg",
@@ -4826,7 +5206,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/64967476",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-4.jpg",
@@ -4835,7 +5216,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/286827668",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-7.jpg",
@@ -4844,7 +5226,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/240252282",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-8.jpg",
@@ -4853,7 +5236,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/233403673",
      "w": 500,
-     "h": 377
+     "h": 377,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swinhoe-9.jpg",
@@ -4862,7 +5246,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/283004776",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -4894,7 +5279,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/30542122",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hill_partridge-1.jpg",
@@ -4903,7 +5289,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/166514511",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hill_partridge-2.jpg",
@@ -4912,7 +5299,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/55873899",
      "w": 500,
-     "h": 341
+     "h": 341,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hill_partridge-3.jpg",
@@ -4921,7 +5309,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/241163759",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -4953,7 +5342,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/154551816",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/owlet-1.jpg",
@@ -4962,7 +5352,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/332139609",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/owlet-2.jpg",
@@ -4971,7 +5362,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/65471296",
      "w": 500,
-     "h": 298
+     "h": 298,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/owlet-3.jpg",
@@ -4980,7 +5372,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/339694109",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/owlet-4.jpg",
@@ -4989,7 +5382,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/198462766",
      "w": 500,
-     "h": 466
+     "h": 466,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5004,7 +5398,7 @@
     "天空"
    ],
    "intro": "台灣最大的老鷹之一，翅膀又寬又大，像一塊門板。",
-   "story": "熊鷹需要一大片完整的原始森林才能生活。有熊鷹在的森林，代表那裡的大自然很健康、很完整。",
+   "story": "熊鷹需要很大很大的一片森林才能生活。牠的出現提醒我們：把大片的森林留下來，非常重要。",
    "cues": [
     "抬頭找翅膀下有很多橫紋的大鷹",
     "頭後面有短短的冠羽",
@@ -5021,7 +5415,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255831303",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-1.jpg",
@@ -5030,7 +5425,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270129779",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-2.jpg",
@@ -5039,7 +5435,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270115662",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-4.jpg",
@@ -5048,7 +5445,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/338714697",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-5.jpg",
@@ -5057,7 +5455,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/254476124",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-6.jpg",
@@ -5066,7 +5465,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255761256",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/hawk_eagle-7.jpg",
@@ -5075,7 +5475,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258654672",
      "w": 500,
-     "h": 371
+     "h": 371,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -5107,7 +5508,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/66079841",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_eagle-1.jpg",
@@ -5116,7 +5518,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/268915296",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_eagle-2.jpg",
@@ -5125,7 +5528,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256613562",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_eagle-3.jpg",
@@ -5134,7 +5538,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/223750101",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_eagle-4.jpg",
@@ -5143,7 +5548,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/345597500",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5176,7 +5582,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/256814502",
      "w": 500,
-     "h": 376
+     "h": 376,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-1.jpg",
@@ -5185,7 +5592,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/260229512",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-2.jpg",
@@ -5194,7 +5602,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/188325563",
      "w": 376,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-3.jpg",
@@ -5203,7 +5612,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/231169320",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-5.jpg",
@@ -5212,7 +5622,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/199462110",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-6.jpg",
@@ -5221,7 +5632,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/12601688",
      "w": 500,
-     "h": 340
+     "h": 340,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/spotted_dove-7.jpg",
@@ -5230,7 +5642,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/371098695",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -5263,7 +5676,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/10505911",
      "w": 500,
-     "h": 332
+     "h": 332,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-2.jpg",
@@ -5272,7 +5686,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/46074716",
      "w": 500,
-     "h": 335
+     "h": 335,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-3.jpg",
@@ -5281,7 +5696,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/12543075",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-5.jpg",
@@ -5290,7 +5706,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/317889651",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-6.jpg",
@@ -5299,7 +5716,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/13142300",
      "w": 500,
-     "h": 331
+     "h": 331,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-1.jpg",
@@ -5308,7 +5726,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/99185875",
      "w": 500,
-     "h": 353
+     "h": 353,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-4.jpg",
@@ -5317,7 +5736,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/195380279",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-7.jpg",
@@ -5326,7 +5746,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/283260708",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/red_dove-8.jpg",
@@ -5335,7 +5756,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/101715238",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -5368,7 +5790,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/144855386",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/rock_dove-1.jpg",
@@ -5377,7 +5800,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/407472653",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5410,7 +5834,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/336791684",
      "w": 500,
-     "h": 339
+     "h": 339,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/myna-1.jpg",
@@ -5419,7 +5844,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/41036026",
      "w": 500,
-     "h": 446
+     "h": 446,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/myna-2.jpg",
@@ -5428,7 +5854,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/98861895",
      "w": 333,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/myna-3.jpg",
@@ -5437,7 +5864,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/330290755",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/myna-4.jpg",
@@ -5446,7 +5874,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/168453957",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5478,7 +5907,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15992608",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/treepie-1.jpg",
@@ -5487,7 +5917,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15992606",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/treepie-2.jpg",
@@ -5496,7 +5927,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/16821798",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/treepie-3.jpg",
@@ -5505,7 +5937,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/280688725",
      "w": 281,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/treepie-4.jpg",
@@ -5514,7 +5947,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/183754571",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5533,7 +5967,7 @@
    "cues": [
     "在草地上走走停停，找蚯蚓吃",
     "遇到危險會把脖子伸直不動",
-    "以前是稀有鳥，現在台北的公園到處都有"
+    "以前是稀有鳥，近年在許多台北公園越來越常見"
    ],
    "sex": "公母長得一樣，但大人和小孩差很多：大人是栗褐色、頭頂黑；小孩是灰色、滿身白點。",
    "endemic": false,
@@ -5546,7 +5980,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/291060354",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-2.jpg",
@@ -5555,7 +5990,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/323214025",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-3.jpg",
@@ -5564,7 +6000,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/294514826",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-5.jpg",
@@ -5573,7 +6010,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/129156212",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-6.jpg",
@@ -5582,7 +6020,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/291772563",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-1.jpg",
@@ -5591,7 +6030,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/217206413",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-4.jpg",
@@ -5600,7 +6040,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/229477806",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-7.jpg",
@@ -5609,7 +6050,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/48220825",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-8.jpg",
@@ -5618,7 +6060,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/17619474",
      "w": 373,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/tiger_bittern-9.jpg",
@@ -5627,7 +6070,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/128616891",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -5659,7 +6103,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201658317",
      "w": 500,
-     "h": 385
+     "h": 385,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barbet-1.jpg",
@@ -5668,7 +6113,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/103464077",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barbet-2.jpg",
@@ -5677,7 +6123,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/273432245",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barbet-3.jpg",
@@ -5686,7 +6133,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19902272",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barbet-4.jpg",
@@ -5695,7 +6143,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/69440296",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5727,7 +6176,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/65111934",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/blue_magpie-1.jpg",
@@ -5736,7 +6186,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19049291",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/blue_magpie-2.jpg",
@@ -5745,7 +6196,8 @@
      "license": "CC BY-SA",
      "url": "https://www.inaturalist.org/observations/21717637",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/blue_magpie-3.jpg",
@@ -5754,7 +6206,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/140369211",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/blue_magpie-4.jpg",
@@ -5763,7 +6216,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/265650807",
      "w": 333,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -5796,7 +6250,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/36250976",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-2.jpg",
@@ -5805,7 +6260,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326750946",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-4.jpg",
@@ -5814,7 +6270,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/370809109",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-5.jpg",
@@ -5823,7 +6280,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/300091422",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-1.jpg",
@@ -5832,7 +6290,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/13377265",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-3.jpg",
@@ -5841,7 +6300,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/333566376",
      "w": 376,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-6.jpg",
@@ -5850,7 +6310,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/238752216",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/goshawk-7.jpg",
@@ -5859,7 +6320,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/331656758",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -5891,7 +6353,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/15717662",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/drongo-1.jpg",
@@ -5900,7 +6363,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/343589062",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/drongo-2.jpg",
@@ -5909,7 +6373,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/239782248",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/drongo-3.jpg",
@@ -5918,7 +6383,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/256235487",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/drongo-4.jpg",
@@ -5927,7 +6393,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/254681924",
      "w": 500,
-     "h": 408
+     "h": 408,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・成幼不同"
@@ -5959,7 +6426,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/182803678",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_bulbul-1.jpg",
@@ -5968,7 +6436,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/20280959",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_bulbul-2.jpg",
@@ -5977,7 +6446,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/194092823",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_bulbul-3.jpg",
@@ -5986,7 +6456,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/266861882",
      "w": 333,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/black_bulbul-4.jpg",
@@ -5995,7 +6466,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/113356811",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6028,7 +6500,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/183809923",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-2.jpg",
@@ -6037,7 +6510,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/330867042",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-3.jpg",
@@ -6046,7 +6520,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/227575898",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-4.jpg",
@@ -6055,7 +6530,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/370062016",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-5.jpg",
@@ -6064,7 +6540,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/405426653",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-1.jpg",
@@ -6073,7 +6550,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/264675953",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-6.jpg",
@@ -6082,7 +6560,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/195939567",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-7.jpg",
@@ -6091,7 +6570,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/103822439",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-8.jpg",
@@ -6100,7 +6580,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/263991858",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-9.jpg",
@@ -6109,7 +6590,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/45464950",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie_robin-10.jpg",
@@ -6118,7 +6600,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/374248466",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型・成幼不同"
@@ -6151,7 +6634,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/124357585",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swift-1.jpg",
@@ -6160,7 +6644,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/137964146",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swift-2.jpg",
@@ -6169,7 +6654,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/94083206",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/swift-3.jpg",
@@ -6178,7 +6664,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/257946099",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6211,7 +6698,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/64220842",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-2.jpg",
@@ -6220,7 +6708,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69851791",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-3.jpg",
@@ -6229,7 +6718,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/123791415",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-4.jpg",
@@ -6238,7 +6728,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/257588120",
      "w": 500,
-     "h": 370
+     "h": 370,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-5.jpg",
@@ -6247,7 +6738,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/330208185",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-1.jpg",
@@ -6256,7 +6748,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/268018084",
      "w": 500,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-6.jpg",
@@ -6265,7 +6758,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/64848397",
      "w": 500,
-     "h": 346
+     "h": 346,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-7.jpg",
@@ -6274,7 +6768,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258054244",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/daurian-8.jpg",
@@ -6283,7 +6778,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255697492",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -6315,7 +6811,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/98211136",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-2.jpg",
@@ -6324,7 +6821,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201380188",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-3.jpg",
@@ -6333,7 +6831,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201380196",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-4.jpg",
@@ -6342,7 +6841,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/105024585",
      "w": 500,
-     "h": 344
+     "h": 344,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-1.jpg",
@@ -6351,7 +6851,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/98211137",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-5.jpg",
@@ -6360,7 +6861,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201380186",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-6.jpg",
@@ -6369,7 +6871,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/151742434",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/brown_thrush-7.jpg",
@@ -6378,7 +6881,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/149884867",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -6410,7 +6914,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258148460",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pale_thrush-5.jpg",
@@ -6419,7 +6924,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/261859389",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pale_thrush-6.jpg",
@@ -6428,7 +6934,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/147879751",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pale_thrush-1.jpg",
@@ -6437,7 +6944,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/151700963",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pale_thrush-7.jpg",
@@ -6446,7 +6954,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69850341",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pale_thrush-8.jpg",
@@ -6455,7 +6964,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255899593",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -6488,7 +6998,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/381083173",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/scops-1.jpg",
@@ -6497,7 +7008,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/114556486",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/scops-2.jpg",
@@ -6506,7 +7018,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/117817589",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/scops-3.jpg",
@@ -6515,7 +7028,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/186483316",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/scops-4.jpg",
@@ -6524,7 +7038,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/356694871",
      "w": 500,
-     "h": 332
+     "h": 332,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6558,7 +7073,8 @@
      "url": "https://www.inaturalist.org/observations/48901918",
      "w": 500,
      "h": 333,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cattle_egret-2.jpg",
@@ -6568,7 +7084,8 @@
      "url": "https://www.inaturalist.org/observations/279648363",
      "w": 500,
      "h": 281,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cattle_egret-3.jpg",
@@ -6578,7 +7095,8 @@
      "url": "https://www.inaturalist.org/observations/280489895",
      "w": 500,
      "h": 375,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cattle_egret-4.jpg",
@@ -6588,7 +7106,8 @@
      "url": "https://www.inaturalist.org/observations/346886176",
      "w": 498,
      "h": 500,
-     "note": "春夏羽"
+     "note": "春夏羽",
+     "retrieved": "2026-10"
     },
     {
      "src": "img/cattle_egret-5.jpg",
@@ -6598,7 +7117,8 @@
      "url": "https://www.inaturalist.org/observations/254597617",
      "w": 495,
      "h": 500,
-     "note": "秋冬羽"
+     "note": "秋冬羽",
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型・季節換羽"
@@ -6631,7 +7151,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/23094353",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barn_swallow-1.jpg",
@@ -6640,7 +7161,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/166765476",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barn_swallow-2.jpg",
@@ -6649,7 +7171,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/371128446",
      "w": 376,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barn_swallow-3.jpg",
@@ -6658,7 +7181,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/224009319",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/barn_swallow-4.jpg",
@@ -6667,7 +7191,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/635594",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6700,7 +7225,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/249160491",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/crested_myna-1.jpg",
@@ -6709,7 +7235,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/123322166",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/crested_myna-2.jpg",
@@ -6718,7 +7245,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/39090231",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/crested_myna-3.jpg",
@@ -6727,7 +7255,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/160044482",
      "w": 500,
-     "h": 461
+     "h": 461,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6760,7 +7289,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/266067246",
      "w": 333,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_myna-1.jpg",
@@ -6769,7 +7299,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/396348730",
      "w": 276,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_myna-2.jpg",
@@ -6778,7 +7309,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/266183825",
      "w": 332,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/common_myna-3.jpg",
@@ -6787,7 +7319,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/379116367",
      "w": 500,
-     "h": 374
+     "h": 374,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6820,7 +7353,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/89899140",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie-1.jpg",
@@ -6829,7 +7363,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/200698720",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie-2.jpg",
@@ -6838,7 +7373,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/205466820",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/magpie-3.jpg",
@@ -6847,7 +7383,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/66374995",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6880,7 +7417,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/205418869",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/turtle_dove-1.jpg",
@@ -6889,7 +7427,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255490456",
      "w": 500,
-     "h": 313
+     "h": 313,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/turtle_dove-2.jpg",
@@ -6898,7 +7437,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/150809212",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/turtle_dove-3.jpg",
@@ -6907,7 +7447,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/267307847",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6940,7 +7481,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/147182069",
      "w": 500,
-     "h": 334
+     "h": 334,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pygmy_wp-1.jpg",
@@ -6949,7 +7491,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/138093516",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/pygmy_wp-2.jpg",
@@ -6958,7 +7501,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/209611168",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -6991,7 +7535,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/340766261",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/serpent_eagle-1.jpg",
@@ -7000,7 +7545,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/293293010",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/serpent_eagle-2.jpg",
@@ -7009,7 +7555,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255775316",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/serpent_eagle-3.jpg",
@@ -7018,7 +7565,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/13699669",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -7050,7 +7598,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69851189",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/koel-1.jpg",
@@ -7059,7 +7608,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/145655608",
      "w": 375,
-     "h": 500
+     "h": 500,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/koel-2.jpg",
@@ -7068,7 +7618,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/279672407",
      "w": 500,
-     "h": 281
+     "h": 281,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/koel-3.jpg",
@@ -7077,7 +7628,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69725786",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/koel-4.jpg",
@@ -7086,7 +7638,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/295366568",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/koel-5.jpg",
@@ -7095,7 +7648,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/384774067",
      "w": 500,
-     "h": 376
+     "h": 376,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -7128,7 +7682,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/69041424",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/liocichla-1.jpg",
@@ -7137,7 +7692,8 @@
      "license": "CC BY-NC-SA",
      "url": "https://www.inaturalist.org/observations/314575163",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/liocichla-2.jpg",
@@ -7146,7 +7702,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/254585385",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/liocichla-3.jpg",
@@ -7155,7 +7712,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/164194807",
      "w": 500,
-     "h": 358
+     "h": 358,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
@@ -7187,7 +7745,8 @@
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/258739018",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/minivet-1.jpg",
@@ -7196,7 +7755,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/108578998",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/minivet-2.jpg",
@@ -7205,7 +7765,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/110139934",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/minivet-3.jpg",
@@ -7214,7 +7775,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19401837",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/minivet-4.jpg",
@@ -7223,7 +7785,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/337936230",
      "w": 500,
-     "h": 375
+     "h": 375,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/minivet-5.jpg",
@@ -7232,7 +7795,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/18977221",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母異型"
@@ -7264,7 +7828,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255779363",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/fulvetta-1.jpg",
@@ -7273,7 +7838,8 @@
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/332541203",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     },
     {
      "src": "img/fulvetta-2.jpg",
@@ -7282,7 +7848,8 @@
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281604",
      "w": 500,
-     "h": 333
+     "h": 333,
+     "retrieved": "2026-10"
     }
    ],
    "tag": "公母同型"
