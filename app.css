@@ -223,3 +223,12 @@ button.pill{cursor:pointer}
 .hi label{font-size:15px;margin-top:4px}
 .hi textarea{border:2px solid var(--lead);border-radius:10px;padding:10px 12px;font:inherit;background:var(--card);color:var(--ink);width:100%;resize:vertical}
 .bk:disabled{opacity:.6}
+.ptr{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 8px);z-index:40;transform:translate(-50%,-70px);opacity:0;display:flex;align-items:center;gap:8px;
+  background:var(--card);border:2px solid var(--lead);border-radius:999px;padding:5px 14px 5px 5px;font-family:var(--display);font-size:14px;pointer-events:none;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+.ptr.back{transition:transform .25s ease,opacity .25s ease}
+.ptr-dot{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--lav);border:2px solid var(--lead);color:var(--lead)}
+.ptr-dot svg{width:18px;height:18px}
+.ptr.ready .ptr-dot{background:conic-gradient(#ff5fa2,#ffd25f,#6fffb0,#5fd4ff,#a77bff,#ff5fa2)}
+.ptr.spin .ptr-dot{animation:ptrspin .7s linear infinite}
+@keyframes ptrspin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.ptr.spin .ptr-dot{animation:none}}

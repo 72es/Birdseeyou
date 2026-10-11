@@ -365,6 +365,27 @@
       <button class="bk" type="button" data-go="#/">回首頁</button></section></main>`;
   }
 
+
+  /* ---------- pull to refresh (home-screen apps have no browser reload) ---------- */
+  (function pullToRefresh() {
+    const ind = document.createElement("div"); ind.className = "ptr"; ind.setAttribute("aria-hidden", "true");
+    ind.innerHTML = `<span class="ptr-dot"><svg viewBox="0 0 24 24"><path d="M12 4a8 8 0 1 0 8 8" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M20 4v6h-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="ptr-t">往下拉更新</span>`;
+    document.body.appendChild(ind);
+    const T = 80; let y0 = null, d = 0, busy = false;
+    const set = v => { d = v; ind.style.transform = `translate(-50%, ${Math.min(v, 120) - 70}px)`; ind.style.opacity = Math.min(1, v / T);
+      ind.querySelector(".ptr-dot").style.transform = `rotate(${v * 3}deg)`; ind.querySelector(".ptr-t").textContent = v >= T ? "放開就更新" : "往下拉更新"; ind.classList.toggle("ready", v >= T); };
+    const blocked = e => busy || document.querySelector(".lb") || e.target.closest("input,textarea,.mrow");
+    window.addEventListener("touchstart", e => { if (window.scrollY > 0 || e.touches.length !== 1 || blocked(e)) { y0 = null; return; } y0 = e.touches[0].clientY; }, { passive: true });
+    window.addEventListener("touchmove", e => { if (y0 == null) return; const dy = e.touches[0].clientY - y0; if (dy <= 0 || window.scrollY > 0) { if (d) set(0); return; } set(dy * 0.5); }, { passive: true });
+    window.addEventListener("touchend", async () => {
+      if (y0 == null) return; y0 = null;
+      if (d < T) { ind.classList.add("back"); set(0); setTimeout(() => ind.classList.remove("back"), 250); return; }
+      busy = true; ind.classList.add("spin"); ind.querySelector(".ptr-t").textContent = "更新中…";
+      try { const reg = navigator.serviceWorker && await navigator.serviceWorker.getRegistration(); if (reg) await Promise.race([reg.update(), new Promise(r => setTimeout(r, 2500))]); } catch (e) {}
+      location.reload();
+    });
+  })();
+
   /* ---------- router ---------- */
   function go(h, replace) { if (replace) { history.replaceState(null, "", h); render(); } else location.hash = h; }
   const scrollMem = {};
