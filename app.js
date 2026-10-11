@@ -35,6 +35,16 @@
       localStorage.setItem("bsy-migrated", "1"); save();
     } catch (e) {}
   }
+  // when a bird's albums change (e.g. one album → 成鳥/幼鳥), move old stamps onto the first album so nothing is lost
+  function migrateLabels() {
+    let changed = false;
+    Object.entries(S.birds).forEach(([id, v]) => { const b = BIRDS[id]; if (!b || !v.stamps) return;
+      const labs = [...new Set(b.photos.map(p => p.label))];
+      Object.keys(v.stamps).forEach(k => { const lab = k === "_" ? "" : k; if (labs.includes(lab)) return;
+        const to = labs[0] || "_"; const key = to || "_"; if (!v.stamps[key]) v.stamps[key] = v.stamps[k]; delete v.stamps[k];
+        S.log.forEach(l => { if (l.id === id && (l.lab || "") === lab) l.lab = to; }); changed = true; }); });
+    if (changed) save();
+  }
   const stamps = id => (S.birds[id] && S.birds[id].stamps) || {};
   const has = (id, lab) => lab == null ? Object.keys(stamps(id)).length > 0 : !!stamps(id)[lab || "_"];
   function stampSet(id, lab, on, region, when, quiet) {
@@ -512,7 +522,7 @@
     t.textContent = msg; t.hidden = false; clearTimeout(tt); tt = setTimeout(() => { t.hidden = true; }, 1600); }
 
   try { navigator.storage && navigator.storage.persist && navigator.storage.persist(); } catch (e) {}
-  load().then(() => { migrateOld(); render(); flushWishes(); }).catch(err => {
+  load().then(() => { migrateOld(); migrateLabels(); render(); flushWishes(); }).catch(err => {
     app.innerHTML = `<main class="wrap"><h2>載入失敗</h2><p>第一次打開需要網路。請連上網路後重新整理。</p><p class="muted">${esc(err.message)}</p></main>`;
   });
 })();

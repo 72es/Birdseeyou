@@ -17,7 +17,7 @@
     "會在淺水裡一邊走、一邊用腳攪水，把小魚嚇出來再抓",
     "春夏頭上會長出兩根長長的辮子"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -171,13 +171,13 @@
     "尾巴下面有白毛，走路時會一翹一翹",
     "腳趾很長，可以走在浮葉上"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。小孩全身灰褐色，還沒有紅色額頭。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/moorhen-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "Alexis Lours",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/photos/171773229",
@@ -186,7 +186,7 @@
     },
     {
      "src": "img/moorhen-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "chiuluan",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/37911262",
@@ -194,17 +194,8 @@
      "h": 375
     },
     {
-     "src": "img/moorhen-2.jpg",
-     "label": "",
-     "by": "no rights reserved",
-     "license": "CC0",
-     "url": "https://www.inaturalist.org/observations/80100362",
-     "w": 500,
-     "h": 375
-    },
-    {
      "src": "img/moorhen-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "vickchen",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/45763154",
@@ -213,10 +204,37 @@
     },
     {
      "src": "img/moorhen-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "金翼白眉",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/150902146",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/moorhen-5.jpg",
+     "label": "幼鳥",
+     "by": "Shang-Kwei Wang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/158439829",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/moorhen-6.jpg",
+     "label": "幼鳥",
+     "by": "chiuluan",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/observations/122785000",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/moorhen-7.jpg",
+     "label": "幼鳥",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/118897408",
      "w": 500,
      "h": 375
     }
@@ -238,7 +256,7 @@
     "常常在草叢邊快步走，一緊張就鑽進去",
     "尾巴會一直上下翹"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -296,13 +314,13 @@
     "可以跟牠玩猜猜看：等一下會從哪裡冒出來？",
     "照片是夏天的樣子，秋冬顏色會變成淡淡的褐色"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。大人夏天臉頰是紅褐色、冬天變淡；小孩臉上有黑白條紋。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/grebe-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "jjulio2000",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/194462197",
@@ -311,7 +329,7 @@
     },
     {
      "src": "img/grebe-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "jamg0121",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/299124690",
@@ -320,7 +338,7 @@
     },
     {
      "src": "img/grebe-2.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "alderchang",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/342009416",
@@ -329,7 +347,7 @@
     },
     {
      "src": "img/grebe-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "翁育民",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/62196571",
@@ -338,12 +356,39 @@
     },
     {
      "src": "img/grebe-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "chiuluan",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/73800632",
      "w": 500,
      "h": 374
+    },
+    {
+     "src": "img/grebe-5.jpg",
+     "label": "幼鳥",
+     "by": "Ben Tsai蔡維哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/149232015",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/grebe-6.jpg",
+     "label": "幼鳥",
+     "by": "大俠",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/observations/323180074",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/grebe-7.jpg",
+     "label": "幼鳥",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/298695084",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -458,7 +503,7 @@
     "喜歡停在草的最高點",
     "肚子是淡淡的米黃色"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -517,7 +562,7 @@
     "跟褐頭鷦鶯比：牠有黃肚子",
     "也是長尾巴、愛站在草尖上"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -584,13 +629,13 @@
     "嘴巴粗粗短短，專門咬種子",
     "幼鳥全身土褐色，還沒有魚鱗紋"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣，但大人和小孩差很多：小孩全身土褐色，還沒有魚鱗紋。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/munia-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "Daniel Raposo",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/161725682",
@@ -598,26 +643,8 @@
      "h": 375
     },
     {
-     "src": "img/munia-1.jpg",
-     "label": "",
-     "by": "hsiehcl",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/15992601",
-     "w": 500,
-     "h": 375
-    },
-    {
-     "src": "img/munia-2.jpg",
-     "label": "",
-     "by": "尹若宇",
-     "license": "CC BY-SA",
-     "url": "https://www.inaturalist.org/observations/91713236",
-     "w": 500,
-     "h": 333
-    },
-    {
      "src": "img/munia-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "venus54007",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/19636580",
@@ -626,12 +653,57 @@
     },
     {
      "src": "img/munia-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "inatpeshualien001",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/194477589",
      "w": 500,
      "h": 333
+    },
+    {
+     "src": "img/munia-1.jpg",
+     "label": "幼鳥",
+     "by": "hsiehcl",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/15992601",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/munia-2.jpg",
+     "label": "幼鳥",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/observations/91713236",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/munia-5.jpg",
+     "label": "幼鳥",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/12890537",
+     "w": 500,
+     "h": 324
+    },
+    {
+     "src": "img/munia-6.jpg",
+     "label": "幼鳥",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/37653472",
+     "w": 500,
+     "h": 342
+    },
+    {
+     "src": "img/munia-7.jpg",
+     "label": "幼鳥",
+     "by": "roarlan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/383523657",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -652,7 +724,7 @@
     "常常一群在地上跳來跳去",
     "記住牠有多大，看別的鳥就可以比"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -719,7 +791,7 @@
     "喜歡停在樹枝和電線上",
     "常常好幾隻一起吵吵鬧鬧"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -786,7 +858,7 @@
     "喜歡吃花蜜和水果",
     "常常成群在樹上鑽來鑽去"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -854,7 +926,7 @@
     "停下來時找紅色喉嚨",
     "尾巴分叉比較短"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -913,13 +985,13 @@
     "找肩膀上的黑色",
     "牠在找草地上的老鼠"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。小孩背上有淡褐色的鱗片紋，眼睛還不是紅色。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/kite-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "Daniel Liepack",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/183749378",
@@ -928,7 +1000,7 @@
     },
     {
      "src": "img/kite-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "garlice99",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/363073610",
@@ -937,7 +1009,7 @@
     },
     {
      "src": "img/kite-2.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "雲一百香果",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/130911641",
@@ -946,7 +1018,7 @@
     },
     {
      "src": "img/kite-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "雲一百香果",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/68148309",
@@ -955,12 +1027,39 @@
     },
     {
      "src": "img/kite-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "greenshank",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/253470193",
      "w": 500,
      "h": 327
+    },
+    {
+     "src": "img/kite-5.jpg",
+     "label": "幼鳥",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/336923726",
+     "w": 500,
+     "h": 354
+    },
+    {
+     "src": "img/kite-6.jpg",
+     "label": "幼鳥",
+     "by": "nfu-arec",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/282549512",
+     "w": 500,
+     "h": 377
+    },
+    {
+     "src": "img/kite-7.jpg",
+     "label": "幼鳥",
+     "by": "nfu-arec",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/282549513",
+     "w": 500,
+     "h": 377
     }
    ]
   },
@@ -1289,7 +1388,7 @@
     "常常站著一動也不動，在等魚游過來",
     "飛的時候脖子會縮起來"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1356,7 +1455,7 @@
     "嘴角的線一直畫到眼睛後面",
     "走路慢慢的，很有氣質"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1424,7 +1523,7 @@
     "脖子比大白鷺短一點",
     "來玩大、中、小白鷺比大小"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1492,7 +1591,7 @@
     "嘴巴微微上翹",
     "飛起來會叫「丟、丟、丟」三聲"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1551,7 +1650,7 @@
     "腳是黃綠色",
     "常在淺水裡快快地走、到處啄"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1619,7 +1718,7 @@
     "肩膀前面有一個白色的「勾勾」",
     "飛的時候貼著水面，翅膀抖抖的"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1687,7 +1786,7 @@
     "跑幾步、停一下、再跑幾步",
     "常常跟同伴分散在泥灘上"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母很像，公鳥臉上的黑色比較濃，母鳥偏咖啡色。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -1868,7 +1967,7 @@
     "照片是夏天穿的衣服，秋天黑肚子會慢慢不見",
     "常常一群站在泥灘或草地上"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "秋冬公母很像；春夏公鳥的臉和肚子會變成黑色，母鳥的黑色比較少、比較雜。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2398,7 +2497,7 @@
     "大部分在台南過冬，偶爾會有幾隻路過關渡",
     "秋冬全身白色；春天頭上和胸口會長出黃色羽毛"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣，公鳥體型稍大。春天頭上和胸口會長出黃色羽毛。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2466,7 +2565,7 @@
     "翅膀尾端是黑色",
     "看到牠就像中樂透"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2533,7 +2632,7 @@
     "10月底以後比較有機會",
     "常常在同一片濕地來回巡邏"
    ],
-   "sex": "這張是母鳥：全身深咖啡色，頭比較淡。公鳥是黑、白、灰三色，頭和背是黑的。",
+   "sex": "公鳥是黑、白、灰三色，頭和背是黑的；母鳥全身深咖啡色，頭比較淡。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2790,7 +2889,7 @@
     "常在草叢上方短短地飛一下就落下",
     "比黃小鷺顏色深"
    ],
-   "sex": "這張是公鳥：背是均勻的栗紅色。母鳥的背是深褐色有白點，胸口有直條紋。",
+   "sex": "這裡的照片都是公鳥：背是均勻的栗紅色。母鳥的背是深褐色有白點，胸口有直條紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2857,13 +2956,13 @@
     "有時在河口追鴨子",
     "看到一群鴨子突然全部飛起來，抬頭找找牠"
    ],
-   "sex": "公母長得很像，但母鳥明顯比公鳥大一號。",
+   "sex": "公母長得很像，母鳥明顯大一號。小孩是咖啡色、胸口有直條紋；大人是藍灰色、胸口是細橫紋。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/peregrine-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "nautiboy",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/photos/212499566",
@@ -2872,7 +2971,7 @@
     },
     {
      "src": "img/peregrine-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "LI TZU HSUAN",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/326903789",
@@ -2881,7 +2980,7 @@
     },
     {
      "src": "img/peregrine-2.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "Max Hsieh(雁子)",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201444048",
@@ -2890,7 +2989,7 @@
     },
     {
      "src": "img/peregrine-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/256619364",
@@ -2899,12 +2998,39 @@
     },
     {
      "src": "img/peregrine-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/201762447",
      "w": 500,
      "h": 333
+    },
+    {
+     "src": "img/peregrine-5.jpg",
+     "label": "幼鳥",
+     "by": "謝忠良",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/165871490",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/peregrine-6.jpg",
+     "label": "幼鳥",
+     "by": "張智偉(Chang, Jack, Chih-Wei)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/67647933",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/peregrine-7.jpg",
+     "label": "幼鳥",
+     "by": "william_tsai",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/196828036",
+     "w": 500,
+     "h": 334
     }
    ]
   },
@@ -2925,7 +3051,7 @@
     "秋天嘴巴會變暗、腳變黃綠色，更難認",
     "這是鳥友等級的挑戰，看到要記下來"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -2984,7 +3110,7 @@
     "臉上有黑色的八字鬍線",
     "叫聲聽起來像在說「吐米酒」"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3043,7 +3169,7 @@
     "飛走時看屁股的一點橘色",
     "很愛吃山桐子果實和櫻花蜜"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3111,7 +3237,7 @@
     "頭頂是栗色，有一點點蓬起來",
     "常在樹幹和藤蔓之間鑽來鑽去"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3179,7 +3305,7 @@
     "臉上有白色的眉毛和鬍子",
     "常在步道、停車場邊撿東西吃，記得不要餵牠"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3313,7 +3439,7 @@
     "身體很小，在松針之間跳得很快",
     "常跟其他山雀混在一起"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -3380,7 +3506,7 @@
     "喉嚨中間有一塊黑色",
     "常常一整群一起飛過去，一直嘰嘰叫"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -3447,7 +3573,7 @@
     "藍灰色背、茶色肚子、黑色過眼線",
     "嘴巴尖尖的，像一把小鑿子"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母很像，公鳥肚子兩側的栗色比較深。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -3506,7 +3632,7 @@
     "常停在松樹最頂端",
     "叫聲沙沙的「嘎——嘎——」"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -3676,7 +3802,7 @@
     "翅膀上有白色斑點",
     "常在大樹的上層找蟲吃"
    ],
-   "sex": "公鳥肚子下方有一塊黑色；母鳥沒有，顏色也比較淡。",
+   "sex": "公鳥肚子下方有一塊黑色；母鳥沒有，顏色也比較淡。這裡的照片沒有分公母，可以自己找找看。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -3951,7 +4077,7 @@
     "身體是黃綠色",
     "在杉木、鐵杉的針葉間忙著抓蟲，動作很快"
    ],
-   "sex": "公鳥頭頂中間是橘紅色；母鳥頭頂是黃色。",
+   "sex": "公鳥頭頂中間是橘紅色；母鳥頭頂是黃色。這裡的照片沒有分公母，可以自己找找看。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -4610,7 +4736,7 @@
     "喉嚨黑白相間",
     "叫聲會越來越大聲、越來越快"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -4668,7 +4794,7 @@
     "白天也會停在樹枝上",
     "叫聲是「嘟——嘟嘟——嘟」四聲"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -4735,13 +4861,13 @@
     "頭後面有短短的冠羽",
     "魯凱族和排灣族把牠的羽毛當成榮耀的象徵"
    ],
-   "sex": "公母很像，母鳥比較大。",
+   "sex": "公母很像，母鳥比較大。小孩的頭和胸口是淡淡的米白色；大人顏色比較深，全身有很多條紋。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/hawk_eagle-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/255831303",
@@ -4750,7 +4876,7 @@
     },
     {
      "src": "img/hawk_eagle-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270129779",
@@ -4759,7 +4885,7 @@
     },
     {
      "src": "img/hawk_eagle-2.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/270115662",
@@ -4767,22 +4893,40 @@
      "h": 333
     },
     {
-     "src": "img/hawk_eagle-3.jpg",
-     "label": "",
-     "by": "大俠",
-     "license": "CC BY-NC-SA",
-     "url": "https://www.inaturalist.org/observations/287881878",
-     "w": 500,
-     "h": 375
-    },
-    {
      "src": "img/hawk_eagle-4.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "usaviah",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/338714697",
      "w": 500,
      "h": 334
+    },
+    {
+     "src": "img/hawk_eagle-5.jpg",
+     "label": "幼鳥",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/254476124",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/hawk_eagle-6.jpg",
+     "label": "幼鳥",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255761256",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/hawk_eagle-7.jpg",
+     "label": "幼鳥",
+     "by": "阿升",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/258654672",
+     "w": 500,
+     "h": 371
     }
    ]
   },
@@ -4870,13 +5014,13 @@
     "常在地上一邊走一邊點頭",
     "飛起來時，尾巴邊緣是白色的"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。小孩還沒有珍珠項鍊，羽毛邊緣有淡淡的鱗片紋。",
    "endemic": false,
    "alien": false,
    "photos": [
     {
      "src": "img/spotted_dove-0.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "Daval Davis",
      "license": "CC BY",
      "url": "https://www.inaturalist.org/observations/256814502",
@@ -4885,7 +5029,7 @@
     },
     {
      "src": "img/spotted_dove-1.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "calcariidaeeee",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/260229512",
@@ -4894,7 +5038,7 @@
     },
     {
      "src": "img/spotted_dove-2.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "shencoop",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/188325563",
@@ -4903,7 +5047,7 @@
     },
     {
      "src": "img/spotted_dove-3.jpg",
-     "label": "",
+     "label": "成鳥",
      "by": "橘子拔(橘子熊)",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/231169320",
@@ -4911,13 +5055,31 @@
      "h": 375
     },
     {
-     "src": "img/spotted_dove-4.jpg",
-     "label": "",
+     "src": "img/spotted_dove-5.jpg",
+     "label": "幼鳥",
+     "by": "Shang-Kwei Wang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/199462110",
+     "w": 500,
+     "h": 500
+    },
+    {
+     "src": "img/spotted_dove-6.jpg",
+     "label": "幼鳥",
      "by": "Liu JimFood",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/204013947",
+     "url": "https://www.inaturalist.org/observations/12601688",
      "w": 500,
-     "h": 362
+     "h": 340
+    },
+    {
+     "src": "img/spotted_dove-7.jpg",
+     "label": "幼鳥",
+     "by": "roarlan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/371098695",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -5042,7 +5204,7 @@
     "顏色有很多種",
     "牠們的祖先是人類養的鴿子"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5083,7 +5245,7 @@
     "飛起來時翅膀有大塊白斑",
     "台灣原本的八哥現在反而變少了"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": true,
    "photos": [
@@ -5150,7 +5312,7 @@
     "飛起來翅膀上有白色斑塊",
     "叫聲很多變，有時候很吵"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5329,7 +5491,7 @@
     "會在枯樹幹上挖洞做窩",
     "嘴巴又粗又大"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -5396,7 +5558,7 @@
     "夏天很護巢，不要靠近牠的巢",
     "叫聲又大又沙啞"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": true,
    "alien": false,
    "photos": [
@@ -5558,7 +5720,7 @@
     "尾巴像魚尾一樣分叉",
     "很勇敢，會趕走靠近鳥巢的老鷹和烏鴉"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。小孩肚子上有白色的細橫紋。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5625,7 +5787,7 @@
     "頭上的毛有點亂亂的",
     "聽到貓叫聲，先往樹上找"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -5797,7 +5959,7 @@
     "尾巴分叉很淺",
     "腳很短，幾乎不會停在地上"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公鳥母鳥長得幾乎一樣，用看的很難分。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -6058,35 +6220,8 @@
    "alien": false,
    "photos": [
     {
-     "src": "img/pale_thrush-0.jpg",
-     "label": "",
-     "by": "Shainy",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/154086050",
-     "w": 500,
-     "h": 375
-    },
-    {
-     "src": "img/pale_thrush-1.jpg",
-     "label": "",
-     "by": "金翼白眉",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/151700963",
-     "w": 500,
-     "h": 375
-    },
-    {
-     "src": "img/pale_thrush-2.jpg",
-     "label": "",
-     "by": "金翼白眉",
-     "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/153183677",
-     "w": 500,
-     "h": 375
-    },
-    {
      "src": "img/pale_thrush-3.jpg",
-     "label": "",
+     "label": "公",
      "by": "Shin Chun Huang",
      "license": "CC BY-NC",
      "url": "https://www.inaturalist.org/observations/258148460",
@@ -6094,13 +6229,49 @@
      "h": 333
     },
     {
-     "src": "img/pale_thrush-4.jpg",
-     "label": "",
-     "by": "陳士訓",
+     "src": "img/pale_thrush-5.jpg",
+     "label": "公",
+     "by": "lava_chen",
      "license": "CC BY-NC",
-     "url": "https://www.inaturalist.org/observations/253832187",
-     "w": 281,
-     "h": 500
+     "url": "https://www.inaturalist.org/observations/261859389",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/pale_thrush-6.jpg",
+     "label": "公",
+     "by": "張智偉(Chang, Jack, Chih-Wei)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/147879751",
+     "w": 500,
+     "h": 333
+    },
+    {
+     "src": "img/pale_thrush-1.jpg",
+     "label": "母",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/151700963",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/pale_thrush-7.jpg",
+     "label": "母",
+     "by": "abujudy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/69850341",
+     "w": 500,
+     "h": 375
+    },
+    {
+     "src": "img/pale_thrush-8.jpg",
+     "label": "母",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/observations/255899593",
+     "w": 500,
+     "h": 375
     }
    ]
   },
@@ -6121,7 +6292,7 @@
     "白天躲在樹洞或濃密的樹叢裡睡覺",
     "看到牠要安靜，不要用閃光燈"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣，母鳥身體稍微大一點。",
    "endemic": false,
    "alien": false,
    "photos": [
@@ -6189,7 +6360,7 @@
     "冬天會變成全身白色",
     "常在草地上，不一定在水邊"
    ],
-   "sex": "公鳥母鳥長得一樣，用看的分不出來。",
+   "sex": "公母長得一樣。春夏頭和脖子變成橘黃色，冬天幾乎全白。",
    "endemic": false,
    "alien": false,
    "photos": [
