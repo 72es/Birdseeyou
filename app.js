@@ -120,24 +120,67 @@
   /* ---------- search: one character or English is enough; results link to the bird page ---------- */
   const SEARCH_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="rgba(198,218,224,.55)" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg>';
   const norm = t => (t || "").toLowerCase().replace(/臺/g, "台").replace(/\s+/g, "");
+  // tags come only from our own data: endemic/alien flags, region sections (resident / seasonal / lucky) and habitat words
+  const TAG_CHIPS = ["特有種", "候鳥", "留鳥", "濕地", "草地", "高海拔", "城市公園", "幸運星", "外來種"];
+  let TAGS = null;
+  function birdTags() {
+    if (TAGS) return TAGS; TAGS = {};
+    const add = (id, t) => { (TAGS[id] = TAGS[id] || new Set()).add(t); };
+    const common = new Set(), seas = {}, lucky = new Set(), inR = {};
+    Object.values(REGIONS).forEach(r => r.sections.forEach(sec => sec.birds.forEach(e => {
+      (inR[e.id] = inR[e.id] || new Set()).add(r.id);
+      if (sec.type === "common") common.add(e.id);
+      if (sec.type === "lucky") lucky.add(e.id);
+      if (e.seasons && e.seasons.length < 4) { seas[e.id] = seas[e.id] || new Set(); e.seasons.forEach(x => seas[e.id].add(x)); }
+    })));
+    ORDER.forEach(id => { const b = BIRDS[id], rs = inR[id] || new Set(), hab = (b.habitat || []).join("");
+      if (b.endemic) add(id, "特有種"); if (b.alien) add(id, "外來種");
+      if (common.has(id) || !seas[id]) add(id, "留鳥");
+      else { const ss = seas[id], has_ = x => ss.has(x);
+        if (has_("冬") || (has_("秋") && !has_("夏"))) add(id, has_("春") && has_("秋") && !has_("冬") ? "過境候鳥" : "冬候鳥");
+        else if (has_("夏")) add(id, "夏候鳥"); else add(id, "過境候鳥"); }
+      if (lucky.has(id)) add(id, "幸運星");
+      if (/水|灘|蘆葦|河|田|沙地/.test(hab)) add(id, "濕地");
+      if (/森林|樹林|竹林|山林/.test(hab) || (rs.has("dasyueshan") && !/天空/.test(hab))) add(id, "森林");
+      if (/草/.test(hab)) add(id, "草地");
+      if (rs.has("dasyueshan") && !rs.has("city") && !rs.has("guandu")) add(id, "高海拔");
+      if (rs.has("city")) add(id, "城市公園");
+      rs.forEach(r => REGIONS[r] && add(id, REGIONS[r].name)); });
+    return TAGS;
+  }
   function searchBirds(q) {
-    q = norm(q); if (!q) return [];
-    const hit = ORDER.map(id => BIRDS[id]).filter(b => norm(b.zh).includes(q) || norm(b.en).includes(q) || norm(b.sci).includes(q));
-    const rank = b => norm(b.zh).startsWith(q) || norm(b.en).startsWith(q) ? 0 : norm(b.zh).includes(q) ? 1 : 2;
-    return hit.sort((a, b) => rank(a) - rank(b)).slice(0, 30);
+    const terms = (q || "").split(/[\s,，、]+/).map(norm).filter(Boolean); if (!terms.length) return [];
+    const T = birdTags();
+    const out = [];
+    ORDER.forEach(id => { const b = BIRDS[id], names = [norm(b.zh), norm(b.en), norm(b.sci)], tags = [...(T[id] || [])];
+      let score = 0, why = [];
+      for (const t of terms) {
+        if (names.some(n => n.startsWith(t))) score += 0;
+        else if (names.some(n => n.includes(t))) score += 1;
+        else { const hit = tags.filter(g => norm(g).includes(t)); if (!hit.length) return; score += 3; why.push(...hit); }
+      }
+      out.push({ b, score, why: [...new Set(why)] }); });
+    return out.sort((x, y) => x.score - y.score).slice(0, 60);
   }
   function openSearch() {
     if (document.querySelector(".search-sheet")) return;
     const el = document.createElement("div"); el.className = "search-sheet"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", "搜尋鳥");
-    el.innerHTML = `<div class="search-box"><div class="search-row">${SEARCH_SVG}<input type="search" id="sq" placeholder="打鳥名，一個字也可以" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button type="button" class="search-x" aria-label="關閉">取消</button></div><ul class="search-list" id="sl"></ul></div>`;
+    el.innerHTML = `<div class="search-box"><div class="search-row">${SEARCH_SVG}<input type="search" id="sq" placeholder="鳥名、英文或標籤" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button type="button" class="search-x" aria-label="關閉">取消</button></div><div class="search-tags" id="stg">${TAG_CHIPS.map(t => `<button type="button" data-tag="${t}">${t}</button>`).join("")}</div><p class="search-n" id="sn"></p><ul class="search-list" id="sl"></ul></div>`;
     document.body.appendChild(el); document.body.classList.add("noscroll");
-    const inp = el.querySelector("#sq"), list = el.querySelector("#sl");
+    const inp = el.querySelector("#sq"), list = el.querySelector("#sl"), n = el.querySelector("#sn"), tagsEl = el.querySelector("#stg");
     const close = () => { el.remove(); document.body.classList.remove("noscroll"); };
     const render = () => { const q = inp.value.trim(), r = searchBirds(q);
-      list.innerHTML = !q ? "" : r.length ? r.map(b => `<li><button type="button" data-id="${b.id}"><img src="${b.photos[0].src}" alt="" loading="lazy"><span><b>${esc(b.zh)}</b><small>${esc(b.en)}</small></span>${has(b.id) ? '<i class="got">已收集</i>' : ""}</button></li>`).join("") : `<li class="none">找不到「${esc(q)}」，換個字試試看</li>`; };
+      tagsEl.hidden = !!q; n.textContent = q && r.length ? `找到 ${r.length} 種` : "";
+      list.innerHTML = !q ? "" : r.length ? r.map(({ b, why }) => `<li><button type="button" data-id="${b.id}"><img src="${b.photos[0].src}" alt="" loading="lazy"><span><b>${esc(b.zh)}</b><small>${esc(b.en)}${why.length ? `<em>${why.map(esc).join("・")}</em>` : ""}</small></span>${has(b.id) ? '<i class="got">已收集</i>' : ""}</button></li>`).join("") : `<li class="none">找不到「${esc(q)}」，換個字試試看</li>`; };
     inp.addEventListener("input", render);
-    inp.addEventListener("keydown", e => { if (e.key === "Escape") close(); if (e.key === "Enter") { const f = list.querySelector("[data-id]"); if (f) f.click(); } });
+    // Enter that confirms an input-method (注音/拼音) candidate must not open a bird; only a later plain Enter does
+    let composing = false;
+    inp.addEventListener("compositionstart", () => { composing = true; });
+    inp.addEventListener("compositionend", () => { setTimeout(() => { composing = false; }, 0); });
+    inp.addEventListener("keydown", e => { if (e.key === "Escape") close();
+      if (e.key === "Enter") { e.preventDefault(); if (composing || e.isComposing || e.keyCode === 229) return; const f = list.querySelector("[data-id]"); if (f) f.click(); } });
     el.addEventListener("click", e => { const b = e.target.closest("[data-id]"); if (b) { close(); go(`#/b/${b.dataset.id}/all`); return; }
+      const t = e.target.closest("[data-tag]"); if (t) { inp.value = t.dataset.tag; render(); inp.focus(); return; }
       if (e.target.closest(".search-x") || e.target === el) close(); });
     inp.focus();
   }

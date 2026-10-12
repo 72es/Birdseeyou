@@ -315,3 +315,9 @@ button.pill{cursor:pointer}
 .search-list .got{font-style:normal;font-size:12px;background:var(--amber);border:1.5px solid var(--lead);border-radius:999px;padding:1px 8px;flex:none}
 .search-list .none{padding:14px 6px;color:var(--muted)}
 body.noscroll{overflow:hidden}
+.search-tags{display:flex;flex-wrap:wrap;gap:6px;padding:10px 4px 2px}
+.search-tags[hidden]{display:none}
+.search-tags button{border:2px solid var(--lead);border-radius:999px;background:var(--card);padding:3px 12px;font:inherit;font-size:14px;color:var(--ink);cursor:pointer}
+.search-tags button:nth-child(5n+1){background:var(--rose)}.search-tags button:nth-child(5n+2){background:var(--mist)}.search-tags button:nth-child(5n+3){background:var(--sage)}.search-tags button:nth-child(5n+4){background:var(--lav)}.search-tags button:nth-child(5n){background:var(--amber)}
+.search-n{margin:6px 6px 0;font-size:13px;color:var(--muted)}.search-n:empty{display:none}
+.search-list small em{font-style:normal;margin-left:6px;color:var(--lav-d)}
