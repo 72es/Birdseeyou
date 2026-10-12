@@ -40,7 +40,7 @@ def pick(bid,maxn=5):
     for rnd in range(2):
         for c in ORDER_CAT:
             cand=[r for r in recs if cat(r["type"])==c and r not in chosen]
-            if rnd==1: cand=[r for r in cand if c in ("唱歌","叫聲")]
+            if rnd==1 and len(chosen)>=2: cand=[r for r in cand if c in ("唱歌","叫聲")]
             if len(chosen)>=2: cand=[r for r in cand if len(r.get("also") or [])<2]
             if not cand: continue
             # prefer different recordist on second round

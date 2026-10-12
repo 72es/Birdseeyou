@@ -186,7 +186,7 @@
   }
 
   /* ---------- bird sounds: one shared <audio>, play/pause, countdown only (no waveform, eyes stay on the trees) ---------- */
-  const SND_KIND = { "唱歌": 1, "叫聲": 2, "警戒聲": 3, "飛行聲": 4, "敲擊聲": 5 };
+  const SND_KIND = { "唱歌": 1, "叫聲": 2, "警戒聲": 3, "飛行聲": 4, "敲擊聲": 5, "聲音": 2 };
   const fmtSec = v => { v = Math.max(0, Math.ceil(v)); return `${Math.floor(v / 60)}:${String(v % 60).padStart(2, "0")}`; };
   const SILENT = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
   const player = { el: null, btn: null, src: "", urls: {}, tick: 0 };
@@ -329,7 +329,7 @@
         <div class="glass box"><h3>多大隻</h3><span class="cm">${b.cm}<small> 公分</small></span><span class="spar">${SPARROW.repeat(Math.min(nSp, 9))}${nSp > 9 ? "…" : ""}</span><span class="ratio">≈ ${nSp} 隻麻雀長</span></div></div>
       ${where ? `<div class="glass box"><h3>在哪些地方看得到</h3><div class="where">${where}</div></div>` : ""}
       <nav class="pager"><button type="button" ${prev ? `data-open="${prev}" data-ctx="${ctx}"` : "disabled"}>‹ ${prev ? esc(BIRDS[prev].zh) : ""}</button><button type="button" ${next ? `data-open="${next}" data-ctx="${ctx}"` : "disabled"}>${next ? esc(BIRDS[next].zh) : ""} ›</button></nav>
-      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}${(b.sounds || []).slice(0, 5).map(x => `<li>聲音・${esc(x.kind)}（${esc(x.city || "")}）：© ${esc(x.by)} · <a href="${esc(x.licUrl)}" target="_blank" rel="noopener">${esc(x.license)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">xeno-canto ${esc(x.xc)}</a></li>`).join("")}</ul>
+      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}${(b.sounds || []).slice(0, 5).map(x => `<li>聲音・${esc(x.kind)}（${esc(x.city || "")}）：© ${esc(x.by)} · <a href="${esc(x.licUrl)}" target="_blank" rel="noopener">${esc(x.license)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.xc)}</a></li>`).join("")}</ul>
     </main>`;
     app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"); if (!dots.length) return;
       car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); }, { passive: true }); });

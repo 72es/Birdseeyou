@@ -10,7 +10,7 @@ def city(p):
     return c
 REPO=os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); SP=os.environ.get("SND_WORK") or os.path.expanduser("~/bsy-snd-work"); os.chdir(SP); os.makedirs(REPO+"/snd",exist_ok=True)
 P=json.load(open("picks.json")); D=json.load(open(REPO+"/data/birds.json"))
-KIND={"唱歌":"唱歌","叫聲":"叫聲","警戒":"警戒聲","飛行":"飛行聲","敲擊":"敲擊聲"}
+KIND={"唱歌":"唱歌","叫聲":"叫聲","警戒":"警戒聲","飛行":"飛行聲","敲擊":"敲擊聲","聲音":"聲音"}
 for f in glob.glob(REPO+"/snd/*.m4a"):
     if os.path.basename(f).rsplit("-",1)[0] in P: os.remove(f)
 for b in D["birds"]:
@@ -21,7 +21,7 @@ for b in D["birds"]:
         k=int(re.search(r"-(\d+)\.m4a$",p["src"]).group(1))
         dst=f"snd/{b['id']}-{i}.m4a"; shutil.copyfile(f"out/{b['id']}-{k}.m4a",f"{REPO}/{dst}")
         m=re.search(r"licenses/([a-z-]+)/([\d.]+)",p["lic"])
-        out.append({"src":dst,"kind":KIND[p["cat"]],"sec":round(p["sec"]),"city":city(p),"by":p["rec"],"license":"CC "+m.group(1).upper()+" "+m.group(2),"licUrl":p["lic"] if p["lic"].startswith("http") else "https:"+p["lic"],"url":p["url"],"xc":"XC"+p["id"]})
+        out.append({"src":dst,"kind":KIND[p["cat"]],"sec":round(p["sec"]),"city":city(p),"by":p["rec"],"license":("CC "+m.group(1).upper()+" "+m.group(2)) if m else "CC0 1.0","licUrl":p["lic"] if p["lic"].startswith("http") else "https:"+p["lic"],"url":p["url"],"xc":p.get("src_name") or "xeno-canto XC"+p["id"]})
     b["sounds"]=out
     print(b["zh"],[(s["kind"],s["sec"],s["city"],s["license"]) for s in out])
 json.dump(D,open(REPO+"/data/birds.json","w"),ensure_ascii=False,indent=1)

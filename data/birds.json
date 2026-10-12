@@ -91,7 +91,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/605112",
-     "xc": "XC605112"
+     "xc": "xeno-canto XC605112"
     },
     {
      "src": "snd/egret_little-1.m4a",
@@ -102,7 +102,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/577900",
-     "xc": "XC577900"
+     "xc": "xeno-canto XC577900"
     }
    ]
   },
@@ -202,6 +202,30 @@
    "key": "小孩褐色、滿身白點，眼睛橘紅",
    "like": [
     "tiger_bittern"
+   ],
+   "sounds": [
+    {
+     "src": "snd/night_heron-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/656878",
+     "xc": "xeno-canto XC656878"
+    },
+    {
+     "src": "snd/night_heron-1.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/656877",
+     "xc": "xeno-canto XC656877"
+    }
    ]
   },
   {
@@ -296,7 +320,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/moorhen-0.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/629848",
+     "xc": "xeno-canto XC629848"
+    },
+    {
+     "src": "snd/moorhen-1.m4a",
+     "kind": "警戒聲",
+     "sec": 8,
+     "city": "台北市",
+     "by": "Joan Theng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1156230",
+     "xc": "xeno-canto XC1156230"
+    },
+    {
+     "src": "snd/moorhen-2.m4a",
+     "kind": "飛行聲",
+     "sec": 8,
+     "city": "雲林縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/622014",
+     "xc": "xeno-canto XC622014"
+    }
+   ]
   },
   {
    "id": "waterhen",
@@ -359,7 +418,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/waterhen-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "花蓮縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637241",
+     "xc": "xeno-canto XC637241"
+    },
+    {
+     "src": "snd/waterhen-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Patrick Blake",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/147285",
+     "xc": "xeno-canto XC147285"
+    },
+    {
+     "src": "snd/waterhen-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659585",
+     "xc": "xeno-canto XC659585"
+    },
+    {
+     "src": "snd/waterhen-3.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/442555",
+     "xc": "xeno-canto XC442555"
+    },
+    {
+     "src": "snd/waterhen-4.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "高雄市",
+     "by": "Terry Liu",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/414441",
+     "xc": "xeno-canto XC414441"
+    }
+   ]
   },
   {
    "id": "grebe",
@@ -467,7 +583,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同・季節換羽"
+   "tag": "公母同型・成幼不同・季節換羽",
+   "sounds": [
+    {
+     "src": "snd/grebe-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "宜蘭縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/797417",
+     "xc": "xeno-canto XC797417"
+    },
+    {
+     "src": "snd/grebe-1.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605095",
+     "xc": "xeno-canto XC605095"
+    },
+    {
+     "src": "snd/grebe-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605090",
+     "xc": "xeno-canto XC605090"
+    }
+   ]
   },
   {
    "id": "kingfisher",
@@ -581,7 +732,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/596986",
-     "xc": "XC596986"
+     "xc": "xeno-canto XC596986"
     },
     {
      "src": "snd/kingfisher-1.m4a",
@@ -592,7 +743,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034470",
-     "xc": "XC1034470"
+     "xc": "xeno-canto XC1034470"
     }
    ]
   },
@@ -662,6 +813,52 @@
    "key": "全身褐色，肚子米黃",
    "like": [
     "prinia_yb"
+   ],
+   "sounds": [
+    {
+     "src": "snd/prinia_plain-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "台北市",
+     "by": "Yu-Lian Shang",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/787922",
+     "xc": "xeno-canto XC787922"
+    },
+    {
+     "src": "snd/prinia_plain-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040996",
+     "xc": "xeno-canto XC1040996"
+    },
+    {
+     "src": "snd/prinia_plain-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/783898",
+     "xc": "xeno-canto XC783898"
+    },
+    {
+     "src": "snd/prinia_plain-3.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "花蓮縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637256",
+     "xc": "xeno-canto XC637256"
+    }
    ]
   },
   {
@@ -740,6 +937,52 @@
    "key": "灰頭、白喉嚨、黃肚子",
    "like": [
     "prinia_plain"
+   ],
+   "sounds": [
+    {
+     "src": "snd/prinia_yb-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台南市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040425",
+     "xc": "xeno-canto XC1040425"
+    },
+    {
+     "src": "snd/prinia_yb-1.m4a",
+     "kind": "唱歌",
+     "sec": 7,
+     "city": "台南市",
+     "by": "Alex Lin-Moore",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/979596",
+     "xc": "xeno-canto XC979596"
+    },
+    {
+     "src": "snd/prinia_yb-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "南投縣",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/724777",
+     "xc": "xeno-canto XC724777"
+    },
+    {
+     "src": "snd/prinia_yb-3.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/594273",
+     "xc": "xeno-canto XC594273"
+    }
    ]
   },
   {
@@ -843,7 +1086,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/munia-0.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596955",
+     "xc": "xeno-canto XC596955"
+    },
+    {
+     "src": "snd/munia-1.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/594283",
+     "xc": "xeno-canto XC594283"
+    },
+    {
+     "src": "snd/munia-2.m4a",
+     "kind": "飛行聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/839460",
+     "xc": "xeno-canto XC839460"
+    }
+   ]
   },
   {
    "id": "sparrow",
@@ -928,7 +1206,7 @@
      "license": "CC BY-NC-SA 3.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
      "url": "https://xeno-canto.org/170192",
-     "xc": "XC170192"
+     "xc": "xeno-canto XC170192"
     },
     {
      "src": "snd/sparrow-1.m4a",
@@ -939,7 +1217,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/658100",
-     "xc": "XC658100"
+     "xc": "xeno-canto XC658100"
     },
     {
      "src": "snd/sparrow-2.m4a",
@@ -950,7 +1228,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/657799",
-     "xc": "XC657799"
+     "xc": "xeno-canto XC657799"
     }
    ]
   },
@@ -1036,7 +1314,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/659561",
-     "xc": "XC659561"
+     "xc": "xeno-canto XC659561"
     },
     {
      "src": "snd/bulbul-1.m4a",
@@ -1047,7 +1325,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/412911",
-     "xc": "XC412911"
+     "xc": "xeno-canto XC412911"
     },
     {
      "src": "snd/bulbul-2.m4a",
@@ -1058,7 +1336,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/403529",
-     "xc": "XC403529"
+     "xc": "xeno-canto XC403529"
     },
     {
      "src": "snd/bulbul-3.m4a",
@@ -1069,7 +1347,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/661230",
-     "xc": "XC661230"
+     "xc": "xeno-canto XC661230"
     }
    ]
   },
@@ -1155,7 +1433,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034464",
-     "xc": "XC1034464"
+     "xc": "xeno-canto XC1034464"
     },
     {
      "src": "snd/white_eye-1.m4a",
@@ -1166,7 +1444,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034463",
-     "xc": "XC1034463"
+     "xc": "xeno-canto XC1034463"
     },
     {
      "src": "snd/white_eye-2.m4a",
@@ -1177,7 +1455,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/656868",
-     "xc": "XC656868"
+     "xc": "xeno-canto XC656868"
     },
     {
      "src": "snd/white_eye-3.m4a",
@@ -1188,7 +1466,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034462",
-     "xc": "XC1034462"
+     "xc": "xeno-canto XC1034462"
     }
    ]
   },
@@ -1259,6 +1537,41 @@
    "like": [
     "barn_swallow",
     "swift"
+   ],
+   "sounds": [
+    {
+     "src": "snd/swallow-0.m4a",
+     "kind": "唱歌",
+     "sec": 6,
+     "city": "嘉義縣",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/406717",
+     "xc": "xeno-canto XC406717"
+    },
+    {
+     "src": "snd/swallow-1.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "屏東縣",
+     "by": "Liang-Hsien Chiang",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/121596",
+     "xc": "xeno-canto XC121596"
+    },
+    {
+     "src": "snd/swallow-2.m4a",
+     "kind": "飛行聲",
+     "sec": 9,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040421",
+     "xc": "xeno-canto XC1040421"
+    }
    ]
   },
   {
@@ -1363,7 +1676,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/kite-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "法國",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1134390",
+     "xc": "xeno-canto XC1134390"
+    },
+    {
+     "src": "snd/kite-1.m4a",
+     "kind": "唱歌",
+     "sec": 10,
+     "city": "法國",
+     "by": "gianni enselme",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/583278",
+     "xc": "xeno-canto XC583278"
+    },
+    {
+     "src": "snd/kite-2.m4a",
+     "kind": "警戒聲",
+     "sec": 8,
+     "city": "阿聯",
+     "by": "David Darrell-Lambert",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1094447",
+     "xc": "xeno-canto XC1094447"
+    }
+   ]
   },
   {
    "id": "teal",
@@ -1480,6 +1828,41 @@
    "key": "最小的鴨，嘴巴小小的",
    "like": [
     "shoveler"
+   ],
+   "sounds": [
+    {
+     "src": "snd/teal-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "芬蘭",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1168468",
+     "xc": "xeno-canto XC1168468"
+    },
+    {
+     "src": "snd/teal-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "法國",
+     "by": "Jack Berteau",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/698774",
+     "xc": "xeno-canto XC698774"
+    },
+    {
+     "src": "snd/teal-2.m4a",
+     "kind": "飛行聲",
+     "sec": 15,
+     "city": "瑞典",
+     "by": "Lars Edenius",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1106784",
+     "xc": "xeno-canto XC1106784"
+    }
    ]
   },
   {
@@ -1583,7 +1966,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・季節換羽"
+   "tag": "公母異型・季節換羽",
+   "sounds": [
+    {
+     "src": "snd/pintail-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "芬蘭",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1167242",
+     "xc": "xeno-canto XC1167242"
+    },
+    {
+     "src": "snd/pintail-1.m4a",
+     "kind": "唱歌",
+     "sec": 13,
+     "city": "俄羅斯",
+     "by": "Jens Kirkeby",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/381982",
+     "xc": "xeno-canto XC381982"
+    },
+    {
+     "src": "snd/pintail-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "英國",
+     "by": "David Darrell-Lambert",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1082420",
+     "xc": "xeno-canto XC1082420"
+    },
+    {
+     "src": "snd/pintail-3.m4a",
+     "kind": "警戒聲",
+     "sec": 12,
+     "city": "冰島",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/432787",
+     "xc": "xeno-canto XC432787"
+    }
+   ]
   },
   {
    "id": "shoveler",
@@ -1710,6 +2139,52 @@
    "key": "嘴巴又扁又寬，像飯匙",
    "like": [
     "teal"
+   ],
+   "sounds": [
+    {
+     "src": "snd/shoveler-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "美國",
+     "by": "Sue Riffe",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/368726",
+     "xc": "xeno-canto XC368726"
+    },
+    {
+     "src": "snd/shoveler-1.m4a",
+     "kind": "唱歌",
+     "sec": 13,
+     "city": "波蘭",
+     "by": "Jarek Matusiak",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/190728",
+     "xc": "xeno-canto XC190728"
+    },
+    {
+     "src": "snd/shoveler-2.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "瑞典",
+     "by": "Magnus Hallgren",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1157756",
+     "xc": "xeno-canto XC1157756"
+    },
+    {
+     "src": "snd/shoveler-3.m4a",
+     "kind": "飛行聲",
+     "sec": 10,
+     "city": "法國",
+     "by": "Sonothèque ADVL",
+     "license": "CC0 1.0",
+     "licUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "url": "https://xeno-canto.org/1041165",
+     "xc": "xeno-canto XC1041165"
+    }
    ]
   },
   {
@@ -1783,7 +2258,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/grey_heron-0.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/656875",
+     "xc": "xeno-canto XC656875"
+    },
+    {
+     "src": "snd/grey_heron-1.m4a",
+     "kind": "飛行聲",
+     "sec": 13,
+     "city": "金門縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1071099",
+     "xc": "xeno-canto XC1071099"
+    }
+   ]
   },
   {
    "id": "great_egret",
@@ -1861,6 +2360,30 @@
    "like": [
     "int_egret",
     "egret_little"
+   ],
+   "sounds": [
+    {
+     "src": "snd/great_egret-0.m4a",
+     "kind": "飛行聲",
+     "sec": 11,
+     "city": "金門縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1071100",
+     "xc": "xeno-canto XC1071100"
+    },
+    {
+     "src": "snd/great_egret-1.m4a",
+     "kind": "飛行聲",
+     "sec": 6,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605062",
+     "xc": "xeno-canto XC605062"
+    }
    ]
   },
   {
@@ -1941,6 +2464,19 @@
     "great_egret",
     "egret_little",
     "cattle_egret"
+   ],
+   "sounds": [
+    {
+     "src": "snd/int_egret-0.m4a",
+     "kind": "叫聲",
+     "sec": 11,
+     "city": "泰國",
+     "by": "FREDERIC Lionel",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/842970",
+     "xc": "xeno-canto XC842970"
+    }
    ]
   },
   {
@@ -2010,6 +2546,41 @@
    "like": [
     "wood_sandpiper",
     "common_sandpiper"
+   ],
+   "sounds": [
+    {
+     "src": "snd/greenshank-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "瑞典",
+     "by": "Lars Edenius",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/562805",
+     "xc": "xeno-canto XC562805"
+    },
+    {
+     "src": "snd/greenshank-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "波蘭",
+     "by": "Jarek Matusiak",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/554092",
+     "xc": "xeno-canto XC554092"
+    },
+    {
+     "src": "snd/greenshank-2.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "德國",
+     "by": "W. Agster",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/831860",
+     "xc": "xeno-canto XC831860"
+    }
    ]
   },
   {
@@ -2089,6 +2660,19 @@
    "like": [
     "greenshank",
     "common_sandpiper"
+   ],
+   "sounds": [
+    {
+     "src": "snd/wood_sandpiper-0.m4a",
+     "kind": "飛行聲",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/797773",
+     "xc": "xeno-canto XC797773"
+    }
    ]
   },
   {
@@ -2168,6 +2752,30 @@
    "like": [
     "wood_sandpiper",
     "greenshank"
+   ],
+   "sounds": [
+    {
+     "src": "snd/common_sandpiper-0.m4a",
+     "kind": "叫聲",
+     "sec": 5,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659587",
+     "xc": "xeno-canto XC659587"
+    },
+    {
+     "src": "snd/common_sandpiper-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/597141",
+     "xc": "xeno-canto XC597141"
+    }
    ]
   },
   {
@@ -2246,6 +2854,30 @@
    "key": "金黃色眼圈，領圈繞一整圈",
    "like": [
     "kentish"
+   ],
+   "sounds": [
+    {
+     "src": "snd/lrp-0.m4a",
+     "kind": "警戒聲",
+     "sec": 12,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/987138",
+     "xc": "xeno-canto XC987138"
+    },
+    {
+     "src": "snd/lrp-1.m4a",
+     "kind": "飛行聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1043636",
+     "xc": "xeno-canto XC1043636"
+    }
    ]
   },
   {
@@ -2374,6 +3006,30 @@
    "key": "領圈在胸前斷開，沒有金眼圈",
    "like": [
     "lrp"
+   ],
+   "sounds": [
+    {
+     "src": "snd/kentish-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "法國",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/795873",
+     "xc": "xeno-canto XC795873"
+    },
+    {
+     "src": "snd/kentish-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "新北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/840142",
+     "xc": "xeno-canto XC840142"
+    }
    ]
   },
   {
@@ -2453,7 +3109,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・季節換羽"
+   "tag": "公母同型・季節換羽",
+   "sounds": [
+    {
+     "src": "snd/golden_plover-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "中國",
+     "by": "Feather V",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/992548",
+     "xc": "xeno-canto XC992548"
+    },
+    {
+     "src": "snd/golden_plover-1.m4a",
+     "kind": "叫聲",
+     "sec": 7,
+     "city": "泰國",
+     "by": "Peter Ericsson",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/962866",
+     "xc": "xeno-canto XC962866"
+    },
+    {
+     "src": "snd/golden_plover-2.m4a",
+     "kind": "警戒聲",
+     "sec": 9,
+     "city": "蒙古",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/765854",
+     "xc": "xeno-canto XC765854"
+    },
+    {
+     "src": "snd/golden_plover-3.m4a",
+     "kind": "飛行聲",
+     "sec": 15,
+     "city": "荷蘭",
+     "by": "guus van duin",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1106593",
+     "xc": "xeno-canto XC1106593"
+    }
+   ]
   },
   {
    "id": "stilt",
@@ -2566,7 +3268,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/stilt-0.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605118",
+     "xc": "xeno-canto XC605118"
+    },
+    {
+     "src": "snd/stilt-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "屏東縣",
+     "by": "Barry Edmonston",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/379892",
+     "xc": "xeno-canto XC379892"
+    },
+    {
+     "src": "snd/stilt-2.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "新竹縣",
+     "by": "Midroad HSU",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/580584",
+     "xc": "xeno-canto XC580584"
+    },
+    {
+     "src": "snd/stilt-3.m4a",
+     "kind": "飛行聲",
+     "sec": 5,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605114",
+     "xc": "xeno-canto XC605114"
+    }
+   ]
   },
   {
    "id": "shrike",
@@ -2719,7 +3467,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・成幼不同"
+   "tag": "公母異型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/shrike-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "宜蘭縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/895913",
+     "xc": "xeno-canto XC895913"
+    },
+    {
+     "src": "snd/shrike-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "宜蘭縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/895912",
+     "xc": "xeno-canto XC895912"
+    },
+    {
+     "src": "snd/shrike-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "屏東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596970",
+     "xc": "xeno-canto XC596970"
+    },
+    {
+     "src": "snd/shrike-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/594269",
+     "xc": "xeno-canto XC594269"
+    }
+   ]
   },
   {
    "id": "white_wagtail",
@@ -2878,6 +3672,52 @@
    "like": [
     "grey_wagtail",
     "magpie_robin"
+   ],
+   "sounds": [
+    {
+     "src": "snd/white_wagtail-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Yuluen Tsai",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/685368",
+     "xc": "xeno-canto XC685368"
+    },
+    {
+     "src": "snd/white_wagtail-1.m4a",
+     "kind": "叫聲",
+     "sec": 10,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596991",
+     "xc": "xeno-canto XC596991"
+    },
+    {
+     "src": "snd/white_wagtail-2.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596824",
+     "xc": "xeno-canto XC596824"
+    },
+    {
+     "src": "snd/white_wagtail-3.m4a",
+     "kind": "飛行聲",
+     "sec": 11,
+     "city": "高雄市",
+     "by": "Ko Chie-Jen (Jerome)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/282813",
+     "xc": "xeno-canto XC282813"
+    }
    ]
   },
   {
@@ -2955,6 +3795,52 @@
    "key": "灰背、黃屁股",
    "like": [
     "white_wagtail"
+   ],
+   "sounds": [
+    {
+     "src": "snd/grey_wagtail-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605125",
+     "xc": "xeno-canto XC605125"
+    },
+    {
+     "src": "snd/grey_wagtail-1.m4a",
+     "kind": "叫聲",
+     "sec": 5,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659573",
+     "xc": "xeno-canto XC659573"
+    },
+    {
+     "src": "snd/grey_wagtail-2.m4a",
+     "kind": "叫聲",
+     "sec": 7,
+     "city": "台北市",
+     "by": "張(Chang)智偉(Chih-Wei)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/778279",
+     "xc": "xeno-canto XC778279"
+    },
+    {
+     "src": "snd/grey_wagtail-3.m4a",
+     "kind": "飛行聲",
+     "sec": 6,
+     "city": "台北市",
+     "by": "Ko Chie-Jen (Jerome)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/282864",
+     "xc": "xeno-canto XC282864"
+    }
    ]
   },
   {
@@ -3029,7 +3915,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/osprey-0.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "墨西哥",
+     "by": "Manuel Grosselet",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/573484",
+     "xc": "xeno-canto XC573484"
+    },
+    {
+     "src": "snd/osprey-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "波蘭",
+     "by": "Jarek Matusiak",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/190478",
+     "xc": "xeno-canto XC190478"
+    },
+    {
+     "src": "snd/osprey-2.m4a",
+     "kind": "叫聲",
+     "sec": 4,
+     "city": "沙烏地阿拉伯",
+     "by": "David Darrell-Lambert",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1013326",
+     "xc": "xeno-canto XC1013326"
+    },
+    {
+     "src": "snd/osprey-3.m4a",
+     "kind": "飛行聲",
+     "sec": 14,
+     "city": "美國",
+     "by": "Bruce Lagerquist",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/758691",
+     "xc": "xeno-canto XC758691"
+    }
+   ]
   },
   {
    "id": "spoonbill",
@@ -3284,7 +4216,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/harrier-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "蒙古",
+     "by": "Jarmo Pirhonen",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/254086",
+     "xc": "xeno-canto XC254086"
+    },
+    {
+     "src": "snd/harrier-1.m4a",
+     "kind": "飛行聲",
+     "sec": 8,
+     "city": "蒙古",
+     "by": "Manuel Schweizer",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/423776",
+     "xc": "xeno-canto XC423776"
+    }
+   ]
   },
   {
    "id": "painted_snipe",
@@ -3348,7 +4304,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/painted_snipe-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "苗栗縣",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/406870",
+     "xc": "xeno-canto XC406870"
+    },
+    {
+     "src": "snd/painted_snipe-1.m4a",
+     "kind": "叫聲",
+     "sec": 7,
+     "city": "中國",
+     "by": "Vincent",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/919640",
+     "xc": "xeno-canto XC919640"
+    }
+   ]
   },
   {
    "id": "yellow_bittern",
@@ -3465,6 +4445,30 @@
    "key": "黃褐色，顏色比較淡",
    "like": [
     "cinnamon_bittern"
+   ],
+   "sounds": [
+    {
+     "src": "snd/yellow_bittern-0.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "中國",
+     "by": "Bo Shunqi 薄顺奇",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1173181",
+     "xc": "xeno-canto XC1173181"
+    },
+    {
+     "src": "snd/yellow_bittern-1.m4a",
+     "kind": "警戒聲",
+     "sec": 5,
+     "city": "印度",
+     "by": "Sreekumar Chirukandoth",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/635725",
+     "xc": "xeno-canto XC635725"
+    }
    ]
   },
   {
@@ -3543,6 +4547,41 @@
    "key": "全身栗紅色",
    "like": [
     "yellow_bittern"
+   ],
+   "sounds": [
+    {
+     "src": "snd/cinnamon_bittern-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "寮國",
+     "by": "Bram Piot",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/663561",
+     "xc": "xeno-canto XC663561"
+    },
+    {
+     "src": "snd/cinnamon_bittern-1.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "台南市",
+     "by": "Antero Lindholm",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/127482",
+     "xc": "xeno-canto XC127482"
+    },
+    {
+     "src": "snd/cinnamon_bittern-2.m4a",
+     "kind": "警戒聲",
+     "sec": 8,
+     "city": "馬來西亞",
+     "by": "Mike Nelson",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/150709",
+     "xc": "xeno-canto XC150709"
+    }
    ]
   },
   {
@@ -3646,7 +4685,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/peregrine-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "比利時",
+     "by": "Gil Lissens",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/985567",
+     "xc": "xeno-canto XC985567"
+    },
+    {
+     "src": "snd/peregrine-1.m4a",
+     "kind": "唱歌",
+     "sec": 10,
+     "city": "荷蘭",
+     "by": "William Visser",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/757590",
+     "xc": "xeno-canto XC757590"
+    },
+    {
+     "src": "snd/peregrine-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "義大利",
+     "by": "Jessica Peruzzo",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1073395",
+     "xc": "xeno-canto XC1073395"
+    },
+    {
+     "src": "snd/peregrine-3.m4a",
+     "kind": "警戒聲",
+     "sec": 8,
+     "city": "芬蘭",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1168510",
+     "xc": "xeno-canto XC1168510"
+    },
+    {
+     "src": "snd/peregrine-4.m4a",
+     "kind": "飛行聲",
+     "sec": 9,
+     "city": "義大利",
+     "by": "Mirko Tomasi",
+     "license": "CC BY-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "url": "https://xeno-canto.org/750854",
+     "xc": "xeno-canto XC750854"
+    }
+   ]
   },
   {
    "id": "chinese_egret",
@@ -3778,7 +4874,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/yuhina-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "新竹縣",
+     "by": "Ming-Yuan Chen",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1091061",
+     "xc": "xeno-canto XC1091061"
+    },
+    {
+     "src": "snd/yuhina-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/976799",
+     "xc": "xeno-canto XC976799"
+    },
+    {
+     "src": "snd/yuhina-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1038802",
+     "xc": "xeno-canto XC1038802"
+    },
+    {
+     "src": "snd/yuhina-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "花蓮縣",
+     "by": "Yu-Ming Chang",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1005719",
+     "xc": "xeno-canto XC1005719"
+    }
+   ]
   },
   {
    "id": "sibia",
@@ -3852,7 +4994,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/sibia-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1036605",
+     "xc": "xeno-canto XC1036605"
+    },
+    {
+     "src": "snd/sibia-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "宜蘭縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637223",
+     "xc": "xeno-canto XC637223"
+    },
+    {
+     "src": "snd/sibia-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "台中市",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/976800",
+     "xc": "xeno-canto XC976800"
+    },
+    {
+     "src": "snd/sibia-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Somkiat Pakapinyo (Chai)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596305",
+     "xc": "xeno-canto XC596305"
+    },
+    {
+     "src": "snd/sibia-4.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/984101",
+     "xc": "xeno-canto XC984101"
+    }
+   ]
   },
   {
    "id": "barwing",
@@ -3926,7 +5125,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/barwing-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "新竹縣",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/732201",
+     "xc": "xeno-canto XC732201"
+    },
+    {
+     "src": "snd/barwing-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/822245",
+     "xc": "xeno-canto XC822245"
+    },
+    {
+     "src": "snd/barwing-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1164921",
+     "xc": "xeno-canto XC1164921"
+    }
+   ]
   },
   {
    "id": "laughingthrush",
@@ -4000,7 +5234,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/laughingthrush-0.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1153264",
+     "xc": "xeno-canto XC1153264"
+    },
+    {
+     "src": "snd/laughingthrush-1.m4a",
+     "kind": "唱歌",
+     "sec": 11,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1038811",
+     "xc": "xeno-canto XC1038811"
+    },
+    {
+     "src": "snd/laughingthrush-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "台中市",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/976801",
+     "xc": "xeno-canto XC976801"
+    },
+    {
+     "src": "snd/laughingthrush-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/636809",
+     "xc": "xeno-canto XC636809"
+    },
+    {
+     "src": "snd/laughingthrush-4.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "台中市",
+     "by": "Amar-Singh HSS",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/458999",
+     "xc": "xeno-canto XC458999"
+    }
+   ]
   },
   {
    "id": "green_tit",
@@ -4073,7 +5364,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/green_tit-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台中市",
+     "by": "David Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/42622",
+     "xc": "xeno-canto XC42622"
+    },
+    {
+     "src": "snd/green_tit-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "新竹縣",
+     "by": "Ming-Tang Shiao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/745847",
+     "xc": "xeno-canto XC745847"
+    },
+    {
+     "src": "snd/green_tit-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/553440",
+     "xc": "xeno-canto XC553440"
+    },
+    {
+     "src": "snd/green_tit-3.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "苗栗縣",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/305510",
+     "xc": "xeno-canto XC305510"
+    }
+   ]
   },
   {
    "id": "coal_tit",
@@ -4146,7 +5483,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/coal_tit-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Jelle Scharringa",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/772776",
+     "xc": "xeno-canto XC772776"
+    },
+    {
+     "src": "snd/coal_tit-1.m4a",
+     "kind": "唱歌",
+     "sec": 12,
+     "city": "台中市",
+     "by": "Jim Holmes",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/234192",
+     "xc": "xeno-canto XC234192"
+    },
+    {
+     "src": "snd/coal_tit-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/652263",
+     "xc": "xeno-canto XC652263"
+    }
+   ]
   },
   {
    "id": "bushtit",
@@ -4219,7 +5591,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/bushtit-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "嘉義縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1036709",
+     "xc": "xeno-canto XC1036709"
+    },
+    {
+     "src": "snd/bushtit-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "David Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/42613",
+     "xc": "xeno-canto XC42613"
+    },
+    {
+     "src": "snd/bushtit-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/954589",
+     "xc": "xeno-canto XC954589"
+    }
+   ]
   },
   {
    "id": "nuthatch",
@@ -4282,7 +5689,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/nuthatch-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "台東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/625899",
+     "xc": "xeno-canto XC625899"
+    },
+    {
+     "src": "snd/nuthatch-1.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "台中市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/940215",
+     "xc": "xeno-canto XC940215"
+    },
+    {
+     "src": "snd/nuthatch-2.m4a",
+     "kind": "叫聲",
+     "sec": 13,
+     "city": "宜蘭縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637280",
+     "xc": "xeno-canto XC637280"
+    }
+   ]
   },
   {
    "id": "nutcracker",
@@ -4356,7 +5798,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/nutcracker-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "新竹縣",
+     "by": "Midroad HSU",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/495687",
+     "xc": "xeno-canto XC495687"
+    },
+    {
+     "src": "snd/nutcracker-1.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "台中市",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1005472",
+     "xc": "xeno-canto XC1005472"
+    },
+    {
+     "src": "snd/nutcracker-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "南投縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/822243",
+     "xc": "xeno-canto XC822243"
+    }
+   ]
   },
   {
    "id": "flowerpecker",
@@ -4469,7 +5946,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/flowerpecker-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/504023",
+     "xc": "xeno-canto XC504023"
+    },
+    {
+     "src": "snd/flowerpecker-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "桃園市",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1027845",
+     "xc": "xeno-canto XC1027845"
+    },
+    {
+     "src": "snd/flowerpecker-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040300",
+     "xc": "xeno-canto XC1040300"
+    },
+    {
+     "src": "snd/flowerpecker-3.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "台中市",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/976808",
+     "xc": "xeno-canto XC976808"
+    }
+   ]
   },
   {
    "id": "yellow_tit",
@@ -4542,7 +6065,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/yellow_tit-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/985978",
+     "xc": "xeno-canto XC985978"
+    },
+    {
+     "src": "snd/yellow_tit-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Peter Ericsson",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/985706",
+     "xc": "xeno-canto XC985706"
+    },
+    {
+     "src": "snd/yellow_tit-2.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1148035",
+     "xc": "xeno-canto XC1148035"
+    }
+   ]
   },
   {
    "id": "bush_robin",
@@ -4666,7 +6224,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型・成幼不同"
+   "tag": "公母異型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/bush_robin-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1043302",
+     "xc": "xeno-canto XC1043302"
+    },
+    {
+     "src": "snd/bush_robin-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1039786",
+     "xc": "xeno-canto XC1039786"
+    },
+    {
+     "src": "snd/bush_robin-2.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "苗栗縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/567592",
+     "xc": "xeno-canto XC567592"
+    },
+    {
+     "src": "snd/bush_robin-3.m4a",
+     "kind": "叫聲",
+     "sec": 13,
+     "city": "苗栗縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/567591",
+     "xc": "xeno-canto XC567591"
+    },
+    {
+     "src": "snd/bush_robin-4.m4a",
+     "kind": "警戒聲",
+     "sec": 12,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1039785",
+     "xc": "xeno-canto XC1039785"
+    }
+   ]
   },
   {
    "id": "rosefinch",
@@ -4790,7 +6405,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/rosefinch-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Ko Chie-Jen (Jerome)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/278307",
+     "xc": "xeno-canto XC278307"
+    },
+    {
+     "src": "snd/rosefinch-1.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "台中市",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/914942",
+     "xc": "xeno-canto XC914942"
+    },
+    {
+     "src": "snd/rosefinch-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "花蓮縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/745958",
+     "xc": "xeno-canto XC745958"
+    }
+   ]
   },
   {
    "id": "flamecrest",
@@ -4863,7 +6513,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/flamecrest-0.m4a",
+     "kind": "唱歌",
+     "sec": 11,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1039642",
+     "xc": "xeno-canto XC1039642"
+    },
+    {
+     "src": "snd/flamecrest-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "苗栗縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/572872",
+     "xc": "xeno-canto XC572872"
+    },
+    {
+     "src": "snd/flamecrest-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/860490",
+     "xc": "xeno-canto XC860490"
+    },
+    {
+     "src": "snd/flamecrest-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/775683",
+     "xc": "xeno-canto XC775683"
+    }
+   ]
   },
   {
    "id": "niltava",
@@ -4966,7 +6662,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/niltava-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1036625",
+     "xc": "xeno-canto XC1036625"
+    },
+    {
+     "src": "snd/niltava-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/553495",
+     "xc": "xeno-canto XC553495"
+    },
+    {
+     "src": "snd/niltava-2.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "台東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/631349",
+     "xc": "xeno-canto XC631349"
+    }
+   ]
   },
   {
    "id": "wt_robin",
@@ -5069,7 +6800,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/wt_robin-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040115",
+     "xc": "xeno-canto XC1040115"
+    },
+    {
+     "src": "snd/wt_robin-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/577847",
+     "xc": "xeno-canto XC577847"
+    },
+    {
+     "src": "snd/wt_robin-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/745148",
+     "xc": "xeno-canto XC745148"
+    },
+    {
+     "src": "snd/wt_robin-3.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Chun-Chieh Liao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/578448",
+     "xc": "xeno-canto XC578448"
+    }
+   ]
   },
   {
    "id": "bullfinch",
@@ -5142,7 +6919,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/bullfinch-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Midroad HSU",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/580583",
+     "xc": "xeno-canto XC580583"
+    },
+    {
+     "src": "snd/bullfinch-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "苗栗縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/572899",
+     "xc": "xeno-canto XC572899"
+    },
+    {
+     "src": "snd/bullfinch-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1036703",
+     "xc": "xeno-canto XC1036703"
+    }
+   ]
   },
   {
    "id": "wb_woodpecker",
@@ -5265,7 +7077,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/wb_woodpecker-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台東縣",
+     "by": "David Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/37762",
+     "xc": "xeno-canto XC37762"
+    },
+    {
+     "src": "snd/wb_woodpecker-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "屏東縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/815424",
+     "xc": "xeno-canto XC815424"
+    },
+    {
+     "src": "snd/wb_woodpecker-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/577888",
+     "xc": "xeno-canto XC577888"
+    },
+    {
+     "src": "snd/wb_woodpecker-3.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1043293",
+     "xc": "xeno-canto XC1043293"
+    }
+   ]
   },
   {
    "id": "mikado",
@@ -5388,7 +7246,20 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/mikado-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/559097",
+     "xc": "xeno-canto XC559097"
+    }
+   ]
   },
   {
    "id": "swinhoe",
@@ -5512,7 +7383,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/swinhoe-0.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "台中市",
+     "by": "Rinse van der Vliet",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/978830",
+     "xc": "xeno-canto XC978830"
+    },
+    {
+     "src": "snd/swinhoe-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "苗栗縣",
+     "by": "Robert Lo",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/114746",
+     "xc": "xeno-canto XC114746"
+    },
+    {
+     "src": "snd/swinhoe-2.m4a",
+     "kind": "警戒聲",
+     "sec": 12,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/441859",
+     "xc": "xeno-canto XC441859"
+    }
+   ]
   },
   {
    "id": "hill_partridge",
@@ -5575,7 +7481,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/hill_partridge-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/783896",
+     "xc": "xeno-canto XC783896"
+    },
+    {
+     "src": "snd/hill_partridge-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/558401",
+     "xc": "xeno-canto XC558401"
+    },
+    {
+     "src": "snd/hill_partridge-2.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/441966",
+     "xc": "xeno-canto XC441966"
+    }
+   ]
   },
   {
    "id": "owlet",
@@ -5648,7 +7589,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/owlet-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1036611",
+     "xc": "xeno-canto XC1036611"
+    },
+    {
+     "src": "snd/owlet-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "嘉義縣",
+     "by": "Gareth K.",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/454993",
+     "xc": "xeno-canto XC454993"
+    }
+   ]
   },
   {
    "id": "hawk_eagle",
@@ -5741,7 +7706,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/hawk_eagle-0.m4a",
+     "kind": "唱歌",
+     "sec": 10,
+     "city": "花蓮縣",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/882139",
+     "xc": "xeno-canto XC882139"
+    },
+    {
+     "src": "snd/hawk_eagle-1.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "宜蘭縣",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/538867",
+     "xc": "xeno-canto XC538867"
+    }
+   ]
   },
   {
    "id": "black_eagle",
@@ -5814,7 +7803,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/black_eagle-0.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/539063",
+     "xc": "xeno-canto XC539063"
+    },
+    {
+     "src": "snd/black_eagle-1.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "花蓮縣",
+     "by": "gnshie",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/509708",
+     "xc": "xeno-canto XC509708"
+    }
+   ]
   },
   {
    "id": "spotted_dove",
@@ -5914,6 +7927,30 @@
     "red_dove",
     "turtle_dove",
     "rock_dove"
+   ],
+   "sounds": [
+    {
+     "src": "snd/spotted_dove-0.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "南投縣",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/736038",
+     "xc": "xeno-canto XC736038"
+    },
+    {
+     "src": "snd/spotted_dove-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605124",
+     "xc": "xeno-canto XC605124"
+    }
    ]
   },
   {
@@ -6033,6 +8070,41 @@
    "like": [
     "spotted_dove",
     "turtle_dove"
+   ],
+   "sounds": [
+    {
+     "src": "snd/red_dove-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台東縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/811517",
+     "xc": "xeno-canto XC811517"
+    },
+    {
+     "src": "snd/red_dove-1.m4a",
+     "kind": "唱歌",
+     "sec": 16,
+     "city": "屏東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596968",
+     "xc": "xeno-canto XC596968"
+    },
+    {
+     "src": "snd/red_dove-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "高雄市",
+     "by": "蔡明剛",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/691480",
+     "xc": "xeno-canto XC691480"
+    }
    ]
   },
   {
@@ -6081,6 +8153,19 @@
    "key": "脖子閃綠紫光，常成群在廣場",
    "like": [
     "spotted_dove"
+   ],
+   "sounds": [
+    {
+     "src": "snd/rock_dove-0.m4a",
+     "kind": "唱歌",
+     "sec": 6,
+     "city": "瑞典",
+     "by": "Patrik Åberg",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/342145",
+     "xc": "xeno-canto XC342145"
+    }
    ]
   },
   {
@@ -6160,6 +8245,19 @@
    "like": [
     "crested_myna",
     "common_myna"
+   ],
+   "sounds": [
+    {
+     "src": "snd/myna-0.m4a",
+     "kind": "聲音",
+     "sec": 11,
+     "city": "高雄市",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+     "url": "https://www.inaturalist.org/observations/70028882",
+     "xc": "iNaturalist 70028882"
+    }
    ]
   },
   {
@@ -6244,7 +8342,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/539166",
-     "xc": "XC539166"
+     "xc": "xeno-canto XC539166"
     },
     {
      "src": "snd/treepie-1.m4a",
@@ -6255,7 +8353,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1156294",
-     "xc": "XC1156294"
+     "xc": "xeno-canto XC1156294"
     },
     {
      "src": "snd/treepie-2.m4a",
@@ -6266,7 +8364,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1040986",
-     "xc": "XC1040986"
+     "xc": "xeno-canto XC1040986"
     }
    ]
   },
@@ -6406,7 +8504,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/624574",
-     "xc": "XC624574"
+     "xc": "xeno-canto XC624574"
     },
     {
      "src": "snd/tiger_bittern-1.m4a",
@@ -6417,7 +8515,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/631377",
-     "xc": "XC631377"
+     "xc": "xeno-canto XC631377"
     },
     {
      "src": "snd/tiger_bittern-2.m4a",
@@ -6428,7 +8526,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/631379",
-     "xc": "XC631379"
+     "xc": "xeno-canto XC631379"
     }
    ]
   },
@@ -6514,7 +8612,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034472",
-     "xc": "XC1034472"
+     "xc": "xeno-canto XC1034472"
     },
     {
      "src": "snd/barbet-1.m4a",
@@ -6525,7 +8623,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/861706",
-     "xc": "XC861706"
+     "xc": "xeno-canto XC861706"
     },
     {
      "src": "snd/barbet-2.m4a",
@@ -6536,7 +8634,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034471",
-     "xc": "XC1034471"
+     "xc": "xeno-canto XC1034471"
     },
     {
      "src": "snd/barbet-3.m4a",
@@ -6547,7 +8645,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/282897",
-     "xc": "XC282897"
+     "xc": "xeno-canto XC282897"
     }
    ]
   },
@@ -6633,7 +8731,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/406882",
-     "xc": "XC406882"
+     "xc": "xeno-canto XC406882"
     },
     {
      "src": "snd/blue_magpie-1.m4a",
@@ -6644,7 +8742,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1156276",
-     "xc": "XC1156276"
+     "xc": "xeno-canto XC1156276"
     },
     {
      "src": "snd/blue_magpie-2.m4a",
@@ -6655,7 +8753,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/631376",
-     "xc": "XC631376"
+     "xc": "xeno-canto XC631376"
     }
    ]
   },
@@ -6761,7 +8859,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型・成幼不同"
+   "tag": "公母同型・成幼不同",
+   "sounds": [
+    {
+     "src": "snd/goshawk-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1064811",
+     "xc": "xeno-canto XC1064811"
+    },
+    {
+     "src": "snd/goshawk-1.m4a",
+     "kind": "叫聲",
+     "sec": 13,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/987135",
+     "xc": "xeno-canto XC987135"
+    }
+   ]
   },
   {
    "id": "drongo",
@@ -6838,6 +8960,52 @@
    "key": "全身黑，尾巴分叉往外捲",
    "like": [
     "black_bulbul"
+   ],
+   "sounds": [
+    {
+     "src": "snd/drongo-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "基隆市",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/643684",
+     "xc": "xeno-canto XC643684"
+    },
+    {
+     "src": "snd/drongo-1.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596818",
+     "xc": "xeno-canto XC596818"
+    },
+    {
+     "src": "snd/drongo-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台北市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/598150",
+     "xc": "xeno-canto XC598150"
+    },
+    {
+     "src": "snd/drongo-3.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/605129",
+     "xc": "xeno-canto XC605129"
+    }
    ]
   },
   {
@@ -6926,7 +9094,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034965",
-     "xc": "XC1034965"
+     "xc": "xeno-canto XC1034965"
     },
     {
      "src": "snd/black_bulbul-1.m4a",
@@ -6937,7 +9105,7 @@
      "license": "CC BY-NC-SA 3.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
      "url": "https://xeno-canto.org/142425",
-     "xc": "XC142425"
+     "xc": "xeno-canto XC142425"
     },
     {
      "src": "snd/black_bulbul-2.m4a",
@@ -6948,7 +9116,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1156279",
-     "xc": "XC1156279"
+     "xc": "xeno-canto XC1156279"
     },
     {
      "src": "snd/black_bulbul-3.m4a",
@@ -6959,7 +9127,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/631372",
-     "xc": "XC631372"
+     "xc": "xeno-canto XC631372"
     },
     {
      "src": "snd/black_bulbul-4.m4a",
@@ -6970,7 +9138,7 @@
      "license": "CC BY-NC-SA 4.0",
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/987137",
-     "xc": "XC987137"
+     "xc": "xeno-canto XC987137"
     }
    ]
   },
@@ -7110,6 +9278,41 @@
    "key": "黑白配色，尾巴常翹得高高的",
    "like": [
     "white_wagtail"
+   ],
+   "sounds": [
+    {
+     "src": "snd/magpie_robin-0.m4a",
+     "kind": "聲音",
+     "sec": 8,
+     "city": "新北市",
+     "by": "彭啟賢",
+     "license": "CC BY-NC 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+     "url": "https://www.inaturalist.org/observations/48520591",
+     "xc": "iNaturalist 48520591"
+    },
+    {
+     "src": "snd/magpie_robin-1.m4a",
+     "kind": "聲音",
+     "sec": 14,
+     "city": "台北市",
+     "by": "isyuan",
+     "license": "CC BY-NC 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+     "url": "https://www.inaturalist.org/observations/278912828",
+     "xc": "iNaturalist 278912828"
+    },
+    {
+     "src": "snd/magpie_robin-2.m4a",
+     "kind": "聲音",
+     "sec": 11,
+     "city": "高雄市",
+     "by": "nawendy",
+     "license": "CC BY-NC 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+     "url": "https://www.inaturalist.org/observations/214151250",
+     "xc": "iNaturalist 214151250"
+    }
    ]
   },
   {
@@ -7179,6 +9382,41 @@
    "like": [
     "swallow",
     "barn_swallow"
+   ],
+   "sounds": [
+    {
+     "src": "snd/swift-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台灣",
+     "by": "David Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/37518",
+     "xc": "xeno-canto XC37518"
+    },
+    {
+     "src": "snd/swift-1.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596993",
+     "xc": "xeno-canto XC596993"
+    },
+    {
+     "src": "snd/swift-2.m4a",
+     "kind": "飛行聲",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/783897",
+     "xc": "xeno-canto XC783897"
+    }
    ]
   },
   {
@@ -7293,7 +9531,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/daurian-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "金門縣",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/618028",
+     "xc": "xeno-canto XC618028"
+    },
+    {
+     "src": "snd/daurian-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "基隆市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/759928",
+     "xc": "xeno-canto XC759928"
+    }
+   ]
   },
   {
    "id": "brown_thrush",
@@ -7400,6 +9662,41 @@
    "key": "肚子兩側橘色",
    "like": [
     "pale_thrush"
+   ],
+   "sounds": [
+    {
+     "src": "snd/brown_thrush-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/466653",
+     "xc": "xeno-canto XC466653"
+    },
+    {
+     "src": "snd/brown_thrush-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/466649",
+     "xc": "xeno-canto XC466649"
+    },
+    {
+     "src": "snd/brown_thrush-2.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "基隆市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/769836",
+     "xc": "xeno-canto XC769836"
+    }
    ]
   },
   {
@@ -7487,6 +9784,52 @@
    "key": "肚子沒有橘色，尾巴尖端白色",
    "like": [
     "brown_thrush"
+   ],
+   "sounds": [
+    {
+     "src": "snd/pale_thrush-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637017",
+     "xc": "xeno-canto XC637017"
+    },
+    {
+     "src": "snd/pale_thrush-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/637016",
+     "xc": "xeno-canto XC637016"
+    },
+    {
+     "src": "snd/pale_thrush-2.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "基隆市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/767790",
+     "xc": "xeno-canto XC767790"
+    },
+    {
+     "src": "snd/pale_thrush-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/697797",
+     "xc": "xeno-canto XC697797"
+    }
    ]
   },
   {
@@ -7724,6 +10067,41 @@
    "like": [
     "swallow",
     "swift"
+   ],
+   "sounds": [
+    {
+     "src": "snd/barn_swallow-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/663434",
+     "xc": "xeno-canto XC663434"
+    },
+    {
+     "src": "snd/barn_swallow-1.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/567606",
+     "xc": "xeno-canto XC567606"
+    },
+    {
+     "src": "snd/barn_swallow-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/567605",
+     "xc": "xeno-canto XC567605"
+    }
    ]
   },
   {
@@ -7793,6 +10171,52 @@
    "like": [
     "myna",
     "common_myna"
+   ],
+   "sounds": [
+    {
+     "src": "snd/crested_myna-0.m4a",
+     "kind": "唱歌",
+     "sec": 11,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659220",
+     "xc": "xeno-canto XC659220"
+    },
+    {
+     "src": "snd/crested_myna-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Ko Chie-Jen (Jerome)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/207503",
+     "xc": "xeno-canto XC207503"
+    },
+    {
+     "src": "snd/crested_myna-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659227",
+     "xc": "xeno-canto XC659227"
+    },
+    {
+     "src": "snd/crested_myna-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/659224",
+     "xc": "xeno-canto XC659224"
+    }
    ]
   },
   {
@@ -7862,6 +10286,52 @@
    "like": [
     "myna",
     "crested_myna"
+   ],
+   "sounds": [
+    {
+     "src": "snd/common_myna-0.m4a",
+     "kind": "唱歌",
+     "sec": 6,
+     "city": "桃園市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1041255",
+     "xc": "xeno-canto XC1041255"
+    },
+    {
+     "src": "snd/common_myna-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/736304",
+     "xc": "xeno-canto XC736304"
+    },
+    {
+     "src": "snd/common_myna-2.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596983",
+     "xc": "xeno-canto XC596983"
+    },
+    {
+     "src": "snd/common_myna-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "基隆市",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/643677",
+     "xc": "xeno-canto XC643677"
+    }
    ]
   },
   {
@@ -7926,7 +10396,42 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/magpie-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/663435",
+     "xc": "xeno-canto XC663435"
+    },
+    {
+     "src": "snd/magpie-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Joan Theng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1156235",
+     "xc": "xeno-canto XC1156235"
+    },
+    {
+     "src": "snd/magpie-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/735863",
+     "xc": "xeno-canto XC735863"
+    }
+   ]
   },
   {
    "id": "turtle_dove",
@@ -7995,6 +10500,41 @@
    "like": [
     "spotted_dove",
     "red_dove"
+   ],
+   "sounds": [
+    {
+     "src": "snd/turtle_dove-0.m4a",
+     "kind": "唱歌",
+     "sec": 6,
+     "city": "馬祖",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/658111",
+     "xc": "xeno-canto XC658111"
+    },
+    {
+     "src": "snd/turtle_dove-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/657028",
+     "xc": "xeno-canto XC657028"
+    },
+    {
+     "src": "snd/turtle_dove-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/442591",
+     "xc": "xeno-canto XC442591"
+    }
    ]
   },
   {
@@ -8049,7 +10589,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/pygmy_wp-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "高雄市",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/403577",
+     "xc": "xeno-canto XC403577"
+    },
+    {
+     "src": "snd/pygmy_wp-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Kuan-Chieh (Chuck) Hung, Taiwanbirdguide.com",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/406609",
+     "xc": "xeno-canto XC406609"
+    },
+    {
+     "src": "snd/pygmy_wp-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040411",
+     "xc": "xeno-canto XC1040411"
+    },
+    {
+     "src": "snd/pygmy_wp-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/597135",
+     "xc": "xeno-canto XC597135"
+    }
+   ]
   },
   {
    "id": "serpent_eagle",
@@ -8113,7 +10699,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/serpent_eagle-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1043066",
+     "xc": "xeno-canto XC1043066"
+    },
+    {
+     "src": "snd/serpent_eagle-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "D.Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/49766",
+     "xc": "xeno-canto XC49766"
+    },
+    {
+     "src": "snd/serpent_eagle-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/539092",
+     "xc": "xeno-canto XC539092"
+    },
+    {
+     "src": "snd/serpent_eagle-3.m4a",
+     "kind": "飛行聲",
+     "sec": 8,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/775418",
+     "xc": "xeno-canto XC775418"
+    }
+   ]
   },
   {
    "id": "koel",
@@ -8196,7 +10828,31 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/koel-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "桃園市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/648133",
+     "xc": "xeno-canto XC648133"
+    },
+    {
+     "src": "snd/koel-1.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "金門縣",
+     "by": "Ting-Wei, Hung",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/347591",
+     "xc": "xeno-canto XC347591"
+    }
+   ]
   },
   {
    "id": "liocichla",
@@ -8260,7 +10916,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/liocichla-0.m4a",
+     "kind": "唱歌",
+     "sec": 12,
+     "city": "台中市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1039780",
+     "xc": "xeno-canto XC1039780"
+    },
+    {
+     "src": "snd/liocichla-1.m4a",
+     "kind": "唱歌",
+     "sec": 12,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/991956",
+     "xc": "xeno-canto XC991956"
+    },
+    {
+     "src": "snd/liocichla-2.m4a",
+     "kind": "叫聲",
+     "sec": 12,
+     "city": "台中市",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/977715",
+     "xc": "xeno-canto XC977715"
+    },
+    {
+     "src": "snd/liocichla-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/578449",
+     "xc": "xeno-canto XC578449"
+    },
+    {
+     "src": "snd/liocichla-4.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Phil Gregory",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/621450",
+     "xc": "xeno-canto XC621450"
+    }
+   ]
   },
   {
    "id": "minivet",
@@ -8343,7 +11056,53 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母異型"
+   "tag": "公母異型",
+   "sounds": [
+    {
+     "src": "snd/minivet-0.m4a",
+     "kind": "唱歌",
+     "sec": 9,
+     "city": "嘉義縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/553436",
+     "xc": "xeno-canto XC553436"
+    },
+    {
+     "src": "snd/minivet-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "宜蘭縣",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/445637",
+     "xc": "xeno-canto XC445637"
+    },
+    {
+     "src": "snd/minivet-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040412",
+     "xc": "xeno-canto XC1040412"
+    },
+    {
+     "src": "snd/minivet-3.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "台中市",
+     "by": "Phil Gregory",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/554813",
+     "xc": "xeno-canto XC554813"
+    }
+   ]
   },
   {
    "id": "fulvetta",
@@ -8396,7 +11155,64 @@
      "retrieved": "2026-10"
     }
    ],
-   "tag": "公母同型"
+   "tag": "公母同型",
+   "sounds": [
+    {
+     "src": "snd/fulvetta-0.m4a",
+     "kind": "唱歌",
+     "sec": 12,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1035985",
+     "xc": "xeno-canto XC1035985"
+    },
+    {
+     "src": "snd/fulvetta-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "雲林縣",
+     "by": "Somkiat Pakapinyo (Chai)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/596234",
+     "xc": "xeno-canto XC596234"
+    },
+    {
+     "src": "snd/fulvetta-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台中市",
+     "by": "Amar-Singh HSS",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/458031",
+     "xc": "xeno-canto XC458031"
+    },
+    {
+     "src": "snd/fulvetta-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "花蓮縣",
+     "by": "David Butler",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/813812",
+     "xc": "xeno-canto XC813812"
+    },
+    {
+     "src": "snd/fulvetta-4.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "台東縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/559096",
+     "xc": "xeno-canto XC559096"
+    }
+   ]
   }
  ]
 }
