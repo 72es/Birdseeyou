@@ -158,7 +158,6 @@ h3{font-family:var(--display);font-size:17px}
 .dots{position:absolute;left:0;right:0;bottom:28px;display:flex;justify-content:center;gap:6px;pointer-events:none;z-index:2}
 .dots i{width:9px;height:9px;border-radius:50%;background:rgba(255,255,255,.85);border:1.5px solid var(--lead)}
 .dots i.on{background:var(--lead);transform:scale(1.2)}
-.ph .more{position:absolute;left:10px;bottom:6px;z-index:2;font-size:12px;color:#fff;background:rgba(20,18,26,.6);border-radius:6px;padding:1px 7px;pointer-events:none}
 .ph .lab{position:absolute;left:10px;top:10px;z-index:2;font-family:var(--display);font-size:19px;color:#fff;padding:2px 14px;border-radius:999px;border:2px solid rgba(255,255,255,.75);
   background:rgba(28,26,33,.4);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);text-shadow:0 1px 3px rgba(0,0,0,.55)}
 .ph .lab.m{background:rgba(0,168,150,.4)}
@@ -290,7 +289,6 @@ button.pill{cursor:pointer}
 .tile.got-frame .nm{padding:22px 10px 9px}
 .tile.got-frame .flags{left:10px;top:10px}
 .ph.got-frame .cr{right:14px;bottom:13px}
-.ph.got-frame .more{left:14px;bottom:13px}
 .ph.got-frame .dots{bottom:36px}
 .ph.got-frame .lab,.ph.got-frame .pnote{left:14px}
 .ph.got-frame .lab{top:14px}

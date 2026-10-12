@@ -208,7 +208,7 @@
       const slides = ps.map(p => `<div class="slide"><div class="inner" data-zoom="${p.src}">${p.note ? `<span class="pnote${lab ? " low" : ""}">${esc(p.note)}</span>` : ""}<img src="${p.src}" ${p.w ? `width="${p.w}" height="${p.h}"` : ""} loading="lazy" alt="${esc(b.zh + lab)}"><span class="cr">© ${esc(p.by)} · ${esc(p.license)}</span></div></div>`).join("");
       return `<figure class="ph ${got ? "got-frame" : ""}" style="margin:0">${lab ? `<span class="lab ${labClass(lab)}">${esc(labSym(lab))}</span>` : ""}
         <div class="car">${slides}</div><span class="glassframe" aria-hidden="true"><i class="metal"></i><i class="sheen"></i><i class="edge"></i><i class="rule"></i></span>
-        ${ps.length > 1 ? `<div class="dots" aria-hidden="true">${ps.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div><span class="more">左右滑看 ${ps.length} 張</span>` : ""}
+        ${ps.length > 1 ? `<div class="dots" aria-hidden="true">${ps.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div>` : ""}
         <button class="stamp" type="button" data-stamp="${id}" data-lab="${esc(lab)}" data-region="${REGIONS[ctx] ? ctx : ""}" aria-pressed="${got}" aria-label="我看到了：${esc(b.zh + lab)}">${STAMP_SVG}</button>
         <span class="hint" ${got ? "hidden" : ""}>我看到了</span></figure>`; }).join("");
     const nSp = Math.max(1, Math.round(b.cm / 14));
@@ -230,8 +230,8 @@
       <nav class="pager"><button type="button" ${prev ? `data-open="${prev}" data-ctx="${ctx}"` : "disabled"}>‹ ${prev ? esc(BIRDS[prev].zh) : ""}</button><button type="button" ${next ? `data-open="${next}" data-ctx="${ctx}"` : "disabled"}>${next ? esc(BIRDS[next].zh) : ""} ›</button></nav>
       <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}</ul>
     </main>`;
-    app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"), more = car.parentElement.querySelector(".more"); if (!dots.length) return;
-      car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); if (more) more.hidden = true; }, { passive: true }); });
+    app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"); if (!dots.length) return;
+      car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); }, { passive: true }); });
     swipe($("#birdpage"), () => next && go(`#/b/${next}/${ctx}`, true), () => prev && go(`#/b/${prev}/${ctx}`, true));
   }
 
