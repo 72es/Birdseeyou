@@ -293,3 +293,25 @@ button.pill{cursor:pointer}
 .ph.got-frame .lab,.ph.got-frame .pnote{left:14px}
 .ph.got-frame .lab{top:14px}
 .tile .inner,.ph{container-type:inline-size}
+
+/* ---------- search ---------- */
+.hero.has-search{position:relative;padding-right:52px}
+.searchbtn{display:grid;place-items:center;width:44px;height:44px;border:2px solid var(--lead);border-radius:50%;background:var(--card);color:var(--lead);cursor:pointer;padding:0;flex:none}
+.hero .searchbtn{position:absolute;right:0;top:50%;transform:translateY(-50%)}
+.searchbtn.sm{width:36px;height:36px}.searchbtn.sm svg{width:18px;height:18px}
+.searchbtn:active{background:var(--amber)}
+.filterbar{display:flex;align-items:center;gap:8px;justify-content:space-between}
+.search-sheet{position:fixed;inset:0;z-index:60;background:rgba(28,26,33,.35);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);padding:calc(env(safe-area-inset-top) + 10px) 12px 12px;display:flex;flex-direction:column}
+.search-box{background:var(--paper);border:2.5px solid var(--lead);border-radius:16px;box-shadow:0 0 0 3px var(--lav) inset;padding:10px;max-height:100%;display:flex;flex-direction:column;min-height:0}
+.search-row{display:flex;align-items:center;gap:8px;color:var(--lead);padding:0 4px}
+.search-row input{flex:1;min-width:0;font:inherit;font-size:17px;border:2px solid var(--lead);border-radius:999px;padding:8px 14px;background:var(--card);color:var(--ink);-webkit-appearance:none;appearance:none}
+.search-x{border:0;background:none;font:inherit;font-size:15px;color:var(--lead);padding:6px 4px;cursor:pointer}
+.search-list{list-style:none;margin:8px 0 0;padding:0;overflow-y:auto;-webkit-overflow-scrolling:touch;min-height:0}
+.search-list li+li{border-top:1px solid rgba(28,26,33,.12)}
+.search-list button{display:flex;align-items:center;gap:12px;width:100%;border:0;background:none;padding:8px 4px;text-align:left;font:inherit;color:var(--ink);cursor:pointer}
+.search-list img{width:48px;height:48px;object-fit:cover;border-radius:10px;border:2px solid var(--lead);flex:none}
+.search-list span{display:flex;flex-direction:column;line-height:1.3;flex:1;min-width:0}
+.search-list b{font-size:17px}.search-list small{color:var(--muted);font-size:13px}
+.search-list .got{font-style:normal;font-size:12px;background:var(--amber);border:1.5px solid var(--lead);border-radius:999px;padding:1px 8px;flex:none}
+.search-list .none{padding:14px 6px;color:var(--muted)}
+body.noscroll{overflow:hidden}

@@ -117,6 +117,31 @@
   const bar = (back, title, right = "", ids = "") => `<header class="bar"><div class="bar-in">${back ? `<button class="back" type="button" data-go="${back[0]}">‹ ${esc(back[1])}</button>` : ""}<div class="ttl">${esc(title)}</div><div class="count"${ids ? ` data-ids="${ids}"` : ""}>${right}</div></div></header>`;
 
   /* ---------- routes ---------- */
+  /* ---------- search: one character or English is enough; results link to the bird page ---------- */
+  const SEARCH_SVG = '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="rgba(198,218,224,.55)" stroke="currentColor" stroke-width="2.4"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></svg>';
+  const norm = t => (t || "").toLowerCase().replace(/臺/g, "台").replace(/\s+/g, "");
+  function searchBirds(q) {
+    q = norm(q); if (!q) return [];
+    const hit = ORDER.map(id => BIRDS[id]).filter(b => norm(b.zh).includes(q) || norm(b.en).includes(q) || norm(b.sci).includes(q));
+    const rank = b => norm(b.zh).startsWith(q) || norm(b.en).startsWith(q) ? 0 : norm(b.zh).includes(q) ? 1 : 2;
+    return hit.sort((a, b) => rank(a) - rank(b)).slice(0, 30);
+  }
+  function openSearch() {
+    if (document.querySelector(".search-sheet")) return;
+    const el = document.createElement("div"); el.className = "search-sheet"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", "搜尋鳥");
+    el.innerHTML = `<div class="search-box"><div class="search-row">${SEARCH_SVG}<input type="search" id="sq" placeholder="打鳥名，一個字也可以" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"><button type="button" class="search-x" aria-label="關閉">取消</button></div><ul class="search-list" id="sl"></ul></div>`;
+    document.body.appendChild(el); document.body.classList.add("noscroll");
+    const inp = el.querySelector("#sq"), list = el.querySelector("#sl");
+    const close = () => { el.remove(); document.body.classList.remove("noscroll"); };
+    const render = () => { const q = inp.value.trim(), r = searchBirds(q);
+      list.innerHTML = !q ? "" : r.length ? r.map(b => `<li><button type="button" data-id="${b.id}"><img src="${b.photos[0].src}" alt="" loading="lazy"><span><b>${esc(b.zh)}</b><small>${esc(b.en)}</small></span>${has(b.id) ? '<i class="got">已收集</i>' : ""}</button></li>`).join("") : `<li class="none">找不到「${esc(q)}」，換個字試試看</li>`; };
+    inp.addEventListener("input", render);
+    inp.addEventListener("keydown", e => { if (e.key === "Escape") close(); if (e.key === "Enter") { const f = list.querySelector("[data-id]"); if (f) f.click(); } });
+    el.addEventListener("click", e => { const b = e.target.closest("[data-id]"); if (b) { close(); go(`#/b/${b.dataset.id}/all`); return; }
+      if (e.target.closest(".search-x") || e.target === el) close(); });
+    inp.focus();
+  }
+
   function home() {
     const all = ORDER.length, got = nGot(ORDER);
     const wins = RORDER.map(id => { const r = REGIONS[id]; const ids = regionBirdIds(r);
@@ -124,7 +149,7 @@
         <div><div class="nm">${esc(r.name)}</div><div class="tg">${esc(r.tagline)}</div><div class="st">${nGot(ids)} / ${ids.length} 隻</div></div></button>`; }).join("")
       + COMING.map(c => `<button class="window soon" type="button" data-go="#/wish"><div class="pane"><span class="plus">＋</span>${esc(c.name)}<small>${esc(c.note || "")}</small></div></button>`).join("");
     app.innerHTML = `<main class="wrap">
-      <section class="hero"><h1 class="logo">birds <b>SEE</b> you</h1><p class="hello">${S.name ? `<b>${esc(S.name)}</b>，` : ""}今天要去哪裡找鳥？</p></section>
+      <section class="hero has-search"><h1 class="logo">birds <b>SEE</b> you</h1><p class="hello">${S.name ? `<b>${esc(S.name)}</b>，` : ""}今天看見什麼鳥呢？</p><button class="searchbtn" type="button" data-search aria-label="搜尋鳥">${SEARCH_SVG}</button></section>
       ${S.name || S.skipName ? "" : `<form class="glass double hi" id="hi"><h2>嗨！你是誰？</h2><p class="muted" style="margin:0">寫下你的名字或暱稱，這本賞鳥手冊就是你的了。</p>
         <input id="hi-name" type="text" maxlength="12" autocomplete="nickname" placeholder="例如：小翠、KB、鳥博士" required>
         <button class="bk" type="submit">開始收集鳥</button>
@@ -153,7 +178,7 @@
   function allBirds() {
     const ids = ORDER.filter(id => allFilter === "all" || (allFilter === "got" ? has(id) : !has(id)));
     app.innerHTML = bar(["#/", "首頁"], "ALL BIRDS", `${nGot(ORDER)} / ${ORDER.length}`, ORDER.join(",")) + `<main class="wrap">
-      <div class="filters" role="group" aria-label="篩選">${[["all", "全部"], ["got", "已收集"], ["todo", "還沒找到"]].map(([k, t]) => `<button type="button" data-filter="${k}" aria-pressed="${allFilter === k}">${t}</button>`).join("")}</div>
+      <div class="filterbar"><div class="filters" role="group" aria-label="篩選">${[["all", "全部"], ["got", "已收集"], ["todo", "還沒找到"]].map(([k, t]) => `<button type="button" data-filter="${k}" aria-pressed="${allFilter === k}">${t}</button>`).join("")}</div><button class="searchbtn sm" type="button" data-search aria-label="搜尋鳥">${SEARCH_SVG}</button></div>
       ${ids.length ? `<div class="grid">${ids.map(id => tile(id, "all")).join("")}</div>` : `<p class="empty">${allFilter === "got" ? "還沒有收集到鳥，去找第一隻吧！" : "全部都收集到了，太厲害了！"}</p>`}
     </main>`;
   }
@@ -460,6 +485,7 @@
       lightbox(ps, Math.max(0, ps.findIndex(p => p.src === z.dataset.zoom))); return; }
     const o = e.target.closest("[data-open]"); if (o) { go(`#/b/${o.dataset.open}/${o.dataset.ctx || "all"}`); return; }
     const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); if (g.dataset.anchor) setTimeout(() => { const t = document.getElementById(g.dataset.anchor); if (t) t.scrollIntoView({ block: "start" }); }, 60); return; }
+    if (e.target.closest("[data-search]")) { openSearch(); return; }
     const f = e.target.closest("[data-filter]"); if (f) { allFilter = f.dataset.filter; rerenderKeepScroll(); return; }
     const s = e.target.closest("[data-season]"); if (s) { seasonPick[s.dataset.rid] = s.dataset.season; rerenderKeepScroll(); return; }
   });
