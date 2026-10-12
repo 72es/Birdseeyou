@@ -189,7 +189,7 @@
   const SND_KIND = { "唱歌": 1, "叫聲": 2, "警戒聲": 3, "飛行聲": 4, "敲擊聲": 5, "聲音": 2 };
   const fmtSec = v => { v = Math.max(0, Math.ceil(v)); return `${Math.floor(v / 60)}:${String(v % 60).padStart(2, "0")}`; };
   const SILENT = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
-  const player = { el: null, btn: null, src: "", urls: {}, tick: 0 };
+  const player = { el: null, plain: null, boosted: null, ctx: null, gainNode: null, btn: null, src: "", urls: {}, tick: 0 };
   try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch (e) {}
   function sndUI() { const p = player, el = p.el; if (!p.btn) return;
     const playing = el && !el.paused && !el.ended;
@@ -198,21 +198,32 @@
     const left = el && p.src === p.btn.dataset.snd && el.currentTime > 0 && !el.ended ? total - el.currentTime : total;
     p.btn.querySelector(".tm").textContent = fmtSec(left); }
   function sndReset(btn) { if (!btn) return; btn.setAttribute("aria-pressed", "false"); btn.classList.remove("loading"); btn.querySelector(".tm").textContent = btn.dataset.full || btn.querySelector(".tm").textContent; }
-  function sndStop() { const p = player; if (p.el) { p.el.pause(); } cancelAnimationFrame(p.tick); sndReset(p.btn); p.btn = null; p.src = ""; }
+  function sndStop() { const p = player; [p.plain, p.boosted].forEach(el => el && el.pause()); cancelAnimationFrame(p.tick); sndReset(p.btn); p.btn = null; p.src = ""; }
   function sndLoop() { sndUI(); if (player.el && !player.el.paused) player.tick = requestAnimationFrame(() => setTimeout(sndLoop, 200)); }
+  function mkAudio() { const el = new Audio(); el.preload = "auto"; el.addEventListener("ended", () => { if (player.loading || el.src.startsWith("data:")) return; sndStop(); }); el.addEventListener("pause", () => { if (!el.src.startsWith("data:")) sndUI(); }); el.addEventListener("play", sndLoop); return el; }
+  // unedited recordings (ND licence) keep their file as-is; their loudness is evened out at playback through a gain node
+  function boostedEl() { const p = player;
+    if (p.boosted) { if (p.ctx && p.ctx.state === "suspended") p.ctx.resume(); return p.boosted; }
+    p.boosted = mkAudio();
+    try { const AC = window.AudioContext || window.webkitAudioContext; p.ctx = new AC(); p.gainNode = p.ctx.createGain();
+      p.ctx.createMediaElementSource(p.boosted).connect(p.gainNode); p.gainNode.connect(p.ctx.destination); p.ctx.resume(); }
+    catch (e) { p.ctx = null; p.gainNode = null; }
+    return p.boosted; }
   async function sndToggle(btn) {
-    const p = player, src = btn.dataset.snd;
+    const p = player, src = btn.dataset.snd, gain = +btn.dataset.gain || 1;
     if (!btn.dataset.full) btn.dataset.full = btn.querySelector(".tm").textContent;
-    if (!p.el) { p.el = new Audio(); p.el.preload = "auto"; p.el.addEventListener("ended", () => { const b = p.btn; sndStop(); }); p.el.addEventListener("pause", sndUI); p.el.addEventListener("play", sndLoop); }
-    if (p.btn === btn && p.src === src) { if (p.el.paused) { p.el.play().catch(() => {}); } else p.el.pause(); return; }   // same button: pause / resume
-    sndStop(); p.btn = btn; p.src = src;
+    if (p.btn === btn && p.src === src) { if (p.el.paused) { if (p.ctx && p.el === p.boosted) p.ctx.resume(); p.el.play().catch(() => {}); } else p.el.pause(); return; }   // same button: pause / resume
+    sndStop();
+    const el = gain !== 1 ? boostedEl() : (p.plain || (p.plain = mkAudio()));
+    if (el === p.boosted && p.gainNode) p.gainNode.gain.value = gain;
+    p.el = el; p.btn = btn; p.src = src;
     if (!p.urls[src]) { // unlock the element inside the tap (iOS), then load the clip as a blob so it also works offline from the cache
-      p.el.src = SILENT; p.el.play().catch(() => {}); p.loading = true; sndUI();
+      el.src = SILENT; el.play().catch(() => {}); p.loading = true; sndUI();
       try { const r = await fetch(src); if (!r.ok) throw 0; p.urls[src] = URL.createObjectURL(await r.blob()); }
       catch (e) { p.loading = false; if (p.btn === btn) { sndStop(); toast("現在沒有網路，連上網路後再聽聽看"); } return; }
       p.loading = false; if (p.btn !== btn) return;
     }
-    p.el.src = p.urls[src]; p.el.currentTime = 0; p.el.play().then(sndLoop).catch(() => { sndStop(); });
+    el.src = p.urls[src]; el.currentTime = 0; el.play().then(sndLoop).catch(() => { sndStop(); });
   }
   window.addEventListener("hashchange", sndStop);
   document.addEventListener("visibilitychange", () => { if (document.hidden && player.el && !player.el.paused) player.el.pause(); });
@@ -317,7 +328,7 @@
     app.innerHTML = bar(backT, b.zh, list.length > 1 ? `${i + 1} / ${list.length}` : "") + `<main class="wrap ${tone}" id="birdpage">
       <header class="bhead"><h2>${esc(b.zh)}</h2><p class="en">${esc(b.en)} · <span class="sci">${esc(b.sci)}</span></p>
         <div class="bflags">${b.endemic ? '<span class="flag">台灣特有種</span>' : ""}${b.alien ? '<span class="flag alien">外來種</span>' : ""}</div></header>
-      ${(b.sounds || []).length ? `<div class="sounds" role="group" aria-label="聽聽看">${b.sounds.slice(0, 5).map((x, k) => `<div class="snd-item"><button type="button" class="snd k${SND_KIND[x.kind] || 0}" data-snd="${x.src}" data-sec="${x.sec}" aria-pressed="false" aria-label="播放${esc(b.zh + x.kind)}"><i class="ic" aria-hidden="true"></i><span class="kd">${esc(x.kind)}</span><span class="tm">${fmtSec(x.sec)}</span></button><span class="city">${esc(x.city || "")}</span></div>`).join("")}</div>` : ""}
+      ${(b.sounds || []).length ? `<div class="sounds" role="group" aria-label="聽聽看">${b.sounds.slice(0, 5).map((x, k) => `<div class="snd-item"><button type="button" class="snd k${SND_KIND[x.kind] || 0}" data-snd="${x.src}" data-sec="${x.sec}"${x.gain && x.gain !== 1 ? ` data-gain="${x.gain}"` : ""} aria-pressed="false" aria-label="播放${esc(b.zh + x.kind)}"><i class="ic" aria-hidden="true"></i><span class="kd">${esc(x.kind)}</span><span class="tm">${fmtSec(x.sec)}</span></button><span class="city">${esc(x.city || "")}</span></div>`).join("")}</div>` : ""}
       <div class="photos">${photos}</div>
       <p class="sexnote"><b>${esc(b.tag || "公母怎麼分？")}</b><span class="bar-sep">｜</span>${esc(b.sex)}</p>
       <p class="intro">${esc(b.intro)}</p>
