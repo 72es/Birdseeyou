@@ -3,12 +3,20 @@ const VERSION = "__VERSION__";
 const CACHE = "bsy-" + VERSION;
 const FILES = __FILES__;
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });
-self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
+// bird sounds live in their own cache that survives app updates; they are saved the first time someone plays them
+const SND = "bsy-snd-v1";
+self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== SND).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
 const isImg = u => /\.(jpg|jpeg|png|webp)$/i.test(u.pathname);
+const isSnd = u => /\/snd\/[^/]+\.m4a$/i.test(u.pathname);
 self.addEventListener("fetch", e => {
   const r = e.request; if (r.method !== "GET") return;
   const u = new URL(r.url);
   const same = u.origin === self.location.origin;
+  if (same && isSnd(u)) {
+    if (r.headers.has("range")) return;
+    e.respondWith(caches.open(SND).then(c => c.match(r).then(hit => hit || fetch(r).then(res => { if (res.ok && res.status === 200) c.put(r, res.clone()); return res; }))));
+    return;
+  }
   if (same && isImg(u)) { // images: cache first
     e.respondWith(caches.match(r).then(hit => hit || fetch(r).then(res => { if (res.ok) { const cp = res.clone(); caches.open(CACHE).then(c => c.put(r, cp)); } return res; })));
     return;

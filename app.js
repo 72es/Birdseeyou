@@ -185,6 +185,38 @@
     inp.focus();
   }
 
+  /* ---------- bird sounds: one shared <audio>, play/pause, countdown only (no waveform, eyes stay on the trees) ---------- */
+  const SND_KIND = { "唱歌": 1, "叫聲": 2, "警戒聲": 3, "飛行聲": 4, "敲擊聲": 5 };
+  const fmtSec = v => { v = Math.max(0, Math.ceil(v)); return `${Math.floor(v / 60)}:${String(v % 60).padStart(2, "0")}`; };
+  const SILENT = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQAAAAA=";
+  const player = { el: null, btn: null, src: "", urls: {}, tick: 0 };
+  try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch (e) {}
+  function sndUI() { const p = player, el = p.el; if (!p.btn) return;
+    const playing = el && !el.paused && !el.ended;
+    p.btn.setAttribute("aria-pressed", playing ? "true" : "false"); p.btn.classList.toggle("loading", !!p.loading);
+    const total = el && isFinite(el.duration) && el.duration > 0 ? el.duration : +p.btn.dataset.sec || 0;
+    const left = el && p.src === p.btn.dataset.snd && el.currentTime > 0 && !el.ended ? total - el.currentTime : total;
+    p.btn.querySelector(".tm").textContent = fmtSec(left); }
+  function sndReset(btn) { if (!btn) return; btn.setAttribute("aria-pressed", "false"); btn.classList.remove("loading"); btn.querySelector(".tm").textContent = btn.dataset.full || btn.querySelector(".tm").textContent; }
+  function sndStop() { const p = player; if (p.el) { p.el.pause(); } cancelAnimationFrame(p.tick); sndReset(p.btn); p.btn = null; p.src = ""; }
+  function sndLoop() { sndUI(); if (player.el && !player.el.paused) player.tick = requestAnimationFrame(() => setTimeout(sndLoop, 200)); }
+  async function sndToggle(btn) {
+    const p = player, src = btn.dataset.snd;
+    if (!btn.dataset.full) btn.dataset.full = btn.querySelector(".tm").textContent;
+    if (!p.el) { p.el = new Audio(); p.el.preload = "auto"; p.el.addEventListener("ended", () => { const b = p.btn; sndStop(); }); p.el.addEventListener("pause", sndUI); p.el.addEventListener("play", sndLoop); }
+    if (p.btn === btn && p.src === src) { if (p.el.paused) { p.el.play().catch(() => {}); } else p.el.pause(); return; }   // same button: pause / resume
+    sndStop(); p.btn = btn; p.src = src;
+    if (!p.urls[src]) { // unlock the element inside the tap (iOS), then load the clip as a blob so it also works offline from the cache
+      p.el.src = SILENT; p.el.play().catch(() => {}); p.loading = true; sndUI();
+      try { const r = await fetch(src); if (!r.ok) throw 0; p.urls[src] = URL.createObjectURL(await r.blob()); }
+      catch (e) { p.loading = false; if (p.btn === btn) { sndStop(); toast("現在沒有網路，連上網路後再聽聽看"); } return; }
+      p.loading = false; if (p.btn !== btn) return;
+    }
+    p.el.src = p.urls[src]; p.el.currentTime = 0; p.el.play().then(sndLoop).catch(() => { sndStop(); });
+  }
+  window.addEventListener("hashchange", sndStop);
+  document.addEventListener("visibilitychange", () => { if (document.hidden && player.el && !player.el.paused) player.el.pause(); });
+
   function home() {
     const all = ORDER.length, got = nGot(ORDER);
     const wins = RORDER.map(id => { const r = REGIONS[id]; const ids = regionBirdIds(r);
@@ -285,6 +317,7 @@
     app.innerHTML = bar(backT, b.zh, list.length > 1 ? `${i + 1} / ${list.length}` : "") + `<main class="wrap ${tone}" id="birdpage">
       <header class="bhead"><h2>${esc(b.zh)}</h2><p class="en">${esc(b.en)} · <span class="sci">${esc(b.sci)}</span></p>
         <div class="bflags">${b.endemic ? '<span class="flag">台灣特有種</span>' : ""}${b.alien ? '<span class="flag alien">外來種</span>' : ""}</div></header>
+      ${(b.sounds || []).length ? `<div class="sounds" role="group" aria-label="聽聽看">${b.sounds.slice(0, 5).map((x, k) => `<div class="snd-item"><button type="button" class="snd k${SND_KIND[x.kind] || 0}" data-snd="${x.src}" data-sec="${x.sec}" aria-pressed="false" aria-label="播放${esc(b.zh + x.kind)}"><i class="ic" aria-hidden="true"></i><span class="kd">${esc(x.kind)}</span><span class="tm">${fmtSec(x.sec)}</span></button><span class="city">${esc(x.city || "")}</span></div>`).join("")}</div>` : ""}
       <div class="photos">${photos}</div>
       <p class="sexnote"><b>${esc(b.tag || "公母怎麼分？")}</b><span class="bar-sep">｜</span>${esc(b.sex)}</p>
       <p class="intro">${esc(b.intro)}</p>
@@ -296,7 +329,7 @@
         <div class="glass box"><h3>多大隻</h3><span class="cm">${b.cm}<small> 公分</small></span><span class="spar">${SPARROW.repeat(Math.min(nSp, 9))}${nSp > 9 ? "…" : ""}</span><span class="ratio">≈ ${nSp} 隻麻雀長</span></div></div>
       ${where ? `<div class="glass box"><h3>在哪些地方看得到</h3><div class="where">${where}</div></div>` : ""}
       <nav class="pager"><button type="button" ${prev ? `data-open="${prev}" data-ctx="${ctx}"` : "disabled"}>‹ ${prev ? esc(BIRDS[prev].zh) : ""}</button><button type="button" ${next ? `data-open="${next}" data-ctx="${ctx}"` : "disabled"}>${next ? esc(BIRDS[next].zh) : ""} ›</button></nav>
-      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}</ul>
+      <ul class="credits">${b.photos.map(p => `<li>${esc(p.label || "照片")}：© ${esc(p.by)} · ${licLink(p.license)} · <a href="${esc(p.url)}" target="_blank" rel="noopener">iNaturalist 原始紀錄</a></li>`).join("")}${(b.sounds || []).slice(0, 5).map(x => `<li>聲音・${esc(x.kind)}（${esc(x.city || "")}）：© ${esc(x.by)} · <a href="${esc(x.licUrl)}" target="_blank" rel="noopener">${esc(x.license)}</a> · <a href="${esc(x.url)}" target="_blank" rel="noopener">xeno-canto ${esc(x.xc)}</a></li>`).join("")}</ul>
     </main>`;
     app.querySelectorAll(".car").forEach(car => { const dots = car.parentElement.querySelectorAll(".dots i"); if (!dots.length) return;
       car.addEventListener("scroll", () => { const i = Math.round(car.scrollLeft / car.clientWidth); dots.forEach((d, k) => d.classList.toggle("on", k === i)); }, { passive: true }); });
@@ -528,6 +561,7 @@
       lightbox(ps, Math.max(0, ps.findIndex(p => p.src === z.dataset.zoom))); return; }
     const o = e.target.closest("[data-open]"); if (o) { go(`#/b/${o.dataset.open}/${o.dataset.ctx || "all"}`); return; }
     const g = e.target.closest("[data-go]"); if (g) { go(g.dataset.go); if (g.dataset.anchor) setTimeout(() => { const t = document.getElementById(g.dataset.anchor); if (t) t.scrollIntoView({ block: "start" }); }, 60); return; }
+    const sb = e.target.closest("[data-snd]"); if (sb) { sndToggle(sb); return; }
     if (e.target.closest("[data-search]")) { openSearch(); return; }
     const f = e.target.closest("[data-filter]"); if (f) { allFilter = f.dataset.filter; rerenderKeepScroll(); return; }
     const s = e.target.closest("[data-season]"); if (s) { seasonPick[s.dataset.rid] = s.dataset.season; rerenderKeepScroll(); return; }
