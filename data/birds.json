@@ -2282,6 +2282,153 @@
      "url": "https://xeno-canto.org/1071099",
      "xc": "xeno-canto XC1071099"
     }
+   ],
+   "like": [
+    "purple_heron"
+   ],
+   "key": "灰白色，脖子沒有紅褐色"
+  },
+  {
+   "id": "purple_heron",
+   "zh": "紫鷺",
+   "en": "Purple Heron",
+   "sci": "Ardea purpurea",
+   "cm": 85,
+   "habitat": [
+    "蘆葦",
+    "草澤"
+   ],
+   "intro": "比蒼鷺瘦一點的大型鷺鷥。脖子是紅褐色，側面有一條黑色細線，像有人拿筆從眼睛一路畫到脖子。",
+   "story": "紫鷺很害羞，喜歡躲在高高的蘆葦裡。牠又瘦又長，站直不動的時候會和蘆葦融在一起。秋天從北方飛來台灣過冬，春天再飛回去。",
+   "cues": [
+    "脖子紅褐色，側面有黑色細線",
+    "比蒼鷺瘦，全身顏色比較暗、偏棕",
+    "喜歡躲在蘆葦邊，不太站在開闊的泥灘上"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣。幼鳥全身是淡淡的褐色，脖子上沒有清楚的黑線。",
+   "tag": "公母同型",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "grey_heron"
+   ],
+   "key": "脖子紅褐色有黑線、躲在蘆葦裡",
+   "photos": [
+    {
+     "src": "img/purple_heron-0.jpg",
+     "label": "成鳥",
+     "by": "Max Hsieh(雁子)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/176460163",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-1.jpg",
+     "label": "成鳥",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/187532132",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-2.jpg",
+     "label": "成鳥",
+     "by": "Shanda Huang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/676956716",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-3.jpg",
+     "label": "成鳥",
+     "by": "greenshank",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/453887896",
+     "w": 500,
+     "h": 389,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-4.jpg",
+     "label": "成鳥",
+     "by": "Photo Kao",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/460920168",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-5.jpg",
+     "label": "幼鳥",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/52210010",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-6.jpg",
+     "label": "幼鳥",
+     "by": "An Chou",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/124456316",
+     "w": 367,
+     "h": 367,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/purple_heron-7.jpg",
+     "label": "幼鳥",
+     "by": "汪俊良",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/189212136",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/purple_heron-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/770271",
+     "xc": "xeno-canto XC770271"
+    },
+    {
+     "src": "snd/purple_heron-1.m4a",
+     "kind": "警戒聲",
+     "sec": 8,
+     "city": "中國",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/794529",
+     "xc": "xeno-canto XC794529"
+    },
+    {
+     "src": "snd/purple_heron-2.m4a",
+     "kind": "飛行聲",
+     "sec": 12,
+     "city": "阿聯",
+     "by": "David Darrell-Lambert",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1166055",
+     "xc": "xeno-canto XC1166055"
+    }
    ]
   },
   {
