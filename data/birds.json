@@ -390,7 +390,7 @@
     {
      "src": "img/waterhen-1.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Dario Taraborelli",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/347576255",
      "w": 500,
@@ -862,6 +862,137 @@
    ]
   },
   {
+   "id": "parrotbill",
+   "zh": "粉紅鸚嘴",
+   "en": "Vinous-throated Parrotbill",
+   "sci": "Sinosuthora webbiana",
+   "cm": 12,
+   "habitat": [
+    "草叢",
+    "蘆葦"
+   ],
+   "intro": "圓滾滾的粉紅棕色小鳥，嘴巴又短又粗，像小鸚鵡。",
+   "story": "粉紅鸚嘴很少單獨行動，總是一群一起在草叢裡鑽來鑽去，邊走邊「吱吱吱」聊天。聽到草叢很熱鬧，就慢慢等牠們出來。",
+   "cues": [
+    "粉紅棕色，圓圓的身體加長尾巴",
+    "嘴巴短短粗粗",
+    "一群一起在草叢裡吱吱叫"
+   ],
+   "sex": "公鳥母鳥長得一樣。",
+   "tag": "公母同型",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/parrotbill-0.jpg",
+     "label": "",
+     "by": "Huang,Yu-Shiang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/358511382",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/parrotbill-1.jpg",
+     "label": "",
+     "by": "Huang,Yu-Shiang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/358511369",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/parrotbill-2.jpg",
+     "label": "",
+     "by": "洪廷維",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/90597735",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/parrotbill-3.jpg",
+     "label": "",
+     "by": "Yin Ines",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/597565651",
+     "w": 449,
+     "h": 500,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/parrotbill-4.jpg",
+     "label": "",
+     "by": "djwu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/595803972",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/parrotbill-0.m4a",
+     "kind": "唱歌",
+     "sec": 11,
+     "city": "台北市",
+     "by": "Yuluen Tsai",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/685373",
+     "xc": "xeno-canto XC685373"
+    },
+    {
+     "src": "snd/parrotbill-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "台北市",
+     "by": "張(Chang)智偉(Chih-Wei)",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/465270",
+     "xc": "xeno-canto XC465270"
+    },
+    {
+     "src": "snd/parrotbill-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台中市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/767783",
+     "xc": "xeno-canto XC767783"
+    },
+    {
+     "src": "snd/parrotbill-3.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台中市",
+     "by": "An Chou",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/610051",
+     "xc": "xeno-canto XC610051"
+    },
+    {
+     "src": "snd/parrotbill-4.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1040416",
+     "xc": "xeno-canto XC1040416"
+    }
+   ]
+  },
+  {
    "id": "prinia_yb",
    "zh": "灰頭鷦鶯",
    "en": "Yellow-bellied Prinia",
@@ -1124,6 +1255,108 @@
    ]
   },
   {
+   "id": "chestnut_munia",
+   "zh": "黑頭文鳥",
+   "en": "Chestnut Munia",
+   "sci": "Lonchura atricapilla",
+   "cm": 11,
+   "habitat": [
+    "草叢",
+    "農田"
+   ],
+   "intro": "小小的栗紅色鳥，戴著一頂黑色的頭套，嘴巴是淡藍灰色。",
+   "story": "黑頭文鳥喜歡吃草籽，常一群在草叢或稻田邊出現。牠們曾經被大量捕捉當寵物，所以野外看到牠們很值得開心。",
+   "cues": [
+    "黑頭，身體栗紅色",
+    "嘴巴淡藍灰色，又粗又短",
+    "一群在草叢裡吃草籽"
+   ],
+   "sex": "公鳥母鳥長得一樣。年輕的鳥全身是淡褐色，頭還沒變黑。",
+   "tag": "公母同型・成幼不同",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "munia"
+   ],
+   "key": "黑頭、栗紅色身體",
+   "photos": [
+    {
+     "src": "img/chestnut_munia-0.jpg",
+     "label": "",
+     "by": "林孫鋒(Lin Sun Fong)",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/186706739",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/chestnut_munia-1.jpg",
+     "label": "",
+     "by": "林孫鋒(Lin Sun Fong)",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/186706748",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/chestnut_munia-2.jpg",
+     "label": "",
+     "by": "祐",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/634227341",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/chestnut_munia-3.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/176992630",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/chestnut_munia-4.jpg",
+     "label": "",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/177235555",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/chestnut_munia-0.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "泰國",
+     "by": "Sam Hambly",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/880545",
+     "xc": "xeno-canto XC880545"
+    },
+    {
+     "src": "snd/chestnut_munia-1.m4a",
+     "kind": "飛行聲",
+     "sec": 6,
+     "city": "印尼",
+     "by": "Richard E. Webster",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1076205",
+     "xc": "xeno-canto XC1076205"
+    }
+   ]
+  },
+  {
    "id": "sparrow",
    "zh": "麻雀",
    "en": "Eurasian Tree Sparrow",
@@ -1255,7 +1488,7 @@
     {
      "src": "img/bulbul-0.jpg",
      "label": "",
-     "by": "no rights reserved, uploaded by 葉子",
+     "by": "lc_three",
      "license": "CC0",
      "url": "https://www.inaturalist.org/photos/59227685",
      "w": 500,
@@ -1467,6 +1700,128 @@
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1034462",
      "xc": "xeno-canto XC1034462"
+    }
+   ],
+   "alias": [
+    "斯氏繡眼"
+   ]
+  },
+  {
+   "id": "arctic_warbler",
+   "zh": "極北柳鶯",
+   "en": "Arctic Warbler",
+   "sci": "Phylloscopus borealis",
+   "cm": 12,
+   "habitat": [
+    "樹上"
+   ],
+   "intro": "綠灰色的小鳥，有一條又長又白的眉毛，在樹葉間動個不停。",
+   "story": "極北柳鶯在很北很北的地方出生，秋天飛過台灣，去東南亞過冬。這麼小的身體，每年要飛好幾千公里。",
+   "cues": [
+    "綠灰色小鳥，白眉毛很長",
+    "翅膀上有一條細細的白線",
+    "在樹葉裡不停地跳來跳去"
+   ],
+   "sex": "公鳥母鳥長得一樣。",
+   "tag": "公母同型",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/arctic_warbler-0.jpg",
+     "label": "",
+     "by": "Chen Jin",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/326350124",
+     "w": 500,
+     "h": 493,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/arctic_warbler-1.jpg",
+     "label": "",
+     "by": "洪廷維",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/89037375",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/arctic_warbler-2.jpg",
+     "label": "",
+     "by": "羅恩至",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/589774175",
+     "w": 500,
+     "h": 453,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/arctic_warbler-3.jpg",
+     "label": "",
+     "by": "calcariidaeeee",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/599721040",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/arctic_warbler-4.jpg",
+     "label": "",
+     "by": "calcariidaeeee",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/599721693",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/arctic_warbler-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "台北市",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/797780",
+     "xc": "xeno-canto XC797780"
+    },
+    {
+     "src": "snd/arctic_warbler-1.m4a",
+     "kind": "唱歌",
+     "sec": 8,
+     "city": "花蓮縣",
+     "by": "tang hsin",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/298122",
+     "xc": "xeno-canto XC298122"
+    },
+    {
+     "src": "snd/arctic_warbler-2.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "屏東縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1042933",
+     "xc": "xeno-canto XC1042933"
+    },
+    {
+     "src": "snd/arctic_warbler-3.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "花蓮縣",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/112594",
+     "xc": "xeno-canto XC112594"
     }
    ]
   },
@@ -1866,6 +2221,242 @@
    ]
   },
   {
+   "id": "spot_duck",
+   "zh": "花嘴鴨",
+   "en": "Eastern Spot-billed Duck",
+   "sci": "Anas zonorhyncha",
+   "cm": 60,
+   "habitat": [
+    "水面",
+    "河口"
+   ],
+   "intro": "關渡最常見的鴨子。黑色的嘴巴尖端有一塊黃色，好像剛偷吃了一口蛋黃。",
+   "story": "以前花嘴鴨大多是冬天才來的客人，現在有很多已經在台灣住下來，春天還會帶著一排毛茸茸的小鴨散步。",
+   "cues": [
+    "嘴巴黑色，尖端是黃色",
+    "臉上有一條黑線穿過眼睛",
+    "飛的時候翅膀上有一小塊藍綠色亮片"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣。小鴨是黃黑相間的毛球，臉上有黑色條紋。",
+   "tag": "公母同型・成幼不同",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "teal"
+   ],
+   "key": "嘴巴尖端黃色、臉上一條黑線",
+   "photos": [
+    {
+     "src": "img/spot_duck-0.jpg",
+     "label": "成鳥",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/162350120",
+     "w": 333,
+     "h": 500,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-1.jpg",
+     "label": "成鳥",
+     "by": "Hong",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/181469689",
+     "w": 500,
+     "h": 316,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-2.jpg",
+     "label": "成鳥",
+     "by": "雲一百香果",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/178068462",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-3.jpg",
+     "label": "成鳥",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/260293781",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-4.jpg",
+     "label": "成鳥",
+     "by": "sungsung",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/390981866",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-5.jpg",
+     "label": "幼鳥",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/659031120",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/spot_duck-6.jpg",
+     "label": "幼鳥",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/493619506",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/spot_duck-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "中國",
+     "by": "小菜鸟",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/920581",
+     "xc": "xeno-canto XC920581"
+    },
+    {
+     "src": "snd/spot_duck-1.m4a",
+     "kind": "飛行聲",
+     "sec": 15,
+     "city": "蒙古",
+     "by": "Martin Billard",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/835962",
+     "xc": "xeno-canto XC835962"
+    }
+   ]
+  },
+  {
+   "id": "garganey",
+   "zh": "白眉鴨",
+   "en": "Garganey",
+   "sci": "Spatula querquedula",
+   "cm": 39,
+   "habitat": [
+    "水面",
+    "草澤"
+   ],
+   "intro": "小小的鴨子。公鳥有一條又長又白的眉毛，從眼睛一路彎到後腦。",
+   "story": "白眉鴨是路過的旅人，春天和秋天經過台灣，休息幾天就繼續飛。看到牠要把握機會。",
+   "cues": [
+    "公鳥有一條很明顯的白色長眉毛",
+    "比花嘴鴨小很多",
+    "常混在小水鴨群裡"
+   ],
+   "sex": "公鳥有白色長眉毛，身體灰褐色；母鳥全身褐色，臉上有深淺條紋，看起來跟小水鴨母鳥很像。",
+   "tag": "公母異型",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "teal"
+   ],
+   "key": "公鳥白色長眉毛",
+   "photos": [
+    {
+     "src": "img/garganey-0.jpg",
+     "label": "公",
+     "by": "Anniek Yang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/64410970",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/garganey-1.jpg",
+     "label": "公",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/630871268",
+     "w": 500,
+     "h": 313,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/garganey-2.jpg",
+     "label": "公",
+     "by": "Anniek Yang",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/64412705",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/garganey-3.jpg",
+     "label": "母",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/657892530",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/garganey-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "希臘",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1134900",
+     "xc": "xeno-canto XC1134900"
+    },
+    {
+     "src": "snd/garganey-1.m4a",
+     "kind": "叫聲",
+     "sec": 15,
+     "city": "中國",
+     "by": "Bo Shunqi 薄顺奇",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/792064",
+     "xc": "xeno-canto XC792064"
+    },
+    {
+     "src": "snd/garganey-2.m4a",
+     "kind": "警戒聲",
+     "sec": 14,
+     "city": "奧地利",
+     "by": "Leander Khil",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/957960",
+     "xc": "xeno-canto XC957960"
+    },
+    {
+     "src": "snd/garganey-3.m4a",
+     "kind": "飛行聲",
+     "sec": 14,
+     "city": "丹麥",
+     "by": "Christian Bøggild",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/756273",
+     "xc": "xeno-canto XC756273"
+    }
+   ]
+  },
+  {
    "id": "pintail",
    "zh": "尖尾鴨",
    "en": "Northern Pintail",
@@ -2057,7 +2648,7 @@
     {
      "src": "img/shoveler-3.jpg",
      "label": "公",
-     "by": "no rights reserved",
+     "by": "葉子",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/347449899",
      "w": 500,
@@ -2474,7 +3065,7 @@
     {
      "src": "img/great_egret-2.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "葉子",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/75646810",
      "w": 500,
@@ -2676,7 +3267,7 @@
     {
      "src": "img/greenshank-0.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Irene",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/188963083",
      "w": 493,
@@ -2753,6 +3344,110 @@
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/831860",
      "xc": "xeno-canto XC831860"
+    }
+   ]
+  },
+  {
+   "id": "gt_tattler",
+   "zh": "針尾鷸",
+   "en": "Grey-tailed Tattler",
+   "sci": "Tringa brevipes",
+   "cm": 25,
+   "habitat": [
+    "泥灘",
+    "海邊岩石"
+   ],
+   "intro": "灰色的中型鷸，腳是黃色的，眼睛上面有一條白眉毛。",
+   "story": "針尾鷸是長途旅行家，春天和秋天經過台灣。牠喜歡站在石頭上，一邊走一邊點頭。",
+   "cues": [
+    "全身灰色，腳是黃色",
+    "有一條白眉毛",
+    "常站在石頭或堤岸上"
+   ],
+   "sex": "公鳥母鳥長得一樣。春夏的時候胸口和肚子有細細的橫紋，秋冬變成乾淨的灰白色。",
+   "tag": "公母同型・季節換羽",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "greenshank"
+   ],
+   "key": "灰色、黃腳、腳比較短",
+   "photos": [
+    {
+     "src": "img/gt_tattler-0.jpg",
+     "label": "",
+     "by": "DiGua Su",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/738609466",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/gt_tattler-1.jpg",
+     "label": "",
+     "by": "abujudy",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/458626827",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10",
+     "note": "春夏羽"
+    },
+    {
+     "src": "img/gt_tattler-2.jpg",
+     "label": "",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/201848783",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/gt_tattler-3.jpg",
+     "label": "",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/655365741",
+     "w": 500,
+     "h": 346,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/gt_tattler-4.jpg",
+     "label": "",
+     "by": "Smile Taiwan",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/654637037",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/gt_tattler-0.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "印尼",
+     "by": "David Farrow",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/42629",
+     "xc": "xeno-canto XC42629"
+    },
+    {
+     "src": "snd/gt_tattler-1.m4a",
+     "kind": "飛行聲",
+     "sec": 8,
+     "city": "日本",
+     "by": "Ross Gallardy",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/192308",
+     "xc": "xeno-canto XC192308"
     }
    ]
   },
@@ -3353,6 +4048,145 @@
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/1106593",
      "xc": "xeno-canto XC1106593"
+    }
+   ]
+  },
+  {
+   "id": "dunlin",
+   "zh": "黑腹濱鷸",
+   "en": "Dunlin",
+   "sci": "Calidris alpina",
+   "cm": 19,
+   "habitat": [
+    "泥灘"
+   ],
+   "intro": "冬天泥灘上成群的小鷸。嘴巴長長的，尖端有點往下彎。",
+   "story": "黑腹濱鷸低頭在泥巴裡快速戳來戳去，像縫紉機一樣。一大群一起飛起來時，會整群同時轉彎，閃出一片白光。",
+   "cues": [
+    "灰褐色的小鷸，嘴巴微微往下彎",
+    "冬天常一大群在泥灘上",
+    "夏天肚子會變出一大塊黑色"
+   ],
+   "sex": "公鳥母鳥長得一樣。冬天全身灰白色；夏天背變成紅褐色，肚子有一塊黑色，這就是牠名字的由來。",
+   "tag": "公母同型・季節換羽",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "kentish"
+   ],
+   "key": "嘴巴長、尖端往下彎",
+   "photos": [
+    {
+     "src": "img/dunlin-0.jpg",
+     "label": "",
+     "by": "Meng-Chi Hung",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/167891001",
+     "w": 379,
+     "h": 289,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/dunlin-1.jpg",
+     "label": "",
+     "by": "Lijin Huang (紫楝)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/67184697",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/dunlin-2.jpg",
+     "label": "",
+     "by": "oliver_wu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/453934385",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/dunlin-3.jpg",
+     "label": "",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/610699238",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/dunlin-4.jpg",
+     "label": "",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/636005341",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10",
+     "note": "換成春夏羽中"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/dunlin-0.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "芬蘭",
+     "by": "Stanislas Wroza",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1168651",
+     "xc": "xeno-canto XC1168651"
+    },
+    {
+     "src": "snd/dunlin-1.m4a",
+     "kind": "唱歌",
+     "sec": 12,
+     "city": "美國",
+     "by": "Benjamin Drillat",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1060881",
+     "xc": "xeno-canto XC1060881"
+    },
+    {
+     "src": "snd/dunlin-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "金門縣",
+     "by": "Chi-Hsuan Shao",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1071075",
+     "xc": "xeno-canto XC1071075"
+    },
+    {
+     "src": "snd/dunlin-3.m4a",
+     "kind": "警戒聲",
+     "sec": 15,
+     "city": "墨西哥",
+     "by": "Manuel Grosselet",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/448303",
+     "xc": "xeno-canto XC448303"
+    },
+    {
+     "src": "snd/dunlin-4.m4a",
+     "kind": "飛行聲",
+     "sec": 7,
+     "city": "英國",
+     "by": "Fraser Simpson",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/449519",
+     "xc": "xeno-canto XC449519"
     }
    ]
   },
@@ -4039,6 +4873,110 @@
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/282864",
      "xc": "xeno-canto XC282864"
+    }
+   ]
+  },
+  {
+   "id": "ey_wagtail",
+   "zh": "東方黃鶺鴒",
+   "en": "Eastern Yellow Wagtail",
+   "sci": "Motacilla tschutschensis",
+   "cm": 18,
+   "habitat": [
+    "草地",
+    "泥灘"
+   ],
+   "intro": "肚子黃色、尾巴長長的小鳥，走路的時候尾巴一直上下搖。",
+   "story": "東方黃鶺鴒冬天從北方來台灣，喜歡在溼溼的草地、田邊走路抓蟲。牠們來自好幾個不同地方，所以每隻的頭顏色可能不太一樣。",
+   "cues": [
+    "肚子黃色",
+    "尾巴長，會一直上下搖",
+    "在草地或田邊走路，不太跳"
+   ],
+   "sex": "公鳥通常比較黃、比較鮮豔，母鳥和冬天的鳥比較淡，要分出來不容易。",
+   "tag": "公母同型・季節換羽",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "grey_wagtail",
+    "white_wagtail"
+   ],
+   "key": "肚子黃、背是橄欖色或灰色",
+   "photos": [
+    {
+     "src": "img/ey_wagtail-0.jpg",
+     "label": "",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/458451970",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ey_wagtail-1.jpg",
+     "label": "",
+     "by": "洪廷維",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/266507016",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ey_wagtail-2.jpg",
+     "label": "",
+     "by": "sungsung",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/374965563",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ey_wagtail-3.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/238828787",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    },
+    {
+     "src": "img/ey_wagtail-4.jpg",
+     "label": "",
+     "by": "雲一百香果",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/251143974",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/ey_wagtail-0.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "嘉義縣",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 3.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+     "url": "https://xeno-canto.org/131699",
+     "xc": "xeno-canto XC131699"
+    },
+    {
+     "src": "snd/ey_wagtail-1.m4a",
+     "kind": "飛行聲",
+     "sec": 9,
+     "city": "台南市",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1043645",
+     "xc": "xeno-canto XC1043645"
     }
    ]
   },
@@ -5035,7 +5973,7 @@
     {
      "src": "img/yuhina-0.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Dario Taraborelli",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281616",
      "w": 500,
@@ -5185,7 +6123,7 @@
     {
      "src": "img/sibia-4.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "葉子",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/18089372",
      "w": 500,
@@ -5385,7 +6323,7 @@
     {
      "src": "img/laughingthrush-0.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Dario Taraborelli",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/364487516",
      "w": 500,
@@ -5772,7 +6710,7 @@
     {
      "src": "img/bushtit-3.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Dario Taraborelli",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281620",
      "w": 500,
@@ -7681,7 +8619,7 @@
     {
      "src": "img/hill_partridge-0.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Iain Robson",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/30542122",
      "w": 500,
@@ -8369,7 +9307,7 @@
     {
      "src": "img/rock_dove-0.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "葉子",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/144855386",
      "w": 500,
@@ -9150,6 +10088,129 @@
    ]
   },
   {
+   "id": "ch_sparrowhawk",
+   "zh": "赤腹鷹",
+   "en": "Chinese Sparrowhawk",
+   "sci": "Accipiter soloensis",
+   "cm": 30,
+   "habitat": [
+    "天空",
+    "樹上"
+   ],
+   "intro": "鴿子大小的老鷹。成鳥背是灰色的，肚子是淡淡的橘紅色。",
+   "story": "每年九月，成千上萬隻赤腹鷹從北方南下，經過台灣去南方過冬。抬頭看到天空一群鷹在轉圈，可能就是牠們。",
+   "cues": [
+    "從下面看，翅膀尖端是黑色的",
+    "肚子淡橘色",
+    "秋天常一大群在天空盤旋"
+   ],
+   "sex": "公鳥母鳥長得很像，公鳥眼睛是深紅色，母鳥是黃色。年輕的赤腹鷹全身褐色，有很多斑紋。",
+   "tag": "公母同型・成幼不同",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "goshawk"
+   ],
+   "key": "肚子淡橘色、翅膀尖黑色",
+   "photos": [
+    {
+     "src": "img/ch_sparrowhawk-0.jpg",
+     "label": "成鳥",
+     "by": "尹若宇",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/69185057",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ch_sparrowhawk-1.jpg",
+     "label": "成鳥",
+     "by": "方伊琳(阿鈣)",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/598213426",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ch_sparrowhawk-2.jpg",
+     "label": "成鳥",
+     "by": "Allen Lyu",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/22012773",
+     "w": 500,
+     "h": 320,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ch_sparrowhawk-3.jpg",
+     "label": "幼鳥",
+     "by": "usaviah",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/573225805",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ch_sparrowhawk-4.jpg",
+     "label": "幼鳥",
+     "by": "范姜士豪",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/264221122",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/ch_sparrowhawk-5.jpg",
+     "label": "幼鳥",
+     "by": "Yin Ines",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/730771641",
+     "w": 478,
+     "h": 500,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/ch_sparrowhawk-0.m4a",
+     "kind": "叫聲",
+     "sec": 8,
+     "city": "中國",
+     "by": "ZiyeLi",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1133154",
+     "xc": "xeno-canto XC1133154"
+    },
+    {
+     "src": "snd/ch_sparrowhawk-1.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "印尼",
+     "by": "Richard E. Webster",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1076350",
+     "xc": "xeno-canto XC1076350"
+    },
+    {
+     "src": "snd/ch_sparrowhawk-2.m4a",
+     "kind": "飛行聲",
+     "sec": 5,
+     "city": "中國",
+     "by": "Feather V",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/999086",
+     "xc": "xeno-canto XC999086"
+    }
+   ]
+  },
+  {
    "id": "drongo",
    "zh": "大卷尾",
    "en": "Black Drongo",
@@ -9269,6 +10330,136 @@
      "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
      "url": "https://xeno-canto.org/605129",
      "xc": "xeno-canto XC605129"
+    }
+   ]
+  },
+  {
+   "id": "bn_monarch",
+   "zh": "黑枕藍鶲",
+   "en": "Black-naped Monarch",
+   "sci": "Hypothymis azurea",
+   "cm": 16,
+   "habitat": [
+    "樹林中層"
+   ],
+   "intro": "亮藍色的小鳥。公鳥後腦勺有一小撮黑色的毛，像戴了一頂小帽子。",
+   "story": "黑枕藍鶲很會抓飛蟲，常從樹枝上短短地飛出去，咬到蟲又飛回原來的位置。",
+   "cues": [
+    "全身亮藍色，肚子白色",
+    "公鳥後腦有黑色小點，喉嚨有一條細黑線",
+    "在樹林中層跳來跳去抓蟲"
+   ],
+   "sex": "公鳥是很亮的寶藍色，後腦有黑點；母鳥頭是藍色，背是灰褐色，比較樸素。",
+   "tag": "公母異型",
+   "endemic": false,
+   "alien": false,
+   "photos": [
+    {
+     "src": "img/bn_monarch-0.jpg",
+     "label": "公",
+     "by": "Dario Taraborelli",
+     "license": "CC0",
+     "url": "https://www.inaturalist.org/photos/633781634",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bn_monarch-1.jpg",
+     "label": "公",
+     "by": "lienhui",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/249926709",
+     "w": 500,
+     "h": 305,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bn_monarch-2.jpg",
+     "label": "公",
+     "by": "lienhui",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/249926717",
+     "w": 500,
+     "h": 389,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bn_monarch-3.jpg",
+     "label": "母",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/734229097",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bn_monarch-4.jpg",
+     "label": "母",
+     "by": "Licheng Shih",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/158783904",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/bn_monarch-0.m4a",
+     "kind": "唱歌",
+     "sec": 6,
+     "city": "雲林縣",
+     "by": "Lars Lachmann",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1035370",
+     "xc": "xeno-canto XC1035370"
+    },
+    {
+     "src": "snd/bn_monarch-1.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "南投縣",
+     "by": "Peter Ericsson",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/985712",
+     "xc": "xeno-canto XC985712"
+    },
+    {
+     "src": "snd/bn_monarch-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "南投縣",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/558406",
+     "xc": "xeno-canto XC558406"
+    },
+    {
+     "src": "snd/bn_monarch-3.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/445639",
+     "xc": "xeno-canto XC445639"
+    },
+    {
+     "src": "snd/bn_monarch-4.m4a",
+     "kind": "警戒聲",
+     "sec": 12,
+     "city": "南投縣",
+     "by": "Jerome Chie-Jen Ko",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/651648",
+     "xc": "xeno-canto XC651648"
     }
    ]
   },
@@ -9577,6 +10768,9 @@
      "url": "https://www.inaturalist.org/observations/214151250",
      "xc": "iNaturalist 214151250"
     }
+   ],
+   "alias": [
+    "鵲鴝"
    ]
   },
   {
@@ -10425,6 +11619,121 @@
    ]
   },
   {
+   "id": "er_swallow",
+   "zh": "東方金腰燕",
+   "en": "Eastern Red-rumped Swallow",
+   "sci": "Cecropis daurica",
+   "cm": 18,
+   "habitat": [
+    "天空",
+    "電線"
+   ],
+   "intro": "像家燕的燕子，但腰部是橘色的，飛過頭頂時特別明顯。",
+   "story": "東方金腰燕會用泥巴做一個像倒掛瓶子的巢，入口是一條長長的隧道，黏在屋簷或橋下面。",
+   "cues": [
+    "飛的時候看腰，有一塊橘色",
+    "喉嚨和肚子有細細的黑色直紋",
+    "尾巴分叉很深"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣。在台灣很像牠的還有赤腰燕，要看胸口的條紋粗細，連鳥友都常常需要討論。",
+   "tag": "公母同型",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "barn_swallow",
+    "swallow"
+   ],
+   "key": "腰部橘色、胸口有直紋",
+   "photos": [
+    {
+     "src": "img/er_swallow-0.jpg",
+     "label": "",
+     "by": "m_sato",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/565347135",
+     "w": 500,
+     "h": 334,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/er_swallow-1.jpg",
+     "label": "",
+     "by": "m_sato",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/569833070",
+     "w": 500,
+     "h": 334,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/er_swallow-2.jpg",
+     "label": "",
+     "by": "WATANABE Hitoshi 渡辺仁",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/232788036",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/er_swallow-3.jpg",
+     "label": "",
+     "by": "Thomas Hernandez",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/528449343",
+     "w": 500,
+     "h": 366,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/er_swallow-4.jpg",
+     "label": "",
+     "by": "リク",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/668745184",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10",
+     "note": "泥巴做的巢"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/er_swallow-0.m4a",
+     "kind": "唱歌",
+     "sec": 15,
+     "city": "中國",
+     "by": "Feather V",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/997043",
+     "xc": "xeno-canto XC997043"
+    },
+    {
+     "src": "snd/er_swallow-2.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "中國",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/723730",
+     "xc": "xeno-canto XC723730"
+    },
+    {
+     "src": "snd/er_swallow-1.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "中國",
+     "by": "Jue Lei",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1156805",
+     "xc": "xeno-canto XC1156805"
+    }
+   ]
+  },
+  {
    "id": "crested_myna",
    "zh": "八哥",
    "en": "Crested Myna",
@@ -10655,6 +11964,351 @@
    ]
   },
   {
+   "id": "glossy_starling",
+   "zh": "輝椋鳥",
+   "en": "Asian Glossy Starling",
+   "sci": "Aplonis panayensis",
+   "cm": 20,
+   "habitat": [
+    "樹上",
+    "城市"
+   ],
+   "intro": "全身黑得發亮的鳥，在陽光下會閃出綠色光澤，眼睛是紅色的。",
+   "story": "輝椋鳥原本住在東南亞，是被人帶來台灣的外來鳥。關渡今年三月開始每個月都有紀錄，數量越來越多。",
+   "cues": [
+    "全身亮黑色，有綠色金屬光澤",
+    "紅色眼睛",
+    "年輕的鳥是灰白色，身上有很多黑色直紋"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣。年輕的輝椋鳥肚子是白色的，有黑色條紋，看起來像另一種鳥。",
+   "tag": "公母同型・成幼不同",
+   "endemic": false,
+   "alien": true,
+   "like": [
+    "myna"
+   ],
+   "key": "全身亮黑帶綠光、紅眼睛",
+   "photos": [
+    {
+     "src": "img/glossy_starling-0.jpg",
+     "label": "成鳥",
+     "by": "Liu JimFood",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/14649741",
+     "w": 500,
+     "h": 318,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-1.jpg",
+     "label": "成鳥",
+     "by": "Marcin Zuwała",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/744405418",
+     "w": 500,
+     "h": 337,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-2.jpg",
+     "label": "成鳥",
+     "by": "garlice99",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/728925535",
+     "w": 500,
+     "h": 350,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-3.jpg",
+     "label": "成鳥",
+     "by": "慶得江",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/120837238",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-4.jpg",
+     "label": "幼鳥",
+     "by": "黃宗男",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/418811300",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-5.jpg",
+     "label": "幼鳥",
+     "by": "山羌",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/111486629",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/glossy_starling-6.jpg",
+     "label": "幼鳥",
+     "by": "hsiehcl",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/23946543",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    }
+   ]
+  },
+  {
+   "id": "bc_starling",
+   "zh": "黑領椋鳥",
+   "en": "Black-collared Starling",
+   "sci": "Gracupica nigricollis",
+   "cm": 28,
+   "habitat": [
+    "草地",
+    "農田"
+   ],
+   "intro": "白色的頭，脖子圍著一圈黑色的圍巾，眼睛旁邊有一塊黃色。",
+   "story": "黑領椋鳥是被人帶來台灣的外來鳥，喜歡在草地上大步走路找蟲吃，叫聲很大很吵。",
+   "cues": [
+    "白頭加黑色圍巾",
+    "眼睛旁邊黃色",
+    "常在草地上走來走去"
+   ],
+   "sex": "公鳥母鳥長得一樣。年輕的鳥是褐色的，還沒有黑色圍巾。",
+   "tag": "公母同型・成幼不同",
+   "endemic": false,
+   "alien": true,
+   "like": [
+    "common_myna"
+   ],
+   "key": "白頭、黑圍巾",
+   "photos": [
+    {
+     "src": "img/bc_starling-0.jpg",
+     "label": "成鳥",
+     "by": "lii_plum",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/342380596",
+     "w": 500,
+     "h": 348,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bc_starling-1.jpg",
+     "label": "成鳥",
+     "by": "Kuan-Chieh (Chuck) Hung",
+     "license": "CC BY-NC-SA",
+     "url": "https://www.inaturalist.org/photos/685277463",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bc_starling-2.jpg",
+     "label": "成鳥",
+     "by": "takumi_kg",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/70477371",
+     "w": 375,
+     "h": 500,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bc_starling-3.jpg",
+     "label": "成鳥",
+     "by": "陳界良",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/254707216",
+     "w": 456,
+     "h": 500,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bc_starling-4.jpg",
+     "label": "成鳥",
+     "by": "greenshank",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/453852917",
+     "w": 500,
+     "h": 378,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/bc_starling-5.jpg",
+     "label": "幼鳥",
+     "by": "sungsung",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/390982448",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/bc_starling-0.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "台北市",
+     "by": "Joan Theng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1156295",
+     "xc": "xeno-canto XC1156295"
+    },
+    {
+     "src": "snd/bc_starling-1.m4a",
+     "kind": "叫聲",
+     "sec": 16,
+     "city": "基隆市",
+     "by": "Sunny Tseng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/643681",
+     "xc": "xeno-canto XC643681"
+    }
+   ]
+  },
+  {
+   "id": "wc_starling",
+   "zh": "灰椋鳥",
+   "en": "White-cheeked Starling",
+   "sci": "Spodiopsar cineraceus",
+   "cm": 24,
+   "habitat": [
+    "草地",
+    "農田"
+   ],
+   "intro": "灰褐色的椋鳥，臉頰白白的，嘴巴和腳是橘色。",
+   "story": "灰椋鳥冬天才來台灣，常常一群在田裡或草地上低頭找東西吃，有時混在八哥群裡。",
+   "cues": [
+    "臉頰白色，頭比較黑",
+    "嘴巴和腳都是橘色",
+    "冬天在田裡成群出現"
+   ],
+   "sex": "公鳥顏色比較深、對比比較強，母鳥比較淡，不容易分。",
+   "tag": "公母同型",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "myna"
+   ],
+   "key": "白臉頰、橘嘴",
+   "photos": [
+    {
+     "src": "img/wc_starling-0.jpg",
+     "label": "",
+     "by": "Ben Tsai蔡維哲",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/274294600",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/wc_starling-1.jpg",
+     "label": "",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/631632913",
+     "w": 500,
+     "h": 329,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/wc_starling-2.jpg",
+     "label": "",
+     "by": "cct1028",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/682578196",
+     "w": 500,
+     "h": 289,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/wc_starling-3.jpg",
+     "label": "",
+     "by": "lava_chen",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/263715001",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/wc_starling-4.jpg",
+     "label": "",
+     "by": "林孫鋒(Lin Sun Fong)",
+     "license": "CC BY-SA",
+     "url": "https://www.inaturalist.org/photos/197168763",
+     "w": 500,
+     "h": 281,
+     "retrieved": "2026-10"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/wc_starling-0.m4a",
+     "kind": "唱歌",
+     "sec": 11,
+     "city": "中國",
+     "by": "Geoff Carey",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/820835",
+     "xc": "xeno-canto XC820835"
+    },
+    {
+     "src": "snd/wc_starling-1.m4a",
+     "kind": "唱歌",
+     "sec": 14,
+     "city": "俄羅斯",
+     "by": "Vadim Ivushkin ",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/805675",
+     "xc": "xeno-canto XC805675"
+    },
+    {
+     "src": "snd/wc_starling-2.m4a",
+     "kind": "叫聲",
+     "sec": 14,
+     "city": "中國",
+     "by": "Bo Shunqi 薄顺奇",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/1174983",
+     "xc": "xeno-canto XC1174983"
+    },
+    {
+     "src": "snd/wc_starling-3.m4a",
+     "kind": "警戒聲",
+     "sec": 11,
+     "city": "中國",
+     "by": "Oriental Stork",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/790245",
+     "xc": "xeno-canto XC790245"
+    },
+    {
+     "src": "snd/wc_starling-4.m4a",
+     "kind": "飛行聲",
+     "sec": 14,
+     "city": "中國",
+     "by": "Ray Tsu 诸仁",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/748422",
+     "xc": "xeno-canto XC748422"
+    }
+   ]
+  },
+  {
    "id": "magpie",
    "zh": "喜鵲",
    "en": "Oriental Magpie",
@@ -10698,7 +12352,7 @@
     {
      "src": "img/magpie-2.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "葉子",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/205466820",
      "w": 500,
@@ -11175,6 +12829,112 @@
    ]
   },
   {
+   "id": "lesser_coucal",
+   "zh": "番鵑",
+   "en": "Lesser Coucal",
+   "sci": "Centropus bengalensis",
+   "cm": 35,
+   "habitat": [
+    "草叢",
+    "草地"
+   ],
+   "intro": "躲在高草叢裡的大鳥，翅膀是栗紅色，尾巴又黑又長。",
+   "story": "大部分的杜鵑會把蛋偷偷生在別的鳥的巢裡，但番鵑不一樣，牠會自己蓋巢、自己照顧寶寶。聽到草叢裡傳來低低的「嘟、嘟、嘟」，可能就是牠。",
+   "cues": [
+    "栗紅色翅膀，黑色長尾巴",
+    "常躲在高草叢裡，偶爾站到草頂上",
+    "低低的「嘟嘟嘟」叫聲"
+   ],
+   "sex": "公鳥母鳥長得幾乎一樣。春夏全身黑色加栗紅色翅膀，秋冬身上會出現很多淡色條紋。",
+   "tag": "公母同型・季節換羽",
+   "endemic": false,
+   "alien": false,
+   "like": [
+    "koel"
+   ],
+   "key": "栗紅色翅膀、躲在草叢",
+   "photos": [
+    {
+     "src": "img/lesser_coucal-0.jpg",
+     "label": "",
+     "by": "金翼白眉",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/293188817",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10",
+     "note": "春夏羽"
+    },
+    {
+     "src": "img/lesser_coucal-1.jpg",
+     "label": "",
+     "by": "Chen Jia Hong",
+     "license": "CC BY",
+     "url": "https://www.inaturalist.org/photos/322290430",
+     "w": 500,
+     "h": 376,
+     "retrieved": "2026-10",
+     "note": "春夏羽"
+    },
+    {
+     "src": "img/lesser_coucal-2.jpg",
+     "label": "",
+     "by": "chien0830",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/675826940",
+     "w": 500,
+     "h": 375,
+     "retrieved": "2026-10"
+    },
+    {
+     "src": "img/lesser_coucal-3.jpg",
+     "label": "",
+     "by": "陳中興",
+     "license": "CC BY-NC",
+     "url": "https://www.inaturalist.org/photos/583138292",
+     "w": 500,
+     "h": 333,
+     "retrieved": "2026-10",
+     "note": "秋冬羽"
+    }
+   ],
+   "sounds": [
+    {
+     "src": "snd/lesser_coucal-0.m4a",
+     "kind": "唱歌",
+     "sec": 10,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/987134",
+     "xc": "xeno-canto XC987134"
+    },
+    {
+     "src": "snd/lesser_coucal-1.m4a",
+     "kind": "叫聲",
+     "sec": 6,
+     "city": "花蓮縣",
+     "by": "Sheng-wun Jheng",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/984257",
+     "xc": "xeno-canto XC984257"
+    },
+    {
+     "src": "snd/lesser_coucal-2.m4a",
+     "kind": "叫聲",
+     "sec": 9,
+     "city": "台北市",
+     "by": "LIN Wen-Horn",
+     "license": "CC BY-NC-SA 4.0",
+     "licUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+     "url": "https://xeno-canto.org/442760",
+     "xc": "xeno-canto XC442760"
+    }
+   ]
+  },
+  {
    "id": "liocichla",
    "zh": "黃胸藪眉",
    "en": "Steere's Liocichla",
@@ -11467,7 +13227,7 @@
     {
      "src": "img/fulvetta-2.jpg",
      "label": "",
-     "by": "no rights reserved",
+     "by": "Dario Taraborelli",
      "license": "CC0",
      "url": "https://www.inaturalist.org/observations/348281604",
      "w": 500,

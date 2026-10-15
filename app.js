@@ -152,7 +152,7 @@
     const terms = (q || "").split(/[\s,，、]+/).map(norm).filter(Boolean); if (!terms.length) return [];
     const T = birdTags();
     const out = [];
-    ORDER.forEach(id => { const b = BIRDS[id], names = [norm(b.zh), norm(b.en), norm(b.sci)], tags = [...(T[id] || [])];
+    ORDER.forEach(id => { const b = BIRDS[id], names = [norm(b.zh), norm(b.en), norm(b.sci), ...(b.alias || []).map(norm)], tags = [...(T[id] || [])];
       let score = 0, why = [];
       for (const t of terms) {
         if (names.some(n => n.startsWith(t))) score += 0;
@@ -326,7 +326,7 @@
     const where = RORDER.map(rid => { const r = REGIONS[rid]; for (const s of r.sections) { const e = s.birds.find(x => x.id === id);
         if (e) return `<div class="wr"><button class="pill ${TONE[r.tone]}" type="button" data-go="#/r/${rid}">${esc(r.name)}</button><span>${esc(s.title)}${e.seasons ? "・" + e.seasons.join("") : "・全年"}</span></div>`; } return ""; }).join("");
     app.innerHTML = bar(backT, b.zh, list.length > 1 ? `${i + 1} / ${list.length}` : "") + `<main class="wrap ${tone}" id="birdpage">
-      <header class="bhead"><h2>${esc(b.zh)}</h2><p class="en">${esc(b.en)} · <span class="sci">${esc(b.sci)}</span></p>
+      <header class="bhead"><h2>${esc(b.zh)}</h2><p class="en">${esc(b.en)} · <span class="sci">${esc(b.sci)}</span></p>${b.alias && b.alias.length ? `<p class="en">也叫：${b.alias.map(esc).join("、")}</p>` : ""}
         <div class="bflags">${b.endemic ? '<span class="flag">台灣特有種</span>' : ""}${b.alien ? '<span class="flag alien">外來種</span>' : ""}</div></header>
       ${(b.sounds || []).length ? `<div class="sounds" role="group" aria-label="聽聽看">${b.sounds.slice(0, 5).map((x, k) => `<div class="snd-item"><button type="button" class="snd k${SND_KIND[x.kind] || 0}" data-snd="${x.src}" data-sec="${x.sec}"${x.gain && x.gain !== 1 ? ` data-gain="${x.gain}"` : ""} aria-pressed="false" aria-label="播放${esc(b.zh + x.kind)}"><i class="ic" aria-hidden="true"></i><span class="kd">${esc(x.kind)}</span><span class="tm">${fmtSec(x.sec)}</span></button><span class="city">${esc(x.city || "")}</span></div>`).join("")}</div>` : ""}
       <div class="photos">${photos}</div>

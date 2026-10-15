@@ -5,7 +5,7 @@
 
 ## 架構
 - 靜態網站：`index.html`、`app.js`（全部邏輯）、`app.css`（全部樣式）。hash 路由：`#/`、`#/all`、`#/r/{區域}`、`#/b/{鳥}/{來源}`、`#/me`、`#/wish`。
-- 資料：`data/birds.json`（93 種鳥：名稱、介紹、故事、認鳥重點、公母、相簿 photos、叫聲 sounds、like/key 易混淆）、`data/regions.json`（首頁順序 城市→關渡→大雪山、回饋表單 endpoint）、`data/regions/*.json`。
+- 資料：`data/birds.json`（108 種鳥：名稱、介紹、故事、認鳥重點、公母、相簿 photos、叫聲 sounds、like/key 易混淆）、`data/regions.json`（首頁順序 城市→關渡→大雪山、回饋表單 endpoint）、`data/regions/*.json`。
 - 照片 `img/`：iNaturalist CC 授權，每張都要目視確認物種和公母，台灣照片優先。每個公/母/成鳥/幼鳥相簿最多 5 張。
 - 叫聲 `snd/`：xeno-canto（台灣錄音優先）＋ iNaturalist（鵲鴒、白尾八哥，xeno-canto 限制物種）。一般授權的錄音剪成 5–15 秒；ND（禁止改作）授權的只轉格式、不剪，`original: true`，播放音量用 `gain` 在播放器調整。流程見 `tools/sounds/README.md`。xeno-canto API 金鑰只能用環境變數 `XC_KEY`，絕不能 commit。
 - 紀錄存在使用者手機 localStorage `bsy-v1`（不上雲端），靠「我的」頁的家庭備份碼搬移。

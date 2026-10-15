@@ -91,6 +91,54 @@
     },
     {
      "id": "myna"
+    },
+    {
+     "id": "spot_duck"
+    },
+    {
+     "id": "tiger_bittern"
+    },
+    {
+     "id": "rock_dove"
+    },
+    {
+     "id": "turtle_dove"
+    },
+    {
+     "id": "red_dove"
+    },
+    {
+     "id": "swift"
+    },
+    {
+     "id": "barbet"
+    },
+    {
+     "id": "treepie"
+    },
+    {
+     "id": "magpie_robin"
+    },
+    {
+     "id": "crested_myna"
+    },
+    {
+     "id": "common_myna"
+    },
+    {
+     "id": "bn_monarch"
+    },
+    {
+     "id": "parrotbill"
+    },
+    {
+     "id": "glossy_starling"
+    },
+    {
+     "id": "bc_starling"
+    },
+    {
+     "id": "chestnut_munia"
     }
    ]
   },
@@ -237,14 +285,75 @@
      "id": "cattle_egret",
      "seasons": [
       "春",
-      "夏"
+      "夏",
+      "秋"
      ]
     },
     {
      "id": "barn_swallow",
      "seasons": [
       "春",
-      "夏"
+      "夏",
+      "秋"
+     ]
+    },
+    {
+     "id": "garganey",
+     "seasons": [
+      "春",
+      "秋"
+     ]
+    },
+    {
+     "id": "ch_sparrowhawk",
+     "seasons": [
+      "春",
+      "秋"
+     ]
+    },
+    {
+     "id": "dunlin",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "gt_tattler",
+     "seasons": [
+      "春",
+      "秋"
+     ]
+    },
+    {
+     "id": "er_swallow",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
+     ]
+    },
+    {
+     "id": "arctic_warbler",
+     "seasons": [
+      "秋",
+      "春"
+     ]
+    },
+    {
+     "id": "wc_starling",
+     "seasons": [
+      "秋",
+      "冬"
+     ]
+    },
+    {
+     "id": "ey_wagtail",
+     "seasons": [
+      "秋",
+      "冬",
+      "春"
      ]
     }
    ]
@@ -288,7 +397,8 @@
      "id": "yellow_bittern",
      "seasons": [
       "春",
-      "夏"
+      "夏",
+      "秋"
      ]
     },
     {
@@ -320,6 +430,9 @@
       "冬",
       "春"
      ]
+    },
+    {
+     "id": "lesser_coucal"
     }
    ]
   }
